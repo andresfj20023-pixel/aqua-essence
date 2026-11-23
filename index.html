@@ -3458,6 +3458,7 @@ Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!
         // -------------------------------------------------------------
         let currentAdminFilter = 'all';
         let currentAdminSearch = '';
+        let adminPollingInterval = null;
 
         function openAdminModal() {
             if (!currentUser || !currentUser.isAdmin) {
@@ -3471,10 +3472,22 @@ Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!
             if (getCloudDbUrl()) {
                 fetchCloudOrders(false);
             }
+            if (!adminPollingInterval) {
+                adminPollingInterval = setInterval(() => {
+                    const modal = document.getElementById('admin-modal');
+                    if (modal && !modal.classList.contains('hidden') && getCloudDbUrl()) {
+                        fetchCloudOrders(false);
+                    }
+                }, 15000); // Consulta en vivo cada 15 segundos automáticamente
+            }
         }
 
         function closeAdminModal() {
             document.getElementById('admin-modal').classList.add('hidden');
+            if (adminPollingInterval) {
+                clearInterval(adminPollingInterval);
+                adminPollingInterval = null;
+            }
         }
 
         function setAdminFilter(filter) {
