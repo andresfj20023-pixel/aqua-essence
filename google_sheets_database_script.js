@@ -14,6 +14,75 @@
 var ADMIN_NOTIFICATION_EMAIL = "andresfj20023@gmail.com";
 var WHATSAPP_NUMBER = "3206062038";
 
+// =========================================================================
+// CONSULTA DE PEDIDOS Y CLIENTES EN LA NUBE (GET)
+// Permite que el Administrador vea todos los pedidos desde cualquier dispositivo
+// =========================================================================
+function doGet(e) {
+  try {
+    var sheetApp = SpreadsheetApp.getActiveSpreadsheet();
+    var response = { status: "success", orders: [], clients: [] };
+
+    // 1. Cargar Pedidos registrados
+    var sheetPedidos = sheetApp.getSheetByName("Pedidos");
+    if (sheetPedidos && sheetPedidos.getLastRow() > 1) {
+      var pValues = sheetPedidos.getRange(2, 1, sheetPedidos.getLastRow() - 1, 11).getValues();
+      for (var i = 0; i < pValues.length; i++) {
+        var row = pValues[i];
+        if (!row[1]) continue;
+        var orderDate = row[0];
+        try {
+          if (orderDate instanceof Date) {
+            orderDate = Utilities.formatDate(orderDate, Session.getScriptTimeZone() || "America/Bogota", "dd/MM/yyyy, hh:mm a");
+          }
+        } catch (eDate) {}
+
+        response.orders.unshift({
+          date: String(orderDate || ''),
+          orderCode: String(row[1]).replace(/^#/, '').trim(),
+          customer: {
+            nombre: String(row[2] || ''),
+            telefono: String(row[3] || ''),
+            correo: String(row[4] || ''),
+            ciudad: String(row[5] || ''),
+            direccion: String(row[6] || '')
+          },
+          items: [{ name: String(row[7] || ''), variant: '', qty: 1, price: Number(row[9] || 0) }],
+          shippingText: String(row[8] || 'Estándar'),
+          total: Number(row[9] || 0),
+          status: String(row[10] || 'Pendiente')
+        });
+      }
+    }
+
+    // 2. Cargar Clientes registrados
+    var sheetClientes = sheetApp.getSheetByName("Clientes");
+    if (sheetClientes && sheetClientes.getLastRow() > 1) {
+      var cValues = sheetClientes.getRange(2, 1, sheetClientes.getLastRow() - 1, 7).getValues();
+      for (var j = 0; j < cValues.length; j++) {
+        var cRow = cValues[j];
+        if (!cRow[1] && !cRow[2]) continue;
+        response.clients.unshift({
+          registeredAt: String(cRow[0] || ''),
+          id: String(cRow[1] || ''),
+          nombre: String(cRow[2] || ''),
+          telefono: String(cRow[3] || ''),
+          correo: String(cRow[4] || ''),
+          ciudad: String(cRow[5] || ''),
+          direccion: String(cRow[6] || '')
+        });
+      }
+    }
+
+    return ContentService.createTextOutput(JSON.stringify(response))
+      .setMimeType(ContentService.MimeType.JSON);
+
+  } catch (err) {
+    return ContentService.createTextOutput(JSON.stringify({ status: "error", error: err.toString() }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
 function doPost(e) {
   try {
     var sheetApp = SpreadsheetApp.getActiveSpreadsheet();
@@ -167,6 +236,25 @@ function doPost(e) {
         .setMimeType(ContentService.MimeType.JSON);
     }
 
+    // TABLA 3: ACTUALIZACIÓN DE ESTADO DE PEDIDO DESDE EL PANEL ADMIN
+    if (data.type === 'actualizar_estado') {
+      var sheetPedidos = sheetApp.getSheetByName("Pedidos");
+      if (sheetPedidos && sheetPedidos.getLastRow() > 1) {
+        var pCodes = sheetPedidos.getRange(2, 2, sheetPedidos.getLastRow() - 1, 1).getValues();
+        var targetCode = String(data.orderCode || '').replace(/^#/, '').trim();
+        for (var k = 0; k < pCodes.length; k++) {
+          var codeInSheet = String(pCodes[k][0]).replace(/^#/, '').trim();
+          if (codeInSheet === targetCode) {
+            sheetPedidos.getRange(k + 2, 11).setValue(data.status || 'Pendiente');
+            return ContentService.createTextOutput(JSON.stringify({ status: "success", message: "Estado de pedido actualizado" }))
+              .setMimeType(ContentService.MimeType.JSON);
+          }
+        }
+      }
+      return ContentService.createTextOutput(JSON.stringify({ status: "not_found", message: "Pedido no encontrado" }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
     return ContentService.createTextOutput(JSON.stringify({ status: "ignored" }))
       .setMimeType(ContentService.MimeType.JSON);
 
@@ -191,30 +279,30 @@ function buildClemontStyleCustomerEmail(data, totalFormatted, waLink) {
       var item = data.items[i];
       var qty = item.qty || 1;
       var priceFormatted = "$" + Number((item.price || 0) * qty).toLocaleString('es-CO');
-      var imgTag = item.image 
+      var imgTag = item.image
         ? ("<img src='" + item.image + "' width='64' height='64' style='display:block; border-radius: 8px; border: 1px solid #ebebeb; object-fit: contain; background: #fafafa;' alt='Loción' />")
         : ("<div style='width:64px; height:64px; border-radius:8px; background:#f4f4f4; border:1px solid #e0e0e0; text-align:center; line-height:64px; font-size:24px;'>🧴</div>");
 
-      itemsRowsHtml += 
+      itemsRowsHtml +=
         "<tr style='border-bottom: 1px solid #f0f0f0;'>" +
-          "<td style='padding: 16px 0; width: 74px; vertical-align: top;'>" + imgTag + "</td>" +
-          "<td style='padding: 16px 12px; vertical-align: top;'>" +
-            "<div style='font-size: 13px; font-weight: bold; color: #111111; letter-spacing: 0.3px; text-transform: uppercase;'>" +
-              item.name + " <span style='font-weight: normal; color: #777777;'>× " + qty + "</span>" +
-            "</div>" +
-            "<div style='font-size: 11px; color: #777777; margin-top: 4px;'>" + (item.variant || "") + "</div>" +
-          "</td>" +
-          "<td style='padding: 16px 0; vertical-align: top; text-align: right; font-size: 14px; font-weight: 600; color: #111111;'>" +
-            priceFormatted +
-          "</td>" +
+        "<td style='padding: 16px 0; width: 74px; vertical-align: top;'>" + imgTag + "</td>" +
+        "<td style='padding: 16px 12px; vertical-align: top;'>" +
+        "<div style='font-size: 13px; font-weight: bold; color: #111111; letter-spacing: 0.3px; text-transform: uppercase;'>" +
+        item.name + " <span style='font-weight: normal; color: #777777;'>× " + qty + "</span>" +
+        "</div>" +
+        "<div style='font-size: 11px; color: #777777; margin-top: 4px;'>" + (item.variant || "") + "</div>" +
+        "</td>" +
+        "<td style='padding: 16px 0; vertical-align: top; text-align: right; font-size: 14px; font-weight: 600; color: #111111;'>" +
+        priceFormatted +
+        "</td>" +
         "</tr>";
     }
   } else {
-    itemsRowsHtml = 
+    itemsRowsHtml =
       "<tr style='border-bottom: 1px solid #f0f0f0;'>" +
-        "<td colspan='3' style='padding: 16px 0; font-size: 13px; color: #333333; line-height: 1.8;'>" +
-          (data.productosHtml || ("• " + (data.productos || "").split(', ').join("<br/>• "))) +
-        "</td>" +
+      "<td colspan='3' style='padding: 16px 0; font-size: 13px; color: #333333; line-height: 1.8;'>" +
+      (data.productosHtml || ("• " + (data.productos || "").split(', ').join("<br/>• "))) +
+      "</td>" +
       "</tr>";
   }
 
@@ -224,93 +312,93 @@ function buildClemontStyleCustomerEmail(data, totalFormatted, waLink) {
     "<body style='margin: 0; padding: 24px 12px; background-color: #f7f7f7; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;'>" +
     "<div style='max-width: 580px; margin: 0 auto; background: #ffffff; border-radius: 8px; border: 1px solid #e6e6e6; overflow: hidden;'>" +
 
-      // CABECERA IDÉNTICA A CLEMONT: LOGO A LA IZQUIERDA, # PEDIDO A LA DERECHA
-      "<div style='padding: 32px 32px 20px 32px; border-bottom: 1px solid #f2f2f2;'>" +
-        "<table style='width: 100%; border-collapse: collapse;'>" +
-          "<tr>" +
-            "<td style='vertical-align: middle;'>" +
-              "<span style='font-family: Georgia, Garamond, serif; font-size: 28px; font-weight: bold; letter-spacing: -0.5px; color: #111111;'>Aqua Essence</span>" +
-            "</td>" +
-            "<td style='vertical-align: middle; text-align: right;'>" +
-              "<span style='font-size: 12px; font-weight: 600; color: #888888; letter-spacing: 1px; text-transform: uppercase;'>PEDIDO #" + orderCode + "</span>" +
-            "</td>" +
-          "</tr>" +
-        "</table>" +
-      "</div>" +
+    // CABECERA IDÉNTICA A CLEMONT: LOGO A LA IZQUIERDA, # PEDIDO A LA DERECHA
+    "<div style='padding: 32px 32px 20px 32px; border-bottom: 1px solid #f2f2f2;'>" +
+    "<table style='width: 100%; border-collapse: collapse;'>" +
+    "<tr>" +
+    "<td style='vertical-align: middle;'>" +
+    "<span style='font-family: Georgia, Garamond, serif; font-size: 28px; font-weight: bold; letter-spacing: -0.5px; color: #111111;'>Aqua Essence</span>" +
+    "</td>" +
+    "<td style='vertical-align: middle; text-align: right;'>" +
+    "<span style='font-size: 12px; font-weight: 600; color: #888888; letter-spacing: 1px; text-transform: uppercase;'>PEDIDO #" + orderCode + "</span>" +
+    "</td>" +
+    "</tr>" +
+    "</table>" +
+    "</div>" +
 
-      // CUERPO PRINCIPAL: ¡Gracias por tu compra!
-      "<div style='padding: 32px;'>" +
-        "<h2 style='margin: 0 0 10px 0; font-size: 22px; font-weight: 700; color: #111111; letter-spacing: -0.3px;'>¡Gracias por tu compra!</h2>" +
-        "<p style='margin: 0 0 24px 0; font-size: 14px; line-height: 1.6; color: #555555;'>" +
-          "Estamos preparando tu pedido para enviarlo. Te notificaremos cuando haya sido enviado." +
-        "</p>" +
+    // CUERPO PRINCIPAL: ¡Gracias por tu compra!
+    "<div style='padding: 32px;'>" +
+    "<h2 style='margin: 0 0 10px 0; font-size: 22px; font-weight: 700; color: #111111; letter-spacing: -0.3px;'>¡Gracias por tu compra!</h2>" +
+    "<p style='margin: 0 0 24px 0; font-size: 14px; line-height: 1.6; color: #555555;'>" +
+    "Estamos preparando tu pedido para enviarlo. Te notificaremos cuando haya sido enviado." +
+    "</p>" +
 
-        // BOTÓN NEGRO IDÉNTICO A CLEMONT: [ Ver tu pedido ] o Visita nuestra tienda
-        "<div style='margin-bottom: 36px;'>" +
-          "<table style='border-collapse: collapse;'>" +
-            "<tr>" +
-              "<td style='background: #111111; border-radius: 6px; text-align: center;'>" +
-                "<a href='" + waLink + "' target='_blank' style='display: inline-block; padding: 13px 28px; font-size: 13px; font-weight: bold; color: #ffffff; text-decoration: none; border-radius: 6px;'>Ver tu pedido</a>" +
-              "</td>" +
-              "<td style='padding-left: 14px; font-size: 13px; color: #777777;'>" +
-                "o <a href='https://aquaessence.co' target='_blank' style='color: #111111; font-weight: 500; text-decoration: underline;'>Visita nuestra tienda</a>" +
-              "</td>" +
-            "</tr>" +
-          "</table>" +
-        "</div>" +
+    // BOTÓN NEGRO IDÉNTICO A CLEMONT: [ Ver tu pedido ] o Visita nuestra tienda
+    "<div style='margin-bottom: 36px;'>" +
+    "<table style='border-collapse: collapse;'>" +
+    "<tr>" +
+    "<td style='background: #111111; border-radius: 6px; text-align: center;'>" +
+    "<a href='" + waLink + "' target='_blank' style='display: inline-block; padding: 13px 28px; font-size: 13px; font-weight: bold; color: #ffffff; text-decoration: none; border-radius: 6px;'>Ver tu pedido</a>" +
+    "</td>" +
+    "<td style='padding-left: 14px; font-size: 13px; color: #777777;'>" +
+    "o <a href='https://aquaessence.co' target='_blank' style='color: #111111; font-weight: 500; text-decoration: underline;'>Visita nuestra tienda</a>" +
+    "</td>" +
+    "</tr>" +
+    "</table>" +
+    "</div>" +
 
-        // SECCIÓN RESUMEN DEL PEDIDO
-        "<h3 style='margin: 0 0 16px 0; font-size: 16px; font-weight: 700; color: #111111;'>Resumen del pedido</h3>" +
-        "<table style='width: 100%; border-collapse: collapse; margin-bottom: 20px;'>" +
-          itemsRowsHtml +
-        "</table>" +
+    // SECCIÓN RESUMEN DEL PEDIDO
+    "<h3 style='margin: 0 0 16px 0; font-size: 16px; font-weight: 700; color: #111111;'>Resumen del pedido</h3>" +
+    "<table style='width: 100%; border-collapse: collapse; margin-bottom: 20px;'>" +
+    itemsRowsHtml +
+    "</table>" +
 
-        // TOTALES
-        "<div style='border-top: 1px solid #f0f0f0; padding-top: 16px; margin-bottom: 28px;'>" +
-          "<table style='width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.8;'>" +
-            "<tr>" +
-              "<td style='color: #666666;'>Subtotal</td>" +
-              "<td style='text-align: right; color: #111111; font-weight: 500;'>" + subtotalFormatted + "</td>" +
-            "</tr>" +
-            "<tr>" +
-              "<td style='color: #666666;'>Envío</td>" +
-              "<td style='text-align: right; color: #111111; font-weight: 500;'>" + envioFormatted + "</td>" +
-            "</tr>" +
-            "<tr>" +
-              "<td style='padding-top: 10px; font-size: 16px; font-weight: bold; color: #111111;'>Total</td>" +
-              "<td style='padding-top: 10px; text-align: right; font-size: 17px; font-weight: bold; color: #111111;'>" + totalFormatted + "</td>" +
-            "</tr>" +
-          "</table>" +
-        "</div>" +
+    // TOTALES
+    "<div style='border-top: 1px solid #f0f0f0; padding-top: 16px; margin-bottom: 28px;'>" +
+    "<table style='width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.8;'>" +
+    "<tr>" +
+    "<td style='color: #666666;'>Subtotal</td>" +
+    "<td style='text-align: right; color: #111111; font-weight: 500;'>" + subtotalFormatted + "</td>" +
+    "</tr>" +
+    "<tr>" +
+    "<td style='color: #666666;'>Envío</td>" +
+    "<td style='text-align: right; color: #111111; font-weight: 500;'>" + envioFormatted + "</td>" +
+    "</tr>" +
+    "<tr>" +
+    "<td style='padding-top: 10px; font-size: 16px; font-weight: bold; color: #111111;'>Total</td>" +
+    "<td style='padding-top: 10px; text-align: right; font-size: 17px; font-weight: bold; color: #111111;'>" + totalFormatted + "</td>" +
+    "</tr>" +
+    "</table>" +
+    "</div>" +
 
-        // CUADRO DE PAGO Y VALIDACIÓN CON WHATSAPP
-        "<div style='background: #FAF9F6; border: 1px solid #EAE8E3; border-radius: 8px; padding: 20px; margin-bottom: 28px;'>" +
-          "<div style='font-size: 11px; font-weight: bold; color: #B08D44; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;'>Datos para consignar tu pago:</div>" +
-          "<div style='font-size: 13px; color: #222222; line-height: 1.6;'>" +
-            "• <strong>Bancolombia Ahorros:</strong> <span style='font-family: monospace; font-size: 14px;'>10362869492</span><br/>" +
-            "• <strong>Llave de Transferencia:</strong> <span style='font-family: monospace; font-size: 14px;'>1001132365</span>" +
-          "</div>" +
-          "<div style='margin-top: 14px; padding-top: 12px; border-top: 1px dashed #DDD9CE; font-size: 12px; color: #444444; line-height: 1.5;'>" +
-            "Envía la foto de tu comprobante a nuestro WhatsApp <strong>3206062038</strong> indicando tu número de pedido <strong>#" + orderCode + "</strong> para coordinar el despacho." +
-          "</div>" +
-          "<div style='margin-top: 14px; text-align: center;'>" +
-            "<a href='" + waLink + "' target='_blank' style='background: #25D366; color: #ffffff; padding: 11px 22px; border-radius: 999px; text-decoration: none; font-size: 12px; font-weight: bold; display: inline-block;'>💬 Enviar Comprobante por WhatsApp</a>" +
-          "</div>" +
-        "</div>" +
+    // CUADRO DE PAGO Y VALIDACIÓN CON WHATSAPP
+    "<div style='background: #FAF9F6; border: 1px solid #EAE8E3; border-radius: 8px; padding: 20px; margin-bottom: 28px;'>" +
+    "<div style='font-size: 11px; font-weight: bold; color: #B08D44; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;'>Datos para consignar tu pago:</div>" +
+    "<div style='font-size: 13px; color: #222222; line-height: 1.6;'>" +
+    "• <strong>Bancolombia Ahorros:</strong> <span style='font-family: monospace; font-size: 14px;'>10362869492</span><br/>" +
+    "• <strong>Llave de Transferencia:</strong> <span style='font-family: monospace; font-size: 14px;'>1001132365</span>" +
+    "</div>" +
+    "<div style='margin-top: 14px; padding-top: 12px; border-top: 1px dashed #DDD9CE; font-size: 12px; color: #444444; line-height: 1.5;'>" +
+    "Envía la foto de tu comprobante a nuestro WhatsApp <strong>3206062038</strong> indicando tu número de pedido <strong>#" + orderCode + "</strong> para coordinar el despacho." +
+    "</div>" +
+    "<div style='margin-top: 14px; text-align: center;'>" +
+    "<a href='" + waLink + "' target='_blank' style='background: #25D366; color: #ffffff; padding: 11px 22px; border-radius: 999px; text-decoration: none; font-size: 12px; font-weight: bold; display: inline-block;'>💬 Enviar Comprobante por WhatsApp</a>" +
+    "</div>" +
+    "</div>" +
 
-        // INFORMACIÓN DE CONTACTO Y ENTREGA
-        "<div style='border-top: 1px solid #f0f0f0; padding-top: 18px; font-size: 12px; color: #555555; line-height: 1.7;'>" +
-          "<strong style='color: #111111;'>Dirección de Entrega:</strong> " + (data.direccion || "") + " · " + (data.ciudad || "") + "<br/>" +
-          "<strong style='color: #111111;'>Destinatario:</strong> " + cliente + " (" + (data.telefono || "") + ")" +
-        "</div>" +
+    // INFORMACIÓN DE CONTACTO Y ENTREGA
+    "<div style='border-top: 1px solid #f0f0f0; padding-top: 18px; font-size: 12px; color: #555555; line-height: 1.7;'>" +
+    "<strong style='color: #111111;'>Dirección de Entrega:</strong> " + (data.direccion || "") + " · " + (data.ciudad || "") + "<br/>" +
+    "<strong style='color: #111111;'>Destinatario:</strong> " + cliente + " (" + (data.telefono || "") + ")" +
+    "</div>" +
 
-      "</div>" +
+    "</div>" +
 
-      // PIE DE PÁGINA
-      "<div style='background: #fbfbfb; border-top: 1px solid #eeeeee; padding: 20px; text-align: center; font-size: 11px; color: #999999;'>" +
-        "<p style='margin: 0;'>Aqua Essence · Alta Perfumería, Originales, Réplicas 1.1 y Fragancias</p>" +
-        "<p style='margin: 4px 0 0;'>Medellín, Colombia · WhatsApp: 3206062038</p>" +
-      "</div>" +
+    // PIE DE PÁGINA
+    "<div style='background: #fbfbfb; border-top: 1px solid #eeeeee; padding: 20px; text-align: center; font-size: 11px; color: #999999;'>" +
+    "<p style='margin: 0;'>Aqua Essence · Alta Perfumería, Originales, Réplicas 1.1 y Fragancias</p>" +
+    "<p style='margin: 4px 0 0;'>Medellín, Colombia · WhatsApp: 3206062038</p>" +
+    "</div>" +
 
     "</div>" +
     "</body></html>";

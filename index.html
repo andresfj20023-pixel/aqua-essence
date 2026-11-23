@@ -1254,6 +1254,51 @@
             <!-- Contenido scrollable -->
             <div class="p-5 sm:p-6 overflow-y-auto space-y-6 bg-[#FAF9F6] flex-1">
 
+                <!-- TARJETA DE CONEXIÓN CON BASE DE DATOS EN LA NUBE (GOOGLE SHEETS) -->
+                <div class="p-4 sm:p-5 rounded-2xl bg-white border border-[#E6E4DF] shadow-xs space-y-3">
+                    <div class="flex flex-wrap items-center justify-between gap-3">
+                        <div class="flex items-center gap-2.5">
+                            <span class="text-xl">📊</span>
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <h4 class="text-xs font-bold uppercase tracking-wider text-[#111111]">Base de Datos en la Nube (Google Sheets)</h4>
+                                    <span id="cloud-db-badge" class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-100 text-amber-800 border border-amber-200">🟡 Modo Local Activo</span>
+                                </div>
+                                <p class="text-[11px] text-[#777777]">Tus pedidos y clientes quedan respaldados en la nube y no se eliminan al salir de la sesión.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button type="button" onclick="fetchCloudOrders(true)" id="btn-sync-cloud-orders"
+                                class="px-3.5 py-1.5 rounded-xl bg-[#111111] hover:bg-[#252525] text-[#D4AF37] text-xs font-semibold flex items-center gap-1.5 transition shadow-xs">
+                                <span>🔄 Sincronizar Ahora</span>
+                            </button>
+                            <button type="button" onclick="toggleCloudDbSettings()"
+                                class="px-3 py-1.5 rounded-xl bg-[#F0EFEA] hover:bg-[#E6E4DF] text-[#444444] text-xs font-medium transition">
+                                ⚙️ Conexión
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Configuración plegable para pegar la URL de Google Sheets Web App -->
+                    <div id="cloud-db-settings-box" class="hidden pt-3 border-t border-[#EAE8E3] space-y-2">
+                        <label class="block text-[11px] font-semibold text-[#333333]">
+                            URL del Web App de Google Sheets (Apps Script):
+                        </label>
+                        <div class="flex gap-2">
+                            <input type="url" id="cloud-db-url-input"
+                                placeholder="https://script.google.com/macros/s/AKfycbx.../exec"
+                                class="flex-1 px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111]">
+                            <button type="button" onclick="handleSaveCloudDbUrl()"
+                                class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold transition">
+                                Guardar y Conectar
+                            </button>
+                        </div>
+                        <p class="text-[10px] text-[#888888]">
+                            💡 Tus pedidos se guardan en Google Sheets en vivo mediante <code class="bg-[#F0EFEA] px-1 py-0.5 rounded text-[#111111]">google_sheets_database_script.js</code> y nunca se borrarán aunque cierres la sesión o cambies de dispositivo.
+                        </p>
+                    </div>
+                </div>
+
                 <!-- Métricas Rápidas / KPIs -->
                 <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
                     <div class="p-4 rounded-2xl bg-white border border-[#E6E4DF] shadow-xs">
@@ -2316,20 +2361,120 @@
         }
 
         // -------------------------------------------------------------
-        // GESTIÓN DE CLIENTES: LOGIN, REGISTRO Y PERFIL
+        // GESTIÓN DE CLIENTES & BASE DE DATOS EN LA NUBE (GOOGLE SHEETS)
         // -------------------------------------------------------------
-        // Configuración para Base de Datos Gratuita en Google Sheets / Webhook
         const CLOUD_DB_CONFIG = {
-            // Pega aquí la URL de tu Google Apps Script si deseas sincronización en vivo
-            googleSheetWebhookUrl: '',
+            googleSheetWebhookUrl: '', // URL del Web App de Google Sheets
             enabled: true
         };
 
-        // Función para sincronizar cliente nuevo con la base de datos en la nube (Google Sheets)
-        function syncUserToCloudDatabase(user) {
+        function getCloudDbUrl() {
+            return (localStorage.getItem('aqua_cloud_db_url') || CLOUD_DB_CONFIG.googleSheetWebhookUrl || '').trim();
+        }
+
+        function setCloudDbUrl(url) {
+            localStorage.setItem('aqua_cloud_db_url', (url || '').trim());
+            updateCloudDbUIBadge();
+        }
+
+        function updateCloudDbUIBadge() {
+            const badge = document.getElementById('cloud-db-badge');
+            const input = document.getElementById('cloud-db-url-input');
+            const currentUrl = getCloudDbUrl();
+            if (input && !input.value) input.value = currentUrl;
+            if (badge) {
+                if (currentUrl) {
+                    badge.className = 'px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300';
+                    badge.textContent = '🟢 Google Sheets Conectado';
+                } else {
+                    badge.className = 'px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-100 text-amber-800 border border-amber-300';
+                    badge.textContent = '🟡 Modo Local Activo';
+                }
+            }
+        }
+
+        function toggleCloudDbSettings() {
+            const box = document.getElementById('cloud-db-settings-box');
+            if (box) box.classList.toggle('hidden');
+        }
+
+        function handleSaveCloudDbUrl() {
+            const input = document.getElementById('cloud-db-url-input');
+            const val = input ? input.value.trim() : '';
+            setCloudDbUrl(val);
+            if (val) {
+                showToast('URL de Base de Datos en Google Sheets guardada.');
+                fetchCloudOrders(true);
+            } else {
+                showToast('Modo de base de datos local restablecido.');
+            }
+        }
+
+        // Consultar y sincronizar todos los pedidos de la nube (Google Sheets)
+        async function fetchCloudOrders(showFeedback = false) {
+            const cloudUrl = getCloudDbUrl();
+            if (!cloudUrl) {
+                if (showFeedback) showToast('Ingresa la URL de tu Google Apps Script en configuración.');
+                return;
+            }
+
+            const btnSync = document.getElementById('btn-sync-cloud-orders');
+            if (btnSync) btnSync.innerHTML = '<span>⏳ Sincronizando...</span>';
+
             try {
-                if (!CLOUD_DB_CONFIG.googleSheetWebhookUrl) return;
-                fetch(CLOUD_DB_CONFIG.googleSheetWebhookUrl, {
+                const sep = cloudUrl.includes('?') ? '&' : '?';
+                const res = await fetch(`${cloudUrl}${sep}action=get_all&_t=${Date.now()}`);
+                const data = await res.json();
+
+                if (data && data.status === 'success' && Array.isArray(data.orders)) {
+                    const localOrders = getAllOrders();
+                    const orderMap = new Map();
+                    localOrders.forEach(o => { if (o && o.orderCode) orderMap.set(o.orderCode, o); });
+                    data.orders.forEach(co => {
+                        if (!co || !co.orderCode) return;
+                        if (orderMap.has(co.orderCode)) {
+                            const ex = orderMap.get(co.orderCode);
+                            ex.status = co.status || ex.status;
+                        } else {
+                            orderMap.set(co.orderCode, co);
+                        }
+                    });
+
+                    const mergedOrders = Array.from(orderMap.values());
+                    saveAllOrders(mergedOrders);
+
+                    if (Array.isArray(data.clients)) {
+                        const localUsers = getStoredUsers();
+                        const userMap = new Map();
+                        localUsers.forEach(u => { if (u && (u.correo || u.telefono)) userMap.set((u.correo || u.telefono).toLowerCase(), u); });
+                        data.clients.forEach(cu => {
+                            const key = (cu.correo || cu.telefono || '').toLowerCase();
+                            if (key && !userMap.has(key)) {
+                                userMap.set(key, cu);
+                            }
+                        });
+                        saveUsers(Array.from(userMap.values()));
+                    }
+
+                    renderAdminDashboard();
+                    if (showFeedback) showToast(`¡${mergedOrders.length} pedidos sincronizados desde Google Sheets!`);
+                } else if (showFeedback) {
+                    showToast('Sincronización completada sin nuevos pedidos.');
+                }
+            } catch (err) {
+                console.log('Error sincronizando desde la nube:', err);
+                if (showFeedback) showToast('No se pudo conectar con Google Sheets. Revisa la URL.');
+            } finally {
+                if (btnSync) btnSync.innerHTML = '<span>🔄 Sincronizar Ahora</span>';
+            }
+        }
+
+        // Sincronizar cliente nuevo con la base de datos en la nube (Google Sheets)
+        function syncUserToCloudDatabase(user) {
+            const cloudUrl = getCloudDbUrl();
+            if (!cloudUrl) return;
+            try {
+                fetch(cloudUrl, {
                     method: 'POST',
                     mode: 'no-cors',
                     headers: { 'Content-Type': 'application/json' },
@@ -2349,13 +2494,14 @@
             }
         }
 
-        // Función para sincronizar nuevo pedido único con la base de datos (y enviar correo automático)
+        // Sincronizar nuevo pedido único con la base de datos (y enviar correo automático)
         function syncOrderToCloudDatabase(order, user) {
+            const cloudUrl = getCloudDbUrl();
+            if (!cloudUrl) return;
             try {
-                if (!CLOUD_DB_CONFIG.googleSheetWebhookUrl) return;
                 const prodSummary = (order.items || []).map(i => `${i.qty}x ${i.name} (${i.variant})`).join(', ');
                 const prodHtml = (order.items || []).map(i => `• <strong>${i.qty}x</strong> ${i.name} [${i.variant}] — $${(i.price * i.qty).toLocaleString('es-CO')} COP`).join('<br/>');
-                fetch(CLOUD_DB_CONFIG.googleSheetWebhookUrl, {
+                fetch(cloudUrl, {
                     method: 'POST',
                     mode: 'no-cors',
                     headers: { 'Content-Type': 'application/json' },
@@ -2375,9 +2521,29 @@
                         total: order.total,
                         items: order.items
                     })
-                }).catch(err => console.log('Sincronización de pedido:', err));
+                }).catch(err => console.log('Sincronización de pedido en la nube:', err));
             } catch (err) {
                 console.log('Error de sincronización de pedido:', err);
+            }
+        }
+
+        // Sincronizar cambio de estado de pedido en la nube
+        function syncStatusToCloudDatabase(orderCode, status) {
+            const cloudUrl = getCloudDbUrl();
+            if (!cloudUrl) return;
+            try {
+                fetch(cloudUrl, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        type: 'actualizar_estado',
+                        orderCode: orderCode,
+                        status: status
+                    })
+                }).catch(e => console.log('Error sincronizando estado en la nube:', e));
+            } catch (err) {
+                console.log(err);
             }
         }
 
@@ -3043,7 +3209,11 @@ Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!
                 return;
             }
             document.getElementById('admin-modal').classList.remove('hidden');
+            updateCloudDbUIBadge();
             renderAdminDashboard();
+            if (getCloudDbUrl()) {
+                fetchCloudOrders(false);
+            }
         }
 
         function closeAdminModal() {
@@ -3083,6 +3253,9 @@ Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!
                     }
                 });
                 saveUsers(users);
+
+                // Sincronizar actualización de estado a Google Sheets en la nube
+                syncStatusToCloudDatabase(orderCode, newStatus);
 
                 showToast(`Pedido #${orderCode} actualizado a: ${newStatus}`);
                 renderAdminDashboard();
