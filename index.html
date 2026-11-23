@@ -250,71 +250,8 @@
             </div>
 
             <!-- ===================================================== -->
-            <!-- BUSCADOR UNIVERSAL UNIFICADO EN INICIO (LAS 3 OPCIONES) -->
+            <!-- SECCIÓN "SELECCIÓN DESTACADA" CON BUSCADOR DE LAS 3 OPCIONES -->
             <!-- ===================================================== -->
-            <div class="bg-white border-b border-[#E6E4DF] py-12 px-4 sm:px-6 lg:px-8">
-                <div class="max-w-5xl mx-auto space-y-6">
-                    <div class="text-center space-y-2">
-                        <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#FAF9F6] border border-[#E6E4DF] text-[11px] font-bold uppercase tracking-wider text-[#B08D44]">
-                            <span>✨ Buscador Universal Aqua Essence</span>
-                        </span>
-                        <h2 class="font-editorial text-2xl sm:text-4xl font-semibold text-[#111111]">
-                            Encuentra tu perfume en todo el catálogo
-                        </h2>
-                        <p class="text-xs sm:text-sm text-[#666666] max-w-xl mx-auto leading-relaxed">
-                            Busca al mismo tiempo entre nuestros <strong class="text-[#111111]">Perfumes Originales</strong>, <strong class="text-[#111111]">Réplicas 1.1</strong> y más de <strong class="text-[#111111]">360 Fragancias Oficiales</strong> en un solo lugar.
-                        </p>
-                    </div>
-
-                    <!-- Input de Búsqueda -->
-                    <div class="relative max-w-2xl mx-auto">
-                        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-[#888888]">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-                            </svg>
-                        </div>
-                        <input id="search-global-home" type="text" oninput="onGlobalHomeSearch()"
-                            placeholder="Buscar en todo el catálogo (ej: Bharara King, Good Girl, Sauvage, Vainilla)..."
-                            class="w-full pl-12 pr-24 py-3.5 sm:py-4 rounded-full bg-[#FAF9F6] border-2 border-[#E6E4DF] text-xs sm:text-sm text-[#111111] placeholder-[#888888] focus:outline-none focus:border-[#111111] focus:bg-white shadow-xs transition">
-                        <button type="button" id="btn-clear-global-search" onclick="clearGlobalHomeSearch()"
-                            class="hidden absolute inset-y-0 right-0 pr-4 flex items-center text-[#888888] hover:text-[#111111] text-xs font-semibold">
-                            ✕ Limpiar
-                        </button>
-                    </div>
-
-                    <!-- Píldoras de Filtro Rápido de Categoría -->
-                    <div class="flex flex-wrap items-center justify-center gap-2 text-xs">
-                        <span class="text-[#777777] text-[11px] font-medium mr-1">Filtrar por:</span>
-                        <button type="button" onclick="setGlobalSearchFilter('all')" data-global-filter="all"
-                            class="global-filter-btn px-3 py-1.5 rounded-full font-semibold bg-[#111111] text-white transition text-xs">
-                            Todas las Colecciones
-                        </button>
-                        <button type="button" onclick="setGlobalSearchFilter('original')" data-global-filter="original"
-                            class="global-filter-btn px-3 py-1.5 rounded-full font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition text-xs">
-                            🟡 Originales Sellados
-                        </button>
-                        <button type="button" onclick="setGlobalSearchFilter('replica')" data-global-filter="replica"
-                            class="global-filter-btn px-3 py-1.5 rounded-full font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition text-xs">
-                            🟣 Réplicas 1.1
-                        </button>
-                        <button type="button" onclick="setGlobalSearchFilter('fragancia')" data-global-filter="fragancia"
-                            class="global-filter-btn px-3 py-1.5 rounded-full font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition text-xs">
-                            🟢 Fragancias (30, 60, 100 ml)
-                        </button>
-                    </div>
-
-                    <!-- Contenedor de Resultados Dinámicos -->
-                    <div id="global-search-results-box" class="hidden space-y-4 pt-6 border-t border-[#EAE8E3]">
-                        <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-[#666666]">
-                            <span id="global-search-count-indicator" class="font-semibold text-[#111111]"></span>
-                            <span class="text-[11px] text-[#888888]">Coincidencias en vivo en las 3 opciones</span>
-                        </div>
-                        <div id="global-search-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Sección "Lo Más Vendido" -->
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
                 <div
                     class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-[#E6E4DF] pb-4">
@@ -323,11 +260,49 @@
                             Destacada</span>
                         <h2 class="font-editorial text-3xl sm:text-4xl font-semibold text-[#111111] mt-0.5">Lo más
                             vendido de Aqua Essence</h2>
+                        <p class="text-xs text-[#666666] mt-1">Busca cualquier perfume al mismo tiempo entre nuestras 3 opciones: Originales, Réplicas 1.1 y Fragancias oficiales.</p>
                     </div>
                     <button type="button" onclick="navigate('fragancias')"
                         class="text-xs font-semibold text-[#111111] hover:underline underline-offset-4">
                         Ver catálogo completo de 361 fragancias →
                     </button>
+                </div>
+
+                <!-- BARRA DE BÚSQUEDA INTEGRADA DIRECTAMENTE EN SELECCIÓN DESTACADA -->
+                <div class="bg-white p-4 sm:p-5 rounded-2xl border border-[#E6E4DF] shadow-xs space-y-3.5">
+                    <div class="relative">
+                        <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-base">🔍</span>
+                        <input id="search-destacadas" type="text" oninput="onDestacadasSearch()"
+                            placeholder="Buscar en destacadas (busca al mismo tiempo en Originales, Réplicas y Fragancias)..."
+                            class="w-full pl-10 pr-24 py-3 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs sm:text-sm text-[#111111] placeholder-[#888888] focus:outline-none focus:border-[#111111] focus:bg-white transition">
+                        <button type="button" id="btn-clear-destacadas-search" onclick="clearDestacadasSearch()"
+                            class="hidden absolute inset-y-0 right-0 pr-3.5 flex items-center text-[#888888] hover:text-[#111111] text-xs font-semibold">
+                            ✕ Limpiar
+                        </button>
+                    </div>
+
+                    <div class="flex flex-wrap items-center justify-between gap-2 text-xs">
+                        <div class="flex flex-wrap items-center gap-1.5">
+                            <span class="text-[11px] text-[#777777] font-medium mr-1">Opciones:</span>
+                            <button type="button" onclick="setDestacadasFilter('all')" data-destacadas-filter="all"
+                                class="destacadas-filter-btn px-3 py-1.5 rounded-full font-semibold bg-[#111111] text-white transition text-xs">
+                                ✨ Todas las 3 opciones
+                            </button>
+                            <button type="button" onclick="setDestacadasFilter('original')" data-destacadas-filter="original"
+                                class="destacadas-filter-btn px-3 py-1.5 rounded-full font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition text-xs">
+                                🟡 Originales
+                            </button>
+                            <button type="button" onclick="setDestacadasFilter('replica')" data-destacadas-filter="replica"
+                                class="destacadas-filter-btn px-3 py-1.5 rounded-full font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition text-xs">
+                                🟣 Réplicas 1.1
+                            </button>
+                            <button type="button" onclick="setDestacadasFilter('fragancia')" data-destacadas-filter="fragancia"
+                                class="destacadas-filter-btn px-3 py-1.5 rounded-full font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition text-xs">
+                                🟢 Fragancias (30/60/100ml)
+                            </button>
+                        </div>
+                        <span id="destacadas-count-indicator" class="text-[11px] text-[#777777] font-medium">Mostrando destacados de inicio</span>
+                    </div>
                 </div>
 
                 <div id="featured-products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
@@ -1822,13 +1797,84 @@
         }
 
         // -------------------------------------------------------------
-        // RENDERIZADO: LO MÁS VENDIDO EN INICIO
+        // RENDERIZADO: SELECCIÓN DESTACADA Y BÚSQUEDA EN INICIO (3 OPCIONES)
         // -------------------------------------------------------------
-        function renderFeatured() {
+        let currentDestacadasFilter = 'all';
+
+        function setDestacadasFilter(filter) {
+            currentDestacadasFilter = filter;
+            document.querySelectorAll('.destacadas-filter-btn').forEach(btn => {
+                if (btn.dataset.destacadasFilter === filter) {
+                    btn.className = 'destacadas-filter-btn px-3 py-1.5 rounded-full font-semibold bg-[#111111] text-white transition text-xs';
+                } else {
+                    btn.className = 'destacadas-filter-btn px-3 py-1.5 rounded-full font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition text-xs';
+                }
+            });
+            onDestacadasSearch();
+        }
+
+        function clearDestacadasSearch() {
+            const input = document.getElementById('search-destacadas');
+            if (input) input.value = '';
+            onDestacadasSearch();
+        }
+
+        function onDestacadasSearch() {
+            const input = document.getElementById('search-destacadas');
+            const clearBtn = document.getElementById('btn-clear-destacadas-search');
             const grid = document.getElementById('featured-products-grid');
+            const indicator = document.getElementById('destacadas-count-indicator');
             if (!grid) return;
 
-            // Muestra perfumes destacados incluyendo originales y fragancias
+            const q = (input?.value || '').trim();
+            if (clearBtn) {
+                if (q) clearBtn.classList.remove('hidden');
+                else clearBtn.classList.add('hidden');
+            }
+
+            if (!q && currentDestacadasFilter === 'all') {
+                if (indicator) indicator.textContent = 'Mostrando destacados de inicio';
+                renderDefaultFeatured();
+                return;
+            }
+
+            // Buscar simultáneamente en las 3 opciones del catálogo
+            const origMatches = ALL_ORIGINALS.filter(p => matchSearchQuery(q, p.brand, p.name, p.family, p.variant));
+            const repMatches = ALL_REPLICAS.filter(p => matchSearchQuery(q, p.brand, p.name, p.family, p.variant));
+            const fragMatches = ALL_FRAGRANCES.filter(p => matchSearchQuery(q, p.name, p.family, p.brand || '', p.notes || ''));
+
+            let matches = [];
+            if (currentDestacadasFilter === 'all') {
+                matches = [...origMatches, ...repMatches, ...fragMatches];
+            } else if (currentDestacadasFilter === 'original') {
+                matches = origMatches;
+            } else if (currentDestacadasFilter === 'replica') {
+                matches = repMatches;
+            } else if (currentDestacadasFilter === 'fragancia') {
+                matches = fragMatches;
+            }
+
+            if (indicator) {
+                indicator.innerHTML = `<span class="font-bold text-[#111111]">${matches.length}</span> encontrados (${origMatches.length} Originales · ${repMatches.length} Réplicas · ${fragMatches.length} Fragancias)`;
+            }
+
+            if (matches.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full py-12 text-center bg-white rounded-3xl border border-[#E6E4DF] shadow-xs space-y-2">
+                        <span class="text-3xl">🔍</span>
+                        <h4 class="font-editorial text-lg font-semibold text-[#111111]">No se encontraron perfumes para "${q}"</h4>
+                        <p class="text-xs text-[#777777]">Prueba buscando por otra palabra clave o revisa las demás opciones.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            grid.innerHTML = matches.slice(0, 24).map(p => renderProductCard(p)).join('');
+        }
+
+        function renderDefaultFeatured() {
+            const grid = document.getElementById('featured-products-grid');
+            if (!grid) return;
             const featuredList = [
                 ALL_FRAGRANCES[0],   // Odyssey Mandarine Sky
                 ALL_ORIGINALS[0],    // Original validado
@@ -1839,8 +1885,16 @@
                 (ALL_REPLICAS[0] || REPLICA_PRODUCTS[0]), // Réplica 1.1
                 ALL_ORIGINALS[4]     // Original validado
             ].filter(Boolean);
-
             grid.innerHTML = featuredList.map(p => renderProductCard(p)).join('');
+        }
+
+        function renderFeatured() {
+            const searchInput = document.getElementById('search-destacadas');
+            if (searchInput && searchInput.value.trim()) {
+                onDestacadasSearch();
+            } else {
+                renderDefaultFeatured();
+            }
         }
 
         // -------------------------------------------------------------
@@ -1865,95 +1919,6 @@
             if (tokens.length === 0) return true;
             const combinedTarget = normalizeSearchText(targetFields.filter(Boolean).join(' '));
             return tokens.every(token => combinedTarget.includes(token));
-        }
-
-        // -------------------------------------------------------------
-        // BUSCADOR UNIVERSAL EN LA PÁGINA DE INICIO (3 OPCIONES JUNTAS)
-        // -------------------------------------------------------------
-        let currentGlobalFilter = 'all';
-
-        function setGlobalSearchFilter(filter) {
-            currentGlobalFilter = filter;
-            document.querySelectorAll('.global-filter-btn').forEach(btn => {
-                if (btn.dataset.globalFilter === filter) {
-                    btn.className = 'global-filter-btn px-3 py-1.5 rounded-full font-semibold bg-[#111111] text-white transition text-xs';
-                } else {
-                    btn.className = 'global-filter-btn px-3 py-1.5 rounded-full font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition text-xs';
-                }
-            });
-            onGlobalHomeSearch();
-        }
-
-        function clearGlobalHomeSearch() {
-            const input = document.getElementById('search-global-home');
-            if (input) input.value = '';
-            onGlobalHomeSearch();
-        }
-
-        function onGlobalHomeSearch() {
-            const input = document.getElementById('search-global-home');
-            const clearBtn = document.getElementById('btn-clear-global-search');
-            const resultsBox = document.getElementById('global-search-results-box');
-            const grid = document.getElementById('global-search-grid');
-            const indicator = document.getElementById('global-search-count-indicator');
-            if (!input || !resultsBox || !grid) return;
-
-            const q = input.value.trim();
-            if (clearBtn) {
-                if (q) clearBtn.classList.remove('hidden');
-                else clearBtn.classList.add('hidden');
-            }
-
-            if (!q) {
-                resultsBox.classList.add('hidden');
-                grid.innerHTML = '';
-                return;
-            }
-
-            // Buscar simultáneamente en las 3 colecciones
-            const origMatches = ALL_ORIGINALS.filter(p => matchSearchQuery(q, p.brand, p.name, p.family, p.variant));
-            const repMatches = ALL_REPLICAS.filter(p => matchSearchQuery(q, p.brand, p.name, p.family, p.variant));
-            const fragMatches = ALL_FRAGRANCES.filter(p => matchSearchQuery(q, p.name, p.family, p.brand || '', p.notes || ''));
-
-            const totalOrig = origMatches.length;
-            const totalRep = repMatches.length;
-            const totalFrag = fragMatches.length;
-
-            let allMatches = [];
-            if (currentGlobalFilter === 'all') {
-                allMatches = [...origMatches, ...repMatches, ...fragMatches];
-            } else if (currentGlobalFilter === 'original') {
-                allMatches = origMatches;
-            } else if (currentGlobalFilter === 'replica') {
-                allMatches = repMatches;
-            } else if (currentGlobalFilter === 'fragancia') {
-                allMatches = fragMatches;
-            }
-
-            resultsBox.classList.remove('hidden');
-
-            if (allMatches.length === 0) {
-                indicator.textContent = '0 resultados encontrados';
-                grid.innerHTML = `
-                    <div class="col-span-full py-12 text-center space-y-2">
-                        <span class="text-3xl">🔍</span>
-                        <h4 class="font-editorial text-lg font-semibold text-[#111111]">No se encontraron perfumes para "${q}"</h4>
-                        <p class="text-xs text-[#777777]">Prueba con otra palabra o revisa si está en otra de nuestras 3 colecciones.</p>
-                    </div>
-                `;
-                return;
-            }
-
-            indicator.innerHTML = `
-                <span>Encontrados ${allMatches.length} perfumes:</span>
-                <span class="ml-1 text-[11px] font-normal text-[#666666]">
-                    (${totalOrig} Originales · ${totalRep} Réplicas · ${totalFrag} Fragancias)
-                </span>
-            `;
-
-            // Renderizar los primeros 24 resultados con paginación visual o lista completa
-            const displayItems = allMatches.slice(0, 24);
-            grid.innerHTML = displayItems.map(p => renderProductCard(p)).join('');
         }
 
         // -------------------------------------------------------------
