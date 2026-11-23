@@ -116,7 +116,43 @@ function doPost(e) {
         data.direccion || ""
       ]);
 
-      return ContentService.createTextOutput(JSON.stringify({ status: "success", message: "Cliente guardado" }))
+      // Enviar notificación al correo del Administrador (andresfj20023@gmail.com)
+      try {
+        var cleanTel = (data.telefono || "").toString().replace(/\D/g, '');
+        var waClientLink = cleanTel ? ("https://wa.me/57" + cleanTel) : "#";
+        var newClientSubject = "👤 Nuevo Cliente Registrado en Aqua Essence - " + (data.nombre || "Cliente");
+        var newClientHtml = "<!DOCTYPE html><html><head><meta charset='utf-8'/></head><body style='font-family: sans-serif; background: #f8f8f8; padding: 25px;'>" +
+          "<div style='max-width: 550px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e5e5e5; overflow: hidden;'>" +
+          "<div style='background: #111111; padding: 22px; color: #ffffff;'>" +
+          "<span style='color: #D4AF37; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;'>Aqua Essence Admin</span>" +
+          "<h2 style='margin: 6px 0 0; font-family: Georgia, serif; font-size: 20px;'>Nuevo Cliente Registrado</h2>" +
+          "</div>" +
+          "<div style='padding: 24px; font-size: 13px; line-height: 1.7; color: #333333;'>" +
+          "<p style='margin-top: 0;'>Se ha creado una nueva cuenta de cliente en tu tienda online:</p>" +
+          "<table style='width: 100%; border-collapse: collapse; font-size: 13px;'>" +
+          "<tr><td style='padding: 6px 0; color: #777777; width: 140px;'>Nombre:</td><td style='font-weight: bold; color: #111111;'>" + (data.nombre || "") + "</td></tr>" +
+          "<tr><td style='padding: 6px 0; color: #777777;'>Teléfono / WhatsApp:</td><td><a href='" + waClientLink + "' style='color: #128C7E; font-weight: bold; text-decoration: none;'>💬 " + (data.telefono || "") + "</a></td></tr>" +
+          "<tr><td style='padding: 6px 0; color: #777777;'>Correo Electrónico:</td><td><a href='mailto:" + (data.correo || "") + "' style='color: #111111;'>" + (data.correo || "") + "</a></td></tr>" +
+          "<tr><td style='padding: 6px 0; color: #777777;'>Ciudad de Entrega:</td><td style='font-weight: bold; color: #111111;'>" + (data.ciudad || "") + "</td></tr>" +
+          "<tr><td style='padding: 6px 0; color: #777777;'>Dirección:</td><td style='color: #111111;'>" + (data.direccion || "") + "</td></tr>" +
+          "<tr><td style='padding: 6px 0; color: #777777;'>Fecha:</td><td style='color: #666666;'>" + (data.fecha || new Date().toLocaleString()) + "</td></tr>" +
+          "</table>" +
+          "<div style='margin-top: 20px; padding-top: 15px; border-top: 1px solid #eeeeee; text-align: center;'>" +
+          "<a href='" + waClientLink + "' style='background: #25D366; color: #ffffff; padding: 10px 22px; border-radius: 999px; text-decoration: none; font-size: 12px; font-weight: bold; display: inline-block;'>💬 Contactar al Cliente por WhatsApp</a>" +
+          "</div>" +
+          "</div></div></body></html>";
+
+        MailApp.sendEmail({
+          to: ADMIN_NOTIFICATION_EMAIL,
+          subject: newClientSubject,
+          htmlBody: newClientHtml
+        });
+        Logger.log("Notificación de nuevo cliente enviada al admin: " + ADMIN_NOTIFICATION_EMAIL);
+      } catch (clientErr) {
+        Logger.log("Error enviando email nuevo cliente al admin: " + clientErr.toString());
+      }
+
+      return ContentService.createTextOutput(JSON.stringify({ status: "success", message: "Cliente guardado y notificado al admin" }))
         .setMimeType(ContentService.MimeType.JSON);
     }
 
