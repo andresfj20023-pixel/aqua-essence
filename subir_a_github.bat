@@ -1,53 +1,31 @@
 @echo off
 chcp 65001 >nul
 echo ====================================================
-echo   CONFIGURACIÓN Y SUBIDA DE AQUA ESSENCE A GITHUB
+echo   SUBIENDO AQUA ESSENCE A TU GITHUB
 echo ====================================================
 echo.
 
-:: Verificar si git está instalado
-git --version >nul 2>&1
-if %errorlevel% neq 0 (
-    echo [ERROR] Git no está instalado en este equipo.
-    echo Por favor descarga e instala Git desde: https://git-scm.com/
-    pause
-    exit /b
-)
+git remote remove origin >nul 2>&1
+git remote add origin https://github.com/andresfj20023-pixel/aqua-essence.git
+git branch -M main
 
-:: Inicializar git si no existe
-if not exist ".git" (
-    echo Inicializando repositorio Git...
-    git init
-    git branch -M main
-)
+echo Subiendo archivos y carpetas a GitHub...
+git push -u origin main
 
-:: Agregar archivos
-echo Agregando archivos del proyecto...
-git add .
-
-:: Commit
-git commit -m "feat: versión completa de Aqua Essence lista para Vercel"
-
-echo.
-echo ====================================================
-echo   PASO FINAL PARA CONECTARLO A TU GITHUB:
-echo ====================================================
-echo.
-echo 1. Entra a https://github.com/new y crea un repositorio (ejemplo: aqua-essence).
-echo 2. Copia la URL de tu repositorio (ejemplo: https://github.com/tu-usuario/aqua-essence.git).
-echo 3. Escribe o pega la URL aquí abajo y presiona ENTER:
-echo.
-set /p REPO_URL="URL del repositorio de GitHub: "
-
-if not "%REPO_URL%"=="" (
-    git remote remove origin >nul 2>&1
-    git remote add origin %REPO_URL%
-    git push -u origin main
+if %errorlevel% equ 0 (
     echo.
-    echo [OK] ¡Proyecto subido exitosamente a GitHub!
-    echo Ahora solo debes entrar a https://vercel.com/new e importar tu repositorio.
+    echo ====================================================
+    echo   [OK] ¡SUBIDO CON ÉXITO A GITHUB!
+    echo ====================================================
+    echo Tu repositorio está listo en:
+    echo https://github.com/andresfj20023-pixel/aqua-essence
+    echo.
+    echo Ahora solo debes entrar a:
+    echo https://vercel.com/new
+    echo y hacer clic en "Import" junto a aqua-essence.
 ) else (
-    echo No ingresaste ninguna URL. Puedes subirlo manualmente luego.
+    echo.
+    echo [AVISO] Si te pidió autorización en el navegador, completa el inicio de sesión.
 )
 
 pause
