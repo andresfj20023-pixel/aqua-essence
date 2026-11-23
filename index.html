@@ -1,0 +1,3336 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aqua Essence | Alta Perfumería, Originales, Réplicas 1.1 y Fragancias</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tipografías Editoriales -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Datos del Catálogo Oficial de Fragancias (361 Referencias del Catálogo) -->
+    <script src="catalogo-fragancias.js"></script>
+
+    <!-- Catálogo de Perfumes Originales -->
+    <script src="catalogo-originales.js"></script>
+
+    <!-- Catálogo de Réplicas 1.1 (Cruzadas exclusivamente con Fragancias Oficiales) -->
+    <script src="catalogo-replicas.js"></script>
+
+    <!-- Estilos Personalizados -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="min-h-screen flex flex-col bg-white text-[#111111]">
+
+    <!-- Toast de Notificación Flotante -->
+    <div id="toast-container" class="fixed bottom-24 right-6 z-[100] flex flex-col gap-2 pointer-events-none"></div>
+
+    <!-- ========================================================= -->
+    <!-- WIDGET FLOTANTE DE WHATSAPP (3206062038)                  -->
+    <!-- ========================================================= -->
+    <aside aria-label="Contacto WhatsApp" class="fixed bottom-6 right-6 z-40 flex items-center group">
+        <div class="hidden sm:flex items-center mr-3 px-3.5 py-1.5 rounded-full bg-white/95 backdrop-blur-sm border border-[#E6E4DF] shadow-lg text-xs font-semibold text-[#111111] opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-2 group-hover:translate-x-0 pointer-events-none">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 mr-2 animate-pulse"></span>
+            ¿Asesoría o pedidos? ¡Escríbenos!
+        </div>
+        <a href="https://wa.me/573206062038?text=¡Hola%20Aqua%20Essence!%20Deseo%20recibir%20asesoría%20sobre%20sus%20perfumes."
+            target="_blank" rel="noopener noreferrer"
+            class="flex items-center gap-2.5 px-4 py-3 rounded-full bg-[#25D366] hover:bg-[#20ba5a] text-white shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 focus:outline-none"
+            title="Escríbenos a WhatsApp (3206062038)">
+            <svg class="w-6 h-6 fill-current shrink-0" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+            </svg>
+            <span class="text-xs font-bold tracking-wide hidden sm:inline">WhatsApp</span>
+            <span class="w-2.5 h-2.5 bg-white rounded-full animate-pulse shrink-0"></span>
+        </a>
+    </aside>
+
+    <!-- ========================================================= -->
+    <!-- 1. BARRA SUPERIOR INFORMATIVA                             -->
+    <!-- ========================================================= -->
+    <div class="marquee-wrapper py-2 text-[11px] sm:text-xs font-medium tracking-wide">
+        <div class="marquee-track">
+            <div class="flex items-center gap-8 px-4">
+                <span>Domicilios rápidos en Medellín de 1 a 3 días hábiles ($10.000)</span>
+                <span>•</span>
+                <span>Despacho a toda Colombia en 1 a 3 días hábiles ($18.000)</span>
+                <span>•</span>
+                <span>Paga por transferencia o contraentrega en Medellín</span>
+                <span>•</span>
+                <span>Catálogo oficial con más de 360 fragancias en 30 ml, 60 ml y 100 ml</span>
+                <span>•</span>
+            </div>
+            <div class="flex items-center gap-8 px-4" aria-hidden="true">
+                <span>Domicilios rápidos en Medellín de 1 a 3 días hábiles ($10.000)</span>
+                <span>•</span>
+                <span>Despacho a toda Colombia en 1 a 3 días hábiles ($18.000)</span>
+                <span>•</span>
+                <span>Paga por transferencia o contraentrega en Medellín</span>
+                <span>•</span>
+                <span>Catálogo oficial con más de 360 fragancias en 30 ml, 60 ml y 100 ml</span>
+                <span>•</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ========================================================= -->
+    <!-- 2. HEADER Y MENÚ DE NAVEGACIÓN PRINCIPAL                  -->
+    <!-- ========================================================= -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#E6E4DF]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 sm:h-20 flex items-center justify-between gap-4">
+
+            <!-- Logo Aqua Essence -->
+            <button type="button" onclick="navigate('inicio')" class="flex items-center gap-3 text-left shrink-0 group">
+                <img src="assets/logo.png" alt="Aqua Essence Logo"
+                    class="w-10 h-10 sm:w-11 sm:h-11 rounded-full object-contain shrink-0 shadow-xs group-hover:scale-105 transition-transform duration-200">
+                <span
+                    class="font-brand text-2xl sm:text-[27px] font-semibold text-[#111111] leading-none block">Aqua
+                    Essence</span>
+            </button>
+
+            <!-- Menú de Navegación Desktop (Exacto al menú de la imagen) -->
+            <nav class="hidden lg:flex items-center gap-8 text-[13px] font-medium">
+                <button type="button" onclick="navigate('inicio')" data-nav="inicio"
+                    class="nav-btn active">Inicio</button>
+                <button type="button" onclick="navigate('originales')" data-nav="originales"
+                    class="nav-btn">Originales</button>
+                <button type="button" onclick="navigate('replicas')" data-nav="replicas" class="nav-btn">Réplicas
+                    1.1</button>
+                <button type="button" onclick="navigate('fragancias')" data-nav="fragancias" class="nav-btn">Fragancias
+                    (3 Tamaños)</button>
+                <button type="button" onclick="navigate('dudas')" data-nav="dudas" class="nav-btn">Dudas
+                    frecuentes</button>
+            </nav>
+
+            <!-- Acceso a Usuario y Bolsa de Compra Flotante -->
+            <div class="flex items-center gap-2.5">
+                <!-- Botón de Cuenta / Iniciar Sesión (Dinámico) -->
+                <div id="auth-header-slot"></div>
+
+                <button type="button" onclick="toggleCart(true)"
+                    class="relative px-3.5 py-2 rounded-full border border-[#E6E4DF] hover:border-[#111111] text-[#111111] transition flex items-center gap-2"
+                    aria-label="Abrir carrito">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
+                            d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                    <span class="text-xs font-semibold hidden sm:inline">Bolsa</span>
+                    <span id="cart-badge"
+                        class="min-w-[19px] h-[19px] px-1 rounded-full bg-[#111111] text-white text-[10px] font-bold flex items-center justify-center">0</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Menú Móvil con Píldoras Horizontales -->
+        <div
+            class="lg:hidden flex items-center gap-2 px-4 py-2.5 overflow-x-auto no-scrollbar border-t border-[#F0EFEA]">
+            <div id="auth-mobile-slot" class="shrink-0"></div>
+            <button type="button" onclick="navigate('inicio')" data-nav-mobile="inicio"
+                class="nav-pill-mobile active">Inicio</button>
+            <button type="button" onclick="navigate('originales')" data-nav-mobile="originales"
+                class="nav-pill-mobile">Originales</button>
+            <button type="button" onclick="navigate('replicas')" data-nav-mobile="replicas"
+                class="nav-pill-mobile">Réplicas 1.1</button>
+            <button type="button" onclick="navigate('fragancias')" data-nav-mobile="fragancias"
+                class="nav-pill-mobile">Fragancias (3 Tamaños)</button>
+            <button type="button" onclick="navigate('dudas')" data-nav-mobile="dudas" class="nav-pill-mobile">Dudas
+                frecuentes</button>
+        </div>
+    </header>
+
+    <!-- ========================================================= -->
+    <!-- CONTENIDO PRINCIPAL: VISTAS Y SUBPÁGINAS                  -->
+    <!-- ========================================================= -->
+    <main class="flex-1">
+
+        <!-- ===================================================== -->
+        <!-- SUBPÁGINA 1: INICIO (PÁGINA PRINCIPAL)                -->
+        <!-- ===================================================== -->
+        <section id="view-inicio" class="page-view active">
+
+            <!-- Hero Editorial -->
+            <div class="bg-[#F7F6F3] border-b border-[#E6E4DF] py-14 sm:py-20 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+                    <div class="lg:col-span-7 space-y-5">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#E6E4DF] text-[11px] font-semibold uppercase tracking-[0.2em] text-[#B08D44]">
+                            <span>Catálogo Exclusivo · Medellín & Envíos Nacionales</span>
+                        </div>
+
+                        <h1
+                            class="font-editorial text-4xl sm:text-5xl lg:text-6xl font-semibold text-[#111111] leading-[1.08]">
+                            La esencia del lujo, <br class="hidden sm:inline" />
+                            <span class="italic font-normal">dividida a tu medida.</span>
+                        </h1>
+
+                        <p class="text-sm sm:text-base text-[#555555] max-w-xl leading-relaxed">
+                            Bienvenido a <strong class="text-[#111111]">Aqua Essence</strong>. Descubre nuestras 3
+                            líneas de perfumería: <strong class="text-[#111111]">Perfumes Originales</strong> sellados,
+                            <strong class="text-[#111111]">Réplicas 1.1</strong> importadas idénticas o nuestras más de
+                            <strong class="text-[#111111]">360 Fragancias oficiales</strong> en presentaciones de 30 ml,
+                            60 ml y 100 ml.
+                        </p>
+
+                        <div class="pt-2 flex flex-wrap items-center gap-3">
+                            <button type="button" onclick="navigate('fragancias')"
+                                class="px-6 py-3 bg-[#111111] text-white text-xs sm:text-sm font-semibold rounded-full hover:bg-[#333333] transition shadow-xs">
+                                Ver Fragancias (360+ Ref)
+                            </button>
+                            <button type="button" onclick="navigate('originales')"
+                                class="px-6 py-3 bg-white text-[#111111] border border-[#111111] text-xs sm:text-sm font-semibold rounded-full hover:bg-[#FAF9F6] transition">
+                                Explorar Originales
+                            </button>
+                            <button type="button" onclick="navigate('dudas')"
+                                class="text-xs sm:text-sm text-[#666666] hover:text-[#111111] underline underline-offset-4 px-2 py-3">
+                                ¿Cómo comprar?
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Panel de las 3 Colecciones -->
+                    <div class="lg:col-span-5 space-y-3.5">
+                        <div onclick="navigate('fragancias')"
+                            class="p-5 rounded-2xl bg-white border border-[#111111] hover:border-[#111111] transition cursor-pointer group shadow-sm">
+                            <div class="flex items-center justify-between">
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-[#B08D44]">Catálogo
+                                    Destacado (361 Ref)</span>
+                                <span class="text-xs text-[#888888] group-hover:text-[#111111] transition">Ver catálogo
+                                    →</span>
+                            </div>
+                            <h3 class="font-editorial text-2xl font-semibold text-[#111111] mt-1">Fragancias con Loción
+                            </h3>
+                            <p class="text-xs text-[#666666] mt-1">Visualiza la imagen oficial de cada loción. 30 ml
+                                ($22.000), 60 ml ($28.000) y 100 ml ($40.000).</p>
+                        </div>
+
+                        <div onclick="navigate('originales')"
+                            class="p-5 rounded-2xl bg-white border border-[#E6E4DF] hover:border-[#111111] transition cursor-pointer group shadow-xs">
+                            <div class="flex items-center justify-between">
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-[#111111]">Línea 01 ·
+                                    100% Originales</span>
+                                <span class="text-xs text-[#888888] group-hover:text-[#111111] transition">Ver colección
+                                    →</span>
+                            </div>
+                            <h3 class="font-editorial text-2xl font-semibold text-[#111111] mt-1">Perfumes Sellados de
+                                Fábrica</h3>
+                            <p class="text-xs text-[#666666] mt-1">Casas nicho, perfumería árabe y diseñador con código
+                                batch verificable.</p>
+                        </div>
+
+                        <div onclick="navigate('replicas')"
+                            class="p-5 rounded-2xl bg-white border border-[#E6E4DF] hover:border-[#111111] transition cursor-pointer group shadow-xs">
+                            <div class="flex items-center justify-between">
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-[#555555]">Línea 02 ·
+                                    Calidad 1.1</span>
+                                <span class="text-xs text-[#888888] group-hover:text-[#111111] transition">Ver colección
+                                    →</span>
+                            </div>
+                            <h3 class="font-editorial text-2xl font-semibold text-[#111111] mt-1">Réplicas 1.1
+                                Importadas</h3>
+                            <p class="text-xs text-[#666666] mt-1">Presentación exacta en frasco, atomizador y caja con
+                                alta fijación.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Sección "Lo Más Vendido" -->
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
+                <div
+                    class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-[#E6E4DF] pb-4">
+                    <div>
+                        <span class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#B08D44]">Selección
+                            Destacada</span>
+                        <h2 class="font-editorial text-3xl sm:text-4xl font-semibold text-[#111111] mt-0.5">Lo más
+                            vendido de Aqua Essence</h2>
+                    </div>
+                    <button type="button" onclick="navigate('fragancias')"
+                        class="text-xs font-semibold text-[#111111] hover:underline underline-offset-4">
+                        Ver catálogo completo de 361 fragancias →
+                    </button>
+                </div>
+
+                <div id="featured-products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+            </div>
+
+            <!-- Beneficios y Garantías -->
+            <div class="bg-[#F7F6F3] border-y border-[#E6E4DF] py-16 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-7xl mx-auto space-y-12">
+                    <div class="text-center max-w-2xl mx-auto">
+                        <span class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#B08D44]">Servicio &
+                            Confianza</span>
+                        <h2 class="font-editorial text-3xl sm:text-4xl font-semibold text-[#111111] mt-1">¿Por qué
+                            comprar en Aqua Essence?</h2>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="p-6 rounded-2xl bg-white border border-[#E6E4DF] space-y-2.5">
+                            <span
+                                class="w-8 h-8 rounded-full bg-[#F7F6F3] flex items-center justify-center font-bold text-xs text-[#111111]">01</span>
+                            <h3 class="font-semibold text-sm text-[#111111]">Domicilios en Medellín</h3>
+                            <p class="text-xs text-[#666666] leading-relaxed">Domicilio express con entregas de 1 a 3
+                                días hábiles en Medellín e Itagüí por solo $10.000 COP.</p>
+                        </div>
+                        <div class="p-6 rounded-2xl bg-white border border-[#E6E4DF] space-y-2.5">
+                            <span
+                                class="w-8 h-8 rounded-full bg-[#F7F6F3] flex items-center justify-center font-bold text-xs text-[#111111]">02</span>
+                            <h3 class="font-semibold text-sm text-[#111111]">Envíos a Toda Colombia</h3>
+                            <p class="text-xs text-[#666666] leading-relaxed">Despachos asegurados en 1 a 3 días hábiles
+                                con guía de rastreo y embalaje protector.</p>
+                        </div>
+                        <div class="p-6 rounded-2xl bg-white border border-[#E6E4DF] space-y-2.5">
+                            <span
+                                class="w-8 h-8 rounded-full bg-[#F7F6F3] flex items-center justify-center font-bold text-xs text-[#111111]">03</span>
+                            <h3 class="font-semibold text-sm text-[#111111]">Pagos Fáciles y Seguros</h3>
+                            <p class="text-xs text-[#666666] leading-relaxed">Aceptamos transferencias Bancolombia,
+                                Nequi y pago contraentrega en Medellín.</p>
+                        </div>
+                        <div class="p-6 rounded-2xl bg-white border border-[#E6E4DF] space-y-2.5">
+                            <span
+                                class="w-8 h-8 rounded-full bg-[#F7F6F3] flex items-center justify-center font-bold text-xs text-[#111111]">04</span>
+                            <h3 class="font-semibold text-sm text-[#111111]">Asesoría por WhatsApp</h3>
+                            <p class="text-xs text-[#666666] leading-relaxed">Te ayudamos a elegir tu fragancia según
+                                tus gustos, clima y ocasiones de uso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resumen FAQ en Inicio -->
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
+                <div class="text-center">
+                    <span class="text-[11px] font-bold uppercase tracking-[0.2em] text-[#B08D44]">Transparencia
+                        Total</span>
+                    <h2 class="font-editorial text-3xl sm:text-4xl font-semibold text-[#111111] mt-1">Preguntas
+                        habituales</h2>
+                </div>
+
+                <div class="divide-y divide-[#E6E4DF] border-y border-[#E6E4DF]">
+                    <div class="py-4.5">
+                        <h3 class="text-sm font-semibold text-[#111111]">¿Cuál es la diferencia entre Originales,
+                            Réplicas 1.1 y Fragancias en 3 tamaños?</h3>
+                        <p class="text-xs text-[#666666] mt-2 leading-relaxed">
+                            Los <strong>Originales</strong> vienen sellados de fábrica con batch code verificado. Las
+                            <strong>Réplicas 1.1</strong> cuentan con frasco, atomizador y caja idénticos al de
+                            diseñador con gran fijación. Nuestras <strong>Fragancias</strong> son preparadas con alta
+                            concentración en envases propios de 30 ml ($22k), 60 ml ($28k) y 100 ml ($40k).
+                        </p>
+                    </div>
+                    <div class="py-4.5">
+                        <h3 class="text-sm font-semibold text-[#111111]">¿Cómo se confirma el pedido por WhatsApp?</h3>
+                        <p class="text-xs text-[#666666] mt-2 leading-relaxed">
+                            Agregas los perfumes que desees a la bolsa de compra, seleccionas tu método de entrega y
+                            presionas "Confirmar pedido por WhatsApp". Se abrirá tu chat con el pedido listo y
+                            desglosado para despachar de inmediato.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-center pt-2">
+                    <button type="button" onclick="navigate('dudas')"
+                        class="px-6 py-2.5 rounded-full border border-[#111111] text-xs font-semibold hover:bg-[#111111] hover:text-white transition">
+                        Ver todas las dudas frecuentes →
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- SUBPÁGINA 2: ORIGINALES (PROVEEDORES SINCRONIZADOS)   -->
+        <!-- ===================================================== -->
+        <section id="view-originales" class="page-view">
+            <div id="originales-top" class="bg-[#F7F6F3] border-b border-[#E6E4DF] py-12 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-7xl mx-auto space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+                        <div>
+                            <div class="flex items-center gap-2 text-xs text-[#888888] mb-2">
+                                <button type="button" onclick="navigate('inicio')"
+                                    class="hover:underline">Inicio</button>
+                                <span>/</span>
+                                <span class="text-[#111111] font-medium">Originales</span>
+                            </div>
+                            <span
+                                class="inline-block text-[11px] font-bold uppercase tracking-[0.2em] text-[#B08D44]">Línea
+                                01 · 100% Auténticos</span>
+                            <h1
+                                class="font-editorial text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#111111] mt-1">
+                                Perfumes Originales</h1>
+                            <p class="text-xs sm:text-sm text-[#555555] max-w-2xl mt-2 leading-relaxed">
+                                Frascos 100% auténticos sellados en caja de fábrica con código batch verificable. Casas
+                                nicho, perfumería árabe de alta gama y diseñador internacional con entrega inmediata.
+                            </p>
+                        </div>
+
+                        <div class="w-full md:w-80">
+                            <input id="search-originales" type="text" oninput="onOriginalsSearch()"
+                                placeholder="Buscar en originales..."
+                                class="w-full px-4 py-2.5 rounded-full bg-white border border-[#E6E4DF] text-xs text-[#111111] placeholder-[#888888] focus:outline-none focus:border-[#111111]" />
+                        </div>
+                    </div>
+
+                    <!-- Garantía de Autenticidad y Conteo -->
+                    <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-[#EAE8E3]">
+                        <div class="flex items-center gap-2 text-[11px] text-[#555555]">
+                            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                            <span id="orig-sync-info">Garantía de autenticidad · Envíos asegurados a toda
+                                Colombia</span>
+                        </div>
+                        <div id="orig-count-indicator" class="text-xs text-[#777777] font-medium"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
+                <div id="grid-originales" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+
+                <div id="empty-originales" class="hidden text-center py-16 bg-[#F7F6F3] rounded-2xl">
+                    <p class="font-editorial text-2xl text-[#111111]">No se encontraron perfumes originales con ese
+                        nombre.</p>
+                    <button type="button"
+                        onclick="document.getElementById('search-originales').value=''; renderOriginales();"
+                        class="mt-4 px-5 py-2 rounded-full bg-[#111111] text-white text-xs font-semibold">
+                        Ver todos los originales
+                    </button>
+                </div>
+
+                <!-- PAGINACIÓN ORIGINALES -->
+                <div id="originales-pagination" class="pagination-container py-4"></div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- SUBPÁGINA 3: RÉPLICAS 1.1                             -->
+        <!-- ===================================================== -->
+        <section id="view-replicas" class="page-view">
+            <div id="replicas-top" class="bg-[#F7F6F3] border-b border-[#E6E4DF] py-12 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-7xl mx-auto space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+                        <div>
+                            <div class="flex items-center gap-2 text-xs text-[#888888] mb-2">
+                                <button type="button" onclick="navigate('inicio')"
+                                    class="hover:underline">Inicio</button>
+                                <span>/</span>
+                                <span class="text-[#111111] font-medium">Réplicas 1.1</span>
+                            </div>
+                            <span
+                                class="inline-block text-[11px] font-bold uppercase tracking-[0.2em] text-[#111111]">Línea
+                                02 · Presentación Idéntica (Cruzado con Fragancias)</span>
+                            <h1
+                                class="font-editorial text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#111111] mt-1">
+                                Réplicas 1.1 Importadas</h1>
+                            <p class="text-xs sm:text-sm text-[#555555] max-w-2xl mt-2 leading-relaxed">
+                                Acabado exacto en frasco, tapa, atomizador y caja sellada. Excelente fijación y
+                                proyección idéntica al original a precios directos desde $140.000 COP.
+                            </p>
+                        </div>
+
+                        <div class="w-full md:w-80">
+                            <input id="search-replicas" type="text" oninput="onReplicasSearch()"
+                                placeholder="Buscar en réplicas 1.1..."
+                                class="w-full px-4 py-2.5 rounded-full bg-white border border-[#E6E4DF] text-xs text-[#111111] placeholder-[#888888] focus:outline-none focus:border-[#111111]" />
+                        </div>
+                    </div>
+
+                    <!-- Indicador de Referencias y Conteo -->
+                    <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-[#EAE8E3]">
+                        <div class="flex items-center gap-2 text-[11px] text-[#555555]">
+                            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                            <span>Frascos y cajas 1.1 importadas · Envíos a todo el país</span>
+                        </div>
+                        <div id="rep-count-indicator" class="text-xs text-[#777777] font-medium"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
+                <div id="grid-replicas" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+                <div id="empty-replicas" class="hidden text-center py-16 bg-[#F7F6F3] rounded-2xl">
+                    <p class="font-editorial text-2xl text-[#111111]">No se encontraron réplicas 1.1 con ese nombre.</p>
+                    <button type="button"
+                        onclick="document.getElementById('search-replicas').value=''; renderReplicas();"
+                        class="mt-4 px-5 py-2 rounded-full bg-[#111111] text-white text-xs font-semibold">
+                        Ver todas las réplicas
+                    </button>
+                </div>
+
+                <!-- PAGINACIÓN RÉPLICAS 1.1 -->
+                <div id="replicas-pagination" class="pagination-container py-4"></div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- SUBPÁGINA 4: FRAGANCIAS (3 TAMAÑOS CON IMÁGENES)      -->
+        <!-- ===================================================== -->
+        <section id="view-fragancias" class="page-view">
+            <div id="fragancias-top" class="bg-[#F7F6F3] border-b border-[#E6E4DF] py-12 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-7xl mx-auto space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+                        <div>
+                            <div class="flex items-center gap-2 text-xs text-[#888888] mb-2">
+                                <button type="button" onclick="navigate('inicio')"
+                                    class="hover:underline">Inicio</button>
+                                <span>/</span>
+                                <span class="text-[#111111] font-medium">Fragancias</span>
+                            </div>
+                            <span
+                                class="inline-block text-[11px] font-bold uppercase tracking-[0.2em] text-[#B08D44]">Catálogo
+                                Oficial · 361 Referencias</span>
+                            <h1
+                                class="font-editorial text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#111111] mt-1">
+                                Fragancias Aqua Essence</h1>
+                            <p class="text-xs sm:text-sm text-[#555555] max-w-2xl mt-2 leading-relaxed">
+                                Escoge cualquiera de nuestras fragancias con la imagen oficial de su loción. Selecciona
+                                tu tamaño ideal y agrégala directo a tu bolsa:
+                            </p>
+                        </div>
+
+                        <!-- Buscador en Tiempo Real -->
+                        <div class="w-full md:w-80">
+                            <input id="search-fragancias" type="text" oninput="onFragranceSearch()"
+                                placeholder="Buscar por nombre, nota o loción..."
+                                class="w-full px-4 py-2.5 rounded-full bg-white border border-[#E6E4DF] text-xs text-[#111111] placeholder-[#888888] focus:outline-none focus:border-[#111111]" />
+                        </div>
+                    </div>
+
+                    <!-- Cuadros informativos de los 3 tamaños -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5 pt-2">
+                        <div
+                            class="p-3.5 rounded-xl bg-white border border-[#E6E4DF] flex items-center justify-between">
+                            <div>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-[#666666]">Presentación
+                                    Personal</span>
+                                <h4 class="text-sm font-semibold text-[#111111]">Frasco 30 ml</h4>
+                            </div>
+                            <span class="text-sm font-bold text-[#111111] bg-[#F7F6F3] px-3 py-1 rounded-lg">$22.000
+                                COP</span>
+                        </div>
+                        <div
+                            class="p-3.5 rounded-xl bg-white border border-[#E6E4DF] flex items-center justify-between">
+                            <div>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-[#666666]">Presentación
+                                    Intermedia</span>
+                                <h4 class="text-sm font-semibold text-[#111111]">Frasco 60 ml</h4>
+                            </div>
+                            <span class="text-sm font-bold text-[#111111] bg-[#F7F6F3] px-3 py-1 rounded-lg">$28.000
+                                COP</span>
+                        </div>
+                        <div
+                            class="p-3.5 rounded-xl bg-white border border-[#111111] flex items-center justify-between shadow-xs">
+                            <div>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-[#B08D44]">Más
+                                    Vendido</span>
+                                <h4 class="text-sm font-semibold text-[#111111]">Frasco 100 ml</h4>
+                            </div>
+                            <span
+                                class="text-sm font-bold text-[#111111] bg-[#111111] text-white px-3 py-1 rounded-lg">$40.000
+                                COP</span>
+                        </div>
+                    </div>
+
+                    <!-- Filtros por Familia Olfativa -->
+                    <div class="flex items-center justify-between flex-wrap gap-3 pt-2">
+                        <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+                            <button type="button" data-family="all" onclick="filterFamily('all')"
+                                class="fam-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-[#111111] text-white transition">
+                                Todas las familias
+                            </button>
+                            <button type="button" data-family="frutal" onclick="filterFamily('frutal')"
+                                class="fam-pill px-4 py-1.5 rounded-full text-xs font-medium bg-white border border-[#E6E4DF] text-[#444444] hover:border-[#111111] transition">
+                                Frutales
+                            </button>
+                            <button type="button" data-family="amaderad" onclick="filterFamily('amaderad')"
+                                class="fam-pill px-4 py-1.5 rounded-full text-xs font-medium bg-white border border-[#E6E4DF] text-[#444444] hover:border-[#111111] transition">
+                                Amaderadas
+                            </button>
+                            <button type="button" data-family="citric" onclick="filterFamily('citric')"
+                                class="fam-pill px-4 py-1.5 rounded-full text-xs font-medium bg-white border border-[#E6E4DF] text-[#444444] hover:border-[#111111] transition">
+                                Cítricas
+                            </button>
+                            <button type="button" data-family="floral" onclick="filterFamily('floral')"
+                                class="fam-pill px-4 py-1.5 rounded-full text-xs font-medium bg-white border border-[#E6E4DF] text-[#444444] hover:border-[#111111] transition">
+                                Florales
+                            </button>
+                            <button type="button" data-family="aromatic" onclick="filterFamily('aromatic')"
+                                class="fam-pill px-4 py-1.5 rounded-full text-xs font-medium bg-white border border-[#E6E4DF] text-[#444444] hover:border-[#111111] transition">
+                                Aromáticas
+                            </button>
+                            <button type="button" data-family="gourmand" onclick="filterFamily('gourmand')"
+                                class="fam-pill px-4 py-1.5 rounded-full text-xs font-medium bg-white border border-[#E6E4DF] text-[#444444] hover:border-[#111111] transition">
+                                Gourmand / Ámbar
+                            </button>
+                        </div>
+
+                        <!-- Indicador de Paginación y Conteo -->
+                        <div id="frag-count-indicator" class="text-xs text-[#777777] font-medium"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuadrícula de Fragancias con Fotos de Loción -->
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
+                <div id="grid-fragancias" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+
+                <!-- Estado Vacío -->
+                <div id="empty-fragancias" class="hidden text-center py-16 bg-[#F7F6F3] rounded-2xl">
+                    <p class="font-editorial text-2xl text-[#111111]">No se encontraron fragancias con ese criterio.</p>
+                    <button type="button"
+                        onclick="document.getElementById('search-fragancias').value=''; filterFamily('all');"
+                        class="mt-4 px-5 py-2 rounded-full bg-[#111111] text-white text-xs font-semibold">
+                        Ver todas las fragancias
+                    </button>
+                </div>
+
+                <!-- PAGINACIÓN ESTILO DE LA IMAGEN ([1] 2 3 ... 97 >) -->
+                <div id="fragancias-pagination" class="pagination-container py-4"></div>
+            </div>
+        </section>
+
+        <!-- ===================================================== -->
+        <!-- SUBPÁGINA 5: DUDAS FRECUENTES (FAQ)                   -->
+        <!-- ===================================================== -->
+        <section id="view-dudas" class="page-view">
+            <div class="bg-[#F7F6F3] border-b border-[#E6E4DF] py-12 px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto text-center space-y-3">
+                    <div class="flex items-center justify-center gap-2 text-xs text-[#888888] mb-1">
+                        <button type="button" onclick="navigate('inicio')" class="hover:underline">Inicio</button>
+                        <span>/</span>
+                        <span class="text-[#111111] font-medium">Dudas frecuentes</span>
+                    </div>
+                    <span class="inline-block text-[11px] font-bold uppercase tracking-[0.2em] text-[#B08D44]">Centro de
+                        Asistencia</span>
+                    <h1 class="font-editorial text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#111111]">Preguntas y
+                        Dudas Frecuentes</h1>
+                    <p class="text-xs sm:text-sm text-[#555555] max-w-xl mx-auto leading-relaxed">
+                        Conoce todos los detalles sobre nuestras líneas de perfumería, envíos a Medellín y a nivel
+                        nacional, formas de pago y cómo confirmar tu orden.
+                    </p>
+                </div>
+            </div>
+
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-4">
+                <div class="divide-y divide-[#E6E4DF] border-y border-[#E6E4DF]">
+
+                    <!-- Item 1 -->
+                    <div class="faq-item py-4">
+                        <button type="button" onclick="toggleFaq(this)"
+                            class="w-full flex items-center justify-between text-left text-sm sm:text-base font-semibold text-[#111111]">
+                            <span>¿Cuál es la diferencia entre Originales, Réplicas 1.1 y Fragancias en 3
+                                tamaños?</span>
+                            <span class="faq-icon text-xl font-light text-[#888888] shrink-0 ml-4">+</span>
+                        </button>
+                        <div class="faq-content text-xs sm:text-sm text-[#555555] leading-relaxed">
+                            <div class="pt-3 space-y-2">
+                                <p><strong>1. Perfumes Originales:</strong> Son 100% auténticos sellados en caja de
+                                    fábrica con número de lote (batch code) verificable en plataformas internacionales.
+                                </p>
+                                <p><strong>2. Réplicas 1.1 Importadas:</strong> Tienen el frasco, atomizador, serigrafía
+                                    y caja idénticos al de diseñador, con esencias de gran proyección y fijación a un
+                                    valor accesible.</p>
+                                <p><strong>3. Fragancias Aqua Essence (3 Tamaños):</strong> Son nuestras preparaciones
+                                    propias con alta concentración inspiradas en las notas más cotizadas del mundo,
+                                    disponibles en 30 ml ($22.000), 60 ml ($28.000) y 100 ml ($40.000).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="faq-item py-4">
+                        <button type="button" onclick="toggleFaq(this)"
+                            class="w-full flex items-center justify-between text-left text-sm sm:text-base font-semibold text-[#111111]">
+                            <span>¿Cómo se realiza y confirma el pedido a través de la página web?</span>
+                            <span class="faq-icon text-xl font-light text-[#888888] shrink-0 ml-4">+</span>
+                        </button>
+                        <div class="faq-content text-xs sm:text-sm text-[#555555] leading-relaxed">
+                            <p class="pt-3">
+                                Armar tu pedido es muy sencillo: navegas por las categorías, agregas tus referencias
+                                favoritas a la bolsa con el botón "+", abres el carrito, eliges tu método de envío y
+                                haces clic en <strong>"Confirmar pedido por WhatsApp"</strong>. La página generará
+                                automáticamente el resumen ordenado para que uno de nuestros asesores confirme tus datos
+                                de entrega y pago en segundos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="faq-item py-4">
+                        <button type="button" onclick="toggleFaq(this)"
+                            class="w-full flex items-center justify-between text-left text-sm sm:text-base font-semibold text-[#111111]">
+                            <span>¿Cuáles son los métodos de pago aceptados?</span>
+                            <span class="faq-icon text-xl font-light text-[#888888] shrink-0 ml-4">+</span>
+                        </button>
+                        <div class="faq-content text-xs sm:text-sm text-[#555555] leading-relaxed">
+                            <p class="pt-3">
+                                Aceptamos transferencias bancarias a través de <strong>Bancolombia, Nequi y
+                                    Daviplata</strong>. En Medellín y municipios del área metropolitana también contamos
+                                con opción de <strong>Pago Contraentrega</strong> al momento de recibir.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="faq-item py-4">
+                        <button type="button" onclick="toggleFaq(this)"
+                            class="w-full flex items-center justify-between text-left text-sm sm:text-base font-semibold text-[#111111]">
+                            <span>¿Cuánto tiempo tarda el envío y cuál es el valor?</span>
+                            <span class="faq-icon text-xl font-light text-[#888888] shrink-0 ml-4">+</span>
+                        </button>
+                        <div class="faq-content text-xs sm:text-sm text-[#555555] leading-relaxed">
+                            <div class="pt-3 space-y-2">
+                                <p>• <strong>Medellín e Itagüí:</strong> Domicilio de 1 a 3 días hábiles por $10.000 COP.</p>
+                                <p>• <strong>Envíos Nacionales:</strong> Despachos por transportadora asegurada de 1 a 3
+                                    días hábiles por $18.000 COP.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="faq-item py-4">
+                        <button type="button" onclick="toggleFaq(this)"
+                            class="w-full flex items-center justify-between text-left text-sm sm:text-base font-semibold text-[#111111]">
+                            <span>¿Qué duración y fijación tienen las fragancias preparadas?</span>
+                            <span class="faq-icon text-xl font-light text-[#888888] shrink-0 ml-4">+</span>
+                        </button>
+                        <div class="faq-content text-xs sm:text-sm text-[#555555] leading-relaxed">
+                            <p class="pt-3">
+                                Nuestras fragancias en 30 ml, 60 ml y 100 ml están formuladas con materias primas de
+                                perfumería fina de alta concentración. En promedio ofrecen una duración de <strong>6 a
+                                    10 horas en piel</strong> y más de 24 horas en prendas de vestir.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="faq-item py-4">
+                        <button type="button" onclick="toggleFaq(this)"
+                            class="w-full flex items-center justify-between text-left text-sm sm:text-base font-semibold text-[#111111]">
+                            <span>¿Puedo solicitar asesoría personalizada antes de comprar?</span>
+                            <span class="faq-icon text-xl font-light text-[#888888] shrink-0 ml-4">+</span>
+                        </button>
+                        <div class="faq-content text-xs sm:text-sm text-[#555555] leading-relaxed">
+                            <p class="pt-3">
+                                ¡Totalmente! Si no sabes qué perfume elegir o buscas un aroma para una ocasión especial,
+                                puedes escribirnos directamente a nuestro WhatsApp y con gusto te orientaremos con las
+                                mejores recomendaciones.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Tarjeta de Contacto Directo WhatsApp -->
+                <div class="p-8 rounded-2xl bg-[#F7F6F3] border border-[#E6E4DF] text-center space-y-3 mt-8">
+                    <h3 class="font-editorial text-2xl font-semibold text-[#111111]">¿Tienes una duda adicional?</h3>
+                    <p class="text-xs sm:text-sm text-[#666666] max-w-md mx-auto">
+                        Nuestro equipo de atención está disponible de lunes a sábado para responderte al instante.
+                    </p>
+                    <a href="https://wa.me/573206062038?text=Hola%20Aqua%20Essence,%20tengo%20una%20consulta%20sobre%20sus%20perfumes"
+                        target="_blank"
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#111111] hover:bg-[#333333] text-white text-xs font-semibold transition">
+                        <span>Chatear por WhatsApp con un Asesor</span>
+                        <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================================================= -->
+    <!-- FOOTER GENERAL                                            -->
+    <!-- ========================================================= -->
+    <footer class="bg-[#F7F6F3] border-t border-[#E6E4DF] py-12 px-4 sm:px-6 lg:px-8 text-xs text-[#666666] mt-auto">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3.5 text-center sm:text-left">
+                <img src="assets/logo.png" alt="Aqua Essence" class="w-12 h-12 rounded-full object-contain shrink-0 shadow-xs">
+                <div class="space-y-1">
+                    <span class="font-brand text-2xl font-semibold text-[#111111] block">Aqua Essence</span>
+                    <p>Alta perfumería, réplicas 1.1 y catálogo de más de 360 fragancias.</p>
+                    <p class="text-[11px] text-[#888888]">Medellín &amp; Área Metropolitana · Envíos a toda Colombia</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-center gap-5 font-medium text-[#111111]">
+                <button type="button" onclick="navigate('inicio')" class="hover:underline">Inicio</button>
+                <button type="button" onclick="navigate('originales')" class="hover:underline">Originales</button>
+                <button type="button" onclick="navigate('replicas')" class="hover:underline">Réplicas 1.1</button>
+                <button type="button" onclick="navigate('fragancias')" class="hover:underline">Fragancias</button>
+                <button type="button" onclick="navigate('dudas')" class="hover:underline">Dudas frecuentes</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================================= -->
+    <!-- DRAWER: BOLSA DE COMPRA & CHECKOUT WHATSAPP               -->
+    <!-- ========================================================= -->
+    <div id="cart-drawer" class="fixed inset-0 z-50 hidden">
+        <div onclick="toggleCart(false)" class="absolute inset-0 bg-black/50 backdrop-blur-xs"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-full max-w-md bg-white flex flex-col shadow-2xl">
+
+            <div class="p-5 border-b border-[#E6E4DF] flex items-center justify-between">
+                <div>
+                    <h3 class="font-editorial text-2xl font-semibold text-[#111111]">Bolsa de Compra</h3>
+                    <p class="text-xs text-[#666666]">Confirma tus referencias y finaliza por WhatsApp</p>
+                </div>
+                <button type="button" onclick="toggleCart(false)"
+                    class="p-2 rounded-full hover:bg-[#F7F6F3] text-[#111111]">✕</button>
+            </div>
+
+            <div id="cart-list" class="flex-1 overflow-y-auto p-5 space-y-3"></div>
+
+            <div id="cart-footer" class="p-5 border-t border-[#E6E4DF] bg-[#FAF9F6] space-y-3">
+                <!-- Estado de Sesión / Registro del Cliente -->
+                <div id="cart-auth-box"></div>
+
+                <div>
+                    <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Método de
+                        entrega</label>
+                    <select id="shipping-select" onchange="renderCart()"
+                        class="w-full px-3 py-2 rounded-lg bg-white border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111]">
+                        <option value="10000">Domicilio Medellín / Área Metropolitana (1 a 3 días hábiles - $10.000 COP)</option>
+                        <option value="18000">Envío Nacional Asegurado (1 a 3 días hábiles - $18.000 COP)</option>
+                    </select>
+                </div>
+
+                <div class="space-y-1 text-xs">
+                    <div class="flex justify-between text-[#666666]">
+                        <span>Subtotal referencias</span>
+                        <span id="cart-subtotal">$0</span>
+                    </div>
+                    <div class="flex justify-between text-[#666666]">
+                        <span>Envío</span>
+                        <span id="cart-shipping">$10.000</span>
+                    </div>
+                    <div class="flex justify-between text-sm font-bold text-[#111111] pt-2 border-t border-[#E6E4DF]">
+                        <span>Total del pedido</span>
+                        <span id="cart-total">$0</span>
+                    </div>
+                </div>
+
+                <div id="cart-checkout-btn-box">
+                    <button type="button" onclick="checkoutWhatsApp()"
+                        class="w-full py-3.5 rounded-full bg-[#111111] hover:bg-[#333333] text-white font-semibold text-xs sm:text-sm transition shadow-sm flex items-center justify-center gap-2">
+                        <span>Pagar</span>
+                        <span>→</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- ========================================================= -->
+    <!-- MODAL 1: INICIAR SESIÓN / REGISTRO DE CLIENTES            -->
+    <!-- ========================================================= -->
+    <div id="auth-modal" class="fixed inset-0 z-[60] hidden flex items-center justify-center p-4">
+        <div onclick="closeAuthModal()" class="absolute inset-0 bg-black/60 backdrop-blur-xs"></div>
+        <div
+            class="relative w-full max-w-md bg-white rounded-2xl shadow-2xl border border-[#E6E4DF] overflow-hidden flex flex-col max-h-[90vh]">
+
+            <!-- Cabecera del Modal -->
+            <div class="p-5 border-b border-[#E6E4DF] bg-[#FAF9F6] flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <img src="assets/logo.png" alt="Aqua Essence" class="w-10 h-10 rounded-full object-contain shrink-0 shadow-xs">
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-[#B08D44]">Clientes Aqua
+                            Essence</span>
+                        <h3 class="font-editorial text-2xl font-semibold text-[#111111]">Mi Cuenta & Envíos</h3>
+                    </div>
+                </div>
+                <button type="button" onclick="closeAuthModal()"
+                    class="w-8 h-8 rounded-full hover:bg-white flex items-center justify-center text-[#777777] hover:text-[#111111] transition">✕</button>
+            </div>
+
+            <!-- Selector de Pestañas: Login / Registro -->
+            <div class="flex border-b border-[#E6E4DF] bg-white px-5 pt-2">
+                <button id="tab-btn-login" type="button" onclick="switchAuthTab('login')"
+                    class="flex-1 py-2.5 text-xs font-bold border-b-2 border-[#111111] text-[#111111] transition text-center">
+                    Iniciar Sesión
+                </button>
+                <button id="tab-btn-register" type="button" onclick="switchAuthTab('register')"
+                    class="flex-1 py-2.5 text-xs font-medium border-b-2 border-transparent text-[#888888] hover:text-[#111111] transition text-center">
+                    Crear Cuenta
+                </button>
+            </div>
+
+            <!-- Contenido con Scroll -->
+            <div class="p-6 overflow-y-auto space-y-4">
+
+                <!-- Mensaje de Error / Alerta -->
+                <div id="auth-error-msg"
+                    class="hidden p-3 rounded-xl bg-red-50 border border-red-200 text-xs text-red-700"></div>
+
+                <!-- FORMULARIO 1: INICIAR SESIÓN -->
+                <form id="form-login" onsubmit="handleLoginSubmit(event)" class="space-y-3.5">
+                    <p class="text-xs text-[#666666] leading-relaxed">
+                        Ingresa con tu correo o número de WhatsApp registrado para cargar tus datos de entrega y generar
+                        tu número de pedido único.
+                    </p>
+                    <div>
+                        <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Correo o
+                            Celular</label>
+                        <input id="login-id" type="text" placeholder="ej. 3001234567 o correo@email.com" required
+                            class="w-full px-3.5 py-2.5 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111] focus:bg-white transition" />
+                    </div>
+                    <div>
+                        <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Contraseña</label>
+                        <input id="login-pass" type="password" placeholder="Tu contraseña" required
+                            class="w-full px-3.5 py-2.5 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111] focus:bg-white transition" />
+                    </div>
+
+                    <button type="submit"
+                        class="w-full py-3 rounded-full bg-[#111111] hover:bg-[#333333] text-white font-semibold text-xs transition shadow-sm mt-2">
+                        Ingresar a mi Cuenta
+                    </button>
+
+                    <div class="text-center pt-2">
+                        <span class="text-xs text-[#888888]">¿No tienes cuenta aún?</span>
+                        <button type="button" onclick="switchAuthTab('register')"
+                            class="text-xs font-bold text-[#111111] hover:underline ml-1">
+                            Regístrate aquí
+                        </button>
+                    </div>
+                </form>
+
+                <!-- FORMULARIO 2: REGISTRO DE CLIENTE -->
+                <form id="form-register" onsubmit="handleRegisterSubmit(event)" class="hidden space-y-3">
+                    <p class="text-xs text-[#666666] leading-relaxed">
+                        Crea tu perfil con tus datos de contacto y entrega. Estos se asignarán automáticamente a tu
+                        <strong># de pedido único</strong>.
+                    </p>
+                    <div>
+                        <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Nombre Completo
+                            *</label>
+                        <input id="reg-nombre" type="text" placeholder="ej. Andrés Pérez" required
+                            class="w-full px-3.5 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111] focus:bg-white transition" />
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                        <div>
+                            <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Celular /
+                                WhatsApp *</label>
+                            <input id="reg-telefono" type="tel" placeholder="ej. 3001234567" required
+                                class="w-full px-3.5 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111] focus:bg-white transition" />
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Correo
+                                Electrónico *</label>
+                            <input id="reg-correo" type="email" placeholder="correo@ejemplo.com" required
+                                class="w-full px-3.5 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111] focus:bg-white transition" />
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                        <div>
+                            <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Ciudad /
+                                Municipio *</label>
+                            <input id="reg-ciudad" type="text" placeholder="ej. Medellín" required
+                                class="w-full px-3.5 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111] focus:bg-white transition" />
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Contraseña
+                                *</label>
+                            <input id="reg-pass" type="password" placeholder="Mínimo 4 caracteres" required
+                                class="w-full px-3.5 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111] focus:bg-white transition" />
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-[11px] font-semibold uppercase text-[#555555] mb-1">Dirección de
+                            Entrega Exacta *</label>
+                        <input id="reg-direccion" type="text"
+                            placeholder="ej. Calle 10 # 40-20, Apto 502, Barrio Poblado" required
+                            class="w-full px-3.5 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs text-[#111111] focus:outline-none focus:border-[#111111] focus:bg-white transition" />
+                    </div>
+
+                    <button type="submit"
+                        class="w-full py-3 rounded-full bg-[#111111] hover:bg-[#333333] text-white font-semibold text-xs transition shadow-sm mt-2">
+                        Registrarme y Continuar con el Pedido
+                    </button>
+
+                    <div class="text-center pt-2">
+                        <span class="text-xs text-[#888888]">¿Ya tienes cuenta?</span>
+                        <button type="button" onclick="switchAuthTab('login')"
+                            class="text-xs font-bold text-[#111111] hover:underline ml-1">
+                            Inicia sesión aquí
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ========================================================= -->
+    <!-- MODAL 2: PÁGINA DE PAGO E INFORMACIÓN DE ENVÍO           -->
+    <!-- ========================================================= -->
+    <div id="order-success-modal"
+        class="fixed inset-0 z-[70] hidden flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
+        <div onclick="closeOrderSuccessModal()" class="fixed inset-0 bg-black/70 backdrop-blur-xs"></div>
+        <div
+            class="relative w-full max-w-xl bg-white rounded-3xl shadow-2xl border border-[#E6E4DF] overflow-hidden my-auto flex flex-col max-h-[92vh]">
+
+            <!-- Encabezado de la Página de Pago -->
+            <div class="p-5 sm:p-6 border-b border-[#E6E4DF] bg-[#111111] text-white flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div
+                        class="w-10 h-10 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 font-bold text-lg">
+                        ✓
+                    </div>
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-[#D4AF37]">Pedido Generado
+                            Exitosamente</span>
+                        <h3 class="font-editorial text-2xl font-semibold text-white">Detalle de Pago & Envío</h3>
+                    </div>
+                </div>
+                <button type="button" onclick="closeOrderSuccessModal()"
+                    class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition">✕</button>
+            </div>
+
+            <!-- Contenido scrollable -->
+            <div class="p-5 sm:p-7 overflow-y-auto space-y-5 bg-[#FAF9F6]">
+
+                <!-- Tarjeta N° de Pedido Único -->
+                <div
+                    class="p-4 rounded-2xl bg-white border border-[#E6E4DF] shadow-xs flex flex-wrap items-center justify-between gap-3">
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-[#888888]">Número de Pedido
+                            Único</span>
+                        <div id="success-order-id"
+                            class="text-2xl font-bold font-editorial text-[#111111] tracking-wider">#AQ-000000</div>
+                    </div>
+                    <button type="button" onclick="copyOrderCode()"
+                        class="px-3.5 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] hover:border-[#111111] text-xs font-semibold text-[#111111] flex items-center gap-1.5 transition">
+                        📋 Copiar Pedido
+                    </button>
+                </div>
+
+                <!-- Información del Cliente para el Envío -->
+                <div class="p-4 rounded-2xl bg-white border border-[#E6E4DF] shadow-xs space-y-2 text-xs">
+                    <div class="flex items-center justify-between border-b border-[#F0EFEA] pb-2">
+                        <span class="font-bold text-[11px] uppercase tracking-wider text-[#111111]">📦 Información del
+                            Cliente para Envío</span>
+                        <span class="text-emerald-700 font-semibold text-[10px]">Datos Verificados</span>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[#444444] pt-1">
+                        <div><strong class="text-[#111111]">Nombre:</strong> <span id="success-customer-name"></span>
+                        </div>
+                        <div><strong class="text-[#111111]">Teléfono:</strong> <span id="success-customer-phone"></span>
+                        </div>
+                        <div><strong class="text-[#111111]">Correo:</strong> <span id="success-customer-email"></span>
+                        </div>
+                        <div><strong class="text-[#111111]">Ciudad:</strong> <span id="success-customer-city"></span>
+                        </div>
+                        <div class="sm:col-span-2"><strong class="text-[#111111]">Dirección de Entrega:</strong> <span
+                                id="success-customer-address"></span></div>
+                        <div class="sm:col-span-2 text-[11px] text-[#777777]"><strong class="text-[#111111]">Método de
+                                Envío:</strong> <span id="success-shipping-method"></span></div>
+                    </div>
+                </div>
+
+                <!-- Resumen de Productos & Total a Pagar -->
+                <div class="p-4 rounded-2xl bg-white border border-[#E6E4DF] shadow-xs space-y-2.5 text-xs">
+                    <div class="flex items-center justify-between border-b border-[#F0EFEA] pb-2">
+                        <span class="font-bold text-[11px] uppercase tracking-wider text-[#111111]">🛍️ Productos en el
+                            Pedido</span>
+                        <span id="success-order-total" class="font-bold text-sm text-[#111111]"></span>
+                    </div>
+                    <div id="success-products-summary" class="space-y-1 text-[#555555]">
+                        <!-- Lista de productos -->
+                    </div>
+                </div>
+
+                <!-- INSTRUCCIONES OFICIALES DE PAGO BANCOLOMBIA / LLAVE -->
+                <div
+                    class="p-5 rounded-2xl bg-gradient-to-br from-amber-50/70 via-white to-amber-50/40 border-2 border-[#D4AF37]/50 shadow-xs space-y-3.5">
+                    <div class="flex items-center gap-2">
+                        <span class="text-lg">💳</span>
+                        <h4 class="font-bold text-xs uppercase tracking-wider text-[#111111]">
+                            Para pagos por favor realizar consignación al siguiente número de cuenta:
+                        </h4>
+                    </div>
+
+                    <!-- Cuenta Bancolombia -->
+                    <div
+                        class="p-3.5 rounded-xl bg-white border border-[#EAE8E3] flex items-center justify-between gap-3 shadow-2xs">
+                        <div class="space-y-0.5">
+                            <span
+                                class="text-[10px] font-bold uppercase tracking-wider text-[#B08D44]">Bancolombia</span>
+                            <div class="font-mono text-base font-bold text-[#111111] tracking-wider">10362869492</div>
+                            <span class="text-[11px] text-[#666666]">Cuenta de Ahorros Bancolombia</span>
+                        </div>
+                        <button type="button" onclick="copyAccountBancolombia()"
+                            class="px-3.5 py-1.5 rounded-lg bg-[#FAF9F6] border border-[#E6E4DF] hover:border-[#111111] text-xs font-semibold text-[#111111] transition flex items-center gap-1">
+                            📋 Copiar
+                        </button>
+                    </div>
+
+                    <div class="text-center text-xs font-bold text-[#888888] uppercase tracking-widest">— o —</div>
+
+                    <!-- Llave / Transfiya -->
+                    <div
+                        class="p-3.5 rounded-xl bg-white border border-[#EAE8E3] flex items-center justify-between gap-3 shadow-2xs">
+                        <div class="space-y-0.5">
+                            <span class="text-[10px] font-bold uppercase tracking-wider text-[#B08D44]">Por Llave</span>
+                            <div class="font-mono text-base font-bold text-[#111111] tracking-wider">1001132365</div>
+                            <span class="text-[11px] text-[#666666]">Llave de transferencia</span>
+                        </div>
+                        <button type="button" onclick="copyLlavePayment()"
+                            class="px-3.5 py-1.5 rounded-lg bg-[#FAF9F6] border border-[#E6E4DF] hover:border-[#111111] text-xs font-semibold text-[#111111] transition flex items-center gap-1">
+                            📋 Copiar
+                        </button>
+                    </div>
+
+                    <!-- Instrucción WhatsApp Comprobante Directo -->
+                    <div class="pt-3 border-t border-[#EAE8E3] text-center space-y-2">
+                        <p class="text-xs font-bold text-[#111111]">
+                            Enviar comprobante al siguiente WhatsApp con número de pedido:
+                        </p>
+                        <a id="success-whatsapp-number-link" href="https://wa.me/573206062038" target="_blank"
+                            class="inline-flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-[#25D366]/10 hover:bg-[#25D366]/20 border border-[#25D366]/40 text-[#128C7E] hover:text-[#0b6358] transition-all shadow-2xs group cursor-pointer"
+                            title="Toca aquí para enviar comprobante por WhatsApp">
+                            <svg class="w-5 h-5 fill-[#25D366] shrink-0 group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+                            </svg>
+                            <span class="font-mono text-lg font-bold tracking-wider text-[#111111]">3206062038</span>
+                            <span class="text-[10px] font-bold uppercase tracking-wider bg-[#25D366] text-white px-2.5 py-1 rounded-full shadow-2xs group-hover:bg-[#20ba5a] transition">Toca para Enviar</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Botón de WhatsApp para Enviar Comprobante -->
+                <div class="space-y-2 pt-1">
+                    <a id="success-whatsapp-link" href="#" target="_blank"
+                        class="w-full py-4 rounded-2xl bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-sm transition flex items-center justify-center gap-2.5 shadow-md">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                            <path
+                                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z" />
+                        </svg>
+                        <span>Enviar Comprobante al WhatsApp (3206062038)</span>
+                    </a>
+
+                    <button type="button" onclick="closeOrderSuccessModal()"
+                        class="w-full py-2.5 rounded-xl bg-white border border-[#E6E4DF] hover:border-[#111111] text-[#666666] hover:text-[#111111] text-xs font-semibold transition">
+                        Entendido, volver a la tienda
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- ========================================================= -->
+    <!-- MODAL 3: PERFIL DE CLIENTE E HISTORIAL DE PEDIDOS         -->
+    <!-- ========================================================= -->
+    <div id="profile-modal" class="fixed inset-0 z-[60] hidden flex items-center justify-center p-4">
+        <div onclick="closeProfileModal()" class="absolute inset-0 bg-black/60 backdrop-blur-xs"></div>
+        <div
+            class="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl border border-[#E6E4DF] overflow-hidden flex flex-col max-h-[90vh]">
+
+            <div class="p-5 border-b border-[#E6E4DF] bg-[#FAF9F6] flex items-center justify-between">
+                <div>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-[#B08D44]">Perfil de
+                        Cliente</span>
+                    <h3 id="profile-user-name" class="font-editorial text-2xl font-semibold text-[#111111]">Mi Cuenta
+                    </h3>
+                </div>
+                <button type="button" onclick="closeProfileModal()"
+                    class="w-8 h-8 rounded-full hover:bg-white flex items-center justify-center text-[#777777] hover:text-[#111111] transition">✕</button>
+            </div>
+
+            <div class="p-6 overflow-y-auto space-y-6">
+                <!-- Datos del Cliente -->
+                <div class="p-4 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] space-y-2 text-xs">
+                    <div class="flex items-center justify-between border-b border-[#EAE8E3] pb-2">
+                        <span class="font-bold text-[#111111] uppercase tracking-wider text-[11px]">Datos de Contacto &
+                            Entrega</span>
+                        <span class="text-emerald-600 font-semibold text-[10px]">✓ Cuenta Activa</span>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[#555555] pt-1">
+                        <div><strong>Teléfono:</strong> <span id="prof-phone"></span></div>
+                        <div><strong>Correo:</strong> <span id="prof-email"></span></div>
+                        <div><strong>Ciudad:</strong> <span id="prof-city"></span></div>
+                        <div class="sm:col-span-2"><strong>Dirección:</strong> <span id="prof-address"></span></div>
+                    </div>
+                </div>
+
+                <!-- Historial de Pedidos -->
+                <div class="space-y-3">
+                    <h4 class="font-bold text-xs uppercase tracking-wider text-[#111111]">Mis Pedidos Registrados</h4>
+                    <div id="profile-orders-list" class="space-y-2 max-h-56 overflow-y-auto"></div>
+                </div>
+
+                <div class="pt-4 border-t border-[#EAE8E3] flex flex-wrap items-center justify-between gap-2">
+                    <button type="button" onclick="logoutUser()"
+                        class="px-4 py-2 rounded-full border border-red-200 text-red-600 hover:bg-red-50 text-xs font-semibold transition">
+                        Cerrar Sesión
+                    </button>
+                    <div class="flex items-center gap-2">
+                        <button type="button" onclick="exportClientsToCSV()"
+                            class="px-3.5 py-2 rounded-full border border-[#E6E4DF] hover:border-[#111111] text-[#444444] text-xs font-medium transition"
+                            title="Descargar clientes registrados en Excel">
+                            📥 Exportar Excel (CSV)
+                        </button>
+                        <button type="button" onclick="closeProfileModal()"
+                            class="px-5 py-2 rounded-full bg-[#111111] text-white text-xs font-semibold hover:bg-[#333333] transition">
+                            Listo
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ========================================================= -->
+    <!-- MODAL PANEL DE ADMINISTRACIÓN (COMERCIO & DESPACHOS)       -->
+    <!-- ========================================================= -->
+    <div id="admin-modal" class="fixed inset-0 z-[65] hidden flex items-center justify-center p-3 sm:p-6">
+        <div onclick="closeAdminModal()" class="absolute inset-0 bg-black/75 backdrop-blur-xs"></div>
+        <div
+            class="relative w-full max-w-5xl bg-white rounded-3xl shadow-2xl border border-[#E6E4DF] overflow-hidden flex flex-col max-h-[92vh]">
+
+            <!-- Encabezado del Panel -->
+            <div
+                class="p-5 sm:p-6 border-b border-[#E6E4DF] bg-[#111111] text-white flex flex-wrap items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                    <div
+                        class="w-10 h-10 rounded-2xl bg-[#D4AF37]/20 border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37] text-lg font-bold">
+                        🛡️
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-[#D4AF37]">Modo Comercio /
+                                Administrador</span>
+                            <span
+                                class="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px] font-medium">Activo</span>
+                        </div>
+                        <h3 class="font-editorial text-2xl font-semibold text-white tracking-wide">Panel de Gestión de
+                            Pedidos & Envíos</h3>
+                        <p class="text-xs text-[#AAAAAA]">Administrador: <span
+                                class="text-white font-mono font-medium">andresfj20023@gmail.com</span></p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <button type="button" onclick="exportAllOrdersToCSV()"
+                        class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition border border-white/15"
+                        title="Exportar historial de ventas a Excel">
+                        📥 Pedidos (Excel)
+                    </button>
+                    <button type="button" onclick="exportClientsToCSV()"
+                        class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition border border-white/15"
+                        title="Exportar base de clientes a Excel">
+                        👥 Clientes (Excel)
+                    </button>
+                    <button type="button" onclick="logoutUser()"
+                        class="px-3 py-2 rounded-xl bg-red-500/20 hover:bg-red-500/30 text-red-300 text-xs font-semibold transition border border-red-500/30"
+                        title="Cerrar Sesión de Administrador">
+                        Cerrar Sesión
+                    </button>
+                    <button type="button" onclick="closeAdminModal()"
+                        class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition">✕</button>
+                </div>
+            </div>
+
+            <!-- Contenido scrollable -->
+            <div class="p-5 sm:p-6 overflow-y-auto space-y-6 bg-[#FAF9F6] flex-1">
+
+                <!-- Métricas Rápidas / KPIs -->
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+                    <div class="p-4 rounded-2xl bg-white border border-[#E6E4DF] shadow-xs">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-[#888888]">Total Pedidos</span>
+                        <div id="admin-stat-total" class="font-editorial text-3xl font-bold text-[#111111] mt-1">0</div>
+                        <span class="text-[11px] text-[#777777]">Registrados en tienda</span>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200/80 shadow-xs">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-amber-800">Pendientes / Por
+                            Alistar</span>
+                        <div id="admin-stat-pending" class="font-editorial text-3xl font-bold text-amber-700 mt-1">0
+                        </div>
+                        <span class="text-[11px] text-amber-800">Requieren empaque/envío</span>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-blue-50 border border-blue-200/80 shadow-xs">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-blue-800">Enviados / En
+                            Tránsito</span>
+                        <div id="admin-stat-shipped" class="font-editorial text-3xl font-bold text-blue-700 mt-1">0
+                        </div>
+                        <span class="text-[11px] text-blue-800">Con guía o transportadora</span>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200/80 shadow-xs">
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-800">Total
+                            Facturación</span>
+                        <div id="admin-stat-revenue" class="font-editorial text-2xl font-bold text-emerald-700 mt-1">$0
+                            COP</div>
+                        <span class="text-[11px] text-emerald-800">Suma total de compras</span>
+                    </div>
+                </div>
+
+                <!-- Barra de Búsqueda y Filtros de Estado -->
+                <div class="p-4 rounded-2xl bg-white border border-[#E6E4DF] space-y-3">
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                        <div class="relative flex-1">
+                            <input type="text" id="admin-search-input" oninput="handleAdminSearch(this.value)"
+                                placeholder="🔍 Buscar por # Pedido, nombre de cliente, teléfono, ciudad o dirección..."
+                                class="w-full px-4 py-2.5 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111] transition">
+                        </div>
+                        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0" id="admin-filter-pills">
+                            <button type="button" onclick="setAdminFilter('all')" data-filter="all"
+                                class="admin-filter-btn px-3 py-1.5 rounded-full text-xs font-semibold bg-[#111111] text-white transition">Todos
+                                (<span id="count-all">0</span>)</button>
+                            <button type="button" onclick="setAdminFilter('Pendiente')" data-filter="Pendiente"
+                                class="admin-filter-btn px-3 py-1.5 rounded-full text-xs font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition">🟡
+                                Pendientes (<span id="count-pending">0</span>)</button>
+                            <button type="button" onclick="setAdminFilter('En preparación')"
+                                data-filter="En preparación"
+                                class="admin-filter-btn px-3 py-1.5 rounded-full text-xs font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition">🔵
+                                En Preparación (<span id="count-prep">0</span>)</button>
+                            <button type="button" onclick="setAdminFilter('Enviado')" data-filter="Enviado"
+                                class="admin-filter-btn px-3 py-1.5 rounded-full text-xs font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition">🚚
+                                Enviados (<span id="count-shipped">0</span>)</button>
+                            <button type="button" onclick="setAdminFilter('Entregado')" data-filter="Entregado"
+                                class="admin-filter-btn px-3 py-1.5 rounded-full text-xs font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition">✅
+                                Entregados (<span id="count-delivered">0</span>)</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lista de Pedidos -->
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <h4 class="font-bold text-xs uppercase tracking-wider text-[#111111]">Listado de Pedidos en
+                            Tiempo Real</h4>
+                        <span id="admin-showing-count" class="text-xs text-[#777777]">Mostrando pedidos</span>
+                    </div>
+
+                    <div id="admin-orders-list" class="space-y-3">
+                        <!-- Renderizado dinámico de pedidos -->
+                    </div>
+                </div>
+
+                <!-- Notificación por Correo & Google Sheets Estado -->
+                <div
+                    class="p-4 rounded-2xl bg-white border border-[#E6E4DF] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                            <span class="font-bold text-[#111111]">Notificaciones Automáticas por Correo:</span>
+                            <span class="font-mono text-[#555555]">andresfj20023@gmail.com</span>
+                        </div>
+                        <p class="text-[11px] text-[#777777] mt-0.5">Cada pedido nuevo recibido dispara un correo a tu
+                            buzón con productos, datos de entrega y total.</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <button type="button" onclick="exportAllOrdersToCSV()"
+                            class="px-3.5 py-2 rounded-full border border-[#E6E4DF] hover:border-[#111111] text-[#111111] font-semibold transition">
+                            📥 Descargar Excel de Pedidos
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ========================================================= -->
+    <!-- LÓGICA JAVASCRIPT: NAVEGACIÓN, PAGINACIÓN Y CARRITO       -->
+    <!-- ========================================================= -->
+    <script>
+        // -------------------------------------------------------------
+        // CATÁLOGOS BASE DE ORIGINALES Y RÉPLICAS
+        // -------------------------------------------------------------
+        const ORIGINAL_PRODUCTS = [
+            {
+                id: 'orig-1',
+                category: 'original',
+                categoryLabel: 'Original Sellado',
+                badge: 'Más Vendido',
+                brand: 'Bharara',
+                name: 'Bharara King EDP 100 ml',
+                family: 'Amaderada Frutal',
+                variant: '100 ml · Caja Sellada con Batch Code',
+                price: 210000
+            },
+            {
+                id: 'orig-2',
+                category: 'original',
+                categoryLabel: 'Original Sellado',
+                badge: 'Nicho Exclusivo',
+                brand: 'Xerjoff',
+                name: 'Erba Pura Eau de Parfum',
+                family: 'Frutal Cítrico',
+                variant: '100 ml · Caja Sellada con Batch Code',
+                price: 1180000
+            },
+            {
+                id: 'orig-3',
+                category: 'original',
+                categoryLabel: 'Original Sellado',
+                badge: 'Diseñador',
+                brand: 'Yves Saint Laurent',
+                name: 'Y Le Parfum 100 ml',
+                family: 'Aromática Amaderada',
+                variant: '100 ml · Caja Sellada con Batch Code',
+                price: 620000
+            },
+            {
+                id: 'orig-4',
+                category: 'original',
+                categoryLabel: 'Original Sellado',
+                badge: 'Nicho Francés',
+                brand: 'Montale Paris',
+                name: 'Arabians Tonka 100 ml',
+                family: 'Ámbar Especiado',
+                variant: '100 ml · Caja Sellada con Batch Code',
+                price: 690000
+            },
+            {
+                id: 'orig-5',
+                category: 'original',
+                categoryLabel: 'Original Sellado',
+                badge: 'Árabe de Lujo',
+                brand: 'Al Haramain',
+                name: 'Amber Oud Aqua Dubai',
+                family: 'Aromática Cítrica',
+                variant: '100 ml · Caja Sellada con Batch Code',
+                price: 360000
+            },
+            {
+                id: 'orig-6',
+                category: 'original',
+                categoryLabel: 'Original Sellado',
+                badge: 'Árabe de Lujo',
+                brand: 'Armaf',
+                name: 'Club de Nuit Untold',
+                family: 'Ámbar Floral',
+                variant: '105 ml · Caja Sellada con Batch Code',
+                price: 240000
+            }
+        ];
+
+        const REPLICA_PRODUCTS = [
+            {
+                id: 'rep-1',
+                category: 'replica',
+                categoryLabel: 'Réplica 1.1',
+                badge: 'Más Vendido',
+                brand: 'Lattafa',
+                name: 'Yara Rosa Réplica 1.1',
+                family: 'Gourmand Frutal',
+                variant: '100 ml · Frasco y Caja Idéntica 1.1',
+                price: 95000
+            },
+            {
+                id: 'rep-2',
+                category: 'replica',
+                categoryLabel: 'Réplica 1.1',
+                badge: 'Alta Demanda',
+                brand: 'Valentino',
+                name: 'Born in Roma Intense 1.1',
+                family: 'Ámbar Vainilla',
+                variant: '100 ml · Frasco y Caja Idéntica 1.1',
+                price: 115000
+            },
+            {
+                id: 'rep-3',
+                category: 'replica',
+                categoryLabel: 'Réplica 1.1',
+                badge: 'Clásico Masculino',
+                brand: 'Dior',
+                name: 'Sauvage Elixir Réplica 1.1',
+                family: 'Amaderado Especiado',
+                variant: '100 ml · Frasco y Caja Idéntica 1.1',
+                price: 110000
+            },
+            {
+                id: 'rep-4',
+                category: 'replica',
+                categoryLabel: 'Réplica 1.1',
+                badge: 'Femenino Exclusivo',
+                brand: 'Bharara',
+                name: 'Bharara Niche Femme 1.1',
+                family: 'Cítrico Ambarado',
+                variant: '100 ml · Frasco y Caja Idéntica 1.1',
+                price: 105000
+            },
+            {
+                id: 'rep-5',
+                category: 'replica',
+                categoryLabel: 'Réplica 1.1',
+                badge: 'Gourmand',
+                brand: 'Lattafa',
+                name: 'Khamrah Réplica 1.1',
+                family: 'Oriental Especiado',
+                variant: '100 ml · Frasco y Caja Idéntica 1.1',
+                price: 115000
+            },
+            {
+                id: 'rep-6',
+                category: 'replica',
+                categoryLabel: 'Réplica 1.1',
+                badge: 'Amaderado',
+                brand: 'Lattafa',
+                name: 'Asad Réplica 1.1',
+                family: 'Ámbar Amaderado',
+                variant: '100 ml · Frasco y Caja Idéntica 1.1',
+                price: 105000
+            }
+        ];
+
+        // Normalizar catálogo de fragancias extraídas del catálogo oficial de Google Drive
+        const FRAGRANCE_SIZES_TEMPLATE = [
+            { ml: '30 ml', price: 22000 },
+            { ml: '60 ml', price: 28000 },
+            { ml: '100 ml', price: 40000 }
+        ];
+
+        const ALL_FRAGRANCES = (typeof FRAGRANCES_CATALOG_DATA !== 'undefined' ? FRAGRANCES_CATALOG_DATA : []).map(item => ({
+            ...item,
+            category: 'fragancia',
+            categoryLabel: 'Fragancia Aqua Essence',
+            badge: '3 Tamaños',
+            brand: 'Inspiración Oficial',
+            sizes: FRAGRANCE_SIZES_TEMPLATE
+        }));
+
+        // Catálogo de Perfumes Originales (Sin decants y con casas perfumistas oficiales)
+        const ALL_ORIGINALS = (typeof ORIGINAL_PRODUCTS_DATA !== 'undefined' ? ORIGINAL_PRODUCTS_DATA : ORIGINAL_PRODUCTS)
+            .filter(p => !/(decant|discovery set|discovery|muestras|vial|atomizador)/i.test(p.name || ''))
+            .map(p => {
+                let cleanBrand = (p.brand || '').trim();
+                if (!cleanBrand || ['disfragancias', 'disperfumes', 'original', 'sin categorizar'].includes(cleanBrand.toLowerCase())) {
+                    cleanBrand = 'Alta Perfumería';
+                }
+                return {
+                    ...p,
+                    brand: cleanBrand,
+                    category: 'original',
+                    categoryLabel: 'Original 100% Sellado',
+                    family: cleanBrand,
+                    badge: p.compared ? 'Mejor Precio' : 'Original 100%'
+                };
+            });
+
+        // Catálogo de Réplicas 1.1 (Cruzadas exclusivamente con Fragancias de Aqua Essence)
+        const ALL_REPLICAS = (typeof REPLICAS_CATALOG_DATA !== 'undefined' ? REPLICAS_CATALOG_DATA : REPLICA_PRODUCTS).map(p => ({
+            ...p,
+            category: 'replica',
+            categoryLabel: 'Réplica 1.1 Importada',
+            family: p.brand || p.family || 'Réplica 1.1',
+            badge: p.badge || 'Calidad 1.1'
+        }));
+
+        // Variables de Estado de Paginación y Filtros
+        const ORIGINALS_PER_PAGE = 12;
+        let currentOriginalsPage = 1;
+
+        const REPLICAS_PER_PAGE = 12;
+        let currentReplicasPage = 1;
+
+        const FRAGRANCES_PER_PAGE = 12; // 12 productos por página (3 filas x 4 columnas)
+        let currentFragPage = 1;
+        let activeFragFamily = 'all';
+        const selectedSizes = {};
+        let cart = [];
+
+        function formatCOP(num) {
+            return '$' + Number(num).toLocaleString('es-CO') + ' COP';
+        }
+
+        // -------------------------------------------------------------
+        // NAVEGACIÓN ENTRE PÁGINA PRINCIPAL Y SUBPÁGINAS
+        // -------------------------------------------------------------
+        function navigate(pageId) {
+            document.querySelectorAll('.page-view').forEach(view => view.classList.remove('active'));
+            const target = document.getElementById(`view-${pageId}`);
+            if (target) target.classList.add('active');
+
+            document.querySelectorAll('[data-nav]').forEach(btn => {
+                if (btn.dataset.nav === pageId) btn.classList.add('active');
+                else btn.classList.remove('active');
+            });
+
+            document.querySelectorAll('[data-nav-mobile]').forEach(btn => {
+                if (btn.dataset.navMobile === pageId) btn.classList.add('active');
+                else btn.classList.remove('active');
+            });
+
+            window.location.hash = pageId;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            if (pageId === 'inicio') renderFeatured();
+            if (pageId === 'originales') renderOriginales();
+            if (pageId === 'replicas') renderReplicas();
+            if (pageId === 'fragancias') renderFragancias();
+        }
+
+        // -------------------------------------------------------------
+        // RENDERIZADO: LO MÁS VENDIDO EN INICIO
+        // -------------------------------------------------------------
+        function renderFeatured() {
+            const grid = document.getElementById('featured-products-grid');
+            if (!grid) return;
+
+            // Muestra perfumes destacados incluyendo originales y fragancias
+            const featuredList = [
+                ALL_FRAGRANCES[0],   // Odyssey Mandarine Sky
+                ALL_ORIGINALS[0],    // Original validado
+                ALL_FRAGRANCES[4],   // Club De Nuit Intense
+                ALL_ORIGINALS[1],    // Original validado
+                ALL_FRAGRANCES[10],  // Le Male JPG / Explorer
+                ALL_ORIGINALS[2],    // Original validado
+                (ALL_REPLICAS[0] || REPLICA_PRODUCTS[0]), // Réplica 1.1
+                ALL_ORIGINALS[4]     // Original validado
+            ].filter(Boolean);
+
+            grid.innerHTML = featuredList.map(p => renderProductCard(p)).join('');
+        }
+
+        // -------------------------------------------------------------
+        // RENDERIZADO: SUBPÁGINA ORIGINALES CON VALIDACIÓN DE PRECIOS
+        // -------------------------------------------------------------
+        function onOriginalsSearch() {
+            currentOriginalsPage = 1;
+            renderOriginales();
+        }
+
+        function getFilteredOriginals() {
+            const q = (document.getElementById('search-originales')?.value || '').toLowerCase().trim();
+            if (!q) return ALL_ORIGINALS;
+            return ALL_ORIGINALS.filter(p => {
+                const nameMatch = p.name && p.name.toLowerCase().includes(q);
+                const brandMatch = p.brand && p.brand.toLowerCase().includes(q);
+                return nameMatch || brandMatch;
+            });
+        }
+
+        function renderOriginales(scrollToTop = false) {
+            const grid = document.getElementById('grid-originales');
+            const empty = document.getElementById('empty-originales');
+            const paginationEl = document.getElementById('originales-pagination');
+            const indicatorEl = document.getElementById('orig-count-indicator');
+            const syncInfoEl = document.getElementById('orig-sync-info');
+            if (!grid) return;
+
+            if (syncInfoEl) {
+                syncInfoEl.innerHTML = `Garantía de autenticidad · Envíos asegurados a toda Colombia`;
+            }
+
+            const filtered = getFilteredOriginals();
+            const totalItems = filtered.length;
+            const totalPages = Math.ceil(totalItems / ORIGINALS_PER_PAGE);
+
+            if (currentOriginalsPage > totalPages && totalPages > 0) {
+                currentOriginalsPage = totalPages;
+            }
+
+            if (totalItems === 0) {
+                grid.innerHTML = '';
+                empty.classList.remove('hidden');
+                if (paginationEl) paginationEl.innerHTML = '';
+                if (indicatorEl) indicatorEl.textContent = '0 perfumes encontrados';
+                return;
+            }
+
+            empty.classList.add('hidden');
+            if (indicatorEl) {
+                indicatorEl.textContent = `Página ${currentOriginalsPage} de ${totalPages} · (${totalItems} perfumes originales)`;
+            }
+
+            const startIndex = (currentOriginalsPage - 1) * ORIGINALS_PER_PAGE;
+            const pageItems = filtered.slice(startIndex, startIndex + ORIGINALS_PER_PAGE);
+
+            grid.innerHTML = pageItems.map(p => renderProductCard(p)).join('');
+
+            renderOriginalsPaginationControls(totalPages, currentOriginalsPage);
+
+            if (scrollToTop) {
+                const anchor = document.getElementById('originales-top');
+                if (anchor) anchor.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function renderOriginalsPaginationControls(totalPages, currentPage) {
+            const container = document.getElementById('originales-pagination');
+            if (!container) return;
+
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+
+            let html = '';
+            if (currentPage > 1) {
+                html += `
+                    <button type="button" onclick="setOriginalsPage(${currentPage - 1})" class="page-num-btn" aria-label="Página anterior">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                `;
+            }
+
+            let pagesToShow = [];
+            if (totalPages <= 7) {
+                for (let i = 1; i <= totalPages; i++) pagesToShow.push(i);
+            } else {
+                if (currentPage <= 3) {
+                    pagesToShow = [1, 2, 3, 4, '...', totalPages];
+                } else if (currentPage >= totalPages - 2) {
+                    pagesToShow = [1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+                } else {
+                    pagesToShow = [1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages];
+                }
+            }
+
+            pagesToShow.forEach(item => {
+                if (item === '...') {
+                    html += `<span class="page-dots">...</span>`;
+                } else {
+                    const isActive = item === currentPage;
+                    html += `
+                        <button type="button" onclick="setOriginalsPage(${item})"
+                            class="page-num-btn ${isActive ? 'active' : ''}">
+                            ${item}
+                        </button>
+                    `;
+                }
+            });
+
+            if (currentPage < totalPages) {
+                html += `
+                    <button type="button" onclick="setOriginalsPage(${currentPage + 1})" class="page-num-btn" aria-label="Página siguiente">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                `;
+            }
+
+            container.innerHTML = html;
+        }
+
+        function setOriginalsPage(page) {
+            currentOriginalsPage = page;
+            renderOriginales(true);
+        }
+
+        // -------------------------------------------------------------
+        // RENDERIZADO: SUBPÁGINA RÉPLICAS 1.1
+        // -------------------------------------------------------------
+        function onReplicasSearch() {
+            currentReplicasPage = 1;
+            renderReplicas();
+        }
+
+        function getFilteredReplicas() {
+            const q = (document.getElementById('search-replicas')?.value || '').toLowerCase().trim();
+            if (!q) return ALL_REPLICAS;
+            const normalize = s => (s || '').toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            const queryNorm = normalize(q);
+            return ALL_REPLICAS.filter(p => {
+                const nameNorm = normalize(p.name);
+                const brandNorm = normalize(p.brand);
+                return nameNorm.includes(queryNorm) || brandNorm.includes(queryNorm);
+            });
+        }
+
+        function renderReplicas(scrollToTop = false) {
+            const grid = document.getElementById('grid-replicas');
+            const empty = document.getElementById('empty-replicas');
+            const paginationEl = document.getElementById('replicas-pagination');
+            const indicatorEl = document.getElementById('rep-count-indicator');
+            if (!grid) return;
+
+            const filtered = getFilteredReplicas();
+            const totalItems = filtered.length;
+            const totalPages = Math.ceil(totalItems / REPLICAS_PER_PAGE);
+
+            if (currentReplicasPage > totalPages && totalPages > 0) {
+                currentReplicasPage = totalPages;
+            }
+
+            if (totalItems === 0) {
+                grid.innerHTML = '';
+                empty.classList.remove('hidden');
+                if (paginationEl) paginationEl.innerHTML = '';
+                if (indicatorEl) indicatorEl.textContent = '0 réplicas encontradas';
+                return;
+            }
+
+            empty.classList.add('hidden');
+            if (indicatorEl) {
+                indicatorEl.textContent = `Página ${currentReplicasPage} de ${totalPages} · (${totalItems} réplicas 1.1)`;
+            }
+
+            const startIndex = (currentReplicasPage - 1) * REPLICAS_PER_PAGE;
+            const pageItems = filtered.slice(startIndex, startIndex + REPLICAS_PER_PAGE);
+
+            grid.innerHTML = pageItems.map(p => renderProductCard(p)).join('');
+
+            renderReplicasPaginationControls(totalPages, currentReplicasPage);
+
+            if (scrollToTop) {
+                const anchor = document.getElementById('replicas-top');
+                if (anchor) anchor.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function renderReplicasPaginationControls(totalPages, currentPage) {
+            const container = document.getElementById('replicas-pagination');
+            if (!container) return;
+
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+
+            let html = '';
+            if (currentPage > 1) {
+                html += `
+                    <button type="button" onclick="setReplicasPage(${currentPage - 1})" class="page-num-btn" aria-label="Página anterior">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                `;
+            }
+
+            let pagesToShow = [];
+            if (totalPages <= 7) {
+                for (let i = 1; i <= totalPages; i++) pagesToShow.push(i);
+            } else {
+                if (currentPage <= 3) {
+                    pagesToShow = [1, 2, 3, 4, '...', totalPages];
+                } else if (currentPage >= totalPages - 2) {
+                    pagesToShow = [1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+                } else {
+                    pagesToShow = [1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages];
+                }
+            }
+
+            pagesToShow.forEach(item => {
+                if (item === '...') {
+                    html += `<span class="page-dots">...</span>`;
+                } else {
+                    const isActive = item === currentPage;
+                    html += `
+                        <button type="button" onclick="setReplicasPage(${item})"
+                            class="page-num-btn ${isActive ? 'active' : ''}">
+                            ${item}
+                        </button>
+                    `;
+                }
+            });
+
+            if (currentPage < totalPages) {
+                html += `
+                    <button type="button" onclick="setReplicasPage(${currentPage + 1})" class="page-num-btn" aria-label="Página siguiente">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                `;
+            }
+
+            container.innerHTML = html;
+        }
+
+        function setReplicasPage(page) {
+            currentReplicasPage = page;
+            renderReplicas(true);
+        }
+
+        // -------------------------------------------------------------
+        // FILTROS, BÚSQUEDA Y PAGINACIÓN EN SUBPÁGINA FRAGANCIAS
+        // -------------------------------------------------------------
+        function filterFamily(fam) {
+            activeFragFamily = fam;
+            currentFragPage = 1; // Reiniciar a página 1 al cambiar filtro
+            document.querySelectorAll('.fam-pill').forEach(btn => {
+                if (btn.dataset.family === fam) {
+                    btn.className = 'fam-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-[#111111] text-white transition';
+                } else {
+                    btn.className = 'fam-pill px-4 py-1.5 rounded-full text-xs font-medium bg-white border border-[#E6E4DF] text-[#444444] hover:border-[#111111] transition';
+                }
+            });
+            renderFragancias();
+        }
+
+        function onFragranceSearch() {
+            currentFragPage = 1;
+            renderFragancias();
+        }
+
+        function getFilteredFragrances() {
+            const q = (document.getElementById('search-fragancias')?.value || '').toLowerCase().trim();
+            const normalize = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+            return ALL_FRAGRANCES.filter(p => {
+                const pFam = normalize(p.family);
+                const pName = normalize(p.name);
+
+                // Filtro por familia
+                if (activeFragFamily !== 'all') {
+                    const targetFam = normalize(activeFragFamily);
+                    if (!pFam.includes(targetFam)) return false;
+                }
+
+                // Filtro por buscador
+                if (!q) return true;
+                const queryNorm = normalize(q);
+                return pName.includes(queryNorm) || pFam.includes(queryNorm);
+            });
+        }
+
+        function renderFragancias(scrollToTop = false) {
+            const grid = document.getElementById('grid-fragancias');
+            const empty = document.getElementById('empty-fragancias');
+            const paginationEl = document.getElementById('fragancias-pagination');
+            const indicatorEl = document.getElementById('frag-count-indicator');
+            if (!grid) return;
+
+            const filtered = getFilteredFragrances();
+            const totalItems = filtered.length;
+            const totalPages = Math.ceil(totalItems / FRAGRANCES_PER_PAGE);
+
+            if (currentFragPage > totalPages && totalPages > 0) {
+                currentFragPage = totalPages;
+            }
+
+            if (totalItems === 0) {
+                grid.innerHTML = '';
+                empty.classList.remove('hidden');
+                paginationEl.innerHTML = '';
+                if (indicatorEl) indicatorEl.textContent = '0 fragancias encontradas';
+                return;
+            }
+
+            empty.classList.add('hidden');
+
+            // Indicador de conteo
+            if (indicatorEl) {
+                indicatorEl.textContent = `Mostrando página ${currentFragPage} de ${totalPages} · (${totalItems} referencias)`;
+            }
+
+            // Slice de productos para la página actual
+            const startIndex = (currentFragPage - 1) * FRAGRANCES_PER_PAGE;
+            const endIndex = startIndex + FRAGRANCES_PER_PAGE;
+            const pageItems = filtered.slice(startIndex, endIndex);
+
+            grid.innerHTML = pageItems.map(p => renderProductCard(p)).join('');
+
+            // Renderizar la barra de paginación exactamente igual a la captura del usuario
+            renderPaginationControls(totalPages, currentFragPage);
+
+            if (scrollToTop) {
+                const anchor = document.getElementById('fragancias-top');
+                if (anchor) anchor.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // -------------------------------------------------------------
+        // CONTROLES DE PAGINACIÓN ([ 1 ]  2  3  ...  97  >)
+        // -------------------------------------------------------------
+        function renderPaginationControls(totalPages, currentPage) {
+            const container = document.getElementById('fragancias-pagination');
+            if (!container) return;
+
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+
+            let html = '';
+
+            // Botón Flecha Izquierda (<)
+            if (currentPage > 1) {
+                html += `
+                    <button type="button" onclick="setFragPage(${currentPage - 1})" class="page-num-btn" aria-label="Página anterior">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                `;
+            }
+
+            // Algoritmo de cálculo de números con puntos suspensivos (...)
+            let pagesToShow = [];
+            if (totalPages <= 7) {
+                for (let i = 1; i <= totalPages; i++) pagesToShow.push(i);
+            } else {
+                if (currentPage <= 3) {
+                    pagesToShow = [1, 2, 3, 4, '...', totalPages];
+                } else if (currentPage >= totalPages - 2) {
+                    pagesToShow = [1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+                } else {
+                    pagesToShow = [1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages];
+                }
+            }
+
+            pagesToShow.forEach(item => {
+                if (item === '...') {
+                    html += `<span class="page-dots">...</span>`;
+                } else {
+                    const isActive = item === currentPage;
+                    html += `
+                        <button type="button" onclick="setFragPage(${item})"
+                            class="page-num-btn ${isActive ? 'active' : ''}">
+                            ${item}
+                        </button>
+                    `;
+                }
+            });
+
+            // Botón Flecha Derecha (>)
+            if (currentPage < totalPages) {
+                html += `
+                    <button type="button" onclick="setFragPage(${currentPage + 1})" class="page-num-btn" aria-label="Página siguiente">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                `;
+            }
+
+            container.innerHTML = html;
+        }
+
+        function setFragPage(page) {
+            currentFragPage = page;
+            renderFragancias(true);
+        }
+
+        // -------------------------------------------------------------
+        // TARJETA DE PRODUCTO: CON IMAGEN OFICIAL DE LA LOCIÓN
+        // -------------------------------------------------------------
+        function renderProductCard(p) {
+            let badgeStyle = 'bg-[#FAF9F6] text-[#111111] border-[#EAE8E3]';
+            if (p.category === 'original') badgeStyle = 'bg-[#B08D44]/10 text-[#8E6E28] border-[#B08D44]/25';
+            else if (p.category === 'fragancia') badgeStyle = 'bg-[#111111]/5 text-[#111111] border-[#111111]/15';
+            else if (p.category === 'replica') badgeStyle = 'bg-[#111111] text-white border-[#111111]';
+
+            let priceDisplay = '';
+            let selectorHTML = '';
+            let imageBoxHTML = '';
+
+            // Si el producto tiene imagen de loción del catálogo (fragancias oficiales o réplicas 1.1)
+            if (p.image) {
+                imageBoxHTML = `
+                    <div class="bottle-img-box">
+                        <img src="${p.image}" alt="${p.name}" loading="lazy" />
+                        <span class="absolute top-2.5 left-2.5 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-white/90 backdrop-blur-xs border border-[#E6E4DF] text-[#111111]">
+                            ${p.family}
+                        </span>
+                    </div>
+                `;
+            }
+
+            if (p.category === 'fragancia') {
+                const selIdx = selectedSizes[p.id] ?? 2; // Por defecto 100 ml
+                const activePrice = p.sizes[selIdx].price;
+                priceDisplay = formatCOP(activePrice);
+
+                selectorHTML = `
+                    <div class="mt-3 pt-3 border-t border-[#F0EFEA]">
+                        <div class="flex items-center justify-between text-[11px] text-[#777777] mb-1.5">
+                            <span>Presentación:</span>
+                            <span class="font-bold text-[#111111]">${p.sizes[selIdx].ml}</span>
+                        </div>
+                        <div class="grid grid-cols-3 gap-1">
+                            ${p.sizes.map((s, idx) => `
+                                <button type="button" onclick="selectFragSize('${p.id}', ${idx})"
+                                    class="py-1 rounded text-[11px] font-semibold border transition ${idx === selIdx
+                        ? 'bg-[#111111] text-white border-[#111111] shadow-xs'
+                        : 'bg-[#FAF9F6] text-[#555555] border-[#EAE8E3] hover:border-[#111111]'
+                    }">
+                                    ${s.ml}
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            } else if (p.category === 'original') {
+                priceDisplay = formatCOP(p.price);
+                const supplierInfo = `<span class="text-[10px] text-emerald-600 font-medium block">✓ 100% Original Sellado · Código Batch</span>`;
+                selectorHTML = `
+                    <div class="mt-3 pt-3 border-t border-[#F0EFEA] text-[11px] text-[#666666] space-y-0.5">
+                        <span class="block font-medium text-[#444444]">${p.variant}</span>
+                        ${supplierInfo}
+                    </div>
+                `;
+            } else if (p.category === 'replica') {
+                priceDisplay = formatCOP(p.price);
+                selectorHTML = `
+                    <div class="mt-3 pt-3 border-t border-[#F0EFEA] text-[11px] text-[#666666] space-y-0.5">
+                        <span class="block font-medium text-[#444444]">${p.variant}</span>
+                        <span class="text-[10px] text-emerald-600 font-medium block">✓ Calidad 1.1 · Envase y caja idéntica</span>
+                    </div>
+                `;
+            } else {
+                priceDisplay = formatCOP(p.price);
+                selectorHTML = `
+                    <div class="mt-3 pt-3 border-t border-[#F0EFEA] text-[11px] text-[#666666]">
+                        <span>${p.variant}</span>
+                    </div>
+                `;
+            }
+
+            return `
+                <article class="product-card-clean group">
+                    <div>
+                        ${imageBoxHTML}
+
+                        <div class="flex items-center justify-between gap-2 mb-1.5">
+                            <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border ${badgeStyle}">
+                                ${p.badge}
+                            </span>
+                            <span class="text-[10px] font-semibold uppercase tracking-wider text-[#888888] truncate">${p.brand || p.family}</span>
+                        </div>
+
+                        <h3 class="font-editorial text-xl font-semibold text-[#111111] leading-snug group-hover:text-[#B08D44] transition mt-1">
+                            ${p.name}
+                        </h3>
+
+                        ${selectorHTML}
+                    </div>
+
+                    <div class="mt-4 pt-3 border-t border-[#F0EFEA] flex items-center justify-between gap-2">
+                        <div>
+                            <span class="text-[10px] uppercase tracking-wider text-[#888888] block">Precio</span>
+                            <span class="text-sm font-bold text-[#111111]">${priceDisplay}</span>
+                        </div>
+                        <button type="button" onclick="addToCart('${p.id}')"
+                            class="px-3.5 py-2 rounded-xl bg-[#111111] hover:bg-[#333333] text-white text-xs font-semibold transition flex items-center gap-1.5 shadow-xs"
+                            title="Agregar a la bolsa">
+                            <span>+ Agregar</span>
+                        </button>
+                    </div>
+                </article>
+            `;
+        }
+
+        function selectFragSize(id, idx) {
+            selectedSizes[id] = idx;
+            const activeView = document.querySelector('.page-view.active');
+            if (activeView && activeView.id === 'view-inicio') renderFeatured();
+            else if (activeView && activeView.id === 'view-fragancias') renderFragancias();
+        }
+
+        // -------------------------------------------------------------
+        // GESTIÓN DE LA BOLSA DE COMPRA
+        // -------------------------------------------------------------
+        function findProduct(id) {
+            return (
+                ALL_ORIGINALS.find(p => p.id === id) ||
+                ALL_FRAGRANCES.find(p => p.id === id) ||
+                ALL_REPLICAS.find(p => p.id === id) ||
+                REPLICA_PRODUCTS.find(p => p.id === id)
+            );
+        }
+
+        function addToCart(id) {
+            const p = findProduct(id);
+            if (!p) return;
+
+            let variant = p.variant || '100 ml';
+            let price = p.price;
+            let key = p.id;
+
+            if (p.category === 'fragancia') {
+                const sIdx = selectedSizes[p.id] ?? 2;
+                variant = p.sizes[sIdx].ml;
+                price = p.sizes[sIdx].price;
+                key = `${p.id}-${variant}`;
+            }
+
+            const itemInCart = cart.find(i => i.key === key);
+            if (itemInCart) {
+                itemInCart.qty++;
+            } else {
+                cart.push({
+                    key,
+                    productId: p.id,
+                    name: p.name,
+                    brand: p.brand,
+                    categoryLabel: p.categoryLabel,
+                    variant,
+                    price,
+                    image: p.image || null,
+                    qty: 1
+                });
+            }
+
+            updateCartBadge();
+            renderCart();
+            showToast(`Agregado: ${p.name} (${variant})`);
+        }
+
+        function changeQty(idx, delta) {
+            cart[idx].qty += delta;
+            if (cart[idx].qty <= 0) {
+                cart.splice(idx, 1);
+            }
+            updateCartBadge();
+            renderCart();
+        }
+
+        function updateCartBadge() {
+            const total = cart.reduce((sum, item) => sum + item.qty, 0);
+            const badge = document.getElementById('cart-badge');
+            if (badge) badge.textContent = total;
+        }
+
+        function toggleCart(open) {
+            const drawer = document.getElementById('cart-drawer');
+            if (open) {
+                renderCart();
+                drawer.classList.remove('hidden');
+            } else {
+                drawer.classList.add('hidden');
+            }
+        }
+
+        function renderCart() {
+            const listEl = document.getElementById('cart-list');
+            const footerEl = document.getElementById('cart-footer');
+            if (!listEl) return;
+
+            if (cart.length === 0) {
+                footerEl.classList.add('hidden');
+                listEl.innerHTML = `
+                    <div class="h-full flex flex-col items-center justify-center text-center py-14 space-y-2">
+                        <span class="w-12 h-12 rounded-full bg-[#F7F6F3] flex items-center justify-center text-lg text-[#888888]">🛍️</span>
+                        <h4 class="font-editorial text-2xl font-semibold text-[#111111]">Tu bolsa está vacía</h4>
+                        <p class="text-xs text-[#777777] max-w-xs leading-relaxed">
+                            Explora nuestras más de 360 fragancias oficiales o perfumes sellados y agrégalos a tu orden.
+                        </p>
+                    </div>
+                `;
+                return;
+            }
+
+            footerEl.classList.remove('hidden');
+            listEl.innerHTML = cart.map((item, idx) => `
+                <div class="p-3.5 rounded-xl bg-[#FAF9F6] border border-[#EAE8E3] flex items-center justify-between gap-3">
+                    <div class="flex items-center gap-3 min-w-0">
+                        ${item.image ? `<img src="${item.image}" alt="${item.name}" class="w-10 h-10 object-contain shrink-0 bg-white p-1 rounded-lg border border-[#E6E4DF]" />` : ''}
+                        <div class="min-w-0">
+                            <span class="text-[9px] uppercase font-bold text-[#888888]">${item.categoryLabel}</span>
+                            <h5 class="text-xs sm:text-sm font-semibold text-[#111111] truncate">${item.name}</h5>
+                            <p class="text-[11px] text-[#666666]">Presentación: ${item.variant}</p>
+                            <p class="text-xs font-bold text-[#111111] mt-0.5">${formatCOP(item.price * item.qty)}</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 bg-white border border-[#E6E4DF] rounded-full px-2 py-1 shrink-0">
+                        <button type="button" onclick="changeQty(${idx}, -1)" class="w-5 h-5 font-bold text-xs hover:bg-[#F7F6F3] rounded-full flex items-center justify-center">-</button>
+                        <span class="text-xs font-semibold w-4 text-center">${item.qty}</span>
+                        <button type="button" onclick="changeQty(${idx}, 1)" class="w-5 h-5 font-bold text-xs hover:bg-[#F7F6F3] rounded-full flex items-center justify-center">+</button>
+                    </div>
+                </div>
+            `).join('');
+
+            // 1. SECCIÓN DE ESTADO DE CLIENTE EN EL CARRITO
+            const authBox = document.getElementById('cart-auth-box');
+            if (authBox) {
+                if (currentUser) {
+                    authBox.innerHTML = `
+                        <div class="p-3 rounded-xl bg-white border border-[#EAE8E3] space-y-1 text-xs">
+                            <div class="flex items-center justify-between">
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-600 flex items-center gap-1">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span> Cliente Registrado
+                                </span>
+                                <button type="button" onclick="openProfileModal()" class="text-[10px] text-[#888888] hover:text-[#111111] underline">Ver mis datos</button>
+                            </div>
+                            <p class="font-bold text-[#111111]">${currentUser.nombre}</p>
+                            <p class="text-[#666666] text-[11px] truncate">📍 ${currentUser.direccion}, ${currentUser.ciudad}</p>
+                            <p class="text-[#777777] text-[10px]">📱 WhatsApp: ${currentUser.telefono}</p>
+                        </div>
+                    `;
+                } else {
+                    authBox.innerHTML = `
+                        <div class="p-3 rounded-xl bg-[#FFF8EB] border border-[#F5E0B8] space-y-1.5 text-xs text-[#8A5812]">
+                            <div class="flex items-center gap-1.5 font-bold text-xs">
+                                <span>🔒 Registro obligatorio antes de pagar</span>
+                            </div>
+                            <p class="text-[11px] text-[#8A5812]/90 leading-tight">
+                                Ingresa a tu cuenta o regístrate para generar tu <strong># de pedido único</strong> y guardar tus datos de envío.
+                            </p>
+                            <button type="button" onclick="openAuthModal('register')"
+                                class="w-full mt-1 py-1.5 rounded-lg bg-[#111111] hover:bg-[#333333] text-white font-semibold text-xs transition">
+                                Iniciar Sesión o Registrarme
+                            </button>
+                        </div>
+                    `;
+                }
+            }
+
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+            const shipping = Number(document.getElementById('shipping-select').value || 10000);
+            const total = subtotal + shipping;
+
+            document.getElementById('cart-subtotal').textContent = formatCOP(subtotal);
+            document.getElementById('cart-shipping').textContent = formatCOP(shipping);
+            document.getElementById('cart-total').textContent = formatCOP(total);
+
+            // 2. BOTÓN DE PAGO DINÁMICO
+            const btnBox = document.getElementById('cart-checkout-btn-box');
+            if (btnBox) {
+                if (currentUser) {
+                    btnBox.innerHTML = `
+                        <button type="button" onclick="checkoutWhatsApp()"
+                            class="w-full py-3.5 rounded-full bg-[#111111] hover:bg-[#333333] text-white font-semibold text-xs sm:text-sm transition shadow-sm flex items-center justify-center gap-2">
+                            <span>Pagar</span>
+                            <span>→</span>
+                        </button>
+                    `;
+                } else {
+                    btnBox.innerHTML = `
+                        <button type="button" onclick="openAuthModal('login')"
+                            class="w-full py-3.5 rounded-full bg-[#111111] hover:bg-[#333333] text-white font-semibold text-xs sm:text-sm transition shadow-sm flex items-center justify-center gap-2">
+                            <span>Pagar</span>
+                            <span>→</span>
+                        </button>
+                    `;
+                }
+            }
+        }
+
+        // -------------------------------------------------------------
+        // GESTIÓN DE CLIENTES: LOGIN, REGISTRO Y PERFIL
+        // -------------------------------------------------------------
+        // Configuración para Base de Datos Gratuita en Google Sheets / Webhook
+        const CLOUD_DB_CONFIG = {
+            // Pega aquí la URL de tu Google Apps Script si deseas sincronización en vivo
+            googleSheetWebhookUrl: '',
+            enabled: true
+        };
+
+        // Función para sincronizar cliente nuevo con la base de datos en la nube (Google Sheets)
+        function syncUserToCloudDatabase(user) {
+            try {
+                if (!CLOUD_DB_CONFIG.googleSheetWebhookUrl) return;
+                fetch(CLOUD_DB_CONFIG.googleSheetWebhookUrl, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        type: 'registro_cliente',
+                        id: user.id,
+                        fecha: new Date().toLocaleString('es-CO'),
+                        nombre: user.nombre,
+                        telefono: user.telefono,
+                        correo: user.correo,
+                        ciudad: user.ciudad,
+                        direccion: user.direccion
+                    })
+                }).catch(err => console.log('Sincronización en segundo plano:', err));
+            } catch (err) {
+                console.log('Error de sincronización:', err);
+            }
+        }
+
+        // Función para sincronizar nuevo pedido único con la base de datos (y enviar correo automático)
+        function syncOrderToCloudDatabase(order, user) {
+            try {
+                if (!CLOUD_DB_CONFIG.googleSheetWebhookUrl) return;
+                const prodSummary = (order.items || []).map(i => `${i.qty}x ${i.name} (${i.variant})`).join(', ');
+                const prodHtml = (order.items || []).map(i => `• <strong>${i.qty}x</strong> ${i.name} [${i.variant}] — $${(i.price * i.qty).toLocaleString('es-CO')} COP`).join('<br/>');
+                fetch(CLOUD_DB_CONFIG.googleSheetWebhookUrl, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        type: 'nuevo_pedido',
+                        fecha: order.date || new Date().toLocaleString('es-CO'),
+                        orderCode: order.orderCode,
+                        cliente: user.nombre,
+                        telefono: user.telefono,
+                        correo: user.correo,
+                        ciudad: user.ciudad,
+                        direccion: user.direccion,
+                        productos: prodSummary,
+                        productosHtml: prodHtml,
+                        metodoEnvio: order.shippingText,
+                        subtotal: order.subtotal,
+                        total: order.total,
+                        items: order.items
+                    })
+                }).catch(err => console.log('Sincronización de pedido:', err));
+            } catch (err) {
+                console.log('Error de sincronización de pedido:', err);
+            }
+        }
+
+        // Envío directo de correos al pulsar "Pagar": Notificación al Administrador y Confirmación al Cliente (Estilo Clemont)
+        function sendOrderEmails(order, user) {
+            const adminEmail = 'andresfj20023@gmail.com';
+            const prodList = (order.items || []).map(i => `• ${i.qty}x ${i.name} [${i.variant}] = $${(i.price * i.qty).toLocaleString('es-CO')} COP`).join('\n');
+            const totalFmt = `$${Number(order.total || 0).toLocaleString('es-CO')} COP`;
+            const subtotalFmt = `$${Number(order.subtotal || order.total || 0).toLocaleString('es-CO')} COP`;
+
+            // 1. Notificación al Administrador (andresfj20023@gmail.com)
+            const adminPayload = {
+                _subject: `🛍️ NUEVO PEDIDO #${order.orderCode} - ${user.nombre} (${totalFmt})`,
+                _template: 'table',
+                _captcha: 'false',
+                Numero_Pedido: `#${order.orderCode}`,
+                Fecha: order.date,
+                Estado_Pago: 'PENDIENTE DE CONFIRMACIÓN MANUAL (COMPROBANTE)',
+                Cliente: user.nombre,
+                Telefono_WhatsApp: user.telefono,
+                Correo: user.correo,
+                Ciudad_Entrega: user.ciudad,
+                Direccion_Entrega: user.direccion,
+                Metodo_Envio: order.shippingText || 'Estándar',
+                Total_COP: totalFmt,
+                Productos_Solicitados: prodList,
+                Instrucciones: 'El cliente debe consignar a Bancolombia 10362869492 o Llave 1001132365 y enviar el comprobante con el número de pedido al WhatsApp 3206062038 para validación manual.'
+            };
+
+            try {
+                fetch(`https://formsubmit.co/ajax/${adminEmail}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                    body: JSON.stringify(adminPayload)
+                }).then(res => res.json())
+                    .then(d => console.log('Notificación enviada al administrador:', d))
+                    .catch(e => console.log('Error enviando correo a admin:', e));
+            } catch (err) {
+                console.log('Error correo admin:', err);
+            }
+
+            // 2. Correo de Confirmación de Pedido al Cliente (Estilo Clemont)
+            if (user.correo && user.correo.includes('@')) {
+                const clientPayload = {
+                    _subject: `Confirmación de pedido #${order.orderCode}`,
+                    _replyto: adminEmail,
+                    _template: 'box',
+                    _captcha: 'false',
+                    PEDIDO: `#${order.orderCode}`,
+                    Estado: '¡Gracias por tu compra! Estamos preparando tu pedido para enviarlo.',
+                    Cliente: user.nombre,
+                    Telefono: user.telefono,
+                    Direccion_de_Entrega: `${user.direccion}, ${user.ciudad}`,
+                    Metodo_de_Envio: order.shippingText || 'Estándar',
+                    Resumen_del_Pedido: prodList,
+                    Subtotal: subtotalFmt,
+                    Total_a_Pagar: totalFmt,
+                    Datos_de_Pago: 'Bancolombia Ahorros: 10362869492 | Llave: 1001132365',
+                    Enviar_Comprobante: `WhatsApp: 3206062038 con el número de pedido #${order.orderCode}`
+                };
+
+                try {
+                    fetch(`https://formsubmit.co/ajax/${user.correo}`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                        body: JSON.stringify(clientPayload)
+                    }).then(res => res.json())
+                        .then(d => console.log('Confirmación enviada al cliente:', d))
+                        .catch(e => console.log('Error enviando correo a cliente:', e));
+                } catch (err) {
+                    console.log('Error correo cliente:', err);
+                }
+            }
+
+            // 3. Envío al Webhook de Google Sheets (Apps Script envía directamente desde andresfj20023@gmail.com con el diseño HTML idéntico a Clemont)
+            syncOrderToCloudDatabase(order, user);
+        }
+
+        // -------------------------------------------------------------
+        // ALMACENAMIENTO GLOBAL DE PEDIDOS PARA EL ADMINISTRADOR
+        // -------------------------------------------------------------
+        function getAllOrders() {
+            try {
+                return JSON.parse(localStorage.getItem('aqua_essence_all_orders')) || [];
+            } catch (e) {
+                return [];
+            }
+        }
+
+        function saveAllOrders(orders) {
+            localStorage.setItem('aqua_essence_all_orders', JSON.stringify(orders));
+        }
+
+        // Descargar base de datos completa de clientes en Excel / CSV (100% offline y gratis)
+        function exportClientsToCSV() {
+            const users = getStoredUsers();
+            if (!users || users.length === 0) {
+                alert('Aún no hay clientes registrados en la base de datos.');
+                return;
+            }
+
+            const headers = ['ID', 'Nombre', 'Teléfono', 'Correo', 'Ciudad', 'Dirección', 'Fecha Registro', 'Cant. Pedidos'];
+            const rows = users.map(u => [
+                u.id || '',
+                `"${(u.nombre || '').replace(/"/g, '""')}"`,
+                `"${(u.telefono || '').replace(/"/g, '""')}"`,
+                `"${(u.correo || '').replace(/"/g, '""')}"`,
+                `"${(u.ciudad || '').replace(/"/g, '""')}"`,
+                `"${(u.direccion || '').replace(/"/g, '""')}"`,
+                `"${u.registeredAt ? new Date(u.registeredAt).toLocaleString('es-CO') : ''}"`,
+                (u.orders ? u.orders.length : 0)
+            ]);
+
+            const csvContent = '\uFEFF' + [headers.join(','), ...rows.map(r => r.join(','))].join('\r\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `Clientes_Aqua_Essence_${new Date().toISOString().slice(0, 10)}.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showToast('Base de datos de clientes descargada en CSV.');
+        }
+
+        // Descargar todos los pedidos registrados en Excel / CSV
+        function exportAllOrdersToCSV() {
+            const allOrders = getAllOrders();
+            if (!allOrders || allOrders.length === 0) {
+                alert('Aún no hay pedidos registrados para exportar.');
+                return;
+            }
+
+            const headers = [
+                '# Pedido',
+                'Fecha',
+                'Estado',
+                'Cliente',
+                'Teléfono',
+                'Correo',
+                'Ciudad',
+                'Dirección',
+                'Productos',
+                'Método Envío',
+                'Subtotal COP',
+                'Envío COP',
+                'Total COP'
+            ];
+
+            const rows = allOrders.map(o => {
+                const c = o.customer || {};
+                const prods = (o.items || []).map(i => `${i.qty}x ${i.name} (${i.variant})`).join(' | ');
+                return [
+                    `"#${o.orderCode}"`,
+                    `"${o.date || ''}"`,
+                    `"${o.status || 'Pendiente'}"`,
+                    `"${(c.nombre || '').replace(/"/g, '""')}"`,
+                    `"${(c.telefono || '').replace(/"/g, '""')}"`,
+                    `"${(c.correo || '').replace(/"/g, '""')}"`,
+                    `"${(c.ciudad || '').replace(/"/g, '""')}"`,
+                    `"${(c.direccion || '').replace(/"/g, '""')}"`,
+                    `"${prods.replace(/"/g, '""')}"`,
+                    `"${(o.shippingText || '').replace(/"/g, '""')}"`,
+                    o.subtotal || 0,
+                    o.shipping || 0,
+                    o.total || 0
+                ];
+            });
+
+            const csvContent = '\uFEFF' + [headers.join(','), ...rows.map(r => r.join(','))].join('\r\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `Ventas_Pedidos_Aqua_Essence_${new Date().toISOString().slice(0, 10)}.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showToast('Listado de pedidos exportado en CSV/Excel.');
+        }
+
+        let currentUser = null;
+
+        function loadStoredUser() {
+            try {
+                const saved = localStorage.getItem('aqua_essence_current_user');
+                if (saved) currentUser = JSON.parse(saved);
+            } catch (e) {
+                currentUser = null;
+            }
+            updateAuthUI();
+        }
+
+        function getStoredUsers() {
+            try {
+                return JSON.parse(localStorage.getItem('aqua_essence_users_db')) || [];
+            } catch (e) {
+                return [];
+            }
+        }
+
+        function saveUsers(users) {
+            localStorage.setItem('aqua_essence_users_db', JSON.stringify(users));
+        }
+
+        function setCurrentUser(user) {
+            currentUser = user;
+            if (user) {
+                localStorage.setItem('aqua_essence_current_user', JSON.stringify(user));
+            } else {
+                localStorage.removeItem('aqua_essence_current_user');
+            }
+            updateAuthUI();
+            renderCart();
+        }
+
+        function updateAuthUI() {
+            const headerSlot = document.getElementById('auth-header-slot');
+            const mobileSlot = document.getElementById('auth-mobile-slot');
+
+            let htmlDesktop = '';
+            let htmlMobile = '';
+
+            if (currentUser && currentUser.isAdmin) {
+                htmlDesktop = `
+                    <div class="flex items-center gap-1.5">
+                        <button type="button" onclick="openAdminModal()"
+                            class="px-3.5 py-2 rounded-full bg-[#111111] hover:bg-[#252525] text-[#D4AF37] border border-[#D4AF37]/50 text-xs font-semibold flex items-center gap-1.5 transition shadow-sm" title="Abrir Panel de Control">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                            <span>🛡️ Panel Admin</span>
+                        </button>
+                        <button type="button" onclick="logoutUser()"
+                            class="text-[#777777] hover:text-red-600 text-xs font-medium px-2 py-1 transition" title="Cerrar Sesión">
+                            Salir
+                        </button>
+                    </div>
+                `;
+                htmlMobile = `
+                    <div class="flex items-center gap-1">
+                        <button type="button" onclick="openAdminModal()"
+                            class="nav-pill-mobile bg-[#111111] text-[#D4AF37] border border-[#D4AF37]/40 flex items-center gap-1 font-semibold text-xs">
+                            <span>🛡️ Admin</span>
+                        </button>
+                        <button type="button" onclick="logoutUser()"
+                            class="text-xs text-red-500 font-semibold px-1 py-1">
+                            ✕
+                        </button>
+                    </div>
+                `;
+            } else if (currentUser) {
+                const firstName = (currentUser.nombre || 'Cliente').split(' ')[0];
+                htmlDesktop = `
+                    <button type="button" onclick="openProfileModal()"
+                        class="px-3.5 py-2 rounded-full bg-white border border-[#E6E4DF] hover:border-[#111111] text-[#111111] text-xs font-semibold flex items-center gap-1.5 transition">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                        <span class="truncate max-w-[100px]">${firstName}</span>
+                    </button>
+                `;
+                htmlMobile = `
+                    <button type="button" onclick="openProfileModal()"
+                        class="nav-pill-mobile bg-emerald-50 text-emerald-800 border-emerald-200 flex items-center gap-1">
+                        <span>👤 ${firstName}</span>
+                    </button>
+                `;
+            } else {
+                htmlDesktop = `
+                    <button type="button" onclick="openAuthModal('login')"
+                        class="px-3.5 py-2 rounded-full bg-[#FAF9F6] border border-[#E6E4DF] hover:border-[#111111] text-[#111111] text-xs font-semibold flex items-center gap-1.5 transition">
+                        <svg class="w-3.5 h-3.5 text-[#666666]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                        </svg>
+                        <span class="hidden sm:inline">Iniciar Sesión</span>
+                        <span class="sm:hidden">Ingresar</span>
+                    </button>
+                `;
+                htmlMobile = `
+                    <button type="button" onclick="openAuthModal('login')"
+                        class="nav-pill-mobile bg-white border border-[#E6E4DF] text-[#111111] font-semibold">
+                        👤 Ingresar
+                    </button>
+                `;
+            }
+
+            if (headerSlot) headerSlot.innerHTML = htmlDesktop;
+            if (mobileSlot) mobileSlot.innerHTML = htmlMobile;
+        }
+
+        function openAuthModal(tab = 'login') {
+            switchAuthTab(tab);
+            document.getElementById('auth-modal').classList.remove('hidden');
+        }
+
+        function closeAuthModal() {
+            document.getElementById('auth-modal').classList.add('hidden');
+        }
+
+        function switchAuthTab(tab) {
+            const loginTabBtn = document.getElementById('tab-btn-login');
+            const registerTabBtn = document.getElementById('tab-btn-register');
+            const loginForm = document.getElementById('form-login');
+            const registerForm = document.getElementById('form-register');
+            const errorEl = document.getElementById('auth-error-msg');
+            if (errorEl) errorEl.classList.add('hidden');
+
+            if (tab === 'login') {
+                loginTabBtn.className = 'flex-1 py-2.5 text-xs font-bold border-b-2 border-[#111111] text-[#111111] transition text-center';
+                registerTabBtn.className = 'flex-1 py-2.5 text-xs font-medium border-b-2 border-transparent text-[#888888] hover:text-[#111111] transition text-center';
+                loginForm.classList.remove('hidden');
+                registerForm.classList.add('hidden');
+            } else {
+                registerTabBtn.className = 'flex-1 py-2.5 text-xs font-bold border-b-2 border-[#111111] text-[#111111] transition text-center';
+                loginTabBtn.className = 'flex-1 py-2.5 text-xs font-medium border-b-2 border-transparent text-[#888888] hover:text-[#111111] transition text-center';
+                registerForm.classList.remove('hidden');
+                loginForm.classList.add('hidden');
+            }
+        }
+
+        function handleLoginSubmit(e) {
+            e.preventDefault();
+            const identifier = (document.getElementById('login-id').value || '').trim().toLowerCase();
+            const pass = (document.getElementById('login-pass').value || '').trim();
+
+            if (!identifier || !pass) {
+                showAuthError('Por favor ingresa tu correo/teléfono y contraseña.');
+                return;
+            }
+
+            // CREDENCIALES MAESTRAS DE ADMINISTRADOR
+            if (identifier === 'andresfj20023@gmail.com' && pass === 'adm123a') {
+                const adminUser = {
+                    id: 'usr_admin_master',
+                    nombre: 'Administrador Andrés',
+                    telefono: '3206062038',
+                    correo: 'andresfj20023@gmail.com',
+                    ciudad: 'Medellín',
+                    direccion: 'Sede Principal Aqua Essence',
+                    isAdmin: true
+                };
+                setCurrentUser(adminUser);
+                closeAuthModal();
+                showToast('¡Bienvenido, Administrador!');
+                openAdminModal();
+                return;
+            }
+
+            const users = getStoredUsers();
+            const user = users.find(u =>
+                (u.correo && u.correo.toLowerCase() === identifier) ||
+                (u.telefono && u.telefono.replace(/\D/g, '') === identifier.replace(/\D/g, ''))
+            );
+
+            if (!user || user.password !== pass) {
+                showAuthError('Credenciales incorrectas. Verifica tus datos o regístrate.');
+                return;
+            }
+
+            setCurrentUser(user);
+            closeAuthModal();
+            showToast(`¡Bienvenido de nuevo, ${user.nombre.split(' ')[0]}!`);
+        }
+
+        function handleRegisterSubmit(e) {
+            e.preventDefault();
+            const nombre = (document.getElementById('reg-nombre').value || '').trim();
+            const telefono = (document.getElementById('reg-telefono').value || '').trim();
+            const correo = (document.getElementById('reg-correo').value || '').trim().toLowerCase();
+            const ciudad = (document.getElementById('reg-ciudad').value || '').trim();
+            const direccion = (document.getElementById('reg-direccion').value || '').trim();
+            const password = (document.getElementById('reg-pass').value || '').trim();
+
+            if (!nombre || !telefono || !correo || !ciudad || !direccion || !password) {
+                showAuthError('Por favor completa todos los campos para tu registro y envío.');
+                return;
+            }
+
+            if (password.length < 4) {
+                showAuthError('La contraseña debe tener al menos 4 caracteres.');
+                return;
+            }
+
+            const users = getStoredUsers();
+            const cleanPhone = telefono.replace(/\D/g, '');
+            const exists = users.find(u => u.correo === correo || u.telefono.replace(/\D/g, '') === cleanPhone);
+            if (exists) {
+                showAuthError('Ya existe una cuenta con este correo o teléfono. Inicia sesión.');
+                return;
+            }
+
+            const newUser = {
+                id: 'usr_' + Date.now(),
+                nombre,
+                telefono,
+                correo,
+                ciudad,
+                direccion,
+                password,
+                registeredAt: new Date().toISOString(),
+                orders: []
+            };
+
+            users.push(newUser);
+            saveUsers(users);
+            setCurrentUser(newUser);
+            syncUserToCloudDatabase(newUser);
+            closeAuthModal();
+            showToast(`¡Cuenta creada con éxito! Bienvenido(a), ${nombre.split(' ')[0]}`);
+        }
+
+        function showAuthError(msg) {
+            const errorEl = document.getElementById('auth-error-msg');
+            if (errorEl) {
+                errorEl.textContent = msg;
+                errorEl.classList.remove('hidden');
+            }
+        }
+
+        function logoutUser() {
+            setCurrentUser(null);
+            closeProfileModal();
+            closeAdminModal();
+            showToast('Sesión cerrada correctamente.');
+        }
+
+        function openProfileModal() {
+            if (!currentUser) return;
+            if (currentUser.isAdmin) {
+                openAdminModal();
+                return;
+            }
+            document.getElementById('profile-user-name').textContent = currentUser.nombre;
+            document.getElementById('prof-phone').textContent = currentUser.telefono;
+            document.getElementById('prof-email').textContent = currentUser.correo;
+            document.getElementById('prof-city').textContent = currentUser.ciudad;
+            document.getElementById('prof-address').textContent = currentUser.direccion;
+
+            const ordersList = document.getElementById('profile-orders-list');
+            if (ordersList) {
+                const orders = currentUser.orders || [];
+                if (orders.length === 0) {
+                    ordersList.innerHTML = `<p class="text-xs text-[#888888] italic py-2">No tienes pedidos anteriores aún.</p>`;
+                } else {
+                    ordersList.innerHTML = orders.map(o => `
+                        <div class="p-3 rounded-xl bg-[#FAF9F6] border border-[#EAE8E3] flex items-center justify-between text-xs">
+                            <div>
+                                <span class="font-bold text-[#111111] font-editorial text-sm tracking-wider">#${o.orderCode}</span>
+                                <p class="text-[10px] text-[#888888]">${o.date} · ${o.items.length} productos</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="font-bold text-[#111111] block">${formatCOP(o.total)}</span>
+                                <span class="text-[10px] text-emerald-600 font-semibold">${o.status}</span>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+            }
+
+            document.getElementById('profile-modal').classList.remove('hidden');
+        }
+
+        function closeProfileModal() {
+            document.getElementById('profile-modal').classList.add('hidden');
+        }
+
+        // -------------------------------------------------------------
+        // CHECKOUT: GENERACIÓN DE # DE PEDIDO ÚNICO Y WHATSAPP
+        // -------------------------------------------------------------
+        function checkoutWhatsApp() {
+            if (cart.length === 0) return;
+
+            // VALIDACIÓN: El cliente debe iniciar sesión o registrarse antes de realizar el pedido
+            if (!currentUser) {
+                openAuthModal('register');
+                showToast('Ingresa a tu cuenta o regístrate para generar tu pedido único.');
+                return;
+            }
+
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+            const shippingSelect = document.getElementById('shipping-select');
+            const shipping = Number(shippingSelect.value || 10000);
+            const shippingText = shippingSelect.options[shippingSelect.selectedIndex].text;
+            const total = subtotal + shipping;
+
+            // GENERACIÓN DE # DE PEDIDO ÚNICO DINÁMICO (Garantizado nuevo e incremental en cada clic a Pagar)
+            const orderCode = generateNewOrderCode();
+
+            // Estructurar desglose de productos
+            const itemsText = cart.map(i => `• ${i.qty}x ${i.name} [${i.variant}] = $${(i.price * i.qty).toLocaleString('es-CO')}`).join('\n');
+
+            // Mensaje completo para WhatsApp con datos del cliente y orden única
+            const message =
+                `¡Hola Aqua Essence! Deseo confirmar mi pedido *#${orderCode}*:
+
+*DATOS DEL CLIENTE REGISTRADO:*
+• *Nombre:* ${currentUser.nombre}
+• *WhatsApp / Teléfono:* ${currentUser.telefono}
+• *Correo:* ${currentUser.correo}
+• *Ciudad de Entrega:* ${currentUser.ciudad}
+• *Dirección:* ${currentUser.direccion}
+
+*DETALLE DEL PEDIDO:*
+${itemsText}
+
+*RESUMEN DEL PAGO:*
+• *Subtotal:* $${subtotal.toLocaleString('es-CO')} COP
+• *Método de Entrega:* ${shippingText}
+• *TOTAL A PAGAR:* $${total.toLocaleString('es-CO')} COP
+
+*NÚMERO DE PEDIDO ÚNICO:* #${orderCode}
+
+*PAGO REALIZADO A:*
+10362869492 Ahorros Bancolombia / Llave: 1001132365
+
+Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!`;
+
+            // Registrar en el historial de órdenes del cliente
+            const orderRecord = {
+                orderCode,
+                date: new Date().toLocaleString('es-CO'),
+                items: [...cart],
+                subtotal,
+                shipping,
+                shippingText,
+                total,
+                status: 'Pendiente'
+            };
+
+            if (!currentUser.orders) currentUser.orders = [];
+            currentUser.orders.unshift(orderRecord);
+            setCurrentUser(currentUser);
+
+            // Actualizar en la base de usuarios
+            const users = getStoredUsers();
+            const uIdx = users.findIndex(u => u.id === currentUser.id);
+            if (uIdx !== -1) {
+                users[uIdx] = currentUser;
+                saveUsers(users);
+            }
+
+            // Registrar en la lista global de pedidos para el Administrador
+            const globalOrder = {
+                ...orderRecord,
+                customer: {
+                    id: currentUser.id,
+                    nombre: currentUser.nombre,
+                    telefono: currentUser.telefono,
+                    correo: currentUser.correo,
+                    ciudad: currentUser.ciudad,
+                    direccion: currentUser.direccion
+                },
+                status: 'Pendiente'
+            };
+            const allOrders = getAllOrders();
+            allOrders.unshift(globalOrder);
+            saveAllOrders(allOrders);
+
+            // Enviar notificaciones de pedido al Administrador y al Cliente (Confirmación estilo Clemont)
+            sendOrderEmails(orderRecord, currentUser);
+
+            // Enlace oficial de WhatsApp al número especificado por el comercio: 3206062038
+            const phone = '573206062038';
+            const waUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+            // Mostrar página / modal de pago en pantalla con todos los datos
+            openOrderSuccessModal(orderCode, total, waUrl, orderRecord);
+
+            // Vaciar bolsa de compra y cerrar drawer
+            cart = [];
+            updateCartBadge();
+            toggleCart(false);
+        }
+
+        // Generador secuencial dinámico de # de pedido
+        function generateNewOrderCode() {
+            let seq = parseInt(localStorage.getItem('aqua_order_seq') || '1020', 10);
+            seq += 1;
+            localStorage.setItem('aqua_order_seq', seq.toString());
+            const randSuffix = Math.floor(100 + Math.random() * 900);
+            return `AQ-${seq}-${randSuffix}`;
+        }
+
+        let lastCreatedOrderCode = '';
+
+        function copyOrderCode() {
+            if (!lastCreatedOrderCode) return;
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(lastCreatedOrderCode).then(() => {
+                    showToast('¡Número de pedido copiado!');
+                });
+            } else {
+                prompt('Número de pedido:', lastCreatedOrderCode);
+            }
+        }
+
+        function copyAccountBancolombia() {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText('10362869492').then(() => {
+                    showToast('¡Cuenta Bancolombia 10362869492 copiada!');
+                });
+            } else {
+                prompt('Número de cuenta Bancolombia:', '10362869492');
+            }
+        }
+
+        function copyLlavePayment() {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText('1001132365').then(() => {
+                    showToast('¡Llave 1001132365 copiada!');
+                });
+            } else {
+                prompt('Llave de transferencia:', '1001132365');
+            }
+        }
+
+        function openOrderSuccessModal(orderCode, total, waUrl, orderRecord) {
+            lastCreatedOrderCode = '#' + orderCode;
+            document.getElementById('success-order-id').textContent = '#' + orderCode;
+            document.getElementById('success-customer-name').textContent = currentUser.nombre || 'N/A';
+            document.getElementById('success-customer-phone').textContent = currentUser.telefono || 'N/A';
+            document.getElementById('success-customer-email').textContent = currentUser.correo || 'N/A';
+            document.getElementById('success-customer-city').textContent = currentUser.ciudad || 'N/A';
+            document.getElementById('success-customer-address').textContent = currentUser.direccion || 'N/A';
+            document.getElementById('success-shipping-method').textContent = (orderRecord && orderRecord.shippingText) || 'Envío estándar';
+            document.getElementById('success-order-total').textContent = formatCOP(total);
+
+            const prodsSummaryEl = document.getElementById('success-products-summary');
+            if (prodsSummaryEl && orderRecord && orderRecord.items) {
+                prodsSummaryEl.innerHTML = orderRecord.items.map(i => `
+                    <div class="flex items-center justify-between py-1 border-b border-[#F0EFEA] last:border-0">
+                        <div>
+                            <span class="font-bold text-[#111111]">${i.qty}x</span> 
+                            <span>${i.name}</span>
+                            <span class="text-[10px] text-[#888888] ml-1">(${i.variant})</span>
+                        </div>
+                        <span class="font-semibold text-[#111111]">$${(i.price * i.qty).toLocaleString('es-CO')}</span>
+                    </div>
+                `).join('');
+            }
+
+            const waBtn = document.getElementById('success-whatsapp-link');
+            if (waBtn) waBtn.href = waUrl;
+            const waNumBtn = document.getElementById('success-whatsapp-number-link');
+            if (waNumBtn) waNumBtn.href = waUrl;
+
+            document.getElementById('order-success-modal').classList.remove('hidden');
+        }
+
+        function closeOrderSuccessModal() {
+            document.getElementById('order-success-modal').classList.add('hidden');
+        }
+
+        // -------------------------------------------------------------
+        // PANEL DE ADMINISTRACIÓN (COMERCIO & CONTROL DE ENVÍOS)
+        // -------------------------------------------------------------
+        let currentAdminFilter = 'all';
+        let currentAdminSearch = '';
+
+        function openAdminModal() {
+            if (!currentUser || !currentUser.isAdmin) {
+                showToast('Acceso exclusivo para el Administrador.');
+                openAuthModal('login');
+                return;
+            }
+            document.getElementById('admin-modal').classList.remove('hidden');
+            renderAdminDashboard();
+        }
+
+        function closeAdminModal() {
+            document.getElementById('admin-modal').classList.add('hidden');
+        }
+
+        function setAdminFilter(filter) {
+            currentAdminFilter = filter;
+            document.querySelectorAll('.admin-filter-btn').forEach(btn => {
+                if (btn.dataset.filter === filter) {
+                    btn.className = 'admin-filter-btn px-3 py-1.5 rounded-full text-xs font-semibold bg-[#111111] text-white transition';
+                } else {
+                    btn.className = 'admin-filter-btn px-3 py-1.5 rounded-full text-xs font-medium bg-[#F0EFEA] text-[#555555] hover:text-[#111111] transition';
+                }
+            });
+            renderAdminDashboard();
+        }
+
+        function handleAdminSearch(val) {
+            currentAdminSearch = (val || '').trim().toLowerCase();
+            renderAdminDashboard();
+        }
+
+        function updateOrderStatus(orderCode, newStatus) {
+            const allOrders = getAllOrders();
+            const idx = allOrders.findIndex(o => o.orderCode === orderCode);
+            if (idx !== -1) {
+                allOrders[idx].status = newStatus;
+                saveAllOrders(allOrders);
+
+                // Si el usuario actual o en la lista de usuarios tiene este pedido, actualizarlo también
+                const users = getStoredUsers();
+                users.forEach(u => {
+                    if (u.orders) {
+                        const o = u.orders.find(ord => ord.orderCode === orderCode);
+                        if (o) o.status = newStatus;
+                    }
+                });
+                saveUsers(users);
+
+                showToast(`Pedido #${orderCode} actualizado a: ${newStatus}`);
+                renderAdminDashboard();
+            }
+        }
+
+        function copyShippingLabel(orderCode) {
+            const allOrders = getAllOrders();
+            const o = allOrders.find(ord => ord.orderCode === orderCode);
+            if (!o) return;
+
+            const cust = o.customer || {};
+            const itemsList = (o.items || []).map(i => `• ${i.qty}x ${i.name} [${i.variant}]`).join('\n');
+
+            const labelText =
+                `========================================
+AQUA ESSENCE - RÓTULO DE DESPACHO
+PEDIDO: #${o.orderCode}
+FECHA: ${o.date}
+========================================
+DESTINATARIO: ${(cust.nombre || '').toUpperCase()}
+TELÉFONO / WHATSAPP: ${cust.telefono}
+CIUDAD: ${(cust.ciudad || '').toUpperCase()}
+DIRECCIÓN: ${cust.direccion}
+CORREO: ${cust.correo}
+MÉTODO DE ENVÍO: ${o.shippingText || 'Estándar'}
+----------------------------------------
+PRODUCTOS A ENTREGAR:
+${itemsList}
+----------------------------------------
+TOTAL A RECAUDAR / COBRAR: $${Number(o.total || 0).toLocaleString('es-CO')} COP
+========================================`;
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(labelText).then(() => {
+                    showToast('¡Rótulo de despacho copiado al portapapeles!');
+                }).catch(() => {
+                    prompt('Copia los datos de envío:', labelText);
+                });
+            } else {
+                prompt('Copia los datos de envío:', labelText);
+            }
+        }
+
+        function renderAdminDashboard() {
+            const allOrders = getAllOrders();
+
+            const total = allOrders.length;
+            const pending = allOrders.filter(o => !o.status || o.status === 'Pendiente').length;
+            const prep = allOrders.filter(o => o.status === 'En preparación').length;
+            const shipped = allOrders.filter(o => o.status === 'Enviado').length;
+            const delivered = allOrders.filter(o => o.status === 'Entregado').length;
+            const revenue = allOrders.reduce((sum, o) => sum + (Number(o.total) || 0), 0);
+
+            const elTotal = document.getElementById('admin-stat-total');
+            const elPending = document.getElementById('admin-stat-pending');
+            const elShipped = document.getElementById('admin-stat-shipped');
+            const elRevenue = document.getElementById('admin-stat-revenue');
+            if (elTotal) elTotal.textContent = total;
+            if (elPending) elPending.textContent = pending;
+            if (elShipped) elShipped.textContent = shipped + prep;
+            if (elRevenue) elRevenue.textContent = `$${revenue.toLocaleString('es-CO')} COP`;
+
+            const cAll = document.getElementById('count-all');
+            const cPen = document.getElementById('count-pending');
+            const cPrep = document.getElementById('count-prep');
+            const cShip = document.getElementById('count-shipped');
+            const cDel = document.getElementById('count-delivered');
+            if (cAll) cAll.textContent = total;
+            if (cPen) cPen.textContent = pending;
+            if (cPrep) cPrep.textContent = prep;
+            if (cShip) cShip.textContent = shipped;
+            if (cDel) cDel.textContent = delivered;
+
+            let filtered = [...allOrders];
+            if (currentAdminFilter !== 'all') {
+                filtered = filtered.filter(o => (o.status || 'Pendiente') === currentAdminFilter);
+            }
+
+            if (currentAdminSearch) {
+                filtered = filtered.filter(o => {
+                    const c = o.customer || {};
+                    const searchStr = `${o.orderCode} ${c.nombre || ''} ${c.telefono || ''} ${c.ciudad || ''} ${c.direccion || ''} ${(o.items || []).map(i => i.name).join(' ')}`.toLowerCase();
+                    return searchStr.includes(currentAdminSearch);
+                });
+            }
+
+            const showingEl = document.getElementById('admin-showing-count');
+            if (showingEl) showingEl.textContent = `Mostrando ${filtered.length} de ${total} pedidos`;
+
+            const listContainer = document.getElementById('admin-orders-list');
+            if (!listContainer) return;
+
+            if (filtered.length === 0) {
+                listContainer.innerHTML = `
+                    <div class="p-8 sm:p-12 text-center bg-white rounded-3xl border border-[#E6E4DF] shadow-xs space-y-2">
+                        <span class="text-4xl">📦</span>
+                        <h4 class="font-editorial text-xl font-bold text-[#111111]">No hay pedidos en esta vista</h4>
+                        <p class="text-xs text-[#777777] max-w-md mx-auto">
+                            ${currentAdminSearch ? 'No se encontraron resultados para tu búsqueda actual.' : 'Los pedidos confirmados por los clientes se registrarán automáticamente aquí en tiempo real.'}
+                        </p>
+                    </div>
+                `;
+                return;
+            }
+
+            listContainer.innerHTML = filtered.map(o => {
+                const c = o.customer || {};
+                const cleanPhone = (c.telefono || '').replace(/\D/g, '');
+                const waLink = cleanPhone ? `https://wa.me/57${cleanPhone}` : '#';
+
+                let statusBadgeBg = 'bg-amber-100 text-amber-800 border-amber-300';
+                if (o.status === 'En preparación') statusBadgeBg = 'bg-blue-100 text-blue-800 border-blue-300';
+                if (o.status === 'Enviado') statusBadgeBg = 'bg-purple-100 text-purple-800 border-purple-300';
+                if (o.status === 'Entregado') statusBadgeBg = 'bg-emerald-100 text-emerald-800 border-emerald-300';
+                if (o.status === 'Cancelado') statusBadgeBg = 'bg-rose-100 text-rose-800 border-rose-300';
+
+                const itemsRender = (o.items || []).map(i => `
+                    <div class="flex items-center justify-between text-xs py-1 border-b border-[#FAF9F6] last:border-0">
+                        <div>
+                            <span class="font-bold text-[#111111]">${i.qty}x</span> 
+                            <span class="text-[#333333]">${i.name}</span>
+                            <span class="text-[10px] text-[#777777] ml-1">(${i.variant})</span>
+                        </div>
+                        <span class="font-semibold text-[#111111]">$${(i.price * i.qty).toLocaleString('es-CO')}</span>
+                    </div>
+                `).join('');
+
+                return `
+                    <div class="p-4 sm:p-5 rounded-2xl bg-white border border-[#E6E4DF] shadow-xs space-y-4 hover:border-[#BBBBBB] transition">
+                        
+                        <div class="flex flex-wrap items-center justify-between gap-2 border-b border-[#F0EFEA] pb-3">
+                            <div class="flex items-center gap-3">
+                                <span class="font-editorial text-lg font-bold text-[#111111] tracking-wider">#${o.orderCode}</span>
+                                <span class="text-[11px] text-[#888888] font-mono">${o.date || ''}</span>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <label class="text-[11px] font-semibold text-[#666666]">Estado:</label>
+                                <select onchange="updateOrderStatus('${o.orderCode}', this.value)"
+                                    class="text-xs font-bold rounded-xl px-3 py-1.5 border ${statusBadgeBg} focus:outline-none transition cursor-pointer">
+                                    <option value="Pendiente" ${(!o.status || o.status === 'Pendiente') ? 'selected' : ''}>🟡 Pendiente</option>
+                                    <option value="En preparación" ${o.status === 'En preparación' ? 'selected' : ''}>🔵 En Preparación</option>
+                                    <option value="Enviado" ${o.status === 'Enviado' ? 'selected' : ''}>🚚 Enviado</option>
+                                    <option value="Entregado" ${o.status === 'Entregado' ? 'selected' : ''}>✅ Entregado</option>
+                                    <option value="Cancelado" ${o.status === 'Cancelado' ? 'selected' : ''}>❌ Cancelado</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                            <div class="p-3.5 rounded-xl bg-[#FAF9F6] border border-[#EAE8E3] space-y-1.5">
+                                <div class="text-[10px] font-bold uppercase tracking-wider text-[#888888]">Datos del Comprador</div>
+                                <div class="font-bold text-[#111111] text-sm">${c.nombre || 'Cliente'}</div>
+                                <div class="flex items-center gap-2 pt-0.5">
+                                    <a href="${waLink}" target="_blank"
+                                        class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-[#25D366]/15 hover:bg-[#25D366]/25 text-[#128C7E] font-bold transition">
+                                        💬 WhatsApp: ${c.telefono || 'Sin teléfono'}
+                                    </a>
+                                </div>
+                                <div class="text-[#666666] text-[11px]">✉️ ${c.correo || 'Sin correo'}</div>
+                            </div>
+
+                            <div class="p-3.5 rounded-xl bg-[#FAF9F6] border border-[#EAE8E3] space-y-1.5">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-[10px] font-bold uppercase tracking-wider text-[#888888]">Destino de Despacho</div>
+                                    <button type="button" onclick="copyShippingLabel('${o.orderCode}')"
+                                        class="text-[10px] font-bold text-[#111111] hover:text-[#B08D44] flex items-center gap-1 bg-white px-2 py-0.5 rounded-md border border-[#E0DED9] transition" title="Copiar datos para rótulo">
+                                        📋 Copiar Rótulo
+                                    </button>
+                                </div>
+                                <div class="font-bold text-[#111111]">📍 Ciudad: ${c.ciudad || 'No especificada'}</div>
+                                <div class="text-[#444444] font-medium">🏠 Dirección: ${c.direccion || 'No especificada'}</div>
+                                <div class="text-[11px] text-[#777777]">🚚 Método: ${o.shippingText || 'Estándar'}</div>
+                            </div>
+                        </div>
+
+                        <div class="border-t border-[#F0EFEA] pt-3 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+                            <div class="flex-1 space-y-1">
+                                <div class="text-[10px] font-bold uppercase tracking-wider text-[#888888]">Productos Solicitados:</div>
+                                <div class="bg-[#FAF9F6] p-2.5 rounded-xl border border-[#EAE8E3]">
+                                    ${itemsRender}
+                                </div>
+                            </div>
+
+                            <div class="sm:text-right p-3 rounded-xl bg-[#111111] text-white min-w-[170px] space-y-1">
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-[#D4AF37]">Total a Cobrar</span>
+                                <div class="font-editorial text-xl font-bold text-white">$${Number(o.total || 0).toLocaleString('es-CO')} COP</div>
+                                <span class="text-[10px] text-[#AAAAAA] block">Incluye costo de envío</span>
+                            </div>
+                        </div>
+
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // -------------------------------------------------------------
+        // ACORDEÓN DE PREGUNTAS FRECUENTES
+        // -------------------------------------------------------------
+        function toggleFaq(btn) {
+            const item = btn.closest('.faq-item');
+            const isOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('open'));
+            if (!isOpen) {
+                item.classList.add('open');
+            }
+        }
+
+        // -------------------------------------------------------------
+        // TOAST DE NOTIFICACIÓN
+        // -------------------------------------------------------------
+        function showToast(msg) {
+            const container = document.getElementById('toast-container');
+            const el = document.createElement('div');
+            el.className = 'px-4 py-2.5 rounded-full bg-[#111111] text-white text-xs font-medium shadow-lg animate-bounce-short';
+            el.textContent = msg;
+            container.appendChild(el);
+            setTimeout(() => {
+                el.style.opacity = '0';
+                el.style.transition = 'opacity 0.3s ease';
+                setTimeout(() => el.remove(), 300);
+            }, 2500);
+        }
+
+        // -------------------------------------------------------------
+        // INICIALIZACIÓN
+        // -------------------------------------------------------------
+        window.addEventListener('DOMContentLoaded', () => {
+            loadStoredUser();
+            const validPages = ['inicio', 'originales', 'replicas', 'fragancias', 'dudas'];
+            const currentHash = (window.location.hash || '').replace('#', '').toLowerCase();
+
+            if (validPages.includes(currentHash)) {
+                navigate(currentHash);
+            } else {
+                navigate('inicio');
+            }
+        });
+
+        window.addEventListener('hashchange', () => {
+            const validPages = ['inicio', 'originales', 'replicas', 'fragancias', 'dudas'];
+            const currentHash = (window.location.hash || '').replace('#', '').toLowerCase();
+            if (validPages.includes(currentHash)) {
+                navigate(currentHash);
+            }
+        });
+    </script>
+</body>
+
+</html>

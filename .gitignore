@@ -1,0 +1,14 @@
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Cachés locales de sincronización pesados
+disperfumes_cache.json
+sync_log.txt
+
+# Scripts locales de Windows
+*.vbs
+
+# Editores
+.vscode/
+.idea/
