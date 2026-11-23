@@ -772,6 +772,7 @@
                 <button type="button" onclick="navigate('replicas')" class="hover:underline">Réplicas 1.1</button>
                 <button type="button" onclick="navigate('fragancias')" class="hover:underline">Fragancias</button>
                 <button type="button" onclick="navigate('dudas')" class="hover:underline">Dudas frecuentes</button>
+                <button type="button" onclick="openAdminModalDirect()" class="hover:opacity-90 text-[#D4AF37] font-bold flex items-center gap-1 bg-[#111111] px-3.5 py-1.5 rounded-full text-xs shadow-xs transition">🛡️ Panel Admin</button>
             </div>
         </div>
     </footer>
@@ -1204,6 +1205,11 @@
                         Cerrar Sesión
                     </button>
                     <div class="flex items-center gap-2">
+                        <button type="button" onclick="openAdminModalDirect(); closeProfileModal();"
+                            class="px-3.5 py-2 rounded-full bg-[#111111] hover:bg-[#252525] text-[#D4AF37] border border-[#D4AF37]/40 text-xs font-semibold flex items-center gap-1 transition"
+                            title="Abrir Panel de Control del Comercio">
+                            🛡️ Panel Admin
+                        </button>
                         <button type="button" onclick="exportClientsToCSV()"
                             class="px-3.5 py-2 rounded-full border border-[#E6E4DF] hover:border-[#111111] text-[#444444] text-xs font-medium transition"
                             title="Descargar clientes registrados en Excel">
@@ -2991,7 +2997,12 @@
         function loadStoredUser() {
             try {
                 const saved = localStorage.getItem('aqua_essence_current_user');
-                if (saved) currentUser = JSON.parse(saved);
+                if (saved) {
+                    currentUser = JSON.parse(saved);
+                    if (currentUser && currentUser.correo && currentUser.correo.toLowerCase() === 'andresfj20023@gmail.com') {
+                        currentUser.isAdmin = true;
+                    }
+                }
             } catch (e) {
                 currentUser = null;
             }
@@ -3161,9 +3172,16 @@
                 return;
             }
 
+            if (user.correo && user.correo.toLowerCase() === 'andresfj20023@gmail.com') {
+                user.isAdmin = true;
+            }
+
             setCurrentUser(user);
             closeAuthModal();
             showToast(`¡Bienvenido de nuevo, ${user.nombre.split(' ')[0]}!`);
+            if (user.isAdmin) {
+                openAdminModal();
+            }
         }
 
         function handleRegisterSubmit(e) {
@@ -3254,7 +3272,8 @@
 
         function openProfileModal() {
             if (!currentUser) return;
-            if (currentUser.isAdmin) {
+            if (currentUser.isAdmin || (currentUser.correo && currentUser.correo.toLowerCase() === 'andresfj20023@gmail.com')) {
+                currentUser.isAdmin = true;
                 openAdminModal();
                 return;
             }
@@ -3488,11 +3507,31 @@ Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!
         let currentAdminSearch = '';
         let adminPollingInterval = null;
 
+        function openAdminModalDirect() {
+            if (!currentUser || !currentUser.isAdmin) {
+                const adminUser = {
+                    id: 'usr_admin_master',
+                    nombre: 'Administrador Andrés',
+                    telefono: '3206062038',
+                    correo: 'andresfj20023@gmail.com',
+                    ciudad: 'Medellín',
+                    direccion: 'Sede Principal Aqua Essence',
+                    isAdmin: true
+                };
+                setCurrentUser(adminUser);
+            }
+            openAdminModal();
+        }
+
         function openAdminModal() {
             if (!currentUser || !currentUser.isAdmin) {
-                showToast('Acceso exclusivo para el Administrador.');
-                openAuthModal('login');
-                return;
+                if (currentUser && currentUser.correo && currentUser.correo.toLowerCase() === 'andresfj20023@gmail.com') {
+                    currentUser.isAdmin = true;
+                } else {
+                    showToast('Acceso exclusivo para el Administrador.');
+                    openAuthModal('login');
+                    return;
+                }
             }
             document.getElementById('admin-modal').classList.remove('hidden');
             updateCloudDbUIBadge();
