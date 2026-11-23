@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 23/11/2026 06:47 PM
+// Actualizado: 23/11/2026 09:42 PM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -4642,7 +4642,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Chanel Coco Mademoiselle 100 mililitros",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 759800,
+    "price": 960000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/04/w800h800fitpad-6.avif",
     "compared": false
   },
