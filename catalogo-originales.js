@@ -1,10 +1,10 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 22/11/2026 06:57 PM
+// Actualizado: 23/11/2026 03:51 AM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
-    "id": "orig-1",
-    "name": "Ahli Lyra",
+    "id": "orig-649",
+    "name": "AHLI LYRA",
     "brand": "AHLI",
     "variant": "100% Original Sellado · Código Batch",
     "price": 380000,
@@ -12,7 +12,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-2",
+    "id": "orig-739",
     "name": "Ahli Swag",
     "brand": "AHLI",
     "variant": "100% Original Sellado · Código Batch",
@@ -21,7 +21,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-3",
+    "id": "orig-638",
     "name": "Ahli crux",
     "brand": "AHLI",
     "variant": "100% Original Sellado · Código Batch",
@@ -30,7 +30,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-4",
+    "id": "orig-175",
     "name": "Combo Ahli Vega + Ahli Karpos",
     "brand": "AHLI",
     "variant": "100% Original Sellado · Código Batch",
@@ -39,7 +39,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1873",
+    "id": "orig-1876",
     "name": "ALBANE NOBLE ADVENTURE",
     "brand": "ALBANE NOBLE",
     "variant": "100% Original Sellado · Código Batch",
@@ -48,7 +48,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1872",
+    "id": "orig-1875",
     "name": "ALBANE NOBLE GRIS CHIC",
     "brand": "ALBANE NOBLE",
     "variant": "100% Original Sellado · Código Batch",
@@ -57,7 +57,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1875",
+    "id": "orig-1878",
     "name": "ALBANE NOBLE RED SOLAR",
     "brand": "ALBANE NOBLE",
     "variant": "100% Original Sellado · Código Batch",
@@ -66,7 +66,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1874",
+    "id": "orig-1877",
     "name": "ALBANE NOBLE ROYAL AMBER",
     "brand": "ALBANE NOBLE",
     "variant": "100% Original Sellado · Código Batch",
@@ -75,7 +75,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1805",
+    "id": "orig-1808",
     "name": "ALEXANDRE.J THE MAJESTIC AMBER",
     "brand": "ALEXANDRE J",
     "variant": "100% Original Sellado · Código Batch",
@@ -84,7 +84,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1804",
+    "id": "orig-1807",
     "name": "ALEXANDRE.J THE MAJESTIC MUSK",
     "brand": "ALEXANDRE J",
     "variant": "100% Original Sellado · Código Batch",
@@ -93,7 +93,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1967",
+    "id": "orig-1970",
     "name": "ALHAMBRA BRIGHT PEACH EDP 80 ML",
     "brand": "ALHAMBRA BRIGHT",
     "variant": "100% Original Sellado · Código Batch",
@@ -102,7 +102,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1966",
+    "id": "orig-1969",
     "name": "ALHAMBRA INFINI OUD EDP 100ML",
     "brand": "ALHAMBRA INFINI",
     "variant": "100% Original Sellado · Código Batch",
@@ -111,7 +111,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1963",
+    "id": "orig-1966",
     "name": "ALHAMBRA LOVELY CHERIE EDP 80 ML",
     "brand": "ALHAMBRA LOVELY",
     "variant": "100% Original Sellado · Código Batch",
@@ -120,7 +120,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1958",
+    "id": "orig-1961",
     "name": "ALHAMBRA WOODY OUD EDP 80 ML",
     "brand": "ALHAMBRA WOODY",
     "variant": "100% Original Sellado · Código Batch",
@@ -129,7 +129,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1799",
+    "id": "orig-1802",
     "name": "ANA AL AWWAL NUSUK FOR MEN",
     "brand": "ANA AL",
     "variant": "100% Original Sellado · Código Batch",
@@ -138,7 +138,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1720",
+    "id": "orig-1723",
     "name": "ANTONIO BANDERAS POWER OF SEDUTION",
     "brand": "ANTONIO BANDERAS",
     "variant": "100% Original Sellado · Código Batch",
@@ -147,7 +147,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1722",
+    "id": "orig-1725",
     "name": "ANTONIO BANDERAS SEDUCTION IN BLACK 200 ML",
     "brand": "ANTONIO BANDERAS",
     "variant": "100% Original Sellado · Código Batch",
@@ -156,7 +156,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1708",
+    "id": "orig-1711",
     "name": "ANTONIO BANDERAS THE ICON EDP",
     "brand": "ANTONIO BANDERAS",
     "variant": "100% Original Sellado · Código Batch",
@@ -165,7 +165,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1723",
+    "id": "orig-1726",
     "name": "ANTONIO BANDERAS THE ICON EDT",
     "brand": "ANTONIO BANDERAS",
     "variant": "100% Original Sellado · Código Batch",
@@ -174,7 +174,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1721",
+    "id": "orig-1724",
     "name": "ANTONIO BANERAS KING OF SEDUCTION ABSOLUTE",
     "brand": "ANTONIO BANERAS",
     "variant": "100% Original Sellado · Código Batch",
@@ -183,7 +183,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2011",
+    "id": "orig-2014",
     "name": "ARABIANS TONKA EDP 100ml",
     "brand": "ARABIANS TONKA",
     "variant": "100% Original Sellado · Código Batch",
@@ -192,7 +192,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1789",
+    "id": "orig-1792",
     "name": "ARIANA GRANDE GOD IS A WOMAN",
     "brand": "ARIANA GRANDE",
     "variant": "100% Original Sellado · Código Batch",
@@ -201,7 +201,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1791",
+    "id": "orig-1794",
     "name": "ARIANA GRANDE MOD VANILLA",
     "brand": "ARIANA GRANDE",
     "variant": "100% Original Sellado · Código Batch",
@@ -210,7 +210,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1790",
+    "id": "orig-1793",
     "name": "ARIANA GRANDE MOOD BLUSH",
     "brand": "ARIANA GRANDE",
     "variant": "100% Original Sellado · Código Batch",
@@ -219,7 +219,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1792",
+    "id": "orig-1795",
     "name": "ARIANA GRANDE SWEET LIKE CANDY",
     "brand": "ARIANA GRANDE",
     "variant": "100% Original Sellado · Código Batch",
@@ -228,7 +228,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-5",
+    "id": "orig-309",
     "name": "Acqua di Parma Colonia Futura",
     "brand": "Acqua Di Parma",
     "variant": "100% Original Sellado · Código Batch",
@@ -237,7 +237,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-6",
+    "id": "orig-79",
     "name": "Acqua di Parma Mandorlo di Sicilia",
     "brand": "Acqua Di Parma",
     "variant": "100% Original Sellado · Código Batch",
@@ -246,7 +246,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-7",
+    "id": "orig-679",
     "name": "Acqua di parma Colonia C.L.U.B",
     "brand": "Acqua Di Parma",
     "variant": "100% Original Sellado · Código Batch",
@@ -255,7 +255,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1881",
+    "id": "orig-1884",
     "name": "AFNAN 9 AM POUR FEMME",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -264,7 +264,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1955",
+    "id": "orig-1958",
     "name": "AFNAN 9 PM EDP 100ML",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -273,7 +273,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1954",
+    "id": "orig-1957",
     "name": "AFNAN SOUVENIR DESERT ROSE EDP 100ML",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -282,7 +282,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1953",
+    "id": "orig-1956",
     "name": "AFNAN SOUVENIR FLORAL BOUQUET EDP 100ML",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -291,7 +291,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1921",
+    "id": "orig-1924",
     "name": "AFNAN SUPREMACY GOLD EDP 100ML",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -300,7 +300,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1919",
+    "id": "orig-1922",
     "name": "AFNAN SUPREMACY IN OUD EDP 100ML",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -309,7 +309,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1952",
+    "id": "orig-1955",
     "name": "AFNAN SUPREMACY INCENSE EDP 100ML",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -318,7 +318,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1922",
+    "id": "orig-1925",
     "name": "AFNAN SUPREMACY NOIR EDP 100ML",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -327,7 +327,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1920",
+    "id": "orig-1923",
     "name": "AFNAN SUPREMACY NOT ONLY INTENSE EDP 150 (mililitros)",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -336,7 +336,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1880",
+    "id": "orig-1883",
     "name": "AFNAN ZIMAYA FATIMA",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -345,7 +345,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1879",
+    "id": "orig-1882",
     "name": "AFNAN ZIMAYA FATIMA VELVET",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -354,7 +354,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1471",
+    "id": "orig-1474",
     "name": "Afnan 9 AM Dive",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -363,7 +363,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-8",
+    "id": "orig-949",
     "name": "Afnan 9 PM Elixir",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -372,7 +372,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-9",
+    "id": "orig-633",
     "name": "Afnan 9 PM Night Out",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -381,7 +381,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1470",
+    "id": "orig-1473",
     "name": "Afnan 9 PM Pour Femme EDP",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -390,7 +390,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1469",
+    "id": "orig-1472",
     "name": "Afnan 9 PM Rebel",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -399,7 +399,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-10",
+    "id": "orig-591",
     "name": "Afnan Lynked Forever Gold",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -408,7 +408,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-11",
+    "id": "orig-590",
     "name": "Afnan Lynked Freedom Black",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -417,7 +417,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-12",
+    "id": "orig-809",
     "name": "Afnan Perfumes Rare Reef",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -426,7 +426,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-13",
+    "id": "orig-762",
     "name": "Afnan Tobacco Rush",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -435,7 +435,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1057",
+    "id": "orig-1058",
     "name": "Afnan Turathi Blue Homme",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -444,7 +444,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1134",
+    "id": "orig-1139",
     "name": "Afnan Turathi Electric",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -453,7 +453,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-14",
+    "id": "orig-950",
     "name": "Afnan Zimaya Tiramisu Coco",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
@@ -462,7 +462,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1067",
+    "id": "orig-1070",
     "name": "Ahli Corvus",
     "brand": "Ahli",
     "variant": "100% Original Sellado · Código Batch",
@@ -471,7 +471,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1068",
+    "id": "orig-1071",
     "name": "Ahli Karpos",
     "brand": "Ahli",
     "variant": "100% Original Sellado · Código Batch",
@@ -480,7 +480,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1066",
+    "id": "orig-1069",
     "name": "Ahli Overdose",
     "brand": "Ahli",
     "variant": "100% Original Sellado · Código Batch",
@@ -489,7 +489,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1069",
+    "id": "orig-1072",
     "name": "Ahli Vega",
     "brand": "Ahli",
     "variant": "100% Original Sellado · Código Batch",
@@ -498,7 +498,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-15",
+    "id": "orig-528",
     "name": "Ahmed Al Maghribi Kaaf",
     "brand": "Ahmed Al Maghribi",
     "variant": "100% Original Sellado · Código Batch",
@@ -507,7 +507,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-16",
+    "id": "orig-161",
     "name": "Ahmed Al Maghribi Kaaf Noir",
     "brand": "Ahmed Al Maghribi",
     "variant": "100% Original Sellado · Código Batch",
@@ -516,7 +516,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1695",
+    "id": "orig-1698",
     "name": "Ajmal Aristocrat lila , sin celofan",
     "brand": "Ajmal Aristocrat",
     "variant": "100% Original Sellado · Código Batch",
@@ -525,7 +525,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1871",
+    "id": "orig-1874",
     "name": "AL HARAMAIN AMBER OUD BLUE EDICIÓN 60 ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -534,7 +534,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1995",
+    "id": "orig-1998",
     "name": "AL HARAMAIN AMBER OUD CARBON EDITION EDP 60 ml",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -543,7 +543,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1998",
+    "id": "orig-2001",
     "name": "AL HARAMAIN AMBER OUD CLASSIC EXCLUSIF EDP 60ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -552,7 +552,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1997",
+    "id": "orig-2000",
     "name": "AL HARAMAIN AMBER OUD ESMERALD EXCLUSIF EDP 60ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -561,7 +561,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1951",
+    "id": "orig-1954",
     "name": "AL HARAMAIN AMBER OUD ROUGE EDP 60ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -570,7 +570,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1988",
+    "id": "orig-1991",
     "name": "AL HARAMAIN AMBER OUD RUBY EDP 120 ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -579,7 +579,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1999",
+    "id": "orig-2002",
     "name": "AL HARAMAIN AMBER OUD SPORT EXCLUSIF EDP 60ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -588,7 +588,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1996",
+    "id": "orig-1999",
     "name": "AL HARAMAIN AMBER OUD TOBACCO EDITION EDP 60ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -597,7 +597,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1989",
+    "id": "orig-1992",
     "name": "AL HARAMAIN AMBER OUD WHITE EDITION EDP",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -606,7 +606,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1992",
+    "id": "orig-1995",
     "name": "AL HARAMAIN L´AVENTURE EDP 100ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -615,7 +615,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1990",
+    "id": "orig-1993",
     "name": "AL HARAMAIN L´AVENTURE GOLD EDP 100ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -624,7 +624,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1993",
+    "id": "orig-1996",
     "name": "AL HARAMAIN L´AVENTURE KNIGHT EDP 100ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -633,7 +633,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1991",
+    "id": "orig-1994",
     "name": "AL HARAMAIN L´AVENTURE ROSE EDP",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -642,7 +642,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1870",
+    "id": "orig-1873",
     "name": "AL HARAMAIN PORTAFOLIO EUPHORIC ROOTS",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -651,7 +651,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1868",
+    "id": "orig-1871",
     "name": "AL HARAMAIN PORTAFOLIO FLORAL SCULPTURE",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -660,7 +660,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1869",
+    "id": "orig-1872",
     "name": "AL HARAMAIN PORTAFOLIO NEROLI CANVAS",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -669,7 +669,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2027",
+    "id": "orig-2030",
     "name": "Al Haramain AMBER OUD GOLD Edition EDP",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -678,7 +678,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1485",
+    "id": "orig-1488",
     "name": "Al Haramain Amber Oud Aqua Dubai",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -687,7 +687,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1486",
+    "id": "orig-1489",
     "name": "Al Haramain Amber Oud Dubai Night 100 ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -696,7 +696,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1487",
+    "id": "orig-1490",
     "name": "Al Haramain Amber Oud Ultra Violet",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -705,7 +705,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1102",
+    "id": "orig-1107",
     "name": "Al Haramain Junoon Rose",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -714,7 +714,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1142",
+    "id": "orig-1147",
     "name": "Al haramain Amber Green Dubai",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
@@ -723,7 +723,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-17",
+    "id": "orig-579",
     "name": "Al Wataniah Duha",
     "brand": "Al Wataniah",
     "variant": "100% Original Sellado · Código Batch",
@@ -732,7 +732,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-18",
+    "id": "orig-257",
     "name": "Alexandre J Butterfly",
     "brand": "Alexandre.J",
     "variant": "100% Original Sellado · Código Batch",
@@ -741,7 +741,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-19",
+    "id": "orig-259",
     "name": "Alexandre J Imperial Peacock",
     "brand": "Alexandre.J",
     "variant": "100% Original Sellado · Código Batch",
@@ -750,7 +750,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-20",
+    "id": "orig-260",
     "name": "Alexandre J Oriental Enigma",
     "brand": "Alexandre.J",
     "variant": "100% Original Sellado · Código Batch",
@@ -759,7 +759,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-21",
+    "id": "orig-258",
     "name": "Alexandre J Sweet Enigma",
     "brand": "Alexandre.J",
     "variant": "100% Original Sellado · Código Batch",
@@ -768,7 +768,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1803",
+    "id": "orig-1806",
     "name": "AMOUAGE BRACKEN WOMAN",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -777,7 +777,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1800",
+    "id": "orig-1803",
     "name": "AMOUAGE FIGMENT WOMAN",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -786,7 +786,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1801",
+    "id": "orig-1804",
     "name": "AMOUAGE GOLD WOMAN",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -795,7 +795,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1802",
+    "id": "orig-1805",
     "name": "AMOUAGE MEMOIR WOMAN",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -804,16 +804,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-22",
+    "id": "orig-299",
     "name": "Amouage Decision",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1750000,
+    "price": 1550000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/amouagedecision_1.jpg?v=1784598528",
     "compared": false
   },
   {
-    "id": "orig-23",
+    "id": "orig-100",
     "name": "Amouage Epic 56",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -822,7 +822,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-24",
+    "id": "orig-97",
     "name": "Amouage Epic Masculina",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -831,7 +831,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-25",
+    "id": "orig-467",
     "name": "Amouage Guidance Set de Regalo",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -840,7 +840,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-26",
+    "id": "orig-95",
     "name": "Amouage Honour 43",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -849,7 +849,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-27",
+    "id": "orig-98",
     "name": "Amouage Interlude 53",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -858,7 +858,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-28",
+    "id": "orig-96",
     "name": "Amouage Jubilation XXV",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -867,7 +867,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-29",
+    "id": "orig-99",
     "name": "Amouage Love Delight",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -876,7 +876,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-30",
+    "id": "orig-101",
     "name": "Amouage Meander",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -885,16 +885,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-31",
+    "id": "orig-738",
     "name": "Amouage Outlands",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 2410000,
+    "price": 2010000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Amouage_Outlands.jpg?v=1766773660",
     "compared": false
   },
   {
-    "id": "orig-32",
+    "id": "orig-532",
     "name": "Amouage Purpose",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -903,7 +903,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-33",
+    "id": "orig-313",
     "name": "Amouage Reflection 45 Man",
     "brand": "Amouage",
     "variant": "100% Original Sellado · Código Batch",
@@ -912,16 +912,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-34",
-    "name": "Andrés Croxatto Man Perfume",
-    "brand": "Andrés Croxatto",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 220000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/andrescroxattoman.jpg?v=1706718579",
-    "compared": false
-  },
-  {
-    "id": "orig-1675",
+    "id": "orig-1678",
     "name": "Animale Dama",
     "brand": "Animale Dama",
     "variant": "100% Original Sellado · Código Batch",
@@ -930,7 +921,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1648",
+    "id": "orig-1651",
     "name": "Animale Hombre",
     "brand": "Animale Hombre",
     "variant": "100% Original Sellado · Código Batch",
@@ -939,7 +930,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-35",
+    "id": "orig-657",
     "name": "Another Lab Germany 92",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
@@ -948,7 +939,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-36",
+    "id": "orig-658",
     "name": "Another Lab Italy 86",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
@@ -957,7 +948,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-37",
+    "id": "orig-268",
     "name": "Another Lab Lyche Fiyi 88",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
@@ -966,7 +957,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-38",
+    "id": "orig-123",
     "name": "Another Lab Monaco 11",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
@@ -975,7 +966,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-39",
+    "id": "orig-454",
     "name": "Another Lab Rioh 99",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
@@ -984,7 +975,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1482",
+    "id": "orig-1485",
     "name": "Antonio Banderas Blue Seduction Summer Essence",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -993,7 +984,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1636",
+    "id": "orig-1639",
     "name": "Antonio Banderas Blue Seduction Summer Essence Hombre",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1002,7 +993,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-40",
+    "id": "orig-844",
     "name": "Antonio Banderas Blue Seduction masculino Set de Regalo",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1011,7 +1002,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-41",
+    "id": "orig-887",
     "name": "Antonio Banderas Icon EDT Set de Regalo",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1020,7 +1011,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1124",
+    "id": "orig-1129",
     "name": "Antonio Banderas Icon Elixir",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1029,7 +1020,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1051",
+    "id": "orig-1052",
     "name": "Antonio Banderas Icon Woman Supreme",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1038,7 +1029,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1410",
+    "id": "orig-1414",
     "name": "Antonio Banderas King of Seduction",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1047,7 +1038,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1635",
+    "id": "orig-1638",
     "name": "Antonio Banderas Power Of Seduction",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1056,7 +1047,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1054",
+    "id": "orig-1055",
     "name": "Antonio Banderas Queen of seduction",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1065,7 +1056,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-42",
+    "id": "orig-386",
     "name": "Antonio Banderas Seduction X",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1074,7 +1065,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1123",
+    "id": "orig-1128",
     "name": "Antonio Banderas The Icon Supreme",
     "brand": "Antonio Banderas",
     "variant": "100% Original Sellado · Código Batch",
@@ -1083,7 +1074,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-43",
+    "id": "orig-125",
     "name": "Arabian Oud Bullet",
     "brand": "Arabian Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -1092,7 +1083,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1073",
+    "id": "orig-1075",
     "name": "Arabiyat Safa Prestige",
     "brand": "Arabiyat",
     "variant": "100% Original Sellado · Código Batch",
@@ -1101,7 +1092,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-44",
+    "id": "orig-893",
     "name": "Arabiyat Prestige Al Noor",
     "brand": "Arabiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
@@ -1110,7 +1101,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-45",
+    "id": "orig-680",
     "name": "Arabiyat Prestige Aristo",
     "brand": "Arabiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
@@ -1119,7 +1110,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-46",
+    "id": "orig-312",
     "name": "Arabiyat Prestige La Di Da Femenina",
     "brand": "Arabiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
@@ -1128,7 +1119,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-47",
+    "id": "orig-582",
     "name": "Arabiyat Prestige La-di-da For Him",
     "brand": "Arabiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
@@ -1137,7 +1128,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1074",
+    "id": "orig-1076",
     "name": "Arabiyat Prestige Mahad Al Dhahab",
     "brand": "Arabiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
@@ -1146,16 +1137,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1072",
-    "name": "Arabiyat Prestige Marwa",
+    "id": "orig-4",
+    "name": "Arabiyat Prestige Marwa Extrait",
     "brand": "Arabiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
     "price": 320000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_8e59bc39-4048-4149-ba09-5bcf83586ae3.webp",
-    "compared": false
+    "compared": true
   },
   {
-    "id": "orig-48",
+    "id": "orig-892",
     "name": "Arabiyat Prestige Uhud",
     "brand": "Arabiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
@@ -1164,7 +1155,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-49",
+    "id": "orig-727",
     "name": "Arabiyat Sugar Dulce de Leche",
     "brand": "Arabiyat Sugar",
     "variant": "100% Original Sellado · Código Batch",
@@ -1173,7 +1164,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-50",
+    "id": "orig-728",
     "name": "Arabiyat Sugar Lemon Sorbet",
     "brand": "Arabiyat Sugar",
     "variant": "100% Original Sellado · Código Batch",
@@ -1182,7 +1173,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-51",
+    "id": "orig-726",
     "name": "Arabiyat Sugar Mango Affogato",
     "brand": "Arabiyat Sugar",
     "variant": "100% Original Sellado · Código Batch",
@@ -1191,7 +1182,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-52",
+    "id": "orig-729",
     "name": "Arabiyat Sugar Matcha Latte",
     "brand": "Arabiyat Sugar",
     "variant": "100% Original Sellado · Código Batch",
@@ -1200,7 +1191,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-53",
+    "id": "orig-725",
     "name": "Arabiyat Sugar Vanilla Cream Macaron",
     "brand": "Arabiyat Sugar",
     "variant": "100% Original Sellado · Código Batch",
@@ -1209,7 +1200,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1646",
+    "id": "orig-1649",
     "name": "Aramis",
     "brand": "Aramis",
     "variant": "100% Original Sellado · Código Batch",
@@ -1218,7 +1209,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1071",
+    "id": "orig-1074",
     "name": "Arbiyat Prestige Uhud",
     "brand": "Arbiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
@@ -1227,7 +1218,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-54",
+    "id": "orig-620",
     "name": "Ard Al Zaafaran Manaal",
     "brand": "Ard Al Zaafaran",
     "variant": "100% Original Sellado · Código Batch",
@@ -1236,7 +1227,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2080",
+    "id": "orig-2083",
     "name": "Ariana Grande Ari EDP 100 ml",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1245,7 +1236,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2084",
+    "id": "orig-1",
+    "name": "Ariana Grande Cloud Aurora",
+    "brand": "Ariana Grande",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ArianagrandeCloudAurora.jpg?v=1795369765",
+    "compared": false
+  },
+  {
+    "id": "orig-2087",
     "name": "Ariana Grande Cloud EDP 100 ml",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1254,7 +1254,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1291",
+    "id": "orig-1296",
     "name": "Ariana Grande Cloud Pink",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1263,7 +1263,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-55",
+    "id": "orig-768",
     "name": "Ariana Grande Cloud Pink Set de Regalo Edición Especial",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1272,7 +1272,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-56",
+    "id": "orig-769",
     "name": "Ariana Grande Cloud set de regalo navidad",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1281,7 +1281,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-57",
+    "id": "orig-767",
     "name": "Ariana Grande Mod Vanilla Set de Regalo Edición Especial",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1290,7 +1290,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2079",
+    "id": "orig-2082",
     "name": "Ariana Grande Moonlight EDP 100 ml",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1299,7 +1299,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1143",
+    "id": "orig-1148",
     "name": "Ariana Grande REM",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1308,7 +1308,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2081",
+    "id": "orig-2084",
     "name": "Ariana Grande thank u Next EDP 100 ml",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1317,7 +1317,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-58",
+    "id": "orig-506",
     "name": "Ariana grande Rem Cherry Eclipse",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1326,7 +1326,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-59",
+    "id": "orig-794",
     "name": "Thank U Next 2.0 Ariana Grande",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
@@ -1335,7 +1335,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1786",
+    "id": "orig-1789",
     "name": "ARMAF CLUB DE NUIT ICONIC",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1344,7 +1344,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1788",
+    "id": "orig-1791",
     "name": "ARMAF CLUB DE NUIT INTENSE EDP 200 ml",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1353,7 +1353,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1704",
+    "id": "orig-1707",
     "name": "ARMAF CLUB DE NUIT UNTOLD EDP",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1362,7 +1362,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1785",
+    "id": "orig-1788",
     "name": "ARMAF CLUB DE NUIT URBAN ELIXIR",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1371,7 +1371,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1787",
+    "id": "orig-1790",
     "name": "ARMAF CLUB DE NUIT URBAN MAN",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1380,7 +1380,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1705",
+    "id": "orig-1708",
     "name": "ARMAF ODYSSEY MANDARIN SKY EDP",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1389,7 +1389,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1659",
+    "id": "orig-1662",
     "name": "ARMAF ODYSSEY TYRANT",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1398,7 +1398,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1703",
+    "id": "orig-1706",
     "name": "Arma club de nuit Woman",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1407,7 +1407,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1100",
+    "id": "orig-1105",
     "name": "Armaf Beach Party",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1416,7 +1416,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-60",
+    "id": "orig-890",
     "name": "Armaf Checkmate Queen",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1425,7 +1425,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2061",
+    "id": "orig-54",
+    "name": "Armaf Club De Nuit Elite",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 409000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ClubDeNuitElite.jpg?v=1791895239",
+    "compared": false
+  },
+  {
+    "id": "orig-2064",
     "name": "Armaf Club De Nuit Intense",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1434,7 +1443,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-61",
+    "id": "orig-180",
     "name": "Armaf Club De Nuit Intense Overdose",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1443,7 +1452,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2059",
+    "id": "orig-2062",
     "name": "Armaf Club De Nuit Milestone EDP 105 ml",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1452,7 +1461,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-62",
+    "id": "orig-403",
     "name": "Armaf Club De Nuit Urban Man Elixir Set de Regalo",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1461,7 +1470,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-63",
+    "id": "orig-626",
     "name": "Armaf Club De Nuit Woman Extrait set de regalo",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1470,7 +1479,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-64",
+    "id": "orig-785",
+    "name": "Armaf Club de Nuit Bling",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Armaf_Club_de_Nuit_Bling.jpg?v=1763663334",
+    "compared": false
+  },
+  {
+    "id": "orig-776",
     "name": "Armaf Club de Nuit Intense Parfum Extreme Edition",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1479,7 +1497,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-65",
+    "id": "orig-28",
     "name": "Armaf Club de Nuit Intenso Fuego",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1488,7 +1506,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1312",
+    "id": "orig-1317",
     "name": "Armaf Club de Nuit Lionheart Man",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1497,7 +1515,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-66",
+    "id": "orig-831",
     "name": "Armaf Club de Nuit Precieux IV",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1506,7 +1524,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1106",
+    "id": "orig-566",
+    "name": "Armaf Club de Nuit Woman Extrait de Parfum",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Armaf_Club_de_Nuit_Woman_Extrait_de_Parfum.jpg?v=1773195609",
+    "compared": false
+  },
+  {
+    "id": "orig-1111",
     "name": "Armaf Club de nuit intense extrait",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1515,7 +1542,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2060",
+    "id": "orig-2063",
     "name": "Armaf Clud De Nuit Sillage EDP 105 ml",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1524,7 +1551,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-67",
+    "id": "orig-599",
     "name": "Armaf Delicacy Cotton Candy",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1533,7 +1560,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1251",
+    "id": "orig-1256",
     "name": "Armaf Delights Yum Yum",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1542,16 +1569,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-68",
+    "id": "orig-404",
     "name": "Armaf Dunescape",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 359000,
+    "price": 309000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ArmafDUNESCAPE.jpg?v=1778694509",
     "compared": true
   },
   {
-    "id": "orig-1128",
+    "id": "orig-1133",
     "name": "Armaf Eter Arabian Sky",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1560,7 +1587,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-69",
+    "id": "orig-636",
     "name": "Armaf Eter Perfume Oasis",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1569,7 +1596,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-70",
+    "id": "orig-817",
     "name": "Armaf Island Breeze",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1578,7 +1605,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-71",
+    "id": "orig-503",
     "name": "Armaf Odyssey Aqua set de regalo",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1587,7 +1614,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1101",
+    "id": "orig-1106",
     "name": "Armaf Odyssey Artisto",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1596,7 +1623,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1274",
+    "id": "orig-1279",
     "name": "Armaf Odyssey Dubai Chocolat",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1605,7 +1632,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1127",
+    "id": "orig-1132",
     "name": "Armaf Odyssey Eau de montagne",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1614,7 +1641,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-72",
+    "id": "orig-875",
     "name": "Armaf Odyssey Go Mango Tropical",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1623,7 +1650,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1162",
+    "id": "orig-1167",
     "name": "Armaf Odyssey Homme White Edition",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1632,7 +1659,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-73",
+    "id": "orig-405",
     "name": "Armaf Odyssey Li'chi Lush",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1641,7 +1668,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1089",
+    "id": "orig-1093",
     "name": "Armaf Odyssey Mandarin Sky Elixir",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1650,7 +1677,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-74",
+    "id": "orig-112",
     "name": "Armaf Odyssey Nexus",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1659,7 +1686,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-75",
+    "id": "orig-406",
     "name": "Armaf Odyssey Pink Pop",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1668,7 +1695,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-76",
+    "id": "orig-295",
     "name": "Armaf Odyssey Soda Pop",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1677,7 +1704,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-77",
+    "id": "orig-839",
     "name": "Armaf Odyssey Toffee Coffee",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1686,7 +1713,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1064",
+    "id": "orig-1067",
     "name": "Armaf Odyssey Wild One Gold Edition",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1695,7 +1722,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-78",
+    "id": "orig-874",
     "name": "Armaf Odyssey bahamas tropical",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1704,7 +1731,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-79",
+    "id": "orig-885",
     "name": "Armaf Odyssey marshmallow",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1713,7 +1740,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-80",
+    "id": "orig-600",
     "name": "Armaf Red Velvet",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1722,7 +1749,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-81",
+    "id": "orig-850",
     "name": "Armaf Tres Nuit Lyric set de regalo",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1731,34 +1758,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-82",
+    "id": "orig-1100",
     "name": "Armaf club de nuit Maleka",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
     "price": 290000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/09/Armaf_club_de_nuit_Maleka.webp",
-    "compared": true
+    "compared": false
   },
   {
-    "id": "orig-83",
-    "name": "Armaf club de nuit Maleka",
-    "brand": "Armaf",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 290000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Armaf_club_de_nuit_Maleka.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-84",
-    "name": "Armaf club de nuit Maleka",
-    "brand": "Armaf",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 290000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Armaf_club_de_nuit_Maleka.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-85",
+    "id": "orig-870",
     "name": "Armaf club de nuit iconic set de regalo",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1767,7 +1776,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-86",
+    "id": "orig-652",
     "name": "Armaf delights Bon Bon",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1776,7 +1785,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-87",
+    "id": "orig-651",
     "name": "Armaf odyssey Mandarin Sky Vintage edition",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1785,7 +1794,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1125",
+    "id": "orig-1130",
     "name": "Armaf odyssey Revolution",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1794,7 +1803,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-88",
+    "id": "orig-848",
     "name": "Armaf odyssey black forest",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1803,7 +1812,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-89",
+    "id": "orig-111",
     "name": "Armaf odyssey french kiss",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1812,7 +1821,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1650",
+    "id": "orig-1653",
     "name": "Club De Nuit Private Key To My Dreams(sin caja)",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1821,7 +1830,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1653",
+    "id": "orig-1656",
     "name": "Club De Nuit Private Key To My Life EXTRACT",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1830,7 +1839,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1651",
+    "id": "orig-1654",
     "name": "Club De Nuit Private Key To My Love (sin caja)",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1839,7 +1848,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1654",
+    "id": "orig-1657",
     "name": "Club De Nuit Private Key To My Soul",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1848,7 +1857,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1652",
+    "id": "orig-1655",
     "name": "Club De Nuit Private Key To My Success (sin caja)",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1857,7 +1866,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1490",
+    "id": "orig-1493",
     "name": "Club de Nuit Imperiale",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1866,7 +1875,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-90",
+    "id": "orig-685",
     "name": "Club de Nuit Intense Man Extracto Set de Regalo",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1875,7 +1884,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1489",
+    "id": "orig-1492",
     "name": "Club de Nuit Oud",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1884,7 +1893,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1491",
+    "id": "orig-1494",
     "name": "Club de Nuit Precieux 1",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1893,7 +1902,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-91",
+    "id": "orig-177",
     "name": "Combo Armaf Club De Nuit Intense + Armaf Odyssey Mandarin Sky",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1902,7 +1911,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1494",
+    "id": "orig-1497",
     "name": "Odyssey Aoud",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1911,7 +1920,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1496",
+    "id": "orig-1499",
     "name": "Odyssey Aqua Edition EXTRAGRANDE , 200 MILILITROS",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1920,7 +1929,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1495",
+    "id": "orig-1498",
     "name": "Odyssey Candy 200 mililitros ( Contenido EXTRA )",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1929,7 +1938,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1492",
+    "id": "orig-1495",
     "name": "Odyssey Mega",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1938,7 +1947,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1497",
+    "id": "orig-1500",
     "name": "Odyssey limoni",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1947,7 +1956,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1493",
+    "id": "orig-1496",
     "name": "Spectra odyssey 100 ml",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
@@ -1956,7 +1965,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1351",
+    "id": "orig-1355",
     "name": "Armani Acqua di Gio Pour Homme Eau de Parfum (Tester)",
     "brand": "Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -1965,7 +1974,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1224",
+    "id": "orig-1229",
     "name": "Armani Acqua di Gio Profondo Parfum PURO 100 ml",
     "brand": "Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -1974,7 +1983,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1559",
+    "id": "orig-1562",
     "name": "Armani Code Parfum",
     "brand": "Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -1983,7 +1992,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2096",
+    "id": "orig-2099",
     "name": "Emporio Armani Because It&#8217;s You EDP 100 ml",
     "brand": "Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -1992,7 +2001,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1226",
+    "id": "orig-1231",
     "name": "Emporio Armani Stronger With You Absolutely",
     "brand": "Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -2001,7 +2010,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1225",
+    "id": "orig-1230",
     "name": "Emporio Armani Stronger With You Intensely",
     "brand": "Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -2010,7 +2019,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2052",
+    "id": "orig-2055",
     "name": "Emporio Armani You Stronger Whit EDT 100 ml",
     "brand": "Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -2028,7 +2037,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-92",
+    "id": "orig-420",
     "name": "Atelier des Ors Blanc Polychrome",
     "brand": "Atelier Des Ors",
     "variant": "100% Original Sellado · Código Batch",
@@ -2037,7 +2046,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-93",
+    "id": "orig-359",
     "name": "Atelier des Ors Riviera Lazuli",
     "brand": "Atelier Des Ors",
     "variant": "100% Original Sellado · Código Batch",
@@ -2046,7 +2055,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-94",
+    "id": "orig-249",
     "name": "Atkinsons 24 Old Bond Street EDC",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2055,7 +2064,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-95",
+    "id": "orig-250",
     "name": "Atkinsons 24 Old Bond Street Triple Extract EDC",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2064,7 +2073,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-96",
+    "id": "orig-246",
     "name": "Atkinsons 44 Gerrard Street",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2073,7 +2082,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-97",
+    "id": "orig-252",
     "name": "Atkinsons Born for Eternity Parfum Intense",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2082,7 +2091,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-98",
+    "id": "orig-253",
     "name": "Atkinsons Gold Fair In Mayfair",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2091,7 +2100,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-99",
+    "id": "orig-247",
     "name": "Atkinsons His Majesty The Oud",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2100,7 +2109,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-100",
+    "id": "orig-251",
     "name": "Atkinsons Oud Save The King",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2109,7 +2118,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-101",
+    "id": "orig-255",
     "name": "Atkinsons Oud Save The Queen",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2118,7 +2127,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-102",
+    "id": "orig-256",
     "name": "Atkinsons Platinum Blend Parfum Intense",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2127,7 +2136,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-103",
+    "id": "orig-254",
     "name": "Atkinsons Shine Despite Everything Parfum Intense",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2136,7 +2145,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-104",
+    "id": "orig-248",
     "name": "Atkinsons Tulipe Noire",
     "brand": "Atkinsons London 1799",
     "variant": "100% Original Sellado · Código Batch",
@@ -2145,7 +2154,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-105",
+    "id": "orig-684",
     "name": "Atralia Elixir",
     "brand": "Atralia",
     "variant": "100% Original Sellado · Código Batch",
@@ -2154,7 +2163,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1406",
+    "id": "orig-1410",
     "name": "Azzaro Azzaro Pour Homme 100 mililitros",
     "brand": "Azzaro",
     "variant": "100% Original Sellado · Código Batch",
@@ -2163,7 +2172,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1436",
+    "id": "orig-1440",
     "name": "Azzaro Azzaro The Most Wanted Parfum 100 mililitros",
     "brand": "Azzaro",
     "variant": "100% Original Sellado · Código Batch",
@@ -2172,7 +2181,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-106",
+    "id": "orig-343",
     "name": "Azzaro Forever Wanted Absolu",
     "brand": "Azzaro",
     "variant": "100% Original Sellado · Código Batch",
@@ -2181,7 +2190,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1438",
+    "id": "orig-1442",
     "name": "Azzaro The Most Wanted EDP INTENSE 100 mililitros",
     "brand": "Azzaro",
     "variant": "100% Original Sellado · Código Batch",
@@ -2190,7 +2199,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1437",
+    "id": "orig-1441",
     "name": "Azzaro Wanted",
     "brand": "Azzaro",
     "variant": "100% Original Sellado · Código Batch",
@@ -2199,7 +2208,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1168",
+    "id": "orig-1173",
     "name": "azzaro forever wanted elixir",
     "brand": "Azzaro",
     "variant": "100% Original Sellado · Código Batch",
@@ -2208,7 +2217,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1957",
+    "id": "orig-1960",
     "name": "BASSANO EXTREMIS BLACK EDT 100ML",
     "brand": "BASSANO EXTREMIS",
     "variant": "100% Original Sellado · Código Batch",
@@ -2217,7 +2226,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1956",
+    "id": "orig-1959",
     "name": "BASSANO EXTREMIS INTENSE EDT 100ML",
     "brand": "BASSANO EXTREMIS",
     "variant": "100% Original Sellado · Código Batch",
@@ -2226,7 +2235,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-107",
+    "id": "orig-419",
     "name": "BDK Parfums Ambre safrano",
     "brand": "BDK Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -2235,7 +2244,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-108",
+    "id": "orig-664",
     "name": "BDK Parfums Impadia",
     "brand": "BDK Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -2244,7 +2253,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-109",
+    "id": "orig-149",
     "name": "BDK Parfums Vanille Caviar",
     "brand": "BDK Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -2253,7 +2262,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-110",
+    "id": "orig-357",
     "name": "BDK Sel d'Argent",
     "brand": "BDK Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -2262,7 +2271,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-111",
+    "id": "orig-358",
     "name": "Bdk Parfums Pas Ce Soir Eau De Parfum",
     "brand": "BDK Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -2271,7 +2280,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1702",
+    "id": "orig-1705",
     "name": "BILLIE EILISH «EILISH»",
     "brand": "BILLIE EILISH",
     "variant": "100% Original Sellado · Código Batch",
@@ -2280,7 +2289,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2008",
+    "id": "orig-2011",
     "name": "BLACK INTENSITIVE AOUD EDP 120ml",
     "brand": "BLACK INTENSITIVE",
     "variant": "100% Original Sellado · Código Batch",
@@ -2289,7 +2298,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1944",
+    "id": "orig-1947",
     "name": "BLUE JEANS EDT 75ML",
     "brand": "BLUE JEANS",
     "variant": "100% Original Sellado · Código Batch",
@@ -2298,7 +2307,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2020",
+    "id": "orig-2023",
     "name": "BLUE MATCHA EDP 100ml",
     "brand": "BLUE MATCHA",
     "variant": "100% Original Sellado · Código Batch",
@@ -2307,7 +2316,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-112",
+    "id": "orig-686",
     "name": "BORNTOSTANDOUT® Angels' Powder",
     "brand": "BORNTOSTANDOUT®",
     "variant": "100% Original Sellado · Código Batch",
@@ -2316,7 +2325,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-113",
+    "id": "orig-688",
     "name": "BORNTOSTANDOUT® Dirty Heaven",
     "brand": "BORNTOSTANDOUT®",
     "variant": "100% Original Sellado · Código Batch",
@@ -2325,7 +2334,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-114",
+    "id": "orig-687",
     "name": "BORNTOSTANDOUT® Indecent Cherry",
     "brand": "BORNTOSTANDOUT®",
     "variant": "100% Original Sellado · Código Batch",
@@ -2334,7 +2343,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1644",
+    "id": "orig-1647",
     "name": "Baldessarini Black",
     "brand": "Baldessarini Black",
     "variant": "100% Original Sellado · Código Batch",
@@ -2343,7 +2352,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1290",
+    "id": "orig-1295",
     "name": "Banderas Blue Seduction Summer essence for woman",
     "brand": "Banderas Blue",
     "variant": "100% Original Sellado · Código Batch",
@@ -2352,7 +2361,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1688",
+    "id": "orig-1691",
     "name": "Be Delicious",
     "brand": "Be Delicious",
     "variant": "100% Original Sellado · Código Batch",
@@ -2361,7 +2370,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-115",
+    "id": "orig-361",
     "name": "Benetton Colors Man Black Intenso Set de Regalo",
     "brand": "Benetton",
     "variant": "100% Original Sellado · Código Batch",
@@ -2370,7 +2379,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-116",
+    "id": "orig-362",
     "name": "Benetton United Dreams Live Free Set de Regalo",
     "brand": "Benetton",
     "variant": "100% Original Sellado · Código Batch",
@@ -2379,7 +2388,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-117",
+    "id": "orig-565",
     "name": "Benetton United dreams love yourself set de regalo",
     "brand": "Benetton",
     "variant": "100% Original Sellado · Código Batch",
@@ -2388,7 +2397,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1638",
+    "id": "orig-1641",
     "name": "Benetton Colors Rose",
     "brand": "Benetton Colors",
     "variant": "100% Original Sellado · Código Batch",
@@ -2397,7 +2406,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1479",
+    "id": "orig-1482",
     "name": "Benetton Paradiso Infierno",
     "brand": "Benetton Paradiso",
     "variant": "100% Original Sellado · Código Batch",
@@ -2415,7 +2424,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1320",
+    "id": "orig-1325",
     "name": "Bentley For Men Intense",
     "brand": "Bentley",
     "variant": "100% Original Sellado · Código Batch",
@@ -2424,7 +2433,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-118",
+    "id": "orig-814",
     "name": "Bentley Infinite Intense",
     "brand": "Bentley",
     "variant": "100% Original Sellado · Código Batch",
@@ -2433,7 +2442,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1321",
+    "id": "orig-1326",
     "name": "Bentley black edition",
     "brand": "Bentley",
     "variant": "100% Original Sellado · Código Batch",
@@ -2442,7 +2451,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-119",
+    "id": "orig-741",
     "name": "Bharara Arabesque",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2451,7 +2460,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-120",
+    "id": "orig-723",
     "name": "Bharara Boujee",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2460,7 +2469,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-121",
+    "id": "orig-487",
     "name": "Bharara Champagne Blue",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2469,7 +2478,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-122",
+    "id": "orig-381",
     "name": "Bharara Champagne Pink",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2478,7 +2487,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1157",
+    "id": "orig-1162",
     "name": "Bharara Don",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2487,7 +2496,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-123",
+    "id": "orig-951",
     "name": "Bharara Enchanted",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2496,7 +2505,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1108",
+    "id": "orig-1113",
     "name": "Bharara Enigma",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2505,7 +2514,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1107",
+    "id": "orig-1112",
     "name": "Bharara Essence",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2514,7 +2523,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-124",
+    "id": "orig-635",
     "name": "Bharara Goddess",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2523,7 +2532,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-125",
+    "id": "orig-63",
     "name": "Bharara Green Phantom",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2532,7 +2541,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-126",
+    "id": "orig-749",
     "name": "Bharara King 1 Litro",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2541,7 +2550,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2030",
+    "id": "orig-2033",
     "name": "Bharara King EDP 100 ml",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2550,7 +2559,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1156",
+    "id": "orig-1161",
     "name": "Bharara King Soleil",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2559,7 +2568,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-127",
+    "id": "orig-806",
     "name": "Bharara Mast Perfume Azul",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2568,7 +2577,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-128",
+    "id": "orig-318",
     "name": "Bharara Mast Perfume Bleu L’Exclusiff",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2577,7 +2586,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-129",
+    "id": "orig-807",
     "name": "Bharara Mast Perfume Boozy",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2586,7 +2595,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1254",
+    "id": "orig-1259",
     "name": "Bharara Mast Perfume Ocean Green",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2595,7 +2604,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-130",
+    "id": "orig-317",
     "name": "Bharara Mast Perfume On The Rocks",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2604,7 +2613,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-131",
+    "id": "orig-424",
     "name": "Bharara Mast Perfume Rohit Bloom",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2613,7 +2622,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-132",
+    "id": "orig-423",
     "name": "Bharara Mast Perfume Rohit Breeze",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2622,7 +2631,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-133",
+    "id": "orig-422",
     "name": "Bharara Mast Perfume Rohit Drift",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2631,7 +2640,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-134",
+    "id": "orig-751",
     "name": "Bharara Mast Perfume Rome Extradose femenina",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2640,7 +2649,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-135",
+    "id": "orig-730",
     "name": "Bharara Mast Perfume Rome Extradose set de regalo",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2649,7 +2658,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-136",
+    "id": "orig-513",
     "name": "Bharara Mast Perfume Rome Fantasmagory",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2658,7 +2667,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-137",
+    "id": "orig-572",
     "name": "Bharara Mast Perfume Rome Ivory Femenino",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2667,8 +2676,8 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-138",
-    "name": "Bharara Mast Perfume Rome Ivory pour femme",
+    "id": "orig-682",
+    "name": "Bharara Mast Perfume Rome Ivory Pour Homme",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
     "price": 240000,
@@ -2676,7 +2685,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-139",
+    "id": "orig-574",
     "name": "Bharara Mast Perfume Rome pour homme set de regalo",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2685,7 +2694,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1300",
+    "id": "orig-1305",
     "name": "Bharara Mast Perfume Velvet Rose",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2694,7 +2703,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-140",
+    "id": "orig-282",
     "name": "Bharara Mast Rome La Bomba",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2703,7 +2712,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1390",
+    "id": "orig-1394",
     "name": "Bharara Niche EDP 100 ml",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2712,7 +2721,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2029",
+    "id": "orig-2032",
     "name": "Bharara Niche EDP 200 mililitros",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2721,7 +2730,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2028",
+    "id": "orig-2031",
     "name": "Bharara Niche Femme EDP 100 ML",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2730,7 +2739,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1252",
+    "id": "orig-1257",
     "name": "Bharara Onyx",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2739,7 +2748,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1276",
+    "id": "orig-1281",
     "name": "Bharara Pharaoh Ramesses",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2748,7 +2757,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1275",
+    "id": "orig-1280",
     "name": "Bharara Pharaoh Ramesses II",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2757,16 +2766,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-141",
+    "id": "orig-310",
     "name": "Bharara Rey de Reyes",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 500000,
+    "price": 409000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Rey_de_Reyes_1.jpg?v=1782873061",
     "compared": false
   },
   {
-    "id": "orig-142",
+    "id": "orig-8",
     "name": "Bharara Rey de Reyes Orange",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2775,7 +2784,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-143",
+    "id": "orig-716",
     "name": "Bharara Rohit x Perfuadictos Azure",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2784,7 +2793,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1458",
+    "id": "orig-320",
+    "name": "Bharara Rome Melancholia Pour Homme",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/melancholia.png?v=1781977491",
+    "compared": false
+  },
+  {
+    "id": "orig-1461",
     "name": "Bharara Viking Beirut",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2793,7 +2811,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1456",
+    "id": "orig-1459",
     "name": "Bharara Viking Cairo",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2802,7 +2820,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1455",
+    "id": "orig-1458",
     "name": "Bharara Viking Dubai Parfum",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2811,7 +2829,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1454",
+    "id": "orig-1457",
     "name": "Bharara Viking Kashmir",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2820,7 +2838,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1457",
+    "id": "orig-1460",
     "name": "Bharara Viking Rio EDP 100 mililitros",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2829,7 +2847,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1036",
+    "id": "orig-1037",
     "name": "Bharara elegance",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2838,7 +2856,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1133",
+    "id": "orig-1138",
     "name": "Bharara mast perfume Rome Imagine",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2847,7 +2865,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-144",
+    "id": "orig-914",
     "name": "Bharara mast perfume Rome Paradox",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2856,7 +2874,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-145",
+    "id": "orig-913",
     "name": "Bharara mast perfume Rome Yum Yum",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2865,7 +2883,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1056",
+    "id": "orig-1057",
     "name": "Bharara mast perfume rome pour femme",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2874,16 +2892,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-146",
-    "name": "Bharara mast perfume rome pour homme",
-    "brand": "Bharara",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 230000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/images-1.jpeg",
-    "compared": true
-  },
-  {
-    "id": "orig-147",
+    "id": "orig-174",
     "name": "Combo Bharara Mast Rome Pour Homme + Pour Femme",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2892,16 +2901,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-148",
+    "id": "orig-819",
     "name": "Mast Perfume Rome Extradose For Men By Bharara",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 309000,
+    "price": 289000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_b6238157-6dc1-4938-92a6-c75b45481a7d.jpg?v=1761677217",
     "compared": false
   },
   {
-    "id": "orig-149",
+    "id": "orig-195",
     "name": "Mast Perfume Rome Lucky By Bharara",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2910,7 +2919,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-150",
+    "id": "orig-194",
     "name": "Mast Perfume Rome Melancholia Pour Femme By Bharara",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2919,7 +2928,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-151",
+    "id": "orig-196",
     "name": "Mast Perfume Rome Pour Homme Intense By Bharara",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
@@ -2928,7 +2937,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1565",
+    "id": "orig-1568",
     "name": "Big Pony 2",
     "brand": "Big Pony",
     "variant": "100% Original Sellado · Código Batch",
@@ -2937,7 +2946,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-152",
+    "id": "orig-33",
     "name": "Billie Eilish Your Turn II",
     "brand": "Billie Eilish",
     "variant": "100% Original Sellado · Código Batch",
@@ -2946,7 +2955,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-153",
+    "id": "orig-707",
     "name": "BlackOud Okinawa",
     "brand": "Blackoud",
     "variant": "100% Original Sellado · Código Batch",
@@ -2955,7 +2964,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-154",
+    "id": "orig-22",
     "name": "Blackoud Matcha Latte",
     "brand": "Blackoud",
     "variant": "100% Original Sellado · Código Batch",
@@ -2964,7 +2973,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-155",
+    "id": "orig-303",
     "name": "Blackoud Terren",
     "brand": "Blackoud",
     "variant": "100% Original Sellado · Código Batch",
@@ -2973,7 +2982,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1077",
+    "id": "orig-1079",
     "name": "Blackoud By Drew",
     "brand": "Blackoud By",
     "variant": "100% Original Sellado · Código Batch",
@@ -2982,7 +2991,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1075",
+    "id": "orig-1077",
     "name": "Blackoud Dubai Night",
     "brand": "Blackoud Dubai",
     "variant": "100% Original Sellado · Código Batch",
@@ -2991,7 +3000,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1076",
+    "id": "orig-1078",
     "name": "Blackoud Oud Vainilla",
     "brand": "Blackoud Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -3000,7 +3009,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-156",
+    "id": "orig-453",
     "name": "Boadicea the Victorious Blue Sapphire",
     "brand": "Boadicea the Victorious",
     "variant": "100% Original Sellado · Código Batch",
@@ -3009,7 +3018,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-157",
+    "id": "orig-240",
     "name": "Bon Parfumeur 003",
     "brand": "Bon Parfumeur",
     "variant": "100% Original Sellado · Código Batch",
@@ -3018,7 +3027,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-158",
+    "id": "orig-245",
     "name": "Bon Parfumeur 402",
     "brand": "Bon Parfumeur",
     "variant": "100% Original Sellado · Código Batch",
@@ -3027,7 +3036,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-159",
+    "id": "orig-244",
     "name": "Bon Parfumeur 501",
     "brand": "Bon Parfumeur",
     "variant": "100% Original Sellado · Código Batch",
@@ -3036,7 +3045,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-160",
+    "id": "orig-641",
     "name": "Bon Parfumeur 502 Iris Cartagena",
     "brand": "Bon Parfumeur",
     "variant": "100% Original Sellado · Código Batch",
@@ -3045,7 +3054,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-161",
+    "id": "orig-243",
     "name": "Bon Parfumeur 602",
     "brand": "Bon Parfumeur",
     "variant": "100% Original Sellado · Código Batch",
@@ -3054,7 +3063,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-162",
+    "id": "orig-241",
     "name": "Bon Parfumeur 702",
     "brand": "Bon Parfumeur",
     "variant": "100% Original Sellado · Código Batch",
@@ -3063,7 +3072,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-163",
+    "id": "orig-242",
     "name": "Bon Parfumeur 803",
     "brand": "Bon Parfumeur",
     "variant": "100% Original Sellado · Código Batch",
@@ -3072,7 +3081,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-164",
+    "id": "orig-239",
     "name": "Bon Parfumeur 903 Oud Ilam",
     "brand": "Bon Parfumeur",
     "variant": "100% Original Sellado · Código Batch",
@@ -3081,7 +3090,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1117",
+    "id": "orig-1122",
     "name": "Bond No. 9 Downtown Bleecker Street",
     "brand": "Bond No",
     "variant": "100% Original Sellado · Código Batch",
@@ -3090,7 +3099,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1063",
+    "id": "orig-1064",
     "name": "Bond No. 9 The Scent of Peace",
     "brand": "Bond No",
     "variant": "100% Original Sellado · Código Batch",
@@ -3099,7 +3108,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-165",
+    "id": "orig-421",
     "name": "Bond 9 Dubai Amber",
     "brand": "Bond No. 9",
     "variant": "100% Original Sellado · Código Batch",
@@ -3108,7 +3117,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-166",
+    "id": "orig-759",
     "name": "Bond 9 Dubai Ruby",
     "brand": "Bond No. 9",
     "variant": "100% Original Sellado · Código Batch",
@@ -3117,7 +3126,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-167",
+    "id": "orig-356",
     "name": "Bond No 9 Dubai Gold",
     "brand": "Bond No. 9",
     "variant": "100% Original Sellado · Código Batch",
@@ -3126,7 +3135,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-168",
+    "id": "orig-760",
     "name": "Bond No. 9 Downtown Brooklyn",
     "brand": "Bond No. 9",
     "variant": "100% Original Sellado · Código Batch",
@@ -3135,7 +3144,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1234",
+    "id": "orig-1239",
     "name": "Hugo Boos Boss Orange",
     "brand": "Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -3144,7 +3153,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-169",
+    "id": "orig-689",
     "name": "Botanicae Endurance",
     "brand": "Botanicae",
     "variant": "100% Original Sellado · Código Batch",
@@ -3153,7 +3162,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-170",
+    "id": "orig-337",
     "name": "Botanicae Saudade",
     "brand": "Botanicae",
     "variant": "100% Original Sellado · Código Batch",
@@ -3162,7 +3171,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-171",
+    "id": "orig-156",
     "name": "Britney Spears Fantasy Blissful",
     "brand": "Britney Spears",
     "variant": "100% Original Sellado · Código Batch",
@@ -3171,7 +3180,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1423",
+    "id": "orig-1427",
     "name": "Britney Spears Fantasy Midnight",
     "brand": "Britney Spears",
     "variant": "100% Original Sellado · Código Batch",
@@ -3180,7 +3189,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-172",
+    "id": "orig-559",
     "name": "Burberry Brit Sheer",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3189,7 +3198,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2097",
+    "id": "orig-2100",
     "name": "Burberry For Women EDP 100 ml",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3198,7 +3207,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1628",
+    "id": "orig-1631",
     "name": "Burberry Goddess",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3207,16 +3216,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-173",
+    "id": "orig-468",
     "name": "Burberry Goddess Parfum",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 609000,
+    "price": 510000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Burberry_Goddess_Parfum.jpg?v=1776221180",
     "compared": false
   },
   {
-    "id": "orig-986",
+    "id": "orig-985",
     "name": "Burberry Her Blossom",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3225,7 +3234,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1292",
+    "id": "orig-1297",
     "name": "Burberry Her Eau de Parfum",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3234,7 +3243,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-985",
+    "id": "orig-984",
     "name": "Burberry Her Elixir",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3243,7 +3252,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-174",
+    "id": "orig-904",
     "name": "Burberry Her Intense 2024",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3252,7 +3261,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-175",
+    "id": "orig-374",
     "name": "Burberry Her London Dream",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3261,16 +3270,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-176",
+    "id": "orig-450",
     "name": "Burberry Her Parfum",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 580000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Burberryherparfum.webp",
+    "price": 510000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Burberryherparfum.png?v=1776449100",
     "compared": true
   },
   {
-    "id": "orig-177",
+    "id": "orig-536",
     "name": "Burberry Her Petals",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3288,16 +3297,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-178",
+    "id": "orig-353",
     "name": "Burberry Hero Parfum Intense",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 610000,
+    "price": 490000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/BurberryHeroParfumIntense.png?v=1781278033",
     "compared": false
   },
   {
-    "id": "orig-1243",
+    "id": "orig-1248",
     "name": "Burberry My Burberry Black",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3306,7 +3315,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2098",
+    "id": "orig-2101",
     "name": "Burberry My Burberry EDP 90 ml",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3315,7 +3324,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1242",
+    "id": "orig-1247",
     "name": "Burberry Touch for Women",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3324,7 +3333,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-179",
+    "id": "orig-905",
     "name": "Burberry Touch for her",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3333,7 +3342,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1087",
+    "id": "orig-1090",
     "name": "Burberry goddess intense",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
@@ -3342,7 +3351,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1770",
+    "id": "orig-1773",
     "name": "BVLGARI OMNIA BY MARY KATRANTZOU",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3351,7 +3360,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1771",
+    "id": "orig-1774",
     "name": "BVLGARI OMNIA GOLDEN CITRINE",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3360,7 +3369,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1773",
+    "id": "orig-1776",
     "name": "BVLGARI OMNIA PINK SAPPHIRE",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3369,7 +3378,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1772",
+    "id": "orig-1775",
     "name": "BVLGARI ROSE GOLDEA",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3378,7 +3387,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-180",
+    "id": "orig-614",
     "name": "Bvlgari Aqva Divina",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3387,7 +3396,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1257",
+    "id": "orig-1262",
     "name": "Bvlgari Aqva Pour Homme Marine",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3396,7 +3405,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1590",
+    "id": "orig-1593",
     "name": "Bvlgari Blv",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3405,7 +3414,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1626",
+    "id": "orig-1629",
     "name": "Bvlgari Glacial essense",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3414,7 +3423,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-181",
+    "id": "orig-963",
     "name": "Bvlgari Goldea",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3423,7 +3432,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1627",
+    "id": "orig-1630",
     "name": "Bvlgari Man In Black",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3432,7 +3441,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1589",
+    "id": "orig-1592",
     "name": "Bvlgari Man Rain Essence",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3441,7 +3450,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-182",
+    "id": "orig-898",
     "name": "Bvlgari Man Rain Essence Set De Regalo",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3450,7 +3459,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1588",
+    "id": "orig-1591",
     "name": "Bvlgari Man Wood Essence , ( LE PERFUM PURO ) , NO EAU DE P",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3459,16 +3468,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-183",
+    "id": "orig-497",
     "name": "Bvlgari Man Wood Essence Parfum",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 650000,
+    "price": 550000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_ccafc173-5b21-4630-98e1-ecdf0730e507.jpg?v=1774996706",
     "compared": false
   },
   {
-    "id": "orig-1325",
+    "id": "orig-1330",
     "name": "Bvlgari Man Wood Neroli",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3477,7 +3486,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2107",
+    "id": "orig-2110",
     "name": "Bvlgari Omnia Amethyste EDT 100ml",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3486,7 +3495,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2108",
+    "id": "orig-2111",
     "name": "Bvlgari Omnia Coral EDT 100ml",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3495,7 +3504,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-184",
+    "id": "orig-915",
     "name": "Bvlgari Omnia Coral set de regalo 100 ML + 15 ML",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3504,7 +3513,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1374",
+    "id": "orig-1378",
     "name": "Bvlgari Omnia Crystalline (tester)",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3513,7 +3522,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2109",
+    "id": "orig-2112",
     "name": "Bvlgari Omnia Crystalline 100 ml ( NEW DESIGN )",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3522,16 +3531,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-185",
-    "name": "Bvlgari Omnia Crystalline EDP",
-    "brand": "Bvlgari",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 640000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_ac59f3e9-cbce-40fa-bd7e-6e62f5507e7d.jpg?v=1754400358",
-    "compared": false
-  },
-  {
-    "id": "orig-186",
+    "id": "orig-896",
     "name": "Bvlgari Omnia Crystalline Set de Regalo 100ML + 15ML + Crema corporal",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3540,7 +3540,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-187",
+    "id": "orig-957",
     "name": "Bvlgari Omnia Crystalline Set de regalo 65 ML + 15 ML + Crema corporal",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3558,7 +3558,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1227",
+    "id": "orig-1232",
     "name": "Bvlgari Pour Homme eau de (PERFUM) 100 mililitros",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3567,7 +3567,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-188",
+    "id": "orig-615",
     "name": "Bvlgari Rose Goldea Blossom Delight",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
@@ -3576,7 +3576,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-189",
+    "id": "orig-393",
     "name": "Byredo Animalique",
     "brand": "Byredo",
     "variant": "100% Original Sellado · Código Batch",
@@ -3585,7 +3585,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-190",
+    "id": "orig-19",
     "name": "Byredo Mojave Ghost Absolu",
     "brand": "Byredo",
     "variant": "100% Original Sellado · Código Batch",
@@ -3594,7 +3594,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1656",
+    "id": "orig-1659",
     "name": "CAFÉ DAMA",
     "brand": "CAF DAMA",
     "variant": "100% Original Sellado · Código Batch",
@@ -3603,7 +3603,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1572",
+    "id": "orig-1575",
     "name": "CK One 100 ml",
     "brand": "CK One",
     "variant": "100% Original Sellado · Código Batch",
@@ -3612,7 +3612,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1435",
+    "id": "orig-1439",
     "name": "Cacharel Amor Amor",
     "brand": "Cacharel Amor",
     "variant": "100% Original Sellado · Código Batch",
@@ -3621,7 +3621,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1434",
+    "id": "orig-1438",
     "name": "Cacharel Anaïs Anaïs L&#8217;Original",
     "brand": "Cacharel Ana",
     "variant": "100% Original Sellado · Código Batch",
@@ -3630,7 +3630,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1764",
+    "id": "orig-1767",
     "name": "CALVIN KLEIN BEAUTY",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3639,7 +3639,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1763",
+    "id": "orig-1766",
     "name": "CALVIN KLEIN CK BE 200 ml ( EXTRA CONTENIDO )",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3648,7 +3648,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1762",
+    "id": "orig-1765",
     "name": "CALVIN KLEIN CK ONE SHOCK FOR HER 200 ml",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3657,7 +3657,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1760",
+    "id": "orig-1763",
     "name": "CALVIN KLEIN ETERNITY FLAME",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3666,7 +3666,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1761",
+    "id": "orig-1764",
     "name": "CALVIN KLEIN SHEER BEAUTY",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3675,7 +3675,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1222",
+    "id": "orig-1227",
     "name": "Calvin Klein CK Free",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3684,7 +3684,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2090",
+    "id": "orig-2093",
     "name": "Calvin Klein CK IN2U For Her",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3693,7 +3693,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2046",
+    "id": "orig-2049",
     "name": "Calvin Klein CK IN2U For Him",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3702,7 +3702,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-191",
+    "id": "orig-115",
     "name": "Calvin Klein CK One Essence",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3711,7 +3711,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1402",
+    "id": "orig-1406",
     "name": "Calvin Klein CK One Gold",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3720,7 +3720,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2047",
+    "id": "orig-2050",
     "name": "Calvin Klein Ck One EDT 200 ml",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3729,7 +3729,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1401",
+    "id": "orig-1405",
     "name": "Calvin Klein Ck all 200 mililitros",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3738,7 +3738,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1240",
+    "id": "orig-1245",
     "name": "Calvin Klein Contradiction",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3747,7 +3747,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1223",
+    "id": "orig-1228",
     "name": "Calvin Klein Contradiction for men",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3756,7 +3756,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-192",
+    "id": "orig-647",
     "name": "Calvin Klein Downtown",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3765,7 +3765,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-193",
+    "id": "orig-102",
     "name": "Calvin Klein Eternity Air Masculina",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3774,7 +3774,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1221",
+    "id": "orig-1226",
     "name": "Calvin Klein Eternity for Men",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3783,7 +3783,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-194",
+    "id": "orig-269",
     "name": "Calvin Klein Eternity for Men Eau de Parfum",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3792,7 +3792,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2088",
+    "id": "orig-2091",
     "name": "Calvin Klein Euphoria EDP (NEW DESING) 100 ml",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3801,16 +3801,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-195",
+    "id": "orig-631",
     "name": "Calvin Klein My Euphoria",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 450000,
+    "price": 350000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_ef915be9-55cb-4ef5-a130-cdde528701f8.jpg?v=1771343507",
     "compared": false
   },
   {
-    "id": "orig-1241",
+    "id": "orig-1246",
     "name": "Calvin Klein Truth",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3819,7 +3819,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2089",
+    "id": "orig-2092",
     "name": "Calvin Klein Women EDP 100 ml",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3828,7 +3828,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-196",
+    "id": "orig-278",
     "name": "Set de Regalo Calvin Klein Euphoria",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3837,7 +3837,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-197",
+    "id": "orig-277",
     "name": "Set de Regalo Calvin Klein My Euphoria",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
@@ -3846,7 +3846,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1466",
+    "id": "orig-1469",
     "name": "Bad Boy Cobalt Elixir",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3855,7 +3855,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1463",
+    "id": "orig-1466",
     "name": "Bad Boy EDT",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3864,7 +3864,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1462",
+    "id": "orig-1465",
     "name": "Bad Boy Le Parfum",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3873,7 +3873,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1694",
+    "id": "orig-1697",
     "name": "CAROLINA HERRERA 212 DAMA",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3882,7 +3882,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1811",
+    "id": "orig-1814",
     "name": "CAROLINA HERRERA 212 HEROES FOREVER YOUNG",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3891,7 +3891,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1813",
+    "id": "orig-1816",
     "name": "CAROLINA HERRERA 212 SEXY",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3900,7 +3900,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1759",
+    "id": "orig-1762",
     "name": "CAROLINA HERRERA 212 VIP 100 Ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3909,7 +3909,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1758",
+    "id": "orig-1761",
     "name": "CAROLINA HERRERA 212 VIP BLACK",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3918,7 +3918,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1757",
+    "id": "orig-1760",
     "name": "CAROLINA HERRERA 212 VIP WINS",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3927,7 +3927,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1812",
+    "id": "orig-1815",
     "name": "CAROLINA HERRERA 212 VIP WINS MEN",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3936,7 +3936,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1756",
+    "id": "orig-1759",
     "name": "CAROLINA HERRERA I LOVE NY",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3945,7 +3945,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1461",
+    "id": "orig-1464",
     "name": "CH Men Pasión (( LIMITED EDITION )), Últimas piezas",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3954,7 +3954,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2064",
+    "id": "orig-2067",
     "name": "Carolina Herera 212 Vip Black Smiley EDP 100 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3963,7 +3963,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2125",
+    "id": "orig-2128",
     "name": "Carolina Herrera 212 Men NYC EDT 100 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3972,7 +3972,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-198",
+    "id": "orig-388",
     "name": "Carolina Herrera 212 Men NYC Parfum",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3981,7 +3981,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-2129",
+    "id": "orig-2132",
     "name": "Carolina Herrera 212 NYC EDT 100ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3990,7 +3990,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1360",
+    "id": "orig-1364",
     "name": "Carolina Herrera 212 Sexy For Woman (Tester)",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -3999,7 +3999,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1327",
+    "id": "orig-1332",
     "name": "Carolina Herrera 212 Sexy Men (Tester)",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4008,7 +4008,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1328",
+    "id": "orig-1333",
     "name": "Carolina Herrera 212 VIP Black (Tester)",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4017,7 +4017,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1326",
+    "id": "orig-1331",
     "name": "Carolina Herrera 212 VIP Black Elixir",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4026,7 +4026,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1359",
+    "id": "orig-1363",
     "name": "Carolina Herrera 212 VIP Rose (Tester) , 125 mililitros",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4035,7 +4035,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1147",
+    "id": "orig-1152",
     "name": "Carolina Herrera 212 VIP Rose Elixir",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4044,7 +4044,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-199",
+    "id": "orig-816",
     "name": "Carolina Herrera 212 VIP Rosé Rodeo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4053,7 +4053,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2126",
+    "id": "orig-2129",
     "name": "Carolina Herrera 212 Vip Rose EDP 80 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4062,7 +4062,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-200",
+    "id": "orig-594",
     "name": "Carolina Herrera 212 vip rose 212 CAB edición limitada",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4071,7 +4071,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1330",
+    "id": "orig-1335",
     "name": "Carolina Herrera Bad Boy (Tester)",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4080,7 +4080,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-201",
+    "id": "orig-435",
     "name": "Carolina Herrera Bad Boy Cobalt Absolute",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4089,7 +4089,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-202",
+    "id": "orig-539",
     "name": "Carolina Herrera Bad Boy Cobalt Set de Regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4107,7 +4107,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1052",
+    "id": "orig-1053",
     "name": "Carolina Herrera Bad Boy Elixir",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4116,7 +4116,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1465",
+    "id": "orig-1468",
     "name": "Carolina Herrera Bad Boy Sparkling Ice",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4125,7 +4125,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2065",
+    "id": "orig-2068",
     "name": "Carolina Herrera CH EDT 100 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4134,7 +4134,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2128",
+    "id": "orig-2131",
     "name": "Carolina Herrera CH EDT 100 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4143,16 +4143,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-203",
+    "id": "orig-965",
     "name": "Carolina Herrera CH La Bomba",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 520000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/La_bomba.jpg?v=1794141538",
     "compared": false
   },
   {
-    "id": "orig-204",
+    "id": "orig-648",
     "name": "Carolina Herrera CH Men Privé",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4161,7 +4161,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1677",
+    "id": "orig-1680",
     "name": "Carolina Herrera CH Pasión Dama 100 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4170,7 +4170,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-205",
+    "id": "orig-56",
     "name": "Carolina Herrera CH Swing Femenina",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4179,7 +4179,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1169",
+    "id": "orig-1174",
     "name": "Carolina Herrera Chic Men",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4188,7 +4188,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-206",
+    "id": "orig-827",
     "name": "Carolina Herrera Good Girl Blush Bowtastic",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4197,7 +4197,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-207",
+    "id": "orig-30",
     "name": "Carolina Herrera Good Girl Blush Crystal Class",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4206,7 +4206,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1364",
+    "id": "orig-1368",
     "name": "Carolina Herrera Good Girl Blush Elixir",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4215,7 +4215,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-208",
+    "id": "orig-818",
     "name": "Carolina Herrera Good Girl Blush Set de Regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4224,7 +4224,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-209",
+    "id": "orig-193",
     "name": "Carolina Herrera Good Girl Blush Valentine's Edition",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4233,7 +4233,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1040",
+    "id": "orig-1041",
     "name": "Carolina Herrera Good Girl Bowtastic Edition",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4242,7 +4242,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-210",
+    "id": "orig-31",
     "name": "Carolina Herrera Good Girl Crystal Class",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4251,7 +4251,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1699",
+    "id": "orig-1702",
     "name": "Carolina Herrera Good Girl Dazzling Garden EDP 80 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4260,7 +4260,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1700",
+    "id": "orig-1703",
     "name": "Carolina Herrera Good Girl EDP 80 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4269,7 +4269,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-211",
+    "id": "orig-436",
     "name": "Carolina Herrera Good Girl Jasmine Absolute",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4278,7 +4278,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-212",
+    "id": "orig-849",
     "name": "Carolina Herrera Good Girl Set de regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4287,7 +4287,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1701",
+    "id": "orig-1704",
     "name": "Carolina Herrera Good Girl Supreme EDP 80 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4296,7 +4296,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1365",
+    "id": "orig-1369",
     "name": "Carolina Herrera Good Girl Suprême (Tester)",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4305,7 +4305,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1114",
+    "id": "orig-1119",
     "name": "Carolina Herrera La Bomba EAU DE PARFUM , 100 mililitros EDP",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4314,16 +4314,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-213",
+    "id": "orig-122",
     "name": "Carolina Herrera La Bomba Intensa",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 590000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/CarolinaHerreraLabombaintensa.jpg?v=1788619279",
     "compared": false
   },
   {
-    "id": "orig-1367",
+    "id": "orig-1371",
     "name": "Carolina Herrera Tradicional (Tester)",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4350,7 +4350,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2127",
+    "id": "orig-2130",
     "name": "Carolina Herrera Very Good Girl EDP 80 ml",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4359,7 +4359,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-214",
+    "id": "orig-378",
     "name": "Carolina Herrera Very Good Girl Set de Regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4368,7 +4368,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1146",
+    "id": "orig-1151",
     "name": "Carolina Herrera Very Good Girl elixir",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4377,7 +4377,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-215",
+    "id": "orig-593",
     "name": "Carolina Herrrera 212 vip black 212 cab edición limitada",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4386,7 +4386,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1329",
+    "id": "orig-1334",
     "name": "Carolina herrera 212 VIP Men (Tester)",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4395,7 +4395,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-216",
+    "id": "orig-876",
     "name": "Carolina herrera 212 men NYC set de regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4404,7 +4404,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-217",
+    "id": "orig-564",
     "name": "Carolina herrera 212 vip black set de regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4413,7 +4413,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-218",
+    "id": "orig-562",
     "name": "Carolina herrera 212 vip rose set de regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4422,7 +4422,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1347",
+    "id": "orig-1351",
     "name": "Carolina herrera ch men sport",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4431,7 +4431,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-219",
+    "id": "orig-956",
     "name": "Carolina herrera good girl set de regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4440,7 +4440,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1460",
+    "id": "orig-1463",
     "name": "Good Girl Blush",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4449,7 +4449,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1459",
+    "id": "orig-1462",
     "name": "Good girl sparkling ice",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4458,7 +4458,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-220",
+    "id": "orig-292",
     "name": "Lattafa Jourie",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
@@ -4467,7 +4467,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2078",
+    "id": "orig-2081",
     "name": "Cartier Baiser Volé EDP 100 ml EDP",
     "brand": "Cartier",
     "variant": "100% Original Sellado · Código Batch",
@@ -4476,16 +4476,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-221",
-    "name": "Cartier Declaration EDP",
-    "brand": "Cartier",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 550000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_3df6ac2c-d69d-4df7-9c0d-82cbf16fb628.jpg?v=1754351278",
-    "compared": false
-  },
-  {
-    "id": "orig-2062",
+    "id": "orig-2065",
     "name": "Cartier Declaration Essence EDT 100 ml",
     "brand": "Cartier",
     "variant": "100% Original Sellado · Código Batch",
@@ -4494,7 +4485,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2076",
+    "id": "orig-2079",
     "name": "Cartier La Panthere EDP 75 ml",
     "brand": "Cartier",
     "variant": "100% Original Sellado · Código Batch",
@@ -4503,7 +4494,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2077",
+    "id": "orig-2080",
     "name": "Cartier La Panthere EDT 75 ml",
     "brand": "Cartier",
     "variant": "100% Original Sellado · Código Batch",
@@ -4512,7 +4503,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1079",
+    "id": "orig-1081",
     "name": "Cartier Must",
     "brand": "Cartier",
     "variant": "100% Original Sellado · Código Batch",
@@ -4521,7 +4512,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1349",
+    "id": "orig-1353",
     "name": "Cartier Pasha Edition Noire Sport (Sport)",
     "brand": "Cartier",
     "variant": "100% Original Sellado · Código Batch",
@@ -4530,7 +4521,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-222",
+    "id": "orig-500",
     "name": "Cartier Santos EDT",
     "brand": "Cartier",
     "variant": "100% Original Sellado · Código Batch",
@@ -4539,16 +4530,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-223",
+    "id": "orig-719",
     "name": "Amouage Guidance 46",
     "brand": "Casamorati",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 2350000,
+    "price": 1950000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Amouage_Guidance_46.jpg?v=1767282079",
     "compared": false
   },
   {
-    "id": "orig-1622",
+    "id": "orig-1625",
     "name": "Bleu de chanel edt",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4557,7 +4548,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1697",
+    "id": "orig-1700",
     "name": "CHANEL N°5 Premiere",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4566,7 +4557,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-224",
+    "id": "orig-861",
     "name": "Chanel Bleu de Chanel L'Exclusif",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4575,7 +4566,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-225",
+    "id": "orig-795",
     "name": "Chanel Chance EDT",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4584,7 +4575,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-226",
+    "id": "orig-371",
     "name": "Chanel Chance Eau Fraiche Eau de Parfum",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4593,7 +4584,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1288",
+    "id": "orig-1293",
     "name": "Chanel Chance Eau Fraîche EDT",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4602,7 +4593,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1289",
+    "id": "orig-1294",
     "name": "Chanel Chance Eau Parfum",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4611,7 +4602,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-227",
+    "id": "orig-862",
     "name": "Chanel Chance Eau Splendide",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4620,7 +4611,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1398",
+    "id": "orig-1402",
     "name": "Chanel Chance Eau Tendre EDP 150 MILILITROS ( NEW FRAGANCE , ELEGANCE PREMIERE )",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4629,7 +4620,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1399",
+    "id": "orig-1403",
     "name": "Chanel Chance Eau Tendre EDT 150 mililitros (extra grande)",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4638,7 +4629,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1287",
+    "id": "orig-1292",
     "name": "Chanel Chance Eau Vive EDT",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4647,7 +4638,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1286",
+    "id": "orig-1291",
     "name": "Chanel Coco Mademoiselle 100 mililitros",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4656,7 +4647,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-228",
+    "id": "orig-146",
     "name": "Chanel Coco Mademoiselle Crush Absolu",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4665,7 +4656,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1285",
+    "id": "orig-1290",
     "name": "Chanel Coco Mademoiselle Intense",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4674,7 +4665,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-229",
+    "id": "orig-783",
     "name": "Chanel Coco Noir 50 ML",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4683,7 +4674,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-230",
+    "id": "orig-796",
     "name": "Chanel Coco mademoiselle EDT",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4692,7 +4683,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-231",
+    "id": "orig-498",
     "name": "Chanel Gabrielle",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4701,7 +4692,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-232",
+    "id": "orig-798",
     "name": "L'Eau Chanel Chanel No 5",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4710,7 +4701,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1674",
+    "id": "orig-1677",
     "name": "Ciel",
     "brand": "Ciel",
     "variant": "100% Original Sellado · Código Batch",
@@ -4719,7 +4710,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1684",
+    "id": "orig-1687",
     "name": "Clinique Happy Dama",
     "brand": "Clinique Happy",
     "variant": "100% Original Sellado · Código Batch",
@@ -4728,7 +4719,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1619",
+    "id": "orig-1622",
     "name": "Clinique Happy for Men",
     "brand": "Clinique Happy",
     "variant": "100% Original Sellado · Código Batch",
@@ -4737,7 +4728,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1417",
+    "id": "orig-1421",
     "name": "Clinique Happy™ Heart",
     "brand": "Clinique Happy",
     "variant": "100% Original Sellado · Código Batch",
@@ -4746,16 +4737,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-233",
+    "id": "orig-366",
     "name": "Coach Blue",
     "brand": "Coach",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 350000,
+    "price": 270000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Coachblu_4.jpg?v=1780762461",
     "compared": false
   },
   {
-    "id": "orig-234",
+    "id": "orig-126",
     "name": "Coach Dreams Moonlight",
     "brand": "Coach",
     "variant": "100% Original Sellado · Código Batch",
@@ -4764,25 +4755,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-235",
+    "id": "orig-270",
     "name": "Coach Gold Parfum",
     "brand": "Coach",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 370000,
+    "price": 270000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Coachgoldparfum.jpg?v=1785176398",
     "compared": false
   },
   {
-    "id": "orig-236",
+    "id": "orig-367",
     "name": "Coach Green",
     "brand": "Coach",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 450000,
+    "price": 270000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/CoachGreen_4.jpg?v=1780761367",
     "compared": false
   },
   {
-    "id": "orig-237",
+    "id": "orig-127",
     "name": "Coach Love",
     "brand": "Coach",
     "variant": "100% Original Sellado · Código Batch",
@@ -4791,7 +4782,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-238",
+    "id": "orig-439",
     "name": "Watt Masculina",
     "brand": "Cofinluxe",
     "variant": "100% Original Sellado · Código Batch",
@@ -4800,7 +4791,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1643",
+    "id": "orig-1646",
     "name": "Cold Benetton",
     "brand": "Cold Benetton",
     "variant": "100% Original Sellado · Código Batch",
@@ -4809,7 +4800,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1642",
+    "id": "orig-1645",
     "name": "Colors De Benetton",
     "brand": "Colors De",
     "variant": "100% Original Sellado · Código Batch",
@@ -4818,7 +4809,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1640",
+    "id": "orig-1643",
     "name": "Colors De Dama",
     "brand": "Colors De",
     "variant": "100% Original Sellado · Código Batch",
@@ -4827,7 +4818,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-239",
+    "id": "orig-525",
     "name": "Colour Me Neon Pink",
     "brand": "Colour Me",
     "variant": "100% Original Sellado · Código Batch",
@@ -4836,7 +4827,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1949",
+    "id": "orig-1952",
     "name": "COMBO SENSUAL X3 MUJER",
     "brand": "Combos Decants",
     "variant": "100% Original Sellado · Código Batch",
@@ -4845,7 +4836,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1266",
+    "id": "orig-1271",
     "name": "Confiluxe Watt Black",
     "brand": "Confiluxe Watt",
     "variant": "100% Original Sellado · Código Batch",
@@ -4854,7 +4845,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1673",
+    "id": "orig-1676",
     "name": "Cool Water Dama (TESTER)",
     "brand": "Cool Water",
     "variant": "100% Original Sellado · Código Batch",
@@ -4863,7 +4854,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1062",
+    "id": "orig-1063",
     "name": "Creed Absolu Aventus",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4872,7 +4863,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1284",
+    "id": "orig-1289",
     "name": "Creed Aventus",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4881,7 +4872,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2071",
+    "id": "orig-2074",
     "name": "Creed Aventus For Her EDP 75 ml",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4890,7 +4881,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1283",
+    "id": "orig-1288",
     "name": "Creed Bois du Portugal",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4899,7 +4890,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1282",
+    "id": "orig-1287",
     "name": "Creed Green Irish Tweed",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4908,7 +4899,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1281",
+    "id": "orig-1286",
     "name": "Creed Himalaya",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4917,7 +4908,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-240",
+    "id": "orig-59",
     "name": "Creed Iris Debonair",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4926,7 +4917,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-241",
+    "id": "orig-773",
     "name": "Creed Oud Zarian",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4935,7 +4926,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-242",
+    "id": "orig-238",
     "name": "Creed Spring Flower",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4944,7 +4935,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-243",
+    "id": "orig-336",
     "name": "Creed Wild Vetiver",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4953,7 +4944,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-244",
+    "id": "orig-443",
     "name": "Creed Wind Flowers",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
@@ -4962,7 +4953,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-245",
+    "id": "orig-51",
     "name": "Dior Addict Peachy Glow",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -4971,7 +4962,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-246",
+    "id": "orig-52",
     "name": "Dior Addict Purple Glow",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -4980,7 +4971,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-247",
+    "id": "orig-53",
     "name": "Dior Addict Rosy Glow",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -4989,7 +4980,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-248",
+    "id": "orig-117",
     "name": "Dior Hypnotic Poison EDT",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -4998,7 +4989,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-249",
+    "id": "orig-665",
     "name": "Dior J'Adore Infinissime",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5007,7 +4998,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-250",
+    "id": "orig-114",
     "name": "Dior J'adore Intense",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5016,7 +5007,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-251",
+    "id": "orig-804",
     "name": "Dior Miss Dior Essence",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5025,7 +5016,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-252",
+    "id": "orig-395",
     "name": "Dior New Look",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5034,7 +5025,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-253",
+    "id": "orig-148",
     "name": "Dior Rouge Trafalgar EDP",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5043,7 +5034,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-254",
+    "id": "orig-394",
     "name": "Dior Santal Noir",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5052,7 +5043,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-255",
+    "id": "orig-919",
     "name": "Dior Sauvage EDP set de regalo 100 ML + 10 ML",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5061,7 +5052,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-256",
+    "id": "orig-167",
     "name": "Dior Sauvage Extrait",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5070,7 +5061,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-257",
+    "id": "orig-147",
     "name": "Dior Tobacolor",
     "brand": "DIOR",
     "variant": "100% Original Sellado · Código Batch",
@@ -5079,7 +5070,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-258",
+    "id": "orig-457",
     "name": "Diptyque Do Son Eau De Parfum",
     "brand": "DIPTYQUE",
     "variant": "100% Original Sellado · Código Batch",
@@ -5088,7 +5079,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-259",
+    "id": "orig-397",
     "name": "DKNY Be Delicious Set de Regalo",
     "brand": "DKNY",
     "variant": "100% Original Sellado · Código Batch",
@@ -5097,16 +5088,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-260",
+    "id": "orig-280",
     "name": "DKNY golden be delicious",
     "brand": "DKNY",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 350000,
+    "price": 259000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/DKNYGoldenDelicious.jpg?v=1785041412",
     "compared": false
   },
   {
-    "id": "orig-1796",
+    "id": "orig-1799",
     "name": "DSQARED2 2 WOOD",
     "brand": "DSQARED2 2",
     "variant": "100% Original Sellado · Código Batch",
@@ -5115,7 +5106,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1795",
+    "id": "orig-1798",
     "name": "DSQARED2 GREEN WOOD",
     "brand": "DSQARED2 GREEN",
     "variant": "100% Original Sellado · Código Batch",
@@ -5124,7 +5115,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1797",
+    "id": "orig-1800",
     "name": "DSQARED2 RED WOOD",
     "brand": "DSQARED2 RED",
     "variant": "100% Original Sellado · Código Batch",
@@ -5133,7 +5124,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1798",
+    "id": "orig-1801",
     "name": "DSQARED2 WOOD",
     "brand": "DSQARED2 WOOD",
     "variant": "100% Original Sellado · Código Batch",
@@ -5142,7 +5133,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-261",
+    "id": "orig-113",
     "name": "Davidoff Cool Water Elixir",
     "brand": "Davidoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -5151,7 +5142,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1208",
+    "id": "orig-1213",
     "name": "Davidoff Cool Water Hombre",
     "brand": "Davidoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -5160,7 +5151,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-262",
+    "id": "orig-352",
     "name": "Davidoff Cool Water Parfum",
     "brand": "Davidoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -5169,7 +5160,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1207",
+    "id": "orig-1212",
     "name": "Davidoff Cool Water Woman",
     "brand": "Davidoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -5178,7 +5169,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1623",
+    "id": "orig-1626",
     "name": "Declaration edt 100 mililitros (tradicional)",
     "brand": "Declaration edt",
     "variant": "100% Original Sellado · Código Batch",
@@ -5187,7 +5178,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-263",
+    "id": "orig-744",
     "name": "Sinfonía by Piso21",
     "brand": "Devier",
     "variant": "100% Original Sellado · Código Batch",
@@ -5196,7 +5187,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1685",
+    "id": "orig-1688",
     "name": "Diamante Blanco 100 ml",
     "brand": "Diamante Blanco",
     "variant": "100% Original Sellado · Código Batch",
@@ -5205,7 +5196,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2044",
+    "id": "orig-2047",
     "name": "Diesel Fuel For Life EDT 125 ml",
     "brand": "Diesel",
     "variant": "100% Original Sellado · Código Batch",
@@ -5214,7 +5205,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1475",
+    "id": "orig-1478",
     "name": "Diesel Only The Brave",
     "brand": "Diesel",
     "variant": "100% Original Sellado · Código Batch",
@@ -5223,7 +5214,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-264",
+    "id": "orig-118",
     "name": "Diesel Only The Brave EDP",
     "brand": "Diesel",
     "variant": "100% Original Sellado · Código Batch",
@@ -5232,7 +5223,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-265",
+    "id": "orig-820",
     "name": "Diesel Plus Plus",
     "brand": "Diesel",
     "variant": "100% Original Sellado · Código Batch",
@@ -5241,16 +5232,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-266",
+    "id": "orig-774",
     "name": "Diesel Spirit of the Brave",
     "brand": "Diesel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 350000,
+    "price": 320000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/products/Diesel-spirit-of-the-brave-2.jpg?v=1699805360",
     "compared": false
   },
   {
-    "id": "orig-1693",
+    "id": "orig-1696",
     "name": "Christian Dior Addict 100 mililitros",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5259,7 +5250,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2040",
+    "id": "orig-2043",
     "name": "Christian Dior Fahrenheit EDT edt 200 ml",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5268,7 +5259,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1707",
+    "id": "orig-1710",
     "name": "Christian Dior J&#8217;ADORE",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5277,7 +5268,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2041",
+    "id": "orig-2044",
     "name": "Christian Dior Sauvage Parfum 100 ml",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5286,7 +5277,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1621",
+    "id": "orig-1624",
     "name": "DIOR Homme EDT 100 ml",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5295,7 +5286,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1341",
+    "id": "orig-1345",
     "name": "DIOR Sauvage PARFUM PURO 100 ml",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5304,7 +5295,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1555",
+    "id": "orig-1558",
     "name": "Dior Dune",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5313,7 +5304,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1161",
+    "id": "orig-1166",
     "name": "Dior Eau Sauvage EDT 100 mililitros",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5322,7 +5313,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1556",
+    "id": "orig-1559",
     "name": "Dior Homme Sport",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5331,7 +5322,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1620",
+    "id": "orig-1623",
     "name": "Dior Homme intense",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5340,7 +5331,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1237",
+    "id": "orig-1242",
     "name": "Dior Hypnotic Poison EDP",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5349,7 +5340,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1558",
+    "id": "orig-1561",
     "name": "Dior Sauvage EDP",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5358,7 +5349,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1342",
+    "id": "orig-1346",
     "name": "Dior Sauvage EDP (Tester)",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5367,7 +5358,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1348",
+    "id": "orig-1352",
     "name": "Dior Sauvage EDT (Tester)",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5385,7 +5376,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1554",
+    "id": "orig-1557",
     "name": "Miss Dior EDP",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5394,7 +5385,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1520",
+    "id": "orig-1523",
     "name": "Miss Dior EDT",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5403,7 +5394,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1112",
+    "id": "orig-1117",
     "name": "Miss Dior Parfum",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5412,7 +5403,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1615",
+    "id": "orig-1618",
     "name": "Neroli sauvage",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5421,7 +5412,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1599",
+    "id": "orig-1602",
     "name": "Sauvage EDT",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5430,7 +5421,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1557",
+    "id": "orig-1560",
     "name": "Sauvage Elixir 100 mililitros",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
@@ -5439,7 +5430,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-267",
+    "id": "orig-491",
     "name": "Dolce & Gabbana Devotion Parfum masculina",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5448,34 +5439,34 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-268",
+    "id": "orig-637",
     "name": "Dolce & Gabbana Gabbana The One Parfum",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 590000,
+    "price": 370000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/The_One_For_Men_Parfum_2.jpg?v=1793399097",
     "compared": false
   },
   {
-    "id": "orig-269",
+    "id": "orig-382",
     "name": "Dolce & Gabbana Light Blue Eau de Parfum",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 455000,
+    "price": 409000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/LightBlueEDP_3.png?v=1780067623",
     "compared": false
   },
   {
-    "id": "orig-270",
+    "id": "orig-383",
     "name": "Dolce & Gabbana Light Blue Pour Homme Eau de Parfum",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 450000,
+    "price": 409000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/LightBluePourHommeEDP_3.png?v=1780066375",
     "compared": false
   },
   {
-    "id": "orig-271",
+    "id": "orig-210",
     "name": "Dolce & Gabbana Masculine Re-Edition 1999",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5484,7 +5475,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-272",
+    "id": "orig-535",
     "name": "Dolce & Gabbana My devotion",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5493,7 +5484,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-273",
+    "id": "orig-132",
     "name": "Dolce & Gabbana Q Parfum",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5502,7 +5493,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-274",
+    "id": "orig-696",
     "name": "Dolce & Gabbana Queen Intense",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5511,7 +5502,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-275",
+    "id": "orig-215",
     "name": "Dolce & Gabbana Velvet Amber Skin",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5520,7 +5511,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-276",
+    "id": "orig-220",
     "name": "Dolce & Gabbana Velvet Black Patchouli",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5529,7 +5520,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-277",
+    "id": "orig-216",
     "name": "Dolce & Gabbana Velvet Blue Musk",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5538,7 +5529,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-278",
+    "id": "orig-218",
     "name": "Dolce & Gabbana Velvet Desert Oud",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5547,7 +5538,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-279",
+    "id": "orig-214",
     "name": "Dolce & Gabbana Velvet Desire",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5556,7 +5547,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-280",
+    "id": "orig-219",
     "name": "Dolce & Gabbana Velvet Exotic Leather",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5565,7 +5556,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-281",
+    "id": "orig-207",
     "name": "Dolce & Gabbana Velvet Honey Santal",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5574,7 +5565,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-282",
+    "id": "orig-213",
     "name": "Dolce & Gabbana Velvet Incenso",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5583,7 +5574,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-283",
+    "id": "orig-208",
     "name": "Dolce & Gabbana Velvet Infusion",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5592,7 +5583,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-284",
+    "id": "orig-217",
     "name": "Dolce & Gabbana Velvet Passion Oud",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5601,7 +5592,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-285",
+    "id": "orig-212",
     "name": "Dolce & Gabbana Velvet Rose",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5610,7 +5601,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-286",
+    "id": "orig-209",
     "name": "Dolce & Gabbana Velvet Sicily",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5619,7 +5610,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-287",
+    "id": "orig-211",
     "name": "Dolce & Gabbana Velvet Vetiver",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5628,7 +5619,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-288",
+    "id": "orig-221",
     "name": "Dolce & Gabbana Velvet Zafferano",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5637,7 +5628,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-289",
+    "id": "orig-168",
     "name": "Dolce & Gabbana Your Devotion EDP Intense",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5646,7 +5637,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-290",
+    "id": "orig-563",
     "name": "Dolce & gabbana light Blue 2025 set de regalo",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5655,7 +5646,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-291",
+    "id": "orig-897",
     "name": "Dolce Gabbana Devotion Dama Set De Regalo",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5664,7 +5655,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-292",
+    "id": "orig-943",
     "name": "Dolce Gabbana Dolce",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5673,7 +5664,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-293",
+    "id": "orig-775",
     "name": "Dolce Gabbana Dolce Shine",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5682,7 +5673,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-294",
+    "id": "orig-938",
     "name": "Dolce Gabbana Light Blue Pour Femme capri in love",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5691,16 +5682,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-295",
+    "id": "orig-931",
     "name": "Dolce Gabbana The Only One",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 470000,
+    "price": 370000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_b819b4cf-dd6a-4fc9-997f-63fe24a7c50d.jpg?v=1756854203",
     "compared": false
   },
   {
-    "id": "orig-296",
+    "id": "orig-939",
     "name": "Light Blue Capri In Love Pour Homme",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
@@ -5709,7 +5700,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1139",
+    "id": "orig-1144",
     "name": "Dolce &#038; Gabbana The One EDP",
     "brand": "Dolce & Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5718,7 +5709,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1502",
+    "id": "orig-1505",
     "name": "Dolce &#038; Gabbana The One for Men EDT",
     "brand": "Dolce & Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5727,7 +5718,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1135",
+    "id": "orig-1140",
     "name": "Dolce gabbana light blue 2025",
     "brand": "Dolce & Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5736,7 +5727,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1136",
+    "id": "orig-1141",
     "name": "Dolce gabbana light blue pour homme 2025",
     "brand": "Dolce & Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5745,7 +5736,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1736",
+    "id": "orig-1739",
     "name": "DOLCE &amp; GABBANA FLORAL DROPS ( sin Caja ) 100 ML",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5754,7 +5745,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1738",
+    "id": "orig-1741",
     "name": "DOLCE &amp; GABBANA LIGHT BLUE EAU INTENSE 100 ML TESTER",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5763,7 +5754,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1737",
+    "id": "orig-1740",
     "name": "DOLCE &amp; GABBANA LIGHT BLUE ITALIAN LOVE",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5772,7 +5763,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1739",
+    "id": "orig-1742",
     "name": "DOLCE &amp; GABBANA Q BY EDP",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5781,7 +5772,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1671",
+    "id": "orig-1674",
     "name": "Dolce &amp; Gabbana Devotion Dama 100 ml",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5790,7 +5781,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1500",
+    "id": "orig-1503",
     "name": "Dolce &amp; Gabbana K EDP 100 mililitros",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5799,7 +5790,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2043",
+    "id": "orig-2046",
     "name": "Dolce &amp; Gabbana K EDT 200 mililitros ( extra contenido )",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5808,7 +5799,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1499",
+    "id": "orig-1502",
     "name": "Dolce &amp; Gabbana K Intense ( sin caja 100 ml )",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5817,7 +5808,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2091",
+    "id": "orig-2094",
     "name": "Dolce &amp; Gabbana Light Blue EDT",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5826,7 +5817,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1409",
+    "id": "orig-1413",
     "name": "Dolce &amp; Gabbana Light Blue Eau Intense For Women",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5835,7 +5826,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1331",
+    "id": "orig-1336",
     "name": "Dolce &amp; Gabbana Light Blue Pour Homme (Tester)",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5844,7 +5835,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2042",
+    "id": "orig-2045",
     "name": "Dolce &amp; Gabbana Light Blue Pour Homme EDT 125 ml",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5853,7 +5844,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1503",
+    "id": "orig-1506",
     "name": "Dolce &amp; Gabbana Light Blue Pour Homme( Eau Intense )200 mililitros",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5862,7 +5853,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1506",
+    "id": "orig-1509",
     "name": "Dolce &amp; Gabbana Pour Homme EDT",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5871,7 +5862,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1504",
+    "id": "orig-1507",
     "name": "Dolce &amp; Gabbana Pour Homme Intenso 200 mililitros (extra grande)",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5880,7 +5871,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1238",
+    "id": "orig-1243",
     "name": "Dolce &amp; Gabbana Q by Dolce &amp; EDP Intense",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5889,7 +5880,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1501",
+    "id": "orig-1504",
     "name": "Dolce &amp; Gabbana The One for Men EDP 100 mililitros",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5898,7 +5889,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1498",
+    "id": "orig-1501",
     "name": "dolce &amp; gabbana Q edp intense",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5907,7 +5898,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1239",
+    "id": "orig-1244",
     "name": "Dolce &#038; Gabbana L´Imperatrice",
     "brand": "Dolce 038",
     "variant": "100% Original Sellado · Código Batch",
@@ -5916,7 +5907,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1126",
+    "id": "orig-1131",
     "name": "Dolce Gabbana Devotion Intense",
     "brand": "Dolce Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5925,7 +5916,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1203",
+    "id": "orig-1208",
     "name": "Dolce Gabbana K Parfum puro 100 mililitros",
     "brand": "Dolce Gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5934,7 +5925,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1145",
+    "id": "orig-1150",
     "name": "Dolce gabbana devotion pour homme",
     "brand": "Dolce gabbana",
     "variant": "100% Original Sellado · Código Batch",
@@ -5943,7 +5934,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-297",
+    "id": "orig-7",
     "name": "Dumont Nitro Black",
     "brand": "Dumont",
     "variant": "100% Original Sellado · Código Batch",
@@ -5952,7 +5943,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-298",
+    "id": "orig-932",
     "name": "Dumont Nitro Elixir",
     "brand": "Dumont",
     "variant": "100% Original Sellado · Código Batch",
@@ -5961,7 +5952,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-299",
+    "id": "orig-412",
     "name": "Dumont Nitro Gold",
     "brand": "Dumont",
     "variant": "100% Original Sellado · Código Batch",
@@ -5979,7 +5970,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1138",
+    "id": "orig-1143",
     "name": "Dumont Nitro Intense",
     "brand": "Dumont",
     "variant": "100% Original Sellado · Código Batch",
@@ -5988,7 +5979,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1228",
+    "id": "orig-1233",
     "name": "Dumont Nitro Red",
     "brand": "Dumont",
     "variant": "100% Original Sellado · Código Batch",
@@ -5997,16 +5988,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-300",
+    "id": "orig-1066",
     "name": "Dumont Nitro Red Intensely",
     "brand": "Dumont",
     "variant": "100% Original Sellado · Código Batch",
     "price": 310000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/10/dumontnitroredintensely.webp",
-    "compared": true
+    "compared": false
   },
   {
-    "id": "orig-1155",
+    "id": "orig-171",
+    "name": "Dumont Nitro White Intensely",
+    "brand": "Dumont",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/DumontNitroWhiteIntensely.jpg?v=1786624039",
+    "compared": false
+  },
+  {
+    "id": "orig-1160",
     "name": "Dumont Paris Nitro Blue",
     "brand": "Dumont Paris",
     "variant": "100% Original Sellado · Código Batch",
@@ -6015,7 +6015,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-301",
+    "id": "orig-315",
     "name": "Elivi Hong Kong Unstoppable",
     "brand": "ELVI",
     "variant": "100% Original Sellado · Código Batch",
@@ -6024,7 +6024,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-302",
+    "id": "orig-451",
     "name": "Eden Criatura",
     "brand": "Edén",
     "variant": "100% Original Sellado · Código Batch",
@@ -6033,7 +6033,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-303",
+    "id": "orig-560",
     "name": "Eden Ojos Cerrados",
     "brand": "Edén",
     "variant": "100% Original Sellado · Código Batch",
@@ -6042,7 +6042,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1541",
+    "id": "orig-1544",
     "name": "Electro Touch (sin caja)",
     "brand": "Electro Touch",
     "variant": "100% Original Sellado · Código Batch",
@@ -6051,7 +6051,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1262",
+    "id": "orig-1267",
     "name": "Elixir 88 By Stallion 53",
     "brand": "Elixir 88",
     "variant": "100% Original Sellado · Código Batch",
@@ -6060,7 +6060,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1418",
+    "id": "orig-1422",
     "name": "Elizabeth Arden 5th Avenue",
     "brand": "Elizabeth Arden",
     "variant": "100% Original Sellado · Código Batch",
@@ -6069,7 +6069,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1419",
+    "id": "orig-1423",
     "name": "Red Door Elizabeth Arden",
     "brand": "Elizabeth Arden",
     "variant": "100% Original Sellado · Código Batch",
@@ -6078,7 +6078,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1597",
+    "id": "orig-1600",
     "name": "Emblem",
     "brand": "Emblem",
     "variant": "100% Original Sellado · Código Batch",
@@ -6087,7 +6087,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-304",
+    "id": "orig-561",
     "name": "Emmir Kingdelary",
     "brand": "Emmir",
     "variant": "100% Original Sellado · Código Batch",
@@ -6096,7 +6096,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-305",
+    "id": "orig-35",
     "name": "Emmir Milano Di Parma",
     "brand": "Emmir",
     "variant": "100% Original Sellado · Código Batch",
@@ -6105,7 +6105,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-306",
+    "id": "orig-34",
     "name": "Emmir Milano Napoli",
     "brand": "Emmir",
     "variant": "100% Original Sellado · Código Batch",
@@ -6114,7 +6114,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-307",
+    "id": "orig-36",
     "name": "Emmir Milano Reggio",
     "brand": "Emmir",
     "variant": "100% Original Sellado · Código Batch",
@@ -6123,7 +6123,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-308",
+    "id": "orig-38",
     "name": "Emmir Milano San Remo",
     "brand": "Emmir",
     "variant": "100% Original Sellado · Código Batch",
@@ -6132,7 +6132,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-309",
+    "id": "orig-37",
     "name": "Emmir Milano Sorrento",
     "brand": "Emmir",
     "variant": "100% Original Sellado · Código Batch",
@@ -6141,7 +6141,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-310",
+    "id": "orig-32",
     "name": "Emmir Milano Venezia",
     "brand": "Emmir",
     "variant": "100% Original Sellado · Código Batch",
@@ -6150,7 +6150,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-311",
+    "id": "orig-766",
     "name": "Emper Aruba Gold",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
@@ -6159,7 +6159,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-312",
+    "id": "orig-623",
     "name": "Emper Bermot 44",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
@@ -6168,7 +6168,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-313",
+    "id": "orig-440",
     "name": "Emper Donna Intense By Stallion 53",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
@@ -6177,16 +6177,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-314",
-    "name": "Emper Intenso by Stallion 53",
-    "brand": "Emper Le Chameu",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 210000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_d48865f0-32fa-4bb9-a1fd-d3c2be23a585.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-315",
+    "id": "orig-704",
     "name": "Emper Stallion 53 Set de Regalo",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
@@ -6195,7 +6186,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-316",
+    "id": "orig-507",
     "name": "Emper Stallion 9 to 9",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
@@ -6204,7 +6195,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-317",
+    "id": "orig-873",
     "name": "Emper Stallion Mandora",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
@@ -6213,7 +6204,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1397",
+    "id": "orig-872",
+    "name": "Intenso by Stallion 53",
+    "brand": "Emper Le Chameu",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_d48865f0-32fa-4bb9-a1fd-d3c2be23a585.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1401",
     "name": "Emper Stallion 53",
     "brand": "Emper Stallion",
     "variant": "100% Original Sellado · Código Batch",
@@ -6222,7 +6222,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1250",
+    "id": "orig-1255",
     "name": "Emper captcha 36",
     "brand": "Emper captcha",
     "variant": "100% Original Sellado · Código Batch",
@@ -6231,7 +6231,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1298",
+    "id": "orig-1303",
     "name": "Equest Canter Atralia",
     "brand": "Equest Canter",
     "variant": "100% Original Sellado · Código Batch",
@@ -6240,7 +6240,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1297",
+    "id": "orig-1302",
     "name": "Equest Gallop Atralia",
     "brand": "Equest Gallop",
     "variant": "100% Original Sellado · Código Batch",
@@ -6249,7 +6249,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1296",
+    "id": "orig-1301",
     "name": "Equest Trot Atralia",
     "brand": "Equest Trot",
     "variant": "100% Original Sellado · Código Batch",
@@ -6258,7 +6258,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-318",
+    "id": "orig-304",
     "name": "Escada Bali Paradise",
     "brand": "Escada",
     "variant": "100% Original Sellado · Código Batch",
@@ -6267,7 +6267,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-319",
+    "id": "orig-301",
     "name": "Escada Brisa Cubana",
     "brand": "Escada",
     "variant": "100% Original Sellado · Código Batch",
@@ -6276,7 +6276,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-320",
+    "id": "orig-300",
     "name": "Escada Chiffon Sorbet",
     "brand": "Escada",
     "variant": "100% Original Sellado · Código Batch",
@@ -6285,7 +6285,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1568",
+    "id": "orig-1571",
     "name": "Escape For Her",
     "brand": "Escape For",
     "variant": "100% Original Sellado · Código Batch",
@@ -6294,7 +6294,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1567",
+    "id": "orig-1570",
     "name": "Escape For Men",
     "brand": "Escape For",
     "variant": "100% Original Sellado · Código Batch",
@@ -6303,7 +6303,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-321",
+    "id": "orig-150",
     "name": "Essential Parfums Ambre Latte",
     "brand": "Essential Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -6312,7 +6312,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-322",
+    "id": "orig-958",
     "name": "Essential Parfums Divine Vanille",
     "brand": "Essential Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -6321,7 +6321,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-323",
+    "id": "orig-954",
     "name": "Essential Parfums Neroli Botanica",
     "brand": "Essential Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -6330,7 +6330,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-324",
+    "id": "orig-961",
     "name": "Essential Parfums Nice Bergamote",
     "brand": "Essential Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -6339,7 +6339,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-325",
+    "id": "orig-959",
     "name": "Essential Parfums Rose Magnetic",
     "brand": "Essential Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -6348,7 +6348,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-326",
+    "id": "orig-960",
     "name": "Orange X Santal Essential Parfums",
     "brand": "Essential Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -6357,7 +6357,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-327",
+    "id": "orig-202",
     "name": "Etat Libre d'Orange Above the Waves",
     "brand": "Etat Libre d'Orange",
     "variant": "100% Original Sellado · Código Batch",
@@ -6366,7 +6366,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-328",
+    "id": "orig-201",
     "name": "Etat Libre d'Orange Experimentum Crucis",
     "brand": "Etat Libre d'Orange",
     "variant": "100% Original Sellado · Código Batch",
@@ -6375,7 +6375,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-329",
+    "id": "orig-203",
     "name": "Etat Libre d'Orange I am Trash (Les Fleurs du Déchet)",
     "brand": "Etat Libre d'Orange",
     "variant": "100% Original Sellado · Código Batch",
@@ -6384,7 +6384,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-330",
+    "id": "orig-204",
     "name": "Etat Libre d'Orange Sous Le Pont Mirabeau",
     "brand": "Etat Libre d'Orange",
     "variant": "100% Original Sellado · Código Batch",
@@ -6393,7 +6393,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-331",
+    "id": "orig-206",
     "name": "Etat Libre d'Orange Story of Your Life",
     "brand": "Etat Libre d'Orange",
     "variant": "100% Original Sellado · Código Batch",
@@ -6402,7 +6402,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-332",
+    "id": "orig-205",
     "name": "Etat Libre d'Orange The Ghost In The Shell",
     "brand": "Etat Libre d'Orange",
     "variant": "100% Original Sellado · Código Batch",
@@ -6411,7 +6411,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1571",
+    "id": "orig-1574",
     "name": "Eternity for her",
     "brand": "Eternity for",
     "variant": "100% Original Sellado · Código Batch",
@@ -6420,7 +6420,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1521",
+    "id": "orig-1524",
     "name": "Euphoria Men",
     "brand": "Euphoria Men",
     "variant": "100% Original Sellado · Código Batch",
@@ -6429,7 +6429,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1596",
+    "id": "orig-1599",
     "name": "Explorer Ultra Blue",
     "brand": "Explorer Ultra",
     "variant": "100% Original Sellado · Código Batch",
@@ -6438,7 +6438,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2009",
+    "id": "orig-2012",
     "name": "FEMINITY EDP 120ml",
     "brand": "FEMINITY EDP",
     "variant": "100% Original Sellado · Código Batch",
@@ -6447,7 +6447,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1594",
+    "id": "orig-1597",
     "name": "Femme Individuelle",
     "brand": "Femme Individuelle",
     "variant": "100% Original Sellado · Código Batch",
@@ -6456,7 +6456,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1676",
+    "id": "orig-1679",
     "name": "Ferragamo Bright leather",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6465,7 +6465,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1767",
+    "id": "orig-1770",
     "name": "SALVATORE FERRAGAMO AMO DE FERRAGAMO",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6474,7 +6474,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1768",
+    "id": "orig-1771",
     "name": "SALVATORE FERRAGAMO INCANTO CHARMS",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6483,7 +6483,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1769",
+    "id": "orig-1772",
     "name": "SALVATORE FERRAGAMO INCANTO SHINE",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6492,7 +6492,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1766",
+    "id": "orig-1769",
     "name": "SALVATORE FERRAGAMO SIGNORINA ELEGANZA",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6501,7 +6501,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1765",
+    "id": "orig-1768",
     "name": "SALVATORE FERRAGAMO SIGNORINA RIBELLE",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6510,7 +6510,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1529",
+    "id": "orig-1532",
     "name": "Salvatore Ferragamo Free Time",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6519,7 +6519,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2102",
+    "id": "orig-2105",
     "name": "Salvatore Ferragamo Signorina EDP 100 ml",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6528,7 +6528,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2101",
+    "id": "orig-2104",
     "name": "Salvatore Ferragamo Signorina Misteriosa EDP 100 ml",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6537,7 +6537,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1530",
+    "id": "orig-1533",
     "name": "Salvatore Ferragamo Uomo",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6546,7 +6546,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1528",
+    "id": "orig-1531",
     "name": "Salvatore Ferragamo Uomo Signature",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6555,7 +6555,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1148",
+    "id": "orig-1153",
     "name": "Salvatore ferragamo signorina libera",
     "brand": "Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -6564,7 +6564,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1546",
+    "id": "orig-1549",
     "name": "Flowerbomb",
     "brand": "Flowerbomb",
     "variant": "100% Original Sellado · Código Batch",
@@ -6573,7 +6573,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-333",
+    "id": "orig-578",
     "name": "Fragance One Black Tie for Men",
     "brand": "Fragance One",
     "variant": "100% Original Sellado · Código Batch",
@@ -6582,7 +6582,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-334",
+    "id": "orig-483",
     "name": "Fragance One CLUB",
     "brand": "Fragance One",
     "variant": "100% Original Sellado · Código Batch",
@@ -6591,7 +6591,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-335",
+    "id": "orig-577",
     "name": "Fragance World Imperium Intense",
     "brand": "Fragance World",
     "variant": "100% Original Sellado · Código Batch",
@@ -6600,7 +6600,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-336",
+    "id": "orig-425",
     "name": "Fragance Du Bois Cavort",
     "brand": "Fragance du Bois",
     "variant": "100% Original Sellado · Código Batch",
@@ -6609,7 +6609,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-337",
+    "id": "orig-486",
     "name": "Fragance du Bois Santal Complete",
     "brand": "Fragance du Bois",
     "variant": "100% Original Sellado · Código Batch",
@@ -6618,7 +6618,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-338",
+    "id": "orig-296",
     "name": "Fragrance Du Bois Lucius",
     "brand": "Fragance du Bois",
     "variant": "100% Original Sellado · Código Batch",
@@ -6627,7 +6627,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1113",
+    "id": "orig-1118",
     "name": "Fragance world Azzure Aoud",
     "brand": "Fragance world",
     "variant": "100% Original Sellado · Código Batch",
@@ -6636,16 +6636,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-339",
+    "id": "orig-640",
     "name": "Fragance du Bois Sirene",
     "brand": "Fragrance Du Bois",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1650000,
+    "price": 1410000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Fragrance_Du_Bois_Sir_ne.jpg?v=1770935349",
     "compared": false
   },
   {
-    "id": "orig-340",
+    "id": "orig-297",
     "name": "Fragrance Du Bois Sirene Privee",
     "brand": "Fragrance Du Bois",
     "variant": "100% Original Sellado · Código Batch",
@@ -6654,7 +6654,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1649",
+    "id": "orig-1652",
     "name": "273 Fred Hayman’s Hombre",
     "brand": "Fred Hayman",
     "variant": "100% Original Sellado · Código Batch",
@@ -6663,7 +6663,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1630",
+    "id": "orig-1633",
     "name": "273 hombre (tester) , sin Caja Ni tapa",
     "brand": "Fred Hayman",
     "variant": "100% Original Sellado · Código Batch",
@@ -6672,7 +6672,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-341",
+    "id": "orig-755",
     "name": "Aromatix X French Avenue Magnetiq",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6681,7 +6681,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-342",
+    "id": "orig-754",
     "name": "Aromatix X French Avenue Sun Kissed",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6690,7 +6690,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-343",
+    "id": "orig-752",
     "name": "Aromatix X French Avenue Teas Me",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6699,7 +6699,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1154",
+    "id": "orig-1159",
     "name": "Fragance World Chocola Addict By French Avenue",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6708,7 +6708,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-344",
+    "id": "orig-840",
     "name": "Fragance world Atlantis Extrait by French Avenue",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6717,7 +6717,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-345",
+    "id": "orig-952",
     "name": "Fragance world Chaos Extrait by French Avenue",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6726,7 +6726,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-346",
+    "id": "orig-695",
     "name": "French Avenue Amber Empire",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6735,7 +6735,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-347",
+    "id": "orig-348",
     "name": "French Avenue Dusk Till Dawn ( Liquid Brun & Vulcan Feu ) - Set de Regalo",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6744,7 +6744,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-348",
+    "id": "orig-743",
     "name": "French Avenue Fierte Luna",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6753,7 +6753,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-349",
+    "id": "orig-410",
     "name": "French Avenue Firestorm",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6762,7 +6762,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-350",
+    "id": "orig-556",
     "name": "French Avenue Glorious Oud Royal Blanc",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6771,7 +6771,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1167",
+    "id": "orig-1172",
     "name": "French Avenue Liquid Brun",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6780,7 +6780,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-351",
+    "id": "orig-508",
     "name": "French Avenue Liquid Brun edicion limitada",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6789,7 +6789,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-352",
+    "id": "orig-639",
     "name": "French Avenue Pinnace",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6798,7 +6798,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-353",
+    "id": "orig-557",
     "name": "French Avenue Rose Explosion",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6807,7 +6807,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-354",
+    "id": "orig-533",
     "name": "French Avenue Royal Blend Bourbon",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6816,7 +6816,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-355",
+    "id": "orig-409",
     "name": "French Avenue Royal Blend Sequoia",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6825,7 +6825,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-356",
+    "id": "orig-526",
     "name": "French Avenue Thunder Extrait",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6834,7 +6834,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-357",
+    "id": "orig-828",
     "name": "French Avenue Tropical Kiss",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6852,7 +6852,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-358",
+    "id": "orig-812",
     "name": "French Avenue Veneno Scarlet",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6861,7 +6861,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-359",
+    "id": "orig-576",
     "name": "French Avenue Vulcan Baie",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6870,7 +6870,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-360",
+    "id": "orig-711",
     "name": "French Avenue Vulcan Black Friday",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6879,7 +6879,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-361",
+    "id": "orig-575",
     "name": "French Avenue Vulcan Sable",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6888,7 +6888,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-362",
+    "id": "orig-580",
     "name": "French Avenue X Aromatix Naughty Dates",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6897,7 +6897,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-363",
+    "id": "orig-756",
     "name": "French Avenue X aromatix Forbidden Fruit",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6906,7 +6906,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-364",
+    "id": "orig-805",
     "name": "French Avenue X aromatix Platine Blanc",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6915,7 +6915,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-365",
+    "id": "orig-742",
     "name": "French Avenue X aromatix X Xandal",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6924,7 +6924,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1131",
+    "id": "orig-1136",
     "name": "French Avenue vulcan feu",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
@@ -6933,7 +6933,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-366",
+    "id": "orig-21",
     "name": "Fugazzi Angel Dust Extrait",
     "brand": "Fugazzi",
     "variant": "100% Original Sellado · Código Batch",
@@ -6942,7 +6942,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-367",
+    "id": "orig-694",
     "name": "Fugazzi Oudh Zuid",
     "brand": "Fugazzi",
     "variant": "100% Original Sellado · Código Batch",
@@ -6951,7 +6951,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-368",
+    "id": "orig-445",
     "name": "Fugazzi Pomegranoudh",
     "brand": "Fugazzi",
     "variant": "100% Original Sellado · Código Batch",
@@ -6960,7 +6960,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-369",
+    "id": "orig-926",
     "name": "Fugazzi Vanilla Haze",
     "brand": "Fugazzi",
     "variant": "100% Original Sellado · Código Batch",
@@ -6969,7 +6969,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1878",
+    "id": "orig-1881",
     "name": "GAME OF SPADES BID JO MILANO",
     "brand": "GAME OF",
     "variant": "100% Original Sellado · Código Batch",
@@ -6978,7 +6978,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1876",
+    "id": "orig-1879",
     "name": "GAME OF SPADES QUEEN JO MILANO",
     "brand": "GAME OF",
     "variant": "100% Original Sellado · Código Batch",
@@ -6987,7 +6987,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1877",
+    "id": "orig-1880",
     "name": "GAME OF SPADES ROYALE JO MILANO",
     "brand": "GAME OF",
     "variant": "100% Original Sellado · Código Batch",
@@ -6996,7 +6996,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1090",
+    "id": "orig-1094",
     "name": "Game Of Spades Blind Bid Jo Milano",
     "brand": "Game Of",
     "variant": "100% Original Sellado · Código Batch",
@@ -7005,7 +7005,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1094",
+    "id": "orig-1098",
     "name": "Game Of Spades Gold Jo Milano",
     "brand": "Game Of",
     "variant": "100% Original Sellado · Código Batch",
@@ -7014,7 +7014,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1096",
+    "id": "orig-1101",
     "name": "Game Of Spades Yellow Sapphire Jo Milano , dupe o clon de Bond # 9 signature , conocida como La Sellos de ORO",
     "brand": "Game Of",
     "variant": "100% Original Sellado · Código Batch",
@@ -7023,7 +7023,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1280",
+    "id": "orig-1285",
     "name": "Game of Spades High Roller",
     "brand": "Game of",
     "variant": "100% Original Sellado · Código Batch",
@@ -7032,7 +7032,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1103",
+    "id": "orig-1108",
     "name": "Game of Spades King Jo Milano Paris",
     "brand": "Game of",
     "variant": "100% Original Sellado · Código Batch",
@@ -7041,7 +7041,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1391",
+    "id": "orig-1395",
     "name": "Game of Spades WildCard Jo Milano",
     "brand": "Game of",
     "variant": "100% Original Sellado · Código Batch",
@@ -7050,7 +7050,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1053",
+    "id": "orig-1054",
     "name": "Game of Spades Win Jo Milano",
     "brand": "Game of",
     "variant": "100% Original Sellado · Código Batch",
@@ -7059,7 +7059,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-370",
+    "id": "orig-634",
     "name": "Game Of Spades All In",
     "brand": "Game of Spades",
     "variant": "100% Original Sellado · Código Batch",
@@ -7068,7 +7068,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-371",
+    "id": "orig-2",
+    "name": "Game of Spades Blue Sapphire",
+    "brand": "Game of Spades",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 489000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GameofSpadesBlueSapphireParfum.jpg?v=1795368814",
+    "compared": false
+  },
+  {
+    "id": "orig-108",
     "name": "Game of Spades Bluff",
     "brand": "Game of Spades",
     "variant": "100% Original Sellado · Código Batch",
@@ -7077,7 +7086,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-372",
+    "id": "orig-170",
     "name": "Game of Spades Trick",
     "brand": "Game of Spades",
     "variant": "100% Original Sellado · Código Batch",
@@ -7086,7 +7095,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-373",
+    "id": "orig-772",
     "name": "Set Sense Laverne by Georgina Rodriguez (75 ml + Body powder)",
     "brand": "Georgina Rodriguez",
     "variant": "100% Original Sellado · Código Batch",
@@ -7095,7 +7104,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-374",
+    "id": "orig-471",
     "name": "GEVILL FRANCE AMORE DI VENEZIA",
     "brand": "Gevill France",
     "variant": "100% Original Sellado · Código Batch",
@@ -7104,7 +7113,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-375",
+    "id": "orig-930",
     "name": "Gevill Aqua de paris",
     "brand": "Gevill France",
     "variant": "100% Original Sellado · Código Batch",
@@ -7113,7 +7122,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-376",
+    "id": "orig-172",
     "name": "Gevill France Abundance Infinite",
     "brand": "Gevill France",
     "variant": "100% Original Sellado · Código Batch",
@@ -7122,7 +7131,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-377",
+    "id": "orig-964",
     "name": "Gevill France Moleculaire",
     "brand": "Gevill France",
     "variant": "100% Original Sellado · Código Batch",
@@ -7131,7 +7140,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-378",
+    "id": "orig-628",
     "name": "Gevill Genesyx 3",
     "brand": "Gevill France",
     "variant": "100% Original Sellado · Código Batch",
@@ -7140,7 +7149,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-379",
+    "id": "orig-322",
     "name": "Gevill Gran Amour",
     "brand": "Gevill France",
     "variant": "100% Original Sellado · Código Batch",
@@ -7149,7 +7158,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-380",
+    "id": "orig-185",
     "name": "Gevill Sicilienne Mafia",
     "brand": "Gevill France",
     "variant": "100% Original Sellado · Código Batch",
@@ -7158,7 +7167,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2054",
+    "id": "orig-2057",
     "name": "Acqua Di Gio Pour Homme EDT",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7167,7 +7176,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1560",
+    "id": "orig-1563",
     "name": "Acqua di Gio EDP 100 MILILITROS",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7176,7 +7185,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-381",
+    "id": "orig-799",
     "name": "Acqua di Gio Eau de Parfum Set de regalo",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7185,7 +7194,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1561",
+    "id": "orig-1564",
     "name": "Acqua di Gio Parfum 100 ML",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7194,7 +7203,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1716",
+    "id": "orig-1719",
     "name": "GIORGIO ARMANI ACQUA DI GIO ABSOLU",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7203,7 +7212,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1718",
+    "id": "orig-1721",
     "name": "GIORGIO ARMANI ACQUA DI GIO PROFONDO (EAU DE PERFUM) 100 mililitros",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7212,7 +7221,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1717",
+    "id": "orig-1720",
     "name": "GIORGIO ARMANI ACQUA DI GIO PROFUMO",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7221,7 +7230,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2095",
+    "id": "orig-2098",
     "name": "Giorgio Armani Acqua Di Gioia Edp",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7230,7 +7239,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1111",
+    "id": "orig-1116",
     "name": "Giorgio Armani Acqua di Gio Elixir",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7239,7 +7248,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-382",
+    "id": "orig-494",
     "name": "Giorgio Armani Acqua di Gio pour homme Set de Regalo",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7248,16 +7257,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-383",
+    "id": "orig-458",
     "name": "Giorgio Armani Acqua di Giò Eau de Parfum Intense",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 610000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Acqua_di_Gio_Eau_de_Parfum_Intense_Giorgio_Armani.png?v=1776271080",
     "compared": false
   },
   {
-    "id": "orig-2053",
+    "id": "orig-2056",
     "name": "Giorgio Armani Armani Code Edt 125 ml",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7266,7 +7275,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-384",
+    "id": "orig-58",
     "name": "Giorgio Armani I Will",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7275,7 +7284,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2094",
+    "id": "orig-2097",
     "name": "Giorgio Armani My Way EDP 90 ml",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7293,7 +7302,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-385",
+    "id": "orig-109",
     "name": "Giorgio Armani Sì Passione",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7311,7 +7320,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1150",
+    "id": "orig-1155",
     "name": "Giorgio armani Stronger With You Parfum",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -7329,16 +7338,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-386",
+    "id": "orig-519",
     "name": "Giorgio armani power of you",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 810000,
+    "price": 680000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c1a87931-e0cb-456c-aee4-93ea25e6fc8c.jpg?v=1774643640",
     "compared": false
   },
   {
-    "id": "orig-1422",
+    "id": "orig-1426",
     "name": "Giorgio Giorgio Beverly Hills",
     "brand": "Giorgio Giorgio",
     "variant": "100% Original Sellado · Código Batch",
@@ -7347,7 +7356,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1212",
+    "id": "orig-1217",
     "name": "GIVENCHY Gentleman Society",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7356,7 +7365,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1661",
+    "id": "orig-1664",
     "name": "GIVENCHY INSENSÉ ULTRAMARINE",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7365,7 +7374,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1236",
+    "id": "orig-1241",
     "name": "Givenchy Amarige",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7383,7 +7392,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2087",
+    "id": "orig-2090",
     "name": "Givenchy Angel Ou Démon EDP 100 ml",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7392,7 +7401,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1061",
+    "id": "orig-1062",
     "name": "Givenchy Gentleman Boisee",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7410,7 +7419,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1211",
+    "id": "orig-1216",
     "name": "Givenchy Gentleman Intense EDT",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7428,7 +7437,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-387",
+    "id": "orig-481",
     "name": "Givenchy Gentleman Society EDP Set de Regalo",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7437,7 +7446,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1149",
+    "id": "orig-1154",
     "name": "Givenchy Gentleman Society Extreme",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7446,7 +7455,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-388",
+    "id": "orig-514",
     "name": "Givenchy Gentleman Society Sport",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7464,7 +7473,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1059",
+    "id": "orig-1060",
     "name": "Givenchy Irresistible Eau de Parfum",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7473,7 +7482,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-389",
+    "id": "orig-302",
     "name": "Givenchy Irresistible Fraiche",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7482,7 +7491,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-390",
+    "id": "orig-426",
     "name": "Givenchy Irresistible Nectar",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7491,16 +7500,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-391",
+    "id": "orig-906",
     "name": "Givenchy Irresistible Nude Velvet",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 470000,
+    "price": 270000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_4f79d6d9-e485-43e8-adf5-a69982e5ccac.jpg?v=1757374177",
     "compared": false
   },
   {
-    "id": "orig-392",
+    "id": "orig-267",
     "name": "Givenchy Irresistible Rose Velvet EDP",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7509,7 +7518,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-393",
+    "id": "orig-265",
     "name": "Givenchy L'Interdit EDT",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7518,7 +7527,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-394",
+    "id": "orig-57",
     "name": "Givenchy L'Interdit Elixir",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7527,7 +7536,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-395",
+    "id": "orig-266",
     "name": "Givenchy L'Interdit Le Parfum",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7536,7 +7545,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1144",
+    "id": "orig-1149",
     "name": "Givenchy L’Interdit EDP",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7545,7 +7554,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1060",
+    "id": "orig-1061",
     "name": "Givenchy L’Interdit Intense",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7554,7 +7563,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-396",
+    "id": "orig-585",
     "name": "Givenchy L’interdit Rouge Ultime",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7563,7 +7572,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2086",
+    "id": "orig-2089",
     "name": "Givenchy Organza EDP 100 ml",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7572,7 +7581,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-397",
+    "id": "orig-549",
     "name": "Givenchy Play for her",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7581,7 +7590,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1213",
+    "id": "orig-1218",
     "name": "Givenchy Pí EdT",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7599,7 +7608,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1405",
+    "id": "orig-1409",
     "name": "Givenchy blue label",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
@@ -7617,7 +7626,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-398",
+    "id": "orig-629",
     "name": "Gucci Bloom",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7626,7 +7635,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-399",
+    "id": "orig-632",
     "name": "Gucci Bloom Profumo Di Fiori",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7635,7 +7644,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-400",
+    "id": "orig-396",
     "name": "Gucci Flora Gorgeous Gardenia Set de Regalo",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7644,7 +7653,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-401",
+    "id": "orig-624",
     "name": "Gucci Flora Gorgeous Jasmine",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7653,7 +7662,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-402",
+    "id": "orig-365",
     "name": "Gucci Flora Gorgeous Orchid",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7662,7 +7671,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-403",
+    "id": "orig-630",
     "name": "Gucci Gucci Bloom Ambrosia di Fiori",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7671,7 +7680,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1429",
+    "id": "orig-1433",
     "name": "Gucci Gucci Guilty Black Pour Homme",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7680,25 +7689,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-404",
+    "id": "orig-291",
     "name": "Gucci Gucci Guilty Essence",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 490000,
+    "price": 370000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GucciGuiltyessence_2.jpg?v=1784606594",
     "compared": true
   },
   {
-    "id": "orig-405",
+    "id": "orig-13",
     "name": "Gucci Guilty Absolu de Parfum Hombre",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 650000,
+    "price": 470000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GUCCIGUILTYABSOLUDEPARFUM.jpg?v=1794606080",
     "compared": false
   },
   {
-    "id": "orig-1427",
+    "id": "orig-1431",
     "name": "Gucci Guilty Pour Homme EDP",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7707,7 +7716,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1428",
+    "id": "orig-1432",
     "name": "Gucci Guilty Pour Homme EDT",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7716,7 +7725,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1430",
+    "id": "orig-1434",
     "name": "Gucci Rush",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
@@ -7725,7 +7734,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-406",
+    "id": "orig-145",
     "name": "Guerlain Aqua Allegoria Nerolia Vetiver Forte",
     "brand": "Guerlain",
     "variant": "100% Original Sellado · Código Batch",
@@ -7734,7 +7743,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1814",
+    "id": "orig-1817",
     "name": "GUESS 1981 LOS ANGELES",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7743,7 +7752,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1820",
+    "id": "orig-1823",
     "name": "GUESS BY MARCIANO FOR MEN EDT",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7752,7 +7761,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1819",
+    "id": "orig-1822",
     "name": "GUESS BY MARCIANO FOR WOMAN EDP",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7761,7 +7770,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2074",
+    "id": "orig-2077",
     "name": "GUESS EDP",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7770,7 +7779,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1816",
+    "id": "orig-1819",
     "name": "GUESS INDIGO HOMBRE 1981",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7779,7 +7788,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1817",
+    "id": "orig-1820",
     "name": "GUESS NIGHT",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7788,7 +7797,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1818",
+    "id": "orig-1821",
     "name": "GUESS SEDUCTIVE BLUE",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7797,7 +7806,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1815",
+    "id": "orig-1818",
     "name": "GUESS SEDUCTIVE NOIR",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7806,7 +7815,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1268",
+    "id": "orig-1273",
     "name": "Guess Bella Vita Paradiso",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7815,7 +7824,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1269",
+    "id": "orig-1274",
     "name": "Guess Bella Vita Rosa",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7824,7 +7833,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1634",
+    "id": "orig-1637",
     "name": "Guess Girl Belle",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7833,7 +7842,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2075",
+    "id": "orig-2078",
     "name": "Guess Gold EDP 75 ml",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7842,7 +7851,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1265",
+    "id": "orig-1270",
     "name": "Guess Iconic",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7851,7 +7860,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1209",
+    "id": "orig-1214",
     "name": "Guess Uomo",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7860,7 +7869,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1264",
+    "id": "orig-1269",
     "name": "Guess Uomo Acqua",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7869,7 +7878,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1821",
+    "id": "orig-1824",
     "name": "MAN DE GUESS",
     "brand": "Guess",
     "variant": "100% Original Sellado · Código Batch",
@@ -7878,7 +7887,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1932",
+    "id": "orig-1935",
     "name": "HOT COUTURE EDP 100ML",
     "brand": "HOT COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -7887,7 +7896,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-407",
+    "id": "orig-261",
     "name": "Halloween Bliss",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7896,7 +7905,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-408",
+    "id": "orig-264",
     "name": "Halloween Blossom",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7905,16 +7914,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-409",
+    "id": "orig-263",
     "name": "Halloween Magic",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 250000,
+    "price": 240000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/HalloweenMagic.jpg?v=1785184500",
     "compared": false
   },
   {
-    "id": "orig-1473",
+    "id": "orig-1476",
     "name": "Halloween Man",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7923,7 +7932,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1472",
+    "id": "orig-1475",
     "name": "Halloween Man Mystery",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7932,7 +7941,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1474",
+    "id": "orig-1477",
     "name": "Halloween Man X",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7941,7 +7950,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-410",
+    "id": "orig-642",
     "name": "Halloween My Wish",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7950,7 +7959,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-411",
+    "id": "orig-262",
     "name": "Halloween My World",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7959,7 +7968,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1866",
+    "id": "orig-1869",
     "name": "JESUS DEL POZO HALLOWEEN BLOSSOM (sin caja)",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7968,7 +7977,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1867",
+    "id": "orig-1870",
     "name": "JESUS DEL POZO HALLOWEEN MIA ME MINE",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7977,7 +7986,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2119",
+    "id": "orig-2122",
     "name": "Jesus del Pozo Halloween Blue Drop EDT 100 ml",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7986,7 +7995,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2120",
+    "id": "orig-2123",
     "name": "Jesus del Pozo Halloween EDT 100 ml",
     "brand": "Halloween",
     "variant": "100% Original Sellado · Código Batch",
@@ -7995,7 +8004,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1425",
+    "id": "orig-1429",
     "name": "Halston Femenina",
     "brand": "Halston Femenina",
     "variant": "100% Original Sellado · Código Batch",
@@ -8004,7 +8013,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1426",
+    "id": "orig-1430",
     "name": "Halston Z-14",
     "brand": "Halston Z",
     "variant": "100% Original Sellado · Código Batch",
@@ -8013,7 +8022,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-412",
+    "id": "orig-490",
     "name": "Hermes Barenia Intense",
     "brand": "Hermès",
     "variant": "100% Original Sellado · Código Batch",
@@ -8022,7 +8031,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-413",
+    "id": "orig-778",
     "name": "Hermes Voyage EDT",
     "brand": "Hermès",
     "variant": "100% Original Sellado · Código Batch",
@@ -8031,7 +8040,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-414",
+    "id": "orig-825",
     "name": "Hermès Tutti Twilly d'Hermès",
     "brand": "Hermès",
     "variant": "100% Original Sellado · Código Batch",
@@ -8040,7 +8049,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-415",
+    "id": "orig-823",
     "name": "Hermès Un Jardin Sur La Lagune",
     "brand": "Hermès",
     "variant": "100% Original Sellado · Código Batch",
@@ -8049,7 +8058,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-416",
+    "id": "orig-824",
     "name": "Hermès Un Jardin Sur Le Nil",
     "brand": "Hermès",
     "variant": "100% Original Sellado · Código Batch",
@@ -8058,7 +8067,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-417",
+    "id": "orig-821",
     "name": "Hermès Un Jardin Sur Le Toit",
     "brand": "Hermès",
     "variant": "100% Original Sellado · Código Batch",
@@ -8067,7 +8076,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-418",
+    "id": "orig-822",
     "name": "Hermès Un Jardin à Cythère",
     "brand": "Hermès",
     "variant": "100% Original Sellado · Código Batch",
@@ -8076,7 +8085,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1404",
+    "id": "orig-1408",
     "name": "Hinode INEBRIANTE",
     "brand": "Hinode INEBRIANTE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8085,7 +8094,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2083",
+    "id": "orig-2086",
     "name": "Hugo Boss Alive EDT 80 ml",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8094,7 +8103,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-419",
+    "id": "orig-432",
     "name": "Hugo Boss Alive Intense",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8103,7 +8112,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-420",
+    "id": "orig-643",
     "name": "Hugo Boss Alive Parfum",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8112,16 +8121,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1340",
-    "name": "Hugo Boss BOSS Bottled",
-    "brand": "Hugo Boss",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 330000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Hugo-boss-bottled-2.webp",
-    "compared": false
-  },
-  {
-    "id": "orig-1449",
+    "id": "orig-1452",
     "name": "Hugo Boss BOSS Bottled Parfum",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8130,16 +8130,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-421",
+    "id": "orig-1034",
     "name": "Hugo Boss BOSS Bottled Tonic",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
     "price": 310000,
     "image": "https://disperfumes.com/wp-content/uploads/2026/01/Hugo-boss-bottled-tonic-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-863",
+    "name": "Hugo Boss Boss Bottled Beyond",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Hugo-boss-bottled-2.webp",
     "compared": true
   },
   {
-    "id": "orig-422",
+    "id": "orig-671",
     "name": "Hugo Boss Boss Bottled Bold Citrus",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8148,7 +8157,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-423",
+    "id": "orig-45",
     "name": "Hugo Boss Bottled Beyond EDT Intense",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8157,7 +8166,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1452",
+    "id": "orig-1455",
     "name": "Hugo Boss Bottled Elixir",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8166,7 +8175,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-424",
+    "id": "orig-434",
     "name": "Hugo Boss Bottled Infinite set de regalo 100 ML + 30 ML",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8175,7 +8184,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1301",
+    "id": "orig-1306",
     "name": "Hugo Boss Bottled Night",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8184,7 +8193,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1453",
+    "id": "orig-1456",
     "name": "Hugo Boss Bottled Pacific",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8193,7 +8202,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-425",
+    "id": "orig-616",
     "name": "Hugo Boss Bottled Parfum Set de Regalo",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8202,7 +8211,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-426",
+    "id": "orig-542",
     "name": "Hugo Boss Bottled Striking Lavender",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8211,7 +8220,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1445",
+    "id": "orig-1448",
     "name": "Hugo Boss Bottled Triumph Elixir",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8220,7 +8229,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2063",
+    "id": "orig-2066",
     "name": "Hugo Boss Bottled Unlimited EDT 100 ml",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8229,7 +8238,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1451",
+    "id": "orig-1454",
     "name": "Hugo Boss Bottled absolu",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8238,7 +8247,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1448",
+    "id": "orig-1451",
     "name": "Hugo Boss Dark Blue",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8247,7 +8256,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2082",
+    "id": "orig-2085",
     "name": "Hugo Boss Deep Red EDP 90 ml",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8256,7 +8265,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1450",
+    "id": "orig-1453",
     "name": "Hugo Boss Energise",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8265,7 +8274,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1447",
+    "id": "orig-1450",
     "name": "Hugo Boss Femme ( NUEVA IMÁGEN )",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8274,16 +8283,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-427",
+    "id": "orig-829",
     "name": "Hugo Boss Hugo X superman",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 450000,
+    "price": 370000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_72f48d8f-5c4a-4151-b619-250c70deb8dd.jpg?v=1761413173",
     "compared": false
   },
   {
-    "id": "orig-1065",
+    "id": "orig-1068",
     "name": "Hugo Boss Ma vie",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8292,7 +8301,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1322",
+    "id": "orig-1327",
     "name": "Hugo Boss Red Intense",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8301,7 +8310,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-428",
+    "id": "orig-541",
     "name": "Hugo Boss The Scent Elixir",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8310,7 +8319,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2085",
+    "id": "orig-2088",
     "name": "Hugo Boss The Scent For Her EDP 80 ml",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8319,7 +8328,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-429",
+    "id": "orig-540",
     "name": "Hugo Boss The Scent Intense",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8328,7 +8337,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1235",
+    "id": "orig-1240",
     "name": "Hugo Boss Woman",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8337,7 +8346,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1446",
+    "id": "orig-1449",
     "name": "Hugo Boss XX",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
@@ -8346,7 +8355,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-430",
+    "id": "orig-746",
     "name": "Initio Parfums Prives Can't Get Enough",
     "brand": "INITIO Parfums Privés",
     "variant": "100% Original Sellado · Código Batch",
@@ -8355,16 +8364,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-431",
+    "id": "orig-747",
     "name": "Initio Parfums Prives Power Self",
     "brand": "INITIO Parfums Privés",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1310000,
+    "price": 1150000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Initio_Parfums_Prives_Power_Self.jpg?v=1765311068",
     "compared": false
   },
   {
-    "id": "orig-432",
+    "id": "orig-165",
     "name": "Initio Sugar Blast",
     "brand": "INITIO Parfums Privés",
     "variant": "100% Original Sellado · Código Batch",
@@ -8373,7 +8382,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-433",
+    "id": "orig-164",
     "name": "Initio Wild Rush",
     "brand": "INITIO Parfums Privés",
     "variant": "100% Original Sellado · Código Batch",
@@ -8382,7 +8391,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2004",
+    "id": "orig-2007",
     "name": "INSTANT CRUSH EDP 120ml ( INTENSE EXTRACT DE PARFUM PURO )",
     "brand": "INSTANT CRUSH",
     "variant": "100% Original Sellado · Código Batch",
@@ -8391,7 +8400,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2023",
+    "id": "orig-2026",
     "name": "INTENSE BLACK OUD EDP 100ml",
     "brand": "INTENSE BLACK",
     "variant": "100% Original Sellado · Código Batch",
@@ -8400,7 +8409,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2012",
+    "id": "orig-2015",
     "name": "INTENSE CAFE EDP 100ml",
     "brand": "INTENSE CAFE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8409,7 +8418,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1605",
+    "id": "orig-1608",
     "name": "Il dolce oro , sin caja (solo frasco con tapa) , 30 ml , extractos al 60% de concentrado puro",
     "brand": "Il dolce",
     "variant": "100% Original Sellado · Código Batch",
@@ -8418,7 +8427,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1613",
+    "id": "orig-1616",
     "name": "Il ego",
     "brand": "Il ego",
     "variant": "100% Original Sellado · Código Batch",
@@ -8427,7 +8436,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1607",
+    "id": "orig-1610",
     "name": "Il ego oro",
     "brand": "Il ego",
     "variant": "100% Original Sellado · Código Batch",
@@ -8436,7 +8445,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1611",
+    "id": "orig-1614",
     "name": "Il erotique , sin caja ( solo frasco con tapa ), extracto al 40% de pureza",
     "brand": "Il erotique",
     "variant": "100% Original Sellado · Código Batch",
@@ -8445,7 +8454,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1610",
+    "id": "orig-1613",
     "name": "Il femme",
     "brand": "Il femme",
     "variant": "100% Original Sellado · Código Batch",
@@ -8454,7 +8463,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1612",
+    "id": "orig-1615",
     "name": "Il kakuno , frasco con tapa , (sin caja) , levemente mermado “ de 2 a 3 milímetros “",
     "brand": "Il kakuno",
     "variant": "100% Original Sellado · Código Batch",
@@ -8463,7 +8472,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1606",
+    "id": "orig-1609",
     "name": "Il kakuno oro",
     "brand": "Il kakuno",
     "variant": "100% Original Sellado · Código Batch",
@@ -8472,7 +8481,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1604",
+    "id": "orig-1607",
     "name": "Il lonve oro , sin caja ( con tapa ), extractos al 60% de pureza",
     "brand": "Il lonve",
     "variant": "100% Original Sellado · Código Batch",
@@ -8481,7 +8490,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1608",
+    "id": "orig-1611",
     "name": "Il mexico , sin caja ( con tapa ) , extracto al 40% de pureza",
     "brand": "Il mexico",
     "variant": "100% Original Sellado · Código Batch",
@@ -8490,7 +8499,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1602",
+    "id": "orig-1605",
     "name": "Il mexico oro , sin caja ( con tapa ) , extractos al 60% de pureza",
     "brand": "Il mexico",
     "variant": "100% Original Sellado · Código Batch",
@@ -8499,7 +8508,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1603",
+    "id": "orig-1606",
     "name": "Il oomph oro , sin caja ( con tapa ) , extractos al 60% de pureza",
     "brand": "Il oomph",
     "variant": "100% Original Sellado · Código Batch",
@@ -8508,7 +8517,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1609",
+    "id": "orig-1612",
     "name": "Il roso",
     "brand": "Il roso",
     "variant": "100% Original Sellado · Código Batch",
@@ -8517,7 +8526,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1601",
+    "id": "orig-1604",
     "name": "Il roso oro",
     "brand": "Il roso",
     "variant": "100% Original Sellado · Código Batch",
@@ -8526,7 +8535,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-434",
+    "id": "orig-927",
     "name": "ILMIN Monastery II",
     "brand": "Ilmin",
     "variant": "100% Original Sellado · Código Batch",
@@ -8535,7 +8544,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-435",
+    "id": "orig-925",
     "name": "ILMIN Monastery III",
     "brand": "Ilmin",
     "variant": "100% Original Sellado · Código Batch",
@@ -8544,7 +8553,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-436",
+    "id": "orig-610",
     "name": "Ilmin Il Navissi",
     "brand": "Ilmin",
     "variant": "100% Original Sellado · Código Batch",
@@ -8553,7 +8562,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-437",
+    "id": "orig-928",
     "name": "Ilmin Il Rü",
     "brand": "Ilmin",
     "variant": "100% Original Sellado · Código Batch",
@@ -8562,7 +8571,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-438",
+    "id": "orig-482",
     "name": "Ilmin Il Vita",
     "brand": "Ilmin",
     "variant": "100% Original Sellado · Código Batch",
@@ -8571,7 +8580,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1314",
+    "id": "orig-1319",
     "name": "Ilmin IL Piete",
     "brand": "Ilmin IL",
     "variant": "100% Original Sellado · Código Batch",
@@ -8580,7 +8589,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1315",
+    "id": "orig-1320",
     "name": "Ilmin Il Orgasme",
     "brand": "Ilmin Il",
     "variant": "100% Original Sellado · Código Batch",
@@ -8589,7 +8598,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1316",
+    "id": "orig-1321",
     "name": "Ilmin il Arte",
     "brand": "Ilmin il",
     "variant": "100% Original Sellado · Código Batch",
@@ -8598,7 +8607,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1267",
+    "id": "orig-1272",
     "name": "Immensity pour Homme Immensity",
     "brand": "Immensity pour",
     "variant": "100% Original Sellado · Código Batch",
@@ -8607,7 +8616,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1686",
+    "id": "orig-1689",
     "name": "Initio Atomic Rose",
     "brand": "Initio",
     "variant": "100% Original Sellado · Código Batch",
@@ -8616,7 +8625,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1408",
+    "id": "orig-1412",
     "name": "Initio Parfums Oud For Greatness",
     "brand": "Initio",
     "variant": "100% Original Sellado · Código Batch",
@@ -8625,7 +8634,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1205",
+    "id": "orig-1210",
     "name": "Issey Miyake Issey Miyake L&#8217;Eau d&#8217;Issey Pour Homme Intense",
     "brand": "Issey Miyake",
     "variant": "100% Original Sellado · Código Batch",
@@ -8634,7 +8643,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1204",
+    "id": "orig-1209",
     "name": "Issey Miyake L&#8217;Eau Bleue d&#8217;Issey Pour Homme",
     "brand": "Issey Miyake",
     "variant": "100% Original Sellado · Código Batch",
@@ -8643,7 +8652,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1468",
+    "id": "orig-1471",
     "name": "Issey Miyake L&#8217;Eau d&#8217;Issey Pour Femme",
     "brand": "Issey Miyake",
     "variant": "100% Original Sellado · Código Batch",
@@ -8652,7 +8661,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1467",
+    "id": "orig-1470",
     "name": "Issey Miyake L&#8217;Eau d&#8217;Issey Pour Homme",
     "brand": "Issey Miyake",
     "variant": "100% Original Sellado · Código Batch",
@@ -8661,7 +8670,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1206",
+    "id": "orig-1211",
     "name": "Issey Miyake L&#8217;Eau d&#8217;Issey Pour Homme Sport",
     "brand": "Issey Miyake",
     "variant": "100% Original Sellado · Código Batch",
@@ -8670,7 +8679,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-439",
+    "id": "orig-182",
     "name": "Issey Miyake Le Sel D'Issey Eau de Parfum",
     "brand": "Issey Miyake",
     "variant": "100% Original Sellado · Código Batch",
@@ -8679,7 +8688,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-440",
+    "id": "orig-128",
     "name": "Issey Miyake Le Sel d'Issey EDT",
     "brand": "Issey Miyake",
     "variant": "100% Original Sellado · Código Batch",
@@ -8688,7 +8697,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1229",
+    "id": "orig-1234",
     "name": "issey miyake nectar d&#8217;issey première fleur",
     "brand": "Issey Miyake",
     "variant": "100% Original Sellado · Código Batch",
@@ -8697,7 +8706,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2007",
+    "id": "orig-2010",
     "name": "JARDIN EXCLUSIF EDP 120ml",
     "brand": "JARDIN EXCLUSIF",
     "variant": "100% Original Sellado · Código Batch",
@@ -8706,7 +8715,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1751",
+    "id": "orig-1754",
     "name": "JUICY COUTURE COUTURE LALA",
     "brand": "JUICY COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8715,7 +8724,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1749",
+    "id": "orig-1752",
     "name": "JUICY COUTURE I LOVE",
     "brand": "JUICY COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8724,7 +8733,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1750",
+    "id": "orig-1753",
     "name": "JUICY COUTURE ROYAL ROSE",
     "brand": "JUICY COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8733,7 +8742,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1752",
+    "id": "orig-1755",
     "name": "JUICY COUTURE VIA LA JUICY NEON",
     "brand": "JUICY COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8742,7 +8751,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1753",
+    "id": "orig-1756",
     "name": "JUICY COUTURE VIVA LA JUICY",
     "brand": "JUICY COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8751,7 +8760,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1754",
+    "id": "orig-1757",
     "name": "JUICY COUTURE VIVA LA JUICY GOLD",
     "brand": "JUICY COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8760,7 +8769,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1755",
+    "id": "orig-1758",
     "name": "JUICY COUTURE VIVA LA JUICY I AM",
     "brand": "JUICY COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8769,7 +8778,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1748",
+    "id": "orig-1751",
     "name": "JUICY COUTURE VIVA LA JUICY NOIR",
     "brand": "JUICY COUTURE",
     "variant": "100% Original Sellado · Código Batch",
@@ -8778,7 +8787,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-441",
+    "id": "orig-437",
     "name": "Jean Paul Gaultier Divine Couture",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
@@ -8787,16 +8796,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-442",
-    "name": "Jean Paul Gaultier Divine Couture",
+    "id": "orig-878",
+    "name": "Jean Paul Gaultier Divine Elixir",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 660000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/07/Jean_Paul_Gaultier_Divine_Couture_3.webp",
-    "compared": true
+    "price": 679000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_6b92c368-e785-48c6-9689-d12a09bb5bba.jpg?v=1758772843",
+    "compared": false
   },
   {
-    "id": "orig-443",
+    "id": "orig-782",
     "name": "Jean Paul Gaultier Le Beau Male",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
@@ -8805,7 +8814,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-444",
+    "id": "orig-430",
     "name": "Jean Paul Gaultier Le Male In Blue",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
@@ -8814,7 +8823,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-445",
+    "id": "orig-748",
     "name": "Jean Paul Gaultier Scandal Absolu para Dama",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
@@ -8823,7 +8832,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-446",
+    "id": "orig-316",
     "name": "Jean Paul Gaultier Scandal Pour Homme Elixir",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
@@ -8832,16 +8841,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-447",
+    "id": "orig-967",
     "name": "Jean Paul Gaultier Scandal intense For Her",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 650000,
+    "price": 640000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/JeanPaulGaultierScandalintenseForHer.png?v=1755520075",
     "compared": false
   },
   {
-    "id": "orig-448",
+    "id": "orig-880",
     "name": "Jean Paul Gaultier scandal for Her set de regalo 50 ml + miniatura",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
@@ -8850,7 +8859,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-449",
+    "id": "orig-276",
     "name": "Set de Regalo Jean Paul Gaultier Scandal Intense",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
@@ -8859,7 +8868,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1709",
+    "id": "orig-1712",
     "name": "JEAN PAUL GAULTIER CLASSIQUE",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8868,7 +8877,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1710",
+    "id": "orig-1713",
     "name": "JEAN PAUL GAULTIER LA BELLE INTENSE",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8877,7 +8886,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1711",
+    "id": "orig-1714",
     "name": "JEAN PAUL GAULTIER SCANDAL edp",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8886,7 +8895,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1375",
+    "id": "orig-1379",
     "name": "Jean Paul Gaultier Classique Edp (Tester)",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8895,7 +8904,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1376",
+    "id": "orig-1380",
     "name": "Jean Paul Gaultier Gaultier Divine 100 mililitros, full lujo",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8904,7 +8913,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1516",
+    "id": "orig-1519",
     "name": "Jean Paul Gaultier La Belle",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8913,7 +8922,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1294",
+    "id": "orig-1299",
     "name": "Jean Paul Gaultier La Belle Flower Edition (Tester)",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8922,7 +8931,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1517",
+    "id": "orig-1520",
     "name": "Jean Paul Gaultier La Belle Paradise Garden",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8931,7 +8940,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-450",
+    "id": "orig-121",
     "name": "Jean Paul Gaultier La Belle Rosea",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8940,7 +8949,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1511",
+    "id": "orig-1514",
     "name": "Jean Paul Gaultier Le Beau",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8949,7 +8958,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1324",
+    "id": "orig-1329",
     "name": "Jean Paul Gaultier Le Beau Flower EAU D PERFUME Edition 125 mililitros ( FLOWER EDITION LIMITED )",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8958,7 +8967,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1508",
+    "id": "orig-1511",
     "name": "Jean Paul Gaultier Le Beau Le Parfum",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8967,7 +8976,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1354",
+    "id": "orig-1358",
     "name": "Jean Paul Gaultier Le Beau Le Parfum 75 mililitros ( TAMAÑO MEDIANO )",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8976,7 +8985,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-451",
+    "id": "orig-181",
     "name": "Jean Paul Gaultier Le Beau Narcisse",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8985,7 +8994,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1512",
+    "id": "orig-1515",
     "name": "Jean Paul Gaultier Le Beau Paradise Garden",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -8994,7 +9003,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1358",
+    "id": "orig-1362",
     "name": "Jean Paul Gaultier Le Beau Paradise Garden (Tester)",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9003,7 +9012,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1509",
+    "id": "orig-1512",
     "name": "Jean Paul Gaultier Le Male Elixir Parfum 125 mililitros",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9012,7 +9021,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1356",
+    "id": "orig-1360",
     "name": "Jean Paul Gaultier Le Male Le Parfum 125 mililitros",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9021,7 +9030,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1510",
+    "id": "orig-1513",
     "name": "Jean Paul Gaultier Le Male Le Parfum 125ML (tester)",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9030,7 +9039,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1355",
+    "id": "orig-1359",
     "name": "Jean Paul Gaultier Le Male MEDIANO 75 mililitros (2 onzas y media )",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9039,7 +9048,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1357",
+    "id": "orig-1361",
     "name": "Jean Paul Gaultier Le Male elixir tester",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9048,7 +9057,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1514",
+    "id": "orig-1517",
     "name": "Jean Paul Gaultier Scandal , pour Homme 100 mililitros LE ( PERFUM ), EDP INTENSE",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9057,7 +9066,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-452",
+    "id": "orig-173",
     "name": "Jean Paul Gaultier Scandal Elixir Femenino",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9066,7 +9075,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1116",
+    "id": "orig-1121",
     "name": "Jean Paul Gaultier Scandal Intense",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9075,7 +9084,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1140",
+    "id": "orig-1145",
     "name": "Jean Paul Gaultier Scandal Intense",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9084,7 +9093,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1115",
+    "id": "orig-1120",
     "name": "Jean Paul Gaultier Scandal Intense (Tester)",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9093,7 +9102,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1519",
+    "id": "orig-1522",
     "name": "Jean Paul Gaultier Scandal Le Parfum",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9102,7 +9111,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1515",
+    "id": "orig-1518",
     "name": "Jean Paul Gaultier Scandal Pour Homme",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9111,7 +9120,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1352",
+    "id": "orig-1356",
     "name": "Jean Paul Gaultier Scandal Pour Homme (Tester)",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9120,7 +9129,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1513",
+    "id": "orig-1516",
     "name": "Jean Paul Gaultier Scandal Pour Homme Absolu",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9129,7 +9138,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1353",
+    "id": "orig-1357",
     "name": "Jean Paul Gaultier Scandal Pour Homme Absolu (Tester)",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9138,7 +9147,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1518",
+    "id": "orig-1521",
     "name": "Jean Paul Gaultier Scandal So Scandal!",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9147,7 +9156,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1507",
+    "id": "orig-1510",
     "name": "Jean Paul Gaultier Ultra Male",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9156,7 +9165,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1141",
+    "id": "orig-1146",
     "name": "Jean Paul gaultier Le Male Elixir Absolut (PURO PERFUM) 125 mililitros",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9165,7 +9174,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-453",
+    "id": "orig-275",
     "name": "Set de Regalo Jean Paul Gaultier Scandal Pour Homme",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
@@ -9174,7 +9183,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1233",
+    "id": "orig-1238",
     "name": "Jennifer Lopez Glow",
     "brand": "Jennifer Lopez",
     "variant": "100% Original Sellado · Código Batch",
@@ -9183,7 +9192,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1230",
+    "id": "orig-1235",
     "name": "Jennifer Lopez Live Luxe",
     "brand": "Jennifer Lopez",
     "variant": "100% Original Sellado · Código Batch",
@@ -9192,7 +9201,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2093",
+    "id": "orig-2096",
     "name": "Jennifer Lopez Miami Glow EDT 100 ml",
     "brand": "Jennifer Lopez",
     "variant": "100% Original Sellado · Código Batch",
@@ -9201,7 +9210,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2092",
+    "id": "orig-2095",
     "name": "Jennifer Lopez Still EDP 100 ml",
     "brand": "Jennifer Lopez",
     "variant": "100% Original Sellado · Código Batch",
@@ -9210,7 +9219,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-454",
+    "id": "orig-826",
     "name": "Jennifer Lopez One",
     "brand": "Jennifer López",
     "variant": "100% Original Sellado · Código Batch",
@@ -9219,7 +9228,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-455",
+    "id": "orig-920",
     "name": "Jesus del pozo Halloween set de regalo",
     "brand": "Jesús del Pozo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9228,7 +9237,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-456",
+    "id": "orig-881",
     "name": "Jesús del pozo Halloween Kiss",
     "brand": "Jesús del Pozo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9237,16 +9246,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-457",
+    "id": "orig-941",
     "name": "I Want Choo Forever",
     "brand": "Jimmy Choo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 440000,
+    "price": 350000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_2974ba6b-7602-4666-9fd9-734dbc24fc40.jpg?v=1756382990",
     "compared": false
   },
   {
-    "id": "orig-458",
+    "id": "orig-25",
     "name": "Jimmy Choo Fever Femenina",
     "brand": "Jimmy Choo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9255,16 +9264,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-459",
+    "id": "orig-940",
     "name": "Jimmy Choo I Want Choo Le Parfum",
     "brand": "Jimmy Choo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 470000,
+    "price": 370000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_5a09b8b5-55ea-4240-bed3-c2ac7f979af8.jpg?v=1756383017",
     "compared": false
   },
   {
-    "id": "orig-460",
+    "id": "orig-24",
     "name": "Jimmy Choo I Want Choo With Love",
     "brand": "Jimmy Choo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9273,7 +9282,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-461",
+    "id": "orig-903",
     "name": "Jimmy Choo I want choo edp",
     "brand": "Jimmy Choo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9282,7 +9291,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-462",
+    "id": "orig-364",
     "name": "Jimmy Choo Man Aqua",
     "brand": "Jimmy Choo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9291,7 +9300,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-463",
+    "id": "orig-363",
     "name": "Jimmy Choo Man Extreme",
     "brand": "Jimmy Choo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9300,7 +9309,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-464",
+    "id": "orig-441",
     "name": "Jimmy Choo Urban Hero Gold Edition",
     "brand": "Jimmy Choo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9309,7 +9318,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-465",
+    "id": "orig-815",
     "name": "Game Of Spades Topaz",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9318,7 +9327,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-466",
+    "id": "orig-917",
+    "name": "Game Of spades Bonus",
+    "brand": "Jo Milano",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Game_of_Spades_Double_Bonus.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-918",
     "name": "Game Of spades set de regalo 3x 30 ml",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9327,7 +9345,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-467",
+    "id": "orig-764",
     "name": "Game of Spades Bonus + Full house Set de Regalo",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9336,7 +9354,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-468",
+    "id": "orig-761",
     "name": "Game of Spades Double Bonus",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9345,16 +9363,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-469",
-    "name": "Game of Spades Double Bonus",
-    "brand": "Jo Milano",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 380000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Game_of_Spades_Double_Bonus.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-470",
+    "id": "orig-763",
     "name": "Game of Spades Emerald + Wildcard Set de regalo",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9363,7 +9372,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-471",
+    "id": "orig-586",
     "name": "Game of Spades Emerald Extrait By Jo Milano",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9372,7 +9381,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-472",
+    "id": "orig-155",
     "name": "Game of Spades Full House Refresh",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9381,7 +9390,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-473",
+    "id": "orig-501",
     "name": "Game of Spades Set de Coleccion X8",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9390,7 +9399,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-474",
+    "id": "orig-867",
     "name": "Game of spades No Limit Jo Milano",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9399,7 +9408,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-475",
+    "id": "orig-325",
     "name": "Game of spades opal set de regalo",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9408,7 +9417,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-476",
+    "id": "orig-103",
     "name": "Jo Milano All About You",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9417,7 +9426,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-477",
+    "id": "orig-104",
     "name": "Jo Milano Amalfi Viola",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9426,7 +9435,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-478",
+    "id": "orig-910",
     "name": "Jo Milano Dubai King 786",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9435,7 +9444,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-479",
+    "id": "orig-911",
     "name": "Jo Milano Dubai Queen 786",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9444,7 +9453,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1132",
+    "id": "orig-1137",
     "name": "Jo Milano Game Of Spades Diamond",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9453,7 +9462,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1389",
+    "id": "orig-1393",
     "name": "Jo Milano Game Of Spades full house",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9462,7 +9471,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1277",
+    "id": "orig-1282",
     "name": "Jo Milano Game of Spades Ace",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9471,7 +9480,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1278",
+    "id": "orig-1283",
     "name": "Jo Milano Game of Spades Boston",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9480,7 +9489,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-480",
+    "id": "orig-765",
     "name": "Jo Milano Game of Spades Diamond collection set 3 x 30 ML",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9489,7 +9498,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1279",
+    "id": "orig-1284",
     "name": "Jo Milano Game of Spades Moon",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9498,7 +9507,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1130",
+    "id": "orig-1135",
     "name": "Jo Milano Game of Spades Opal",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9507,7 +9516,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1092",
+    "id": "orig-1096",
     "name": "Jo Milano Game of Spades Platinum",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9516,7 +9525,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-481",
+    "id": "orig-464",
     "name": "Jo Milano Goal Argentina",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9525,7 +9534,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-482",
+    "id": "orig-462",
     "name": "Jo Milano Goal Brazil",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9534,7 +9543,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-483",
+    "id": "orig-461",
     "name": "Jo Milano Goal Colombia",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9543,7 +9552,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-484",
+    "id": "orig-184",
     "name": "Jo Milano Notes 1/2 Beat",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9552,7 +9561,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-485",
+    "id": "orig-183",
     "name": "Jo Milano Notes 2 Beats",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9561,7 +9570,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-486",
+    "id": "orig-460",
     "name": "Jo Milano Paris GAME OF SPADES BLACK SAPPHIRE",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9570,7 +9579,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-487",
+    "id": "orig-463",
     "name": "Jo Milano Paris Goal Portugal",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9579,7 +9588,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-488",
+    "id": "orig-909",
     "name": "Jo Milano Qatar King 786",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9588,7 +9597,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-489",
+    "id": "orig-709",
     "name": "Jo Milano Roll It 18",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9597,7 +9606,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-490",
+    "id": "orig-710",
     "name": "Jo Milano Roll It 2",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9606,7 +9615,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-491",
+    "id": "orig-912",
     "name": "Jo Milano Saudi Queen 786",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9615,7 +9624,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-492",
+    "id": "orig-459",
     "name": "Jo Milano Zodíac Capricorn",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9624,7 +9633,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-493",
+    "id": "orig-868",
     "name": "Jo Milano roll it 5",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9633,7 +9642,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-494",
+    "id": "orig-869",
     "name": "Jo Milano zodiac Leo",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9642,7 +9651,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-495",
+    "id": "orig-324",
     "name": "Jo milano Goal Italy",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9651,7 +9660,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-496",
+    "id": "orig-323",
     "name": "Jo milano goal usa",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
@@ -9660,7 +9669,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2100",
+    "id": "orig-2103",
     "name": "Juicy Couture Oui EDP 100 ml",
     "brand": "Juicy Couture",
     "variant": "100% Original Sellado · Código Batch",
@@ -9669,7 +9678,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2099",
+    "id": "orig-2102",
     "name": "Juicy couture Viva La Juicy Rose EDP 100 ml",
     "brand": "Juicy couture",
     "variant": "100% Original Sellado · Código Batch",
@@ -9678,7 +9687,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1931",
+    "id": "orig-1934",
     "name": "KATY PERRY MEOW EDP 100ML",
     "brand": "KATY PERRY",
     "variant": "100% Original Sellado · Código Batch",
@@ -9687,7 +9696,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-497",
+    "id": "orig-479",
     "name": "Kajal III",
     "brand": "Kajal",
     "variant": "100% Original Sellado · Código Batch",
@@ -9696,7 +9705,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-498",
+    "id": "orig-962",
     "name": "Kajal Ruby",
     "brand": "Kajal",
     "variant": "100% Original Sellado · Código Batch",
@@ -9705,7 +9714,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-499",
+    "id": "orig-717",
     "name": "Kayali 81 Yum Boujee Marshmallow Intense",
     "brand": "Kayali Fragrances",
     "variant": "100% Original Sellado · Código Batch",
@@ -9714,16 +9723,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-500",
+    "id": "orig-670",
     "name": "Kayali Fragrances Vanilla | 28",
     "brand": "Kayali Fragrances",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 910000,
+    "price": 610000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Kayali_Fragrances_Vanilla_28_COLOMBIA.jpg?v=1769455441",
     "compared": false
   },
   {
-    "id": "orig-501",
+    "id": "orig-350",
     "name": "Kayali Freedom Musk Bouquet | 27",
     "brand": "Kayali Fragrances",
     "variant": "100% Original Sellado · Código Batch",
@@ -9732,7 +9741,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-502",
+    "id": "orig-351",
     "name": "Kayali Freedom Musk Latte | 41",
     "brand": "Kayali Fragrances",
     "variant": "100% Original Sellado · Código Batch",
@@ -9741,7 +9750,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-503",
+    "id": "orig-669",
     "name": "Kayali The Wedding Silk Santal | 36 Intense",
     "brand": "Kayali Fragrances",
     "variant": "100% Original Sellado · Código Batch",
@@ -9750,7 +9759,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1045",
+    "id": "orig-1046",
     "name": "Flower by Kenzo L&#8217;Absolue Kenzo",
     "brand": "Kenzo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9759,7 +9768,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1679",
+    "id": "orig-1682",
     "name": "Kenzo Flower",
     "brand": "Kenzo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9768,7 +9777,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1047",
+    "id": "orig-1048",
     "name": "Kenzo Homme Indigo Kenzo for men",
     "brand": "Kenzo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9777,7 +9786,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1046",
+    "id": "orig-1047",
     "name": "Kenzo Homme Marine",
     "brand": "Kenzo",
     "variant": "100% Original Sellado · Código Batch",
@@ -9786,7 +9795,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-504",
+    "id": "orig-733",
     "name": "Khadlaj Island Dreams",
     "brand": "Khadlaj Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -9795,7 +9804,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-505",
+    "id": "orig-735",
     "name": "Khadlaj Island Vanilla Dunes",
     "brand": "Khadlaj Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -9804,7 +9813,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-506",
+    "id": "orig-843",
     "name": "Khadlaj Mocha Latte",
     "brand": "Khadlaj Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -9813,7 +9822,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-507",
+    "id": "orig-681",
     "name": "Khadlaj Perfumes Shiyaaka Shadow",
     "brand": "Khadlaj Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -9822,7 +9831,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-508",
+    "id": "orig-732",
     "name": "Khadlaj Perfumes Shiyaaka Snow",
     "brand": "Khadlaj Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -9831,7 +9840,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-509",
+    "id": "orig-124",
     "name": "Khadlaj Sara",
     "brand": "Khadlaj Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -9840,7 +9849,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-510",
+    "id": "orig-43",
     "name": "Kilian Love Don't Be Shy Eau Fraîche",
     "brand": "Kilian",
     "variant": "100% Original Sellado · Código Batch",
@@ -9849,7 +9858,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-511",
+    "id": "orig-42",
     "name": "Kilian Love Don't Be Shy Rose & Oud 2022",
     "brand": "Kilian",
     "variant": "100% Original Sellado · Código Batch",
@@ -9858,7 +9867,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-512",
+    "id": "orig-20",
     "name": "Kilian Vodka On The Rocks",
     "brand": "Kilian",
     "variant": "100% Original Sellado · Código Batch",
@@ -9867,7 +9876,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-513",
+    "id": "orig-154",
     "name": "Korbaj Amara",
     "brand": "Korbaj",
     "variant": "100% Original Sellado · Código Batch",
@@ -9885,7 +9894,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1078",
+    "id": "orig-1080",
     "name": "Korbaj Jade royale",
     "brand": "Korbaj Jade",
     "variant": "100% Original Sellado · Código Batch",
@@ -9894,7 +9903,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1522",
+    "id": "orig-1525",
     "name": "Korbaj Musky Signature",
     "brand": "Korbaj Musky",
     "variant": "100% Original Sellado · Código Batch",
@@ -9903,7 +9912,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1524",
+    "id": "orig-1527",
     "name": "Korbaj Mystique",
     "brand": "Korbaj Mystique",
     "variant": "100% Original Sellado · Código Batch",
@@ -9912,7 +9921,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1099",
+    "id": "orig-1104",
     "name": "Korbaj Oud for you",
     "brand": "Korbaj Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -9921,7 +9930,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1098",
+    "id": "orig-1103",
     "name": "Korbaj Rose sands",
     "brand": "Korbaj Rose",
     "variant": "100% Original Sellado · Código Batch",
@@ -9930,7 +9939,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1523",
+    "id": "orig-1526",
     "name": "Korbaj Toxic Desire",
     "brand": "Korbaj Toxic",
     "variant": "100% Original Sellado · Código Batch",
@@ -9939,7 +9948,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1097",
+    "id": "orig-1102",
     "name": "Korbaj scarlet amber",
     "brand": "Korbaj scarlet",
     "variant": "100% Original Sellado · Código Batch",
@@ -9948,7 +9957,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-514",
+    "id": "orig-667",
     "name": "Kylie Jenner Cosmic",
     "brand": "Kylie Jenner",
     "variant": "100% Original Sellado · Código Batch",
@@ -9957,7 +9966,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-515",
+    "id": "orig-737",
     "name": "Kylie jenner cosmic 2.0",
     "brand": "Kylie Jenner",
     "variant": "100% Original Sellado · Código Batch",
@@ -9966,7 +9975,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2018",
+    "id": "orig-2021",
     "name": "LEATHER PATCHOULI EDP 100ml",
     "brand": "LEATHER PATCHOULI",
     "variant": "100% Original Sellado · Código Batch",
@@ -9975,7 +9984,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2002",
+    "id": "orig-2005",
     "name": "LEMON LINE EDP 120ml",
     "brand": "LEMON LINE",
     "variant": "100% Original Sellado · Código Batch",
@@ -9984,7 +9993,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1380",
+    "id": "orig-1384",
     "name": "La Vida es Belle EDP REFILL",
     "brand": "La Vida",
     "variant": "100% Original Sellado · Código Batch",
@@ -9993,7 +10002,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-516",
+    "id": "orig-974",
     "name": "Laboratorio Olfattivo Amberbomb",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
@@ -10002,7 +10011,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-517",
+    "id": "orig-977",
     "name": "Laboratorio Olfattivo Arancia Rossa",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
@@ -10011,25 +10020,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-518",
-    "name": "Laboratorio Olfattivo Décou-Vert",
-    "brand": "Laboratorio Olfattivo",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 610000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_5bd724da-8d21-456e-af54-735063284c76.jpg?v=1754570360",
-    "compared": false
-  },
-  {
-    "id": "orig-519",
+    "id": "orig-979",
     "name": "Laboratorio Olfattivo ExpLOud",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 410000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_2808b4f8-5cf0-42b7-98ae-eac767734926.jpg?v=1754603649",
     "compared": false
   },
   {
-    "id": "orig-520",
+    "id": "orig-978",
     "name": "Laboratorio Olfattivo Mandarino",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
@@ -10038,43 +10038,43 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-521",
+    "id": "orig-983",
     "name": "Laboratorio Olfattivo MyLO",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 610000,
+    "price": 380000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/2_82b25350-16c8-40fc-b42a-5f27e19798ec.jpg?v=1754850190",
     "compared": false
   },
   {
-    "id": "orig-522",
+    "id": "orig-971",
     "name": "Laboratorio Olfattivo Nektar",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 410000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_9afb5704-cdab-4a24-acad-2405b58dc8fb.jpg?v=1754603390",
     "compared": false
   },
   {
-    "id": "orig-523",
+    "id": "orig-980",
     "name": "Laboratorio Olfattivo Nerosa",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 410000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/3_f8fa9fc9-8279-44ed-b970-33ff224fac2e.jpg?v=1754569791",
     "compared": false
   },
   {
-    "id": "orig-524",
+    "id": "orig-982",
     "name": "Laboratorio Olfattivo Nun",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 650000,
+    "price": 380000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_387cbe25-46de-4a0c-a271-ae16a1fdf64a.jpg?v=1754569902",
     "compared": false
   },
   {
-    "id": "orig-525",
+    "id": "orig-976",
     "name": "Laboratorio Olfattivo Pompelmo",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
@@ -10083,25 +10083,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-526",
+    "id": "orig-981",
     "name": "Laboratorio Olfattivo Tiglio Mirabilis",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 610000,
+    "price": 380000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/2_059f2d99-1e2c-40c7-b515-6421bcc10157.jpg?v=1754850221",
     "compared": false
   },
   {
-    "id": "orig-527",
+    "id": "orig-975",
     "name": "Laboratorio Olfattivo Tántrico",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 800000,
+    "price": 450000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_45132fab-4a62-402a-9771-aa90a9875783.jpg?v=1755299458",
     "compared": false
   },
   {
-    "id": "orig-528",
+    "id": "orig-973",
     "name": "Laboratorio Olfattivo Underground Vibes",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
@@ -10110,7 +10110,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-529",
+    "id": "orig-972",
     "name": "Laboratorio Olfattivo Vanagloria",
     "brand": "Laboratorio Olfattivo",
     "variant": "100% Original Sellado · Código Batch",
@@ -10119,7 +10119,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1924",
+    "id": "orig-1927",
     "name": "EAU DE LACOSTE L.12.12 POUR ELLE ELEGANT EDT 90ML",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10128,7 +10128,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1925",
+    "id": "orig-1928",
     "name": "EAU DE LACOSTE L.12.12 POUR ELLE MAGNETIC EDT 80ML",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10137,7 +10137,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1927",
+    "id": "orig-1930",
     "name": "Eau de Lacoste L.12.12 pour Elle French Panache EDT 100ML(sin caja)",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10146,7 +10146,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1926",
+    "id": "orig-1929",
     "name": "Eau de Lacoste L.12.12 pour Lui French Panache EDT 100ML",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10155,7 +10155,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1923",
+    "id": "orig-1926",
     "name": "LACOSTE JAUNE EDT 100ML",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10164,7 +10164,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1928",
+    "id": "orig-1931",
     "name": "LACOSTE L.12.12 EAU DE PARFUM ROSE FOR HER EDT 100ML",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10173,7 +10173,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1385",
+    "id": "orig-1389",
     "name": "Lacoste Blanc Eau de Parfum ( EXTRA FIJACIÓN FRESH )",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10182,7 +10182,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1215",
+    "id": "orig-1220",
     "name": "Lacoste Booster",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10191,7 +10191,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2056",
+    "id": "orig-2059",
     "name": "Lacoste Eau de Lacoste L.12.12 Blanc &#8211; Pure EDT 100 ml",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10200,7 +10200,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2105",
+    "id": "orig-2108",
     "name": "Lacoste Eau de Lacoste L.12.12 Pour Elle Natural EDT 90 ml",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10209,7 +10209,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2106",
+    "id": "orig-2109",
     "name": "Lacoste Eau de Lacoste L.12.12 Pour Elle Sparkling EDT 90 ml",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10218,7 +10218,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1217",
+    "id": "orig-1222",
     "name": "Lacoste Essential",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10227,25 +10227,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-530",
+    "id": "orig-518",
     "name": "Lacoste L.12.12 Silver Grey",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 359000,
+    "price": 270000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_97bda8ff-e57a-41aa-a585-84d0a2bf634c.jpg?v=1774644007",
     "compared": false
   },
   {
-    "id": "orig-531",
+    "id": "orig-520",
     "name": "Lacoste L.12.12 Silver Rose",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 359000,
+    "price": 270000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_68e3e958-863c-4cdb-b054-c9fa6dffb561.jpg?v=1774643315",
     "compared": false
   },
   {
-    "id": "orig-1216",
+    "id": "orig-1221",
     "name": "Lacoste Match Point",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10254,7 +10254,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2055",
+    "id": "orig-2058",
     "name": "Lacoste Red Pour Homme EDT 125 ml",
     "brand": "Lacoste",
     "variant": "100% Original Sellado · Código Batch",
@@ -10263,7 +10263,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1587",
+    "id": "orig-1590",
     "name": "Lady Million",
     "brand": "Lady Million",
     "variant": "100% Original Sellado · Código Batch",
@@ -10272,7 +10272,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1793",
+    "id": "orig-1796",
     "name": "LANCOME LA VIDA ES BELLA INTENSE",
     "brand": "Lancome",
     "variant": "100% Original Sellado · Código Batch",
@@ -10281,7 +10281,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1794",
+    "id": "orig-1797",
     "name": "LANCOME LA VIDA ES BELLA SOLEIL CRISTAL",
     "brand": "Lancome",
     "variant": "100% Original Sellado · Código Batch",
@@ -10290,7 +10290,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2121",
+    "id": "orig-2124",
     "name": "Lancome La Vie Est Belle EDP",
     "brand": "Lancome",
     "variant": "100% Original Sellado · Código Batch",
@@ -10299,7 +10299,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2122",
+    "id": "orig-2125",
     "name": "Lancome Miracle EDP",
     "brand": "Lancome",
     "variant": "100% Original Sellado · Código Batch",
@@ -10308,7 +10308,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1310",
+    "id": "orig-1315",
     "name": "Lancome Poeme",
     "brand": "Lancome",
     "variant": "100% Original Sellado · Código Batch",
@@ -10317,7 +10317,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-532",
+    "id": "orig-190",
     "name": "Lancome La Vie Est Belle L'Eau de Parfum Sparkling",
     "brand": "Lancôme",
     "variant": "100% Original Sellado · Código Batch",
@@ -10326,7 +10326,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-533",
+    "id": "orig-697",
     "name": "Lancome La Vie Est Belle L’elixir",
     "brand": "Lancôme",
     "variant": "100% Original Sellado · Código Batch",
@@ -10335,7 +10335,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-534",
+    "id": "orig-847",
     "name": "Lancome La Vie Est Belle Set de regalo miniatura + crema corporal",
     "brand": "Lancôme",
     "variant": "100% Original Sellado · Código Batch",
@@ -10344,7 +10344,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-535",
+    "id": "orig-517",
     "name": "Lancome Tresor EDP",
     "brand": "Lancôme",
     "variant": "100% Original Sellado · Código Batch",
@@ -10353,16 +10353,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-536",
+    "id": "orig-1001",
     "name": "Lancôme La Vie Est Belle Iris Absolu",
     "brand": "Lancôme",
     "variant": "100% Original Sellado · Código Batch",
     "price": 559800,
     "image": "https://disperfumes.com/wp-content/uploads/2026/07/lancomelavidaesbellairisabsolute.webp",
-    "compared": true
+    "compared": false
   },
   {
-    "id": "orig-1272",
+    "id": "orig-605",
+    "name": "Lancôme La Vie Est Belle Vanille Nude",
+    "brand": "Lancôme",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 710000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Lanc_me_La_Vie_Est_Belle_Vanille_Nude.jpg?v=1771820062",
+    "compared": false
+  },
+  {
+    "id": "orig-1277",
     "name": "Lataffa His Confession",
     "brand": "Lataffa His",
     "variant": "100% Original Sellado · Código Batch",
@@ -10371,7 +10380,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1887",
+    "id": "orig-1890",
     "name": "LATTAFA AJWAD",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10380,7 +10389,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1979",
+    "id": "orig-1982",
     "name": "LATTAFA AL AREEQ SILVER EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10389,7 +10398,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1890",
+    "id": "orig-1893",
     "name": "LATTAFA AL NOBLE AMEER",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10398,7 +10407,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1663",
+    "id": "orig-1666",
     "name": "LATTAFA AL NOBLE SAFEER",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10407,7 +10416,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1969",
+    "id": "orig-1972",
     "name": "LATTAFA AL QIAM GOLD EDP",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10416,7 +10425,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1888",
+    "id": "orig-1891",
     "name": "LATTAFA AMEERAT AL ARAB PRIVE ROSE DE ASDAAF",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10425,7 +10434,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1898",
+    "id": "orig-1901",
     "name": "LATTAFA ASAD",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10434,7 +10443,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1899",
+    "id": "orig-1902",
     "name": "LATTAFA BADE&#8217;E AL OUD HONOR &amp; GLORY",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10443,7 +10452,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1900",
+    "id": "orig-1903",
     "name": "LATTAFA BADE&#8217;E AL OUD SUBLIME",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10452,7 +10461,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1902",
+    "id": "orig-1905",
     "name": "LATTAFA FACKAR BLACK",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10461,7 +10470,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1901",
+    "id": "orig-1904",
     "name": "LATTAFA FACKAR ROSE",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10470,7 +10479,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1894",
+    "id": "orig-1897",
     "name": "LATTAFA HAYA",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10479,7 +10488,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1891",
+    "id": "orig-1894",
     "name": "LATTAFA ISHQ AL SHUYUKH GOLD",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10488,7 +10497,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1884",
+    "id": "orig-1887",
     "name": "LATTAFA JUST OUD BOULEVARD",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10497,7 +10506,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1892",
+    "id": "orig-1895",
     "name": "LATTAFA KHALTA OF BLEND",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10506,7 +10515,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1909",
+    "id": "orig-1912",
     "name": "LATTAFA MAAHIR",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10515,7 +10524,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1907",
+    "id": "orig-1910",
     "name": "LATTAFA MAAHIR BLACK",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10524,7 +10533,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1906",
+    "id": "orig-1909",
     "name": "LATTAFA MAAHIR LEGACY",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10533,7 +10542,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1893",
+    "id": "orig-1896",
     "name": "LATTAFA MAYAR",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10542,7 +10551,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1882",
+    "id": "orig-1885",
     "name": "LATTAFA MOHRA",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10551,7 +10560,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1908",
+    "id": "orig-1911",
     "name": "LATTAFA MUSAMAM",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10560,7 +10569,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1987",
+    "id": "orig-1990",
     "name": "LATTAFA MUSK MOOD EDP 100ML(sin caja)",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10569,7 +10578,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1986",
+    "id": "orig-1989",
     "name": "LATTAFA NAJDIA PURE CONCENTRATED 25ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10578,7 +10587,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1896",
+    "id": "orig-1899",
     "name": "LATTAFA OPULENT MUSK",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10587,7 +10596,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1985",
+    "id": "orig-1988",
     "name": "LATTAFA OUD MOOD EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10596,7 +10605,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1983",
+    "id": "orig-1986",
     "name": "LATTAFA OUD MOOD ELIXIR EDP 100ML(sin caja)",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10605,7 +10614,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1984",
+    "id": "orig-1987",
     "name": "LATTAFA OUD MOOD PURE CONCENTRATED EDP 25ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10614,7 +10623,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1982",
+    "id": "orig-1985",
     "name": "LATTAFA OUD MOOD REMINISCENCE EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10623,7 +10632,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1981",
+    "id": "orig-1984",
     "name": "LATTAFA PRIDE AFAQ EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10632,7 +10641,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1980",
+    "id": "orig-1983",
     "name": "LATTAFA PRIDE AL ARREQ GOLD EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10641,7 +10650,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1903",
+    "id": "orig-1906",
     "name": "LATTAFA PRIDE ANSAAM SILVER",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10650,7 +10659,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1978",
+    "id": "orig-1981",
     "name": "LATTAFA PRIDE BLUE SAPPHIRE EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10659,7 +10668,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1977",
+    "id": "orig-1980",
     "name": "LATTAFA PRIDE ETERNAL OUD EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10668,7 +10677,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1976",
+    "id": "orig-1979",
     "name": "LATTAFA PRIDE ISHQ AL SHUYUKH SILVER EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10677,7 +10686,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1975",
+    "id": "orig-1978",
     "name": "LATTAFA PRIDE LAHDATH EDP 80ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10686,7 +10695,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1974",
+    "id": "orig-1977",
     "name": "LATTAFA PRIDE MAHARJAN GOLD EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10695,7 +10704,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1973",
+    "id": "orig-1976",
     "name": "LATTAFA PRIDE NEBRAS EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10704,7 +10713,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1972",
+    "id": "orig-1975",
     "name": "LATTAFA PRIDE THOUQ EDP 80ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10713,7 +10722,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1905",
+    "id": "orig-1908",
     "name": "LATTAFA QAA´ED",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10722,7 +10731,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1904",
+    "id": "orig-1907",
     "name": "LATTAFA QAA´ED AL SHABAAB",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10731,7 +10740,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1886",
+    "id": "orig-1889",
     "name": "LATTAFA QAED AL FURSAN",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10740,7 +10749,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1885",
+    "id": "orig-1888",
     "name": "LATTAFA QAED AL FURSAN UNLIMITED",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10749,7 +10758,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1889",
+    "id": "orig-1892",
     "name": "LATTAFA REHLAT EDP",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10758,7 +10767,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1883",
+    "id": "orig-1886",
     "name": "LATTAFA SHAHEEN GOLD",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10767,7 +10776,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1971",
+    "id": "orig-1974",
     "name": "LATTAFA VURV VIBRANT LEATHER EDP 100ML( sin Celofán) full códigos",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10776,7 +10785,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1970",
+    "id": "orig-1973",
     "name": "LATTAFA WASHWASHAH PURE CONCENTRATED EDP 25ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10785,7 +10794,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1968",
+    "id": "orig-1971",
     "name": "LATTAFA YARA EDP 100ML",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10794,7 +10803,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1895",
+    "id": "orig-1898",
     "name": "LATTAFA Yara Moi",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10803,7 +10812,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1271",
+    "id": "orig-1276",
     "name": "Lattafa Ajwad Pink to Pink",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10812,7 +10821,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1000",
+    "id": "orig-999",
     "name": "Lattafa Al Noble Wazeer",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10821,7 +10830,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1034",
+    "id": "orig-1035",
     "name": "Lattafa Angham",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10830,7 +10839,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1378",
+    "id": "orig-1382",
     "name": "Lattafa Asad Bourbon",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10839,7 +10848,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1396",
+    "id": "orig-1400",
     "name": "Lattafa Asad Zanzibar",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10848,7 +10857,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-999",
+    "id": "orig-998",
     "name": "Lattafa Atheeri",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10857,7 +10866,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1386",
+    "id": "orig-1390",
     "name": "Lattafa Atlas",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10866,7 +10875,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1416",
+    "id": "orig-1420",
     "name": "Lattafa Eclaire",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10875,7 +10884,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-989",
+    "id": "orig-988",
     "name": "Lattafa Emaan",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10884,7 +10893,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1382",
+    "id": "orig-1386",
     "name": "Lattafa Emeer",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10893,7 +10902,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-990",
+    "id": "orig-989",
     "name": "Lattafa Fakhar Gold",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10902,7 +10911,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1153",
+    "id": "orig-1158",
     "name": "Lattafa Fakhar Platin",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10911,7 +10920,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1273",
+    "id": "orig-1278",
     "name": "Lattafa Her Confession",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10920,7 +10929,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1379",
+    "id": "orig-1383",
     "name": "Lattafa Jasoor",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10929,7 +10938,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1413",
+    "id": "orig-1417",
     "name": "Lattafa Khamrah",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10938,7 +10947,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1249",
+    "id": "orig-1254",
     "name": "Lattafa Khamrah Dukhan",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10947,7 +10956,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1412",
+    "id": "orig-1416",
     "name": "Lattafa Khamrah Qahwa",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10956,7 +10965,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1299",
+    "id": "orig-1304",
     "name": "Lattafa Khashabi",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10965,7 +10974,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1050",
+    "id": "orig-1051",
     "name": "Lattafa Mayar Natural Intense",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10974,7 +10983,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1253",
+    "id": "orig-1258",
     "name": "Lattafa Niche Emarati Khanjar",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10983,7 +10992,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2033",
+    "id": "orig-2036",
     "name": "Lattafa Oud Amethyst EDP 100 ml",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -10992,7 +11001,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2032",
+    "id": "orig-2035",
     "name": "Lattafa Oud For Glory EDP 100 ml",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11001,7 +11010,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1035",
+    "id": "orig-1036",
     "name": "Lattafa Pride Art of Arabia II",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11010,7 +11019,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1129",
+    "id": "orig-1134",
     "name": "Lattafa Pride Art of universe",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11019,7 +11028,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1261",
+    "id": "orig-1266",
     "name": "Lattafa Pride Pisa ( sin caja )",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11028,7 +11037,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1256",
+    "id": "orig-1261",
     "name": "Lattafa Rave Now Rouge",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11037,7 +11046,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1270",
+    "id": "orig-1275",
     "name": "Lattafa Rave Now Woman",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11046,7 +11055,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1407",
+    "id": "orig-1411",
     "name": "Lattafa Sakeena",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11055,7 +11064,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1384",
+    "id": "orig-1388",
     "name": "Lattafa The Kingdom Pour Homme",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11064,7 +11073,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1152",
+    "id": "orig-1157",
     "name": "Lattafa Victoria",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11073,7 +11082,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1632",
+    "id": "orig-1635",
     "name": "Lattafa Yara Candy 100 mililitros",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11082,7 +11091,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1255",
+    "id": "orig-1260",
     "name": "Lattafa afeef",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11091,7 +11100,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1058",
+    "id": "orig-1059",
     "name": "Lattafa teriaq intense",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11100,7 +11109,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1387",
+    "id": "orig-1391",
     "name": "lattafa Lattafa Teriaq",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11109,7 +11118,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1388",
+    "id": "orig-1392",
     "name": "lattafa badee al oud noble blush",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11118,7 +11127,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1415",
+    "id": "orig-1419",
     "name": "lattafa mayar cherry intense",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11127,7 +11136,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-537",
+    "id": "orig-713",
     "name": "Laverne Sense x Giorgiona Rodriguez",
     "brand": "Laverne",
     "variant": "100% Original Sellado · Código Batch",
@@ -11136,7 +11145,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-538",
+    "id": "orig-601",
     "name": "Set Laverne Forever by Georgina Rodríguez",
     "brand": "Laverne",
     "variant": "100% Original Sellado · Código Batch",
@@ -11145,7 +11154,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-539",
+    "id": "orig-619",
     "name": "Le Falconé Shouq",
     "brand": "Le Falconé",
     "variant": "100% Original Sellado · Código Batch",
@@ -11154,7 +11163,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-540",
+    "id": "orig-617",
     "name": "Le Falconé Symphony Harmony",
     "brand": "Le Falconé",
     "variant": "100% Original Sellado · Código Batch",
@@ -11163,7 +11172,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-541",
+    "id": "orig-618",
     "name": "Le Falconé Symphony Melody",
     "brand": "Le Falconé",
     "variant": "100% Original Sellado · Código Batch",
@@ -11172,7 +11181,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-542",
+    "id": "orig-611",
     "name": "Le Falconé Jawhara",
     "brand": "Le Falconé",
     "variant": "100% Original Sellado · Código Batch",
@@ -11181,7 +11190,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-543",
+    "id": "orig-668",
     "name": "Le Labo Baie 19",
     "brand": "Le Labo",
     "variant": "100% Original Sellado · Código Batch",
@@ -11190,7 +11199,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-544",
+    "id": "orig-398",
     "name": "Le Labo Violette 30",
     "brand": "Le Labo",
     "variant": "100% Original Sellado · Código Batch",
@@ -11199,7 +11208,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-545",
+    "id": "orig-750",
     "name": "Le Falcone Mirsaal Valentine",
     "brand": "Le falcone",
     "variant": "100% Original Sellado · Código Batch",
@@ -11208,7 +11217,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1598",
+    "id": "orig-1601",
     "name": "Legend Red",
     "brand": "Legend Red",
     "variant": "100% Original Sellado · Código Batch",
@@ -11217,7 +11226,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1600",
+    "id": "orig-1603",
     "name": "Legend Spirit EDP",
     "brand": "Legend Spirit",
     "variant": "100% Original Sellado · Código Batch",
@@ -11226,7 +11235,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1477",
+    "id": "orig-1480",
     "name": "Liz Claiborne Curve",
     "brand": "Liz Claiborne",
     "variant": "100% Original Sellado · Código Batch",
@@ -11235,7 +11244,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1476",
+    "id": "orig-1479",
     "name": "Liz Claiborne Curve Crush For Men",
     "brand": "Liz Claiborne",
     "variant": "100% Original Sellado · Código Batch",
@@ -11244,7 +11253,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-546",
+    "id": "orig-55",
     "name": "Liz Claiborne Curve Sport",
     "brand": "Liz Claiborne",
     "variant": "100% Original Sellado · Código Batch",
@@ -11253,7 +11262,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1478",
+    "id": "orig-1481",
     "name": "Liz Claiborne Curve for Men",
     "brand": "Liz Claiborne",
     "variant": "100% Original Sellado · Código Batch",
@@ -11262,7 +11271,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1725",
+    "id": "orig-1728",
     "name": "LOEWE 001 MAN DE LOEWE EAU DE (PERFUM)",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11271,7 +11280,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1724",
+    "id": "orig-1727",
     "name": "LOEWE 7 DE LOEWE",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11280,7 +11289,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1726",
+    "id": "orig-1729",
     "name": "LOEWE ATLAS DE LOEWE",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11289,7 +11298,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1727",
+    "id": "orig-1730",
     "name": "LOEWE SOLO CEDRO",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11298,7 +11307,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1339",
+    "id": "orig-1344",
     "name": "LOEWE Solo Clásico (Tester)",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11307,7 +11316,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-547",
+    "id": "orig-153",
     "name": "Loewe 7 Elixir",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11316,7 +11325,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-548",
+    "id": "orig-152",
     "name": "Loewe Agua Drop",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11325,7 +11334,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-549",
+    "id": "orig-902",
     "name": "Loewe Agua Ella EDT",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11334,7 +11343,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-550",
+    "id": "orig-803",
     "name": "Loewe Aire Anthesis",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11343,7 +11352,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-551",
+    "id": "orig-545",
     "name": "Loewe Earth",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11352,7 +11361,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-552",
+    "id": "orig-546",
     "name": "Loewe Earth Elixir",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11361,7 +11370,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-553",
+    "id": "orig-547",
     "name": "Loewe Esencia EDP",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11370,7 +11379,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-554",
+    "id": "orig-548",
     "name": "Loewe Esencia EDT",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11379,7 +11388,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-555",
+    "id": "orig-473",
     "name": "Loewe Esencia Elixir",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11388,7 +11397,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-556",
+    "id": "orig-408",
     "name": "Loewe Esencia Sport",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11397,7 +11406,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1591",
+    "id": "orig-1594",
     "name": "Loewe Solo Clasico",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11406,7 +11415,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-557",
+    "id": "orig-544",
     "name": "Loewe Solo Elixir",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11415,7 +11424,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2039",
+    "id": "orig-2042",
     "name": "Loewe Solo Mercurio EDP 100 ml",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11424,7 +11433,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1186",
+    "id": "orig-1191",
     "name": "Loewe Solo Origami",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11433,7 +11442,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-558",
+    "id": "orig-543",
     "name": "Loewe Solo Vulcan",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
@@ -11442,7 +11451,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-559",
+    "id": "orig-527",
     "name": "Lolita Lempicka Lempicka Homme",
     "brand": "Lolita Lempicka",
     "variant": "100% Original Sellado · Código Batch",
@@ -11451,7 +11460,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2118",
+    "id": "orig-2121",
     "name": "Lolita Lempicka Lolita Lempicka EDP 100 ml",
     "brand": "Lolita Lempicka",
     "variant": "100% Original Sellado · Código Batch",
@@ -11460,7 +11469,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-560",
+    "id": "orig-813",
     "name": "Lorenzo Pazzaglia Gasoleather",
     "brand": "Lorenzo Pazzaglia",
     "variant": "100% Original Sellado · Código Batch",
@@ -11469,7 +11478,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-561",
+    "id": "orig-76",
     "name": "Lorenzo Pazzaglia Gin Fusion",
     "brand": "Lorenzo Pazzaglia",
     "variant": "100% Original Sellado · Código Batch",
@@ -11478,7 +11487,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1001",
+    "id": "orig-1000",
     "name": "Lorenzo Pazzaglia Pax",
     "brand": "Lorenzo Pazzaglia",
     "variant": "100% Original Sellado · Código Batch",
@@ -11487,7 +11496,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-562",
+    "id": "orig-856",
     "name": "Lorenzo Pazzaglia Speachless",
     "brand": "Lorenzo Pazzaglia",
     "variant": "100% Original Sellado · Código Batch",
@@ -11496,7 +11505,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1070",
+    "id": "orig-1073",
     "name": "Lorenzo Pazzaglia Summer Hammer",
     "brand": "Lorenzo Pazzaglia",
     "variant": "100% Original Sellado · Código Batch",
@@ -11514,7 +11523,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-563",
+    "id": "orig-75",
     "name": "Lorenzo Pazzaglia Tropikalys Karma",
     "brand": "Lorenzo Pazzaglia",
     "variant": "100% Original Sellado · Código Batch",
@@ -11523,7 +11532,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-564",
+    "id": "orig-953",
     "name": "Que Chimba! Lorenzo Pazzaglia",
     "brand": "Lorenzo Pazzaglia",
     "variant": "100% Original Sellado · Código Batch",
@@ -11532,7 +11541,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-565",
+    "id": "orig-509",
     "name": "Louis Vuitton Ambre Levant",
     "brand": "Louis Vuitton",
     "variant": "100% Original Sellado · Código Batch",
@@ -11541,7 +11550,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-566",
+    "id": "orig-413",
     "name": "Louis Vuitton Cœur Battant",
     "brand": "Louis Vuitton",
     "variant": "100% Original Sellado · Código Batch",
@@ -11550,7 +11559,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-567",
+    "id": "orig-414",
     "name": "Louis Vuitton Orage",
     "brand": "Louis Vuitton",
     "variant": "100% Original Sellado · Código Batch",
@@ -11559,7 +11568,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1526",
+    "id": "orig-1529",
     "name": "Luna Rossa Sport",
     "brand": "Luna Rossa",
     "variant": "100% Original Sellado · Código Batch",
@@ -11568,7 +11577,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2016",
+    "id": "orig-2019",
     "name": "MANGO MANGA EDP 100ml",
     "brand": "MANGO MANGA",
     "variant": "100% Original Sellado · Código Batch",
@@ -11577,7 +11586,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-568",
+    "id": "orig-656",
     "name": "Matai Aura",
     "brand": "MATAI",
     "variant": "100% Original Sellado · Código Batch",
@@ -11586,7 +11595,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-569",
+    "id": "orig-655",
     "name": "Matai Celeste",
     "brand": "MATAI",
     "variant": "100% Original Sellado · Código Batch",
@@ -11595,7 +11604,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-570",
+    "id": "orig-654",
     "name": "Matai Mirza",
     "brand": "MATAI",
     "variant": "100% Original Sellado · Código Batch",
@@ -11604,7 +11613,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1936",
+    "id": "orig-1939",
     "name": "METROPOLIS GREEN VALLEY VILLAGE EDP 100ML",
     "brand": "METROPOLIS GREEN",
     "variant": "100% Original Sellado · Código Batch",
@@ -11613,7 +11622,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1934",
+    "id": "orig-1937",
     "name": "METROPOLIS HOT LIPS EDP 100ML",
     "brand": "METROPOLIS HOT",
     "variant": "100% Original Sellado · Código Batch",
@@ -11622,7 +11631,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1935",
+    "id": "orig-1938",
     "name": "METROPOLIS MASTERPIECE EDP 100ML",
     "brand": "METROPOLIS MASTERPIECE",
     "variant": "100% Original Sellado · Código Batch",
@@ -11631,7 +11640,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1937",
+    "id": "orig-1940",
     "name": "METROPOLIS NIGHT PARTY EDP 100ML",
     "brand": "METROPOLIS NIGHT",
     "variant": "100% Original Sellado · Código Batch",
@@ -11640,7 +11649,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1938",
+    "id": "orig-1941",
     "name": "METROPOLIS ROCK STREET EDP 100ML",
     "brand": "METROPOLIS ROCK",
     "variant": "100% Original Sellado · Código Batch",
@@ -11658,7 +11667,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-572",
+    "id": "orig-569",
     "name": "Maiora Parfum Joykush",
     "brand": "Maiora Parfum",
     "variant": "100% Original Sellado · Código Batch",
@@ -11667,7 +11676,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-573",
+    "id": "orig-567",
     "name": "Maiora Parfum Phraenesya Pastiera",
     "brand": "Maiora Parfum",
     "variant": "100% Original Sellado · Código Batch",
@@ -11676,7 +11685,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-574",
+    "id": "orig-568",
     "name": "Maiora Parfum Tropical Sky",
     "brand": "Maiora Parfum",
     "variant": "100% Original Sellado · Código Batch",
@@ -11685,7 +11694,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-575",
+    "id": "orig-570",
     "name": "Maiora Parfum ask",
     "brand": "Maiora Parfum",
     "variant": "100% Original Sellado · Código Batch",
@@ -11694,7 +11703,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1965",
+    "id": "orig-1968",
     "name": "ALHAMBRA KISMET FOR MEN EDP100ML",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11703,7 +11712,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1964",
+    "id": "orig-1967",
     "name": "ALHAMBRA KISMET FOR WOMEN EDP 100ML",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11712,7 +11721,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1962",
+    "id": "orig-1965",
     "name": "ALHAMBRA PHILOS PURA EDP 100ML",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11721,7 +11730,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1961",
+    "id": "orig-1964",
     "name": "ALHAMBRA PHILOS ROSSO EDP 100ML",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11730,7 +11739,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1960",
+    "id": "orig-1963",
     "name": "ALHAMBRA SALVO EDP 100ML",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11739,7 +11748,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1959",
+    "id": "orig-1962",
     "name": "ALHAMBRA SALVO INTENSE EDP 100ML",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11748,7 +11757,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2031",
+    "id": "orig-2034",
     "name": "Delilah Maison alhambra EDP",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11757,7 +11766,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1395",
+    "id": "orig-1399",
     "name": "Jean Lowe Matiere",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11766,7 +11775,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1394",
+    "id": "orig-1398",
     "name": "Jean Lowe Noir",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11775,7 +11784,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1393",
+    "id": "orig-1397",
     "name": "Jean Lowe Noveau",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11784,7 +11793,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1918",
+    "id": "orig-1921",
     "name": "MAISON ALHAMBRA BAROQUE ROUGE 540",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11793,7 +11802,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1911",
+    "id": "orig-1914",
     "name": "MAISON ALHAMBRA EXPOSE BLANC",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11802,7 +11811,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1910",
+    "id": "orig-1913",
     "name": "MAISON ALHAMBRA EXPOSE INTENSE",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11811,7 +11820,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1915",
+    "id": "orig-1918",
     "name": "MAISON ALHAMBRA FABULO INTENSE",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11820,7 +11829,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1917",
+    "id": "orig-1920",
     "name": "MAISON ALHAMBRA JEAN LOWE OMBRE",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11829,7 +11838,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1912",
+    "id": "orig-1915",
     "name": "MAISON ALHAMBRA NARISSA FOR HER",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11838,7 +11847,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1913",
+    "id": "orig-1916",
     "name": "MAISON ALHAMBRA REYNA POUR FEMME",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11847,7 +11856,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1914",
+    "id": "orig-1917",
     "name": "MAISON ALHAMBRA TOBACCO TOUCH",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11856,7 +11865,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1916",
+    "id": "orig-1919",
     "name": "MAISON ALHAMBRA TOSCANO LEATHER",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11865,7 +11874,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1166",
+    "id": "orig-1171",
     "name": "Maison Alhambra Delilah Blanc",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11874,7 +11883,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-576",
+    "id": "orig-72",
     "name": "Maison Alhambra Delilah Viola",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11883,7 +11892,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-577",
+    "id": "orig-345",
     "name": "Maison Alhambra Eternal Touch",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11892,7 +11901,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-578",
+    "id": "orig-355",
     "name": "Maison Alhambra Jean Lowe Fantasme",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11901,7 +11910,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-579",
+    "id": "orig-354",
     "name": "Maison Alhambra Jean Lowe Summer Vibes",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11910,7 +11919,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1662",
+    "id": "orig-1665",
     "name": "Maison Alhambra Kismet Moscow",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11919,7 +11928,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1259",
+    "id": "orig-1264",
     "name": "Maison Alhambra Maître de Blue",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11928,7 +11937,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-580",
+    "id": "orig-314",
     "name": "Maison Alhambra Megara (Alternativa Orto Parisi Megamare)",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11937,7 +11946,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1151",
+    "id": "orig-1156",
     "name": "Maison Alhambra Sceptre Desert",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11946,7 +11955,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1323",
+    "id": "orig-1328",
     "name": "Maison Alhambra Sceptre Malachite",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11955,7 +11964,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-581",
+    "id": "orig-606",
     "name": "Maison Alhambra Smoky Touch",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11964,7 +11973,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-582",
+    "id": "orig-777",
     "name": "Maison Alhambra Summer forever",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11973,7 +11982,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-583",
+    "id": "orig-718",
     "name": "Maison Alhambra Terra EDP 50 ML",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11982,7 +11991,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-584",
+    "id": "orig-894",
     "name": "Maison Alhambra Your Touch Intense",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
@@ -11991,7 +12000,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-585",
+    "id": "orig-321",
     "name": "Maison Crivelli Cuir InfraRouge",
     "brand": "Maison Crivelli",
     "variant": "100% Original Sellado · Código Batch",
@@ -12000,16 +12009,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-586",
+    "id": "orig-466",
     "name": "Maison Crivelli Hibiscus Mahajád",
     "brand": "Maison Crivelli",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 2150000,
+    "price": 1450000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/MaisonCrivelliHibiscusMahajad.png?v=1776222733",
     "compared": false
   },
   {
-    "id": "orig-587",
+    "id": "orig-192",
     "name": "Maison Crivelli Musc Nurāsana",
     "brand": "Maison Crivelli",
     "variant": "100% Original Sellado · Código Batch",
@@ -12018,7 +12027,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-588",
+    "id": "orig-50",
     "name": "Maison Crivelli Tobacco Carnaval",
     "brand": "Maison Crivelli",
     "variant": "100% Original Sellado · Código Batch",
@@ -12027,7 +12036,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-589",
+    "id": "orig-455",
     "name": "Maison Francis Kurkdjian Aqua Celestia Forte",
     "brand": "Maison Francis Kurkdjian",
     "variant": "100% Original Sellado · Código Batch",
@@ -12036,7 +12045,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-590",
+    "id": "orig-531",
     "name": "Maison Francis Kurkdjian Aqua Universalis cologne forte",
     "brand": "Maison Francis Kurkdjian",
     "variant": "100% Original Sellado · Código Batch",
@@ -12045,7 +12054,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-591",
+    "id": "orig-456",
     "name": "Maison Francis Kurkdjian Gentle Fluidity Gold",
     "brand": "Maison Francis Kurkdjian",
     "variant": "100% Original Sellado · Código Batch",
@@ -12054,16 +12063,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-592",
+    "id": "orig-969",
     "name": "Maison Francis Kurkdjian Grand Soir",
     "brand": "Maison Francis Kurkdjian",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1450000,
+    "price": 1110000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_f59b6fb5-556a-441e-99ab-1da6daf82158.jpg?v=1755026018",
     "compared": false
   },
   {
-    "id": "orig-593",
+    "id": "orig-524",
     "name": "Maison Francis Kurkdjian Oud",
     "brand": "Maison Francis Kurkdjian",
     "variant": "100% Original Sellado · Código Batch",
@@ -12072,7 +12081,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-594",
+    "id": "orig-970",
     "name": "Maison Francis Kurkdjian Oud Satin Mood",
     "brand": "Maison Francis Kurkdjian",
     "variant": "100% Original Sellado · Código Batch",
@@ -12081,7 +12090,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-595",
+    "id": "orig-188",
     "name": "Maison Francis Kurkdjian Oud Satin Mood Extrait de Parfum",
     "brand": "Maison Francis Kurkdjian",
     "variant": "100% Original Sellado · Código Batch",
@@ -12090,7 +12099,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-596",
+    "id": "orig-702",
     "name": "Maison Label Juniper Wood",
     "brand": "Maison Label",
     "variant": "100% Original Sellado · Código Batch",
@@ -12099,7 +12108,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-597",
+    "id": "orig-703",
     "name": "Maison Label Lily & Tangerine",
     "brand": "Maison Label",
     "variant": "100% Original Sellado · Código Batch",
@@ -12108,7 +12117,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-598",
+    "id": "orig-701",
     "name": "Maison Label Maltol & Cinnamon",
     "brand": "Maison Label",
     "variant": "100% Original Sellado · Código Batch",
@@ -12117,7 +12126,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-599",
+    "id": "orig-699",
     "name": "Maison Label Oud & Musk",
     "brand": "Maison Label",
     "variant": "100% Original Sellado · Código Batch",
@@ -12126,7 +12135,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-600",
+    "id": "orig-698",
     "name": "Maison Label Vanilla",
     "brand": "Maison Label",
     "variant": "100% Original Sellado · Código Batch",
@@ -12135,7 +12144,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-601",
+    "id": "orig-700",
     "name": "Maison label Amber & Rosewood",
     "brand": "Maison Label",
     "variant": "100% Original Sellado · Código Batch",
@@ -12144,7 +12153,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-602",
+    "id": "orig-935",
     "name": "Maison margiela replica dancing on the moon",
     "brand": "Maison Margiela",
     "variant": "100% Original Sellado · Código Batch",
@@ -12153,7 +12162,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-603",
+    "id": "orig-934",
     "name": "Maison margiela replica flying",
     "brand": "Maison Margiela",
     "variant": "100% Original Sellado · Código Batch",
@@ -12162,7 +12171,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-604",
+    "id": "orig-5",
+    "name": "Margiela Replica Afternoon Delight",
+    "brand": "Maison Margiela",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 709000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/MargielaReplicaAfternoonDelight.jpg?v=1795101756",
+    "compared": false
+  },
+  {
+    "id": "orig-6",
     "name": "Margiela Replica Never Ending Summer",
     "brand": "Maison Margiela",
     "variant": "100% Original Sellado · Código Batch",
@@ -12171,7 +12189,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-605",
+    "id": "orig-933",
     "name": "Soul Of The Forest Maison Martin Margiela",
     "brand": "Maison Margiela",
     "variant": "100% Original Sellado · Código Batch",
@@ -12180,7 +12198,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-606",
+    "id": "orig-442",
     "name": "Maktoub 100 Parfum",
     "brand": "Maktoub Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -12189,7 +12207,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-607",
+    "id": "orig-645",
     "name": "Maktoub Rose Luv",
     "brand": "Maktoub Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -12198,7 +12216,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1822",
+    "id": "orig-1825",
     "name": "MANCERA AOUT VIOLET",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12207,7 +12225,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1835",
+    "id": "orig-1838",
     "name": "MANCERA BLACK INTENSITIVE AOUD",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12216,7 +12234,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2005",
+    "id": "orig-2008",
     "name": "MANCERA CEDRAT BOISE EDP 120ml",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12225,7 +12243,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1824",
+    "id": "orig-1827",
     "name": "MANCERA FRENCH RIVIERA",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12234,7 +12252,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1831",
+    "id": "orig-1834",
     "name": "MANCERA JUICY FLOWERS",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12243,7 +12261,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1830",
+    "id": "orig-1833",
     "name": "MANCERA LOVELY GARDEN",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12252,7 +12270,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1829",
+    "id": "orig-1832",
     "name": "MANCERA PINK PRESTIGIUM",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12261,7 +12279,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1836",
+    "id": "orig-1839",
     "name": "MANCERA ROSES GREEDY",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12270,7 +12288,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1828",
+    "id": "orig-1831",
     "name": "MANCERA SICILY",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12279,7 +12297,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1823",
+    "id": "orig-1826",
     "name": "MANCERA SO BLUE",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12288,7 +12306,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1827",
+    "id": "orig-1830",
     "name": "MANCERA VANILLE EXCLUSIVE",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12297,7 +12315,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1826",
+    "id": "orig-1829",
     "name": "MANCERA VELVET VANILLA",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12306,7 +12324,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1834",
+    "id": "orig-1837",
     "name": "MANCERA WILD CHERRY",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12315,7 +12333,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1833",
+    "id": "orig-1836",
     "name": "MANCERA WILD LEATHER",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12324,7 +12342,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1832",
+    "id": "orig-1835",
     "name": "MANCERA WILD PYTHON",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12333,7 +12351,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1825",
+    "id": "orig-1828",
     "name": "MANCERA WILD ROSE AOUD",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12342,7 +12360,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1184",
+    "id": "orig-1189",
     "name": "Mancera Amber Fever , ( Levemente mermado 2 MILÍMETROS Del Cuello )",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12351,7 +12369,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1178",
+    "id": "orig-1183",
     "name": "Mancera Amore Caffé",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12360,7 +12378,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1180",
+    "id": "orig-1185",
     "name": "Mancera Aoud Black Candy ( Con bolsa , Sin caja )",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12369,7 +12387,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1183",
+    "id": "orig-1188",
     "name": "Mancera Aoud Blue Notes",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12378,7 +12396,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1181",
+    "id": "orig-1186",
     "name": "Mancera Aoud Cafe",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12387,7 +12405,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-993",
+    "id": "orig-992",
     "name": "Mancera Aoud Orchid",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12396,7 +12414,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1182",
+    "id": "orig-1187",
     "name": "Mancera Aoud VANILLE",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12405,7 +12423,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-994",
+    "id": "orig-993",
     "name": "Mancera Aoud cafe Tester",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12414,7 +12432,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-992",
+    "id": "orig-991",
     "name": "Mancera Black Line",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12423,7 +12441,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1177",
+    "id": "orig-1182",
     "name": "Mancera Cedrat Boise Intense",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12432,7 +12450,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1175",
+    "id": "orig-1180",
     "name": "Mancera Coco VANILLE",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12441,7 +12459,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1172",
+    "id": "orig-1177",
     "name": "Mancera Crazy For Oud Tester",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12450,7 +12468,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1370",
+    "id": "orig-1374",
     "name": "Mancera Feminity",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12459,7 +12477,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1185",
+    "id": "orig-1190",
     "name": "Mancera Fig Extasy",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12468,7 +12486,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-996",
+    "id": "orig-995",
     "name": "Mancera Gold Intensive Aoud Tester",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12477,7 +12495,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1174",
+    "id": "orig-1179",
     "name": "Mancera Hindu Kush",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12486,7 +12504,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-998",
+    "id": "orig-997",
     "name": "Mancera Hindu Kush Tester",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12495,16 +12513,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-608",
+    "id": "orig-886",
     "name": "Mancera Intense Instant Crush",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 540000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_66bc2da2-3b1a-4cb9-bf3c-dc6826f38a13.jpg?v=1758647661",
     "compared": false
   },
   {
-    "id": "orig-1179",
+    "id": "orig-1184",
     "name": "Mancera Intense Red Tobacco",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12513,7 +12531,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1171",
+    "id": "orig-1176",
     "name": "Mancera Intensitive Aoud Gold",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12522,7 +12540,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1371",
+    "id": "orig-1375",
     "name": "Mancera Roses Vanille EDP 100 ml",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12531,7 +12549,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1176",
+    "id": "orig-1181",
     "name": "Mancera Royal Vanilla",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12540,7 +12558,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1369",
+    "id": "orig-1373",
     "name": "Mancera Royal Vanilla (Tester)",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12549,7 +12567,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1173",
+    "id": "orig-1178",
     "name": "Mancera Tonka Kola",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12558,7 +12576,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-997",
+    "id": "orig-996",
     "name": "Mancera Tonka Kola Tester",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12567,7 +12585,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1170",
+    "id": "orig-1175",
     "name": "Mancera Wild Candy",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12576,7 +12594,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-995",
+    "id": "orig-994",
     "name": "Mancera Wild Candy Tester",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12585,7 +12603,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1368",
+    "id": "orig-1372",
     "name": "Mancera Wild Python",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
@@ -12594,16 +12612,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-609",
+    "id": "orig-888",
     "name": "Mancera Xplicit Vanilla",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 650000,
+    "price": 520000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_17dd41e0-2073-49c8-99a4-df3665636f11.jpg?v=1758564584",
     "compared": false
   },
   {
-    "id": "orig-1048",
+    "id": "orig-1049",
     "name": "Marc Jacobs Daisy Eau de Toilette",
     "brand": "Marc Jacobs",
     "variant": "100% Original Sellado · Código Batch",
@@ -12612,7 +12630,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-610",
+    "id": "orig-659",
     "name": "Marc Jacobs Daisy Love Eau So Sweet",
     "brand": "Marc Jacobs",
     "variant": "100% Original Sellado · Código Batch",
@@ -12621,7 +12639,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1049",
+    "id": "orig-1050",
     "name": "Marc Jacobs Daisy Love Eau So Sweet Eau de Toilette",
     "brand": "Marc Jacobs",
     "variant": "100% Original Sellado · Código Batch",
@@ -12630,7 +12648,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-611",
+    "id": "orig-305",
     "name": "Marc Jacobs Dot",
     "brand": "Marc Jacobs",
     "variant": "100% Original Sellado · Código Batch",
@@ -12639,25 +12657,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-612",
+    "id": "orig-602",
     "name": "Marc Jacobs Perfect Absolute",
     "brand": "Marc Jacobs",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 559000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Marc_Jacobs_Perfect_Absolute.jpg?v=1771821691",
     "compared": false
   },
   {
-    "id": "orig-613",
+    "id": "orig-936",
     "name": "Marc Jacobs Perfect Elixir",
     "brand": "Marc Jacobs",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 600000,
+    "price": 450000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Perfect_elixir_1.jpg?v=1784581124",
     "compared": false
   },
   {
-    "id": "orig-614",
+    "id": "orig-758",
     "name": "Marc-Antoine Barrois Ganymede",
     "brand": "Marc-Antoine Barrois",
     "variant": "100% Original Sellado · Código Batch",
@@ -12666,7 +12684,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1086",
+    "id": "orig-1089",
     "name": "Matai Nasim",
     "brand": "Matai Nasim",
     "variant": "100% Original Sellado · Código Batch",
@@ -12675,7 +12693,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1085",
+    "id": "orig-1088",
     "name": "Matai Noor",
     "brand": "Matai Noor",
     "variant": "100% Original Sellado · Código Batch",
@@ -12684,7 +12702,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1084",
+    "id": "orig-1087",
     "name": "Matai Oryx",
     "brand": "Matai Oryx",
     "variant": "100% Original Sellado · Código Batch",
@@ -12693,7 +12711,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1083",
+    "id": "orig-1086",
     "name": "Matai Sabah",
     "brand": "Matai Sabah",
     "variant": "100% Original Sellado · Código Batch",
@@ -12702,7 +12720,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1082",
+    "id": "orig-1085",
     "name": "Matai Sahara",
     "brand": "Matai Sahara",
     "variant": "100% Original Sellado · Código Batch",
@@ -12711,7 +12729,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1081",
+    "id": "orig-1084",
     "name": "Matai Zenith",
     "brand": "Matai Zenith",
     "variant": "100% Original Sellado · Código Batch",
@@ -12720,7 +12738,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-615",
+    "id": "orig-199",
     "name": "Matiere Premiere Crystal Saffron Extrait De Parfum",
     "brand": "Matiere Premiere",
     "variant": "100% Original Sellado · Código Batch",
@@ -12729,7 +12747,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-616",
+    "id": "orig-198",
     "name": "Matiere Premiere Encens Suave Extrait",
     "brand": "Matiere Premiere",
     "variant": "100% Original Sellado · Código Batch",
@@ -12738,7 +12756,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-617",
+    "id": "orig-428",
     "name": "Matiere Premiere Falcon Leather Extrait",
     "brand": "Matiere Premiere",
     "variant": "100% Original Sellado · Código Batch",
@@ -12747,7 +12765,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-618",
+    "id": "orig-49",
     "name": "Matiere Premiere Metal Lavender",
     "brand": "Matiere Premiere",
     "variant": "100% Original Sellado · Código Batch",
@@ -12756,7 +12774,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-619",
+    "id": "orig-200",
     "name": "Matiere Premiere Parisian Musc EDP",
     "brand": "Matiere Premiere",
     "variant": "100% Original Sellado · Código Batch",
@@ -12765,7 +12783,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-620",
+    "id": "orig-427",
     "name": "Matiere Premiere Radical Rose Extrait",
     "brand": "Matiere Premiere",
     "variant": "100% Original Sellado · Código Batch",
@@ -12774,7 +12792,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-621",
+    "id": "orig-429",
     "name": "Matiere Premiere Santal Austral Extrait",
     "brand": "Matiere Premiere",
     "variant": "100% Original Sellado · Código Batch",
@@ -12783,7 +12801,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-622",
+    "id": "orig-757",
     "name": "Matiere Premiere Vanilla Powder Extrait",
     "brand": "Matiere Premiere",
     "variant": "100% Original Sellado · Código Batch",
@@ -12792,7 +12810,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1381",
+    "id": "orig-1385",
     "name": "Mercedes-Benz Club",
     "brand": "Mercedes-Benz",
     "variant": "100% Original Sellado · Código Batch",
@@ -12801,7 +12819,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1439",
+    "id": "orig-1443",
     "name": "Mercedes-Benz Club Black",
     "brand": "Mercedes-Benz",
     "variant": "100% Original Sellado · Código Batch",
@@ -12810,7 +12828,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-623",
+    "id": "orig-678",
     "name": "Michael Malul Amber+Smoke",
     "brand": "Michael Malul London",
     "variant": "100% Original Sellado · Código Batch",
@@ -12819,7 +12837,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-624",
+    "id": "orig-677",
     "name": "Michael Malul Berry + Blanche",
     "brand": "Michael Malul London",
     "variant": "100% Original Sellado · Código Batch",
@@ -12828,7 +12846,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-625",
+    "id": "orig-676",
     "name": "Michael Malul Citizen Jack Absolute",
     "brand": "Michael Malul London",
     "variant": "100% Original Sellado · Código Batch",
@@ -12837,7 +12855,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-626",
+    "id": "orig-675",
     "name": "Michael Malul Citizen Jack Mohave",
     "brand": "Michael Malul London",
     "variant": "100% Original Sellado · Código Batch",
@@ -12846,7 +12864,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-627",
+    "id": "orig-674",
     "name": "Michael Malul Ginger + Mist",
     "brand": "Michael Malul London",
     "variant": "100% Original Sellado · Código Batch",
@@ -12855,7 +12873,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-628",
+    "id": "orig-673",
     "name": "Michael Malul Ocean Noir",
     "brand": "Michael Malul London",
     "variant": "100% Original Sellado · Código Batch",
@@ -12864,7 +12882,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-629",
+    "id": "orig-672",
     "name": "Michael Malul Saffron + Sugar",
     "brand": "Michael Malul London",
     "variant": "100% Original Sellado · Código Batch",
@@ -12873,7 +12891,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-630",
+    "id": "orig-502",
     "name": "Michael Malul Vanilla + Creme Set de Regalo",
     "brand": "Michael Malul London",
     "variant": "100% Original Sellado · Código Batch",
@@ -12882,7 +12900,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1616",
+    "id": "orig-1619",
     "name": "Milesime imperial",
     "brand": "Milesime imperial",
     "variant": "100% Original Sellado · Código Batch",
@@ -12900,7 +12918,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1580",
+    "id": "orig-1583",
     "name": "Million Gold for her",
     "brand": "Million Gold",
     "variant": "100% Original Sellado · Código Batch",
@@ -12909,7 +12927,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1948",
+    "id": "orig-1951",
     "name": "MONT BLANC INDIVIDUEL EDT 75ML",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12918,7 +12936,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1734",
+    "id": "orig-1737",
     "name": "MONT BLANC LEGEND EDP",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12927,7 +12945,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1735",
+    "id": "orig-1738",
     "name": "MONT BLANC LEGEND EDT",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12936,7 +12954,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1733",
+    "id": "orig-1736",
     "name": "MONT BLANC LEGEND RED",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12945,7 +12963,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1946",
+    "id": "orig-1949",
     "name": "MONT BLANC LEGEND SPIRIT EDT 100ML",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12954,7 +12972,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1731",
+    "id": "orig-1734",
     "name": "MONT BLANC PRESENCE",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12963,7 +12981,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1947",
+    "id": "orig-1950",
     "name": "MONT BLANC STARWALKER EDT",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12972,7 +12990,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2103",
+    "id": "orig-2106",
     "name": "Mont Blanc Presence D&#8217;une Femme EDT 75 ml",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12981,7 +12999,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2104",
+    "id": "orig-2107",
     "name": "Mont Blanc Signature EDP 90 ml",
     "brand": "Mont Blanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -12990,7 +13008,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1841",
+    "id": "orig-1844",
     "name": "MONTALE AOUD JASMINE",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -12999,7 +13017,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1849",
+    "id": "orig-1852",
     "name": "MONTALE AOUD LEATHER",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13008,7 +13026,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1842",
+    "id": "orig-1845",
     "name": "MONTALE AOUD LEGEND",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13017,7 +13035,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1845",
+    "id": "orig-1848",
     "name": "MONTALE AOUD SAFRAN",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13026,7 +13044,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1859",
+    "id": "orig-1862",
     "name": "MONTALE BOISE FRUITE",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13035,7 +13053,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1857",
+    "id": "orig-1860",
     "name": "MONTALE CHOCOLATE GREEDY",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13044,7 +13062,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1853",
+    "id": "orig-1856",
     "name": "MONTALE DAY DREAMS",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13053,7 +13071,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1862",
+    "id": "orig-1865",
     "name": "MONTALE DIAMOND GREEDY",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13062,7 +13080,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1850",
+    "id": "orig-1853",
     "name": "MONTALE FANTASTIC OUD",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13071,7 +13089,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1840",
+    "id": "orig-1843",
     "name": "MONTALE FULL INCENSE",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13080,7 +13098,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1854",
+    "id": "orig-1857",
     "name": "MONTALE GOLDEN AOUD",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13089,7 +13107,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1844",
+    "id": "orig-1847",
     "name": "MONTALE GOLDEN SAND",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13098,7 +13116,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1846",
+    "id": "orig-1849",
     "name": "MONTALE HERBAL ACUATICA",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13107,7 +13125,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1852",
+    "id": "orig-1855",
     "name": "MONTALE HONEY AOUD",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13116,7 +13134,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1843",
+    "id": "orig-1846",
     "name": "MONTALE INTENSE PEPER",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13125,7 +13143,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1851",
+    "id": "orig-1854",
     "name": "MONTALE INTENSE ROSES MUSK ( EXTRACT DE PARFUM PURO )",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13134,7 +13152,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1863",
+    "id": "orig-1866",
     "name": "MONTALE LOUBAN",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13143,7 +13161,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1858",
+    "id": "orig-1861",
     "name": "MONTALE OUD EDITION",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13152,7 +13170,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1864",
+    "id": "orig-1867",
     "name": "MONTALE OUDRISING",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13161,7 +13179,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1865",
+    "id": "orig-1868",
     "name": "MONTALE PURE GOLD",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13170,7 +13188,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1861",
+    "id": "orig-1864",
     "name": "MONTALE SWEET ORIENTAL DREAM",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13179,7 +13197,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1860",
+    "id": "orig-1863",
     "name": "MONTALE SWEET VANILLA",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13188,7 +13206,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1855",
+    "id": "orig-1858",
     "name": "MONTALE TROPICAL WOOD",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13197,7 +13215,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1847",
+    "id": "orig-1850",
     "name": "MONTALE VELVET FANTASY",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13206,7 +13224,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1848",
+    "id": "orig-1851",
     "name": "MONTALE WOOD ON FIRE",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13215,7 +13233,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1192",
+    "id": "orig-1197",
     "name": "Montale Amber &amp; Spices",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13224,7 +13242,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1198",
+    "id": "orig-1203",
     "name": "Montale Aoud Musk",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13233,7 +13251,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1191",
+    "id": "orig-1196",
     "name": "Montale Aqua Palma",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13242,7 +13260,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1120",
+    "id": "orig-1125",
     "name": "Montale Arabians Musk",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13251,7 +13269,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-631",
+    "id": "orig-944",
     "name": "Montale Arabians Rose Leather",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13269,7 +13287,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1088",
+    "id": "orig-1091",
     "name": "Montale Beast Love",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13278,7 +13296,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1121",
+    "id": "orig-1126",
     "name": "Montale Bubble Forever",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13287,7 +13305,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1195",
+    "id": "orig-1200",
     "name": "Montale Crazy in Love",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13296,7 +13314,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1194",
+    "id": "orig-1199",
     "name": "Montale Dark Aoud",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13305,7 +13323,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1199",
+    "id": "orig-1204",
     "name": "Montale Dark Purple",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13314,7 +13332,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1201",
+    "id": "orig-1206",
     "name": "Montale Fantastic Basilic",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13323,7 +13341,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1197",
+    "id": "orig-1202",
     "name": "Montale Holy Neroli",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13332,7 +13350,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1202",
+    "id": "orig-1207",
     "name": "Montale Intense Iris",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13341,7 +13359,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-632",
+    "id": "orig-583",
     "name": "Montale Intense Starry Nights",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13350,7 +13368,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1196",
+    "id": "orig-1201",
     "name": "Montale Intense café",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13368,7 +13386,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1122",
+    "id": "orig-1127",
     "name": "Montale Lucky Candy",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13377,7 +13395,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1193",
+    "id": "orig-1198",
     "name": "Montale Oud Pashmina",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13386,7 +13404,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1856",
+    "id": "orig-1859",
     "name": "Montale Oud dream",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13395,7 +13413,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1187",
+    "id": "orig-1192",
     "name": "Montale Oudmazing",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13404,7 +13422,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1200",
+    "id": "orig-1205",
     "name": "Montale Pretty Fruity",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13413,7 +13431,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-633",
+    "id": "orig-334",
     "name": "Montale So Amber",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13422,7 +13440,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1189",
+    "id": "orig-1194",
     "name": "Montale So Iris",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13431,7 +13449,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1188",
+    "id": "orig-1193",
     "name": "Montale Spicy Aoud",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13440,7 +13458,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1190",
+    "id": "orig-1195",
     "name": "Montale Wood &amp; Spices",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
@@ -13449,7 +13467,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1732",
+    "id": "orig-1735",
     "name": "MONTBLANC EXPLORER PLATINUM",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13458,7 +13476,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1311",
+    "id": "orig-1316",
     "name": "Montblanc Black Meisterstuck",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13467,7 +13485,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-634",
+    "id": "orig-144",
     "name": "Montblanc Collection Star Oud",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13476,7 +13494,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1318",
+    "id": "orig-1323",
     "name": "Montblanc Emblem Absolu",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13485,16 +13503,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-635",
+    "id": "orig-907",
     "name": "Montblanc Explorer Extreme",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 430000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/01/1_01e56f11-3044-4247-9f1f-0ee7ef0c64cc.webp",
+    "price": 370000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_01e56f11-3044-4247-9f1f-0ee7ef0c64cc.jpg?v=1757373482",
     "compared": true
   },
   {
-    "id": "orig-636",
+    "id": "orig-27",
     "name": "Montblanc Explorer Infinite",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13503,7 +13521,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1319",
+    "id": "orig-1324",
     "name": "Montblanc Extreme Leather 100ml",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13521,7 +13539,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-637",
+    "id": "orig-344",
     "name": "Montblanc Legend Elixir",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13539,7 +13557,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-638",
+    "id": "orig-197",
     "name": "Montblanc Signature Elixir",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13548,7 +13566,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1317",
+    "id": "orig-1322",
     "name": "Montblanc Vetiver Glacier (Tester)",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13557,7 +13575,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-639",
+    "id": "orig-279",
     "name": "Set de Regalo Montblanc Explorer",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
@@ -13566,7 +13584,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1930",
+    "id": "orig-1933",
     "name": "MOSCHINO BUBBLE GUM EDP 100ML",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13575,7 +13593,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1784",
+    "id": "orig-1787",
     "name": "MOSCHINO FUNNY!",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13584,7 +13602,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1687",
+    "id": "orig-1690",
     "name": "MOSCHINO FUNNY! (TESTER) sin Tapa",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13593,7 +13611,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1783",
+    "id": "orig-1786",
     "name": "MOSCHINO I LOVE LOVE DE MOSCHINO",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13602,7 +13620,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1691",
+    "id": "orig-1694",
     "name": "MOSCHINO I LOVE LOVE MOSCHINO 100 mililitros (TESTER SIN TAPA)",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13611,7 +13629,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1929",
+    "id": "orig-1932",
     "name": "MOSCHINO TOY 2 EDP 100ML",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13620,7 +13638,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1706",
+    "id": "orig-1709",
     "name": "MOSCHINO TOY 2 PEARL EDP 100ML",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13629,7 +13647,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1689",
+    "id": "orig-1692",
     "name": "MOSCHINO TOY 2 PEARL EDP 100ML (TESTER)",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13638,7 +13656,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1950",
+    "id": "orig-1953",
     "name": "MOSCHINO TOY BOY EDP 100ML",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13647,7 +13665,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2115",
+    "id": "orig-2118",
     "name": "Moschino Fresh Couture EDT 100 ml",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13656,7 +13674,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2113",
+    "id": "orig-2116",
     "name": "Moschino Fresh Gold EDP 100 ml",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13665,7 +13683,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1690",
+    "id": "orig-1693",
     "name": "Moschino Fresh Gold EDP 100 ml (TESTER SIN TAPA)",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13674,7 +13692,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-640",
+    "id": "orig-61",
     "name": "Moschino Toy 2 Gummy",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13683,7 +13701,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-641",
+    "id": "orig-60",
     "name": "Moschino Toy 2 Yummy",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13692,7 +13710,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-642",
+    "id": "orig-584",
     "name": "Moschino Toy Boy 2",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13701,7 +13719,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1210",
+    "id": "orig-1215",
     "name": "Moschino Uomo?",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13710,7 +13728,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2114",
+    "id": "orig-2117",
     "name": "Moschino fresh Pink Couture EDT 100 ml",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13719,7 +13737,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1692",
+    "id": "orig-1695",
     "name": "Moschino fresh Pink Couture EDT 100 ml (TESTER SIN TAPA)",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
@@ -13728,7 +13746,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-643",
+    "id": "orig-499",
     "name": "Mr Lavish Alpine Chalet",
     "brand": "Mr Lavish",
     "variant": "100% Original Sellado · Código Batch",
@@ -13737,7 +13755,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-644",
+    "id": "orig-924",
     "name": "Mr Lavish Eternal Farewell",
     "brand": "Mr Lavish",
     "variant": "100% Original Sellado · Código Batch",
@@ -13746,7 +13764,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-645",
+    "id": "orig-922",
     "name": "Mr Lavish Moroccan Mirage",
     "brand": "Mr Lavish",
     "variant": "100% Original Sellado · Código Batch",
@@ -13755,7 +13773,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-646",
+    "id": "orig-923",
     "name": "Mr Lavish Parisian Whispers",
     "brand": "Mr Lavish",
     "variant": "100% Original Sellado · Código Batch",
@@ -13764,7 +13782,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-647",
+    "id": "orig-341",
     "name": "Mugler A*Men Stellar",
     "brand": "Mugler",
     "variant": "100% Original Sellado · Código Batch",
@@ -13773,7 +13791,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-648",
+    "id": "orig-12",
     "name": "Mugler Angel Fantasm EDP Sensuelle",
     "brand": "Mugler",
     "variant": "100% Original Sellado · Código Batch",
@@ -13782,7 +13800,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1313",
+    "id": "orig-1318",
     "name": "Mugler Angel Nova EDP",
     "brand": "Mugler",
     "variant": "100% Original Sellado · Código Batch",
@@ -13791,7 +13809,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-649",
+    "id": "orig-11",
     "name": "Mugler Angel Stellar",
     "brand": "Mugler",
     "variant": "100% Original Sellado · Código Batch",
@@ -13800,7 +13818,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-650",
+    "id": "orig-900",
     "name": "Mundus Babylon",
     "brand": "Mundus",
     "variant": "100% Original Sellado · Código Batch",
@@ -13809,7 +13827,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-651",
+    "id": "orig-77",
     "name": "Mundus Legend of Nilo",
     "brand": "Mundus",
     "variant": "100% Original Sellado · Código Batch",
@@ -13818,7 +13836,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-652",
+    "id": "orig-901",
     "name": "Mundus Lotus",
     "brand": "Mundus",
     "variant": "100% Original Sellado · Código Batch",
@@ -13827,7 +13845,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2021",
+    "id": "orig-2024",
     "name": "NEPAL AOUD EDP 100ml",
     "brand": "NEPAL AOUD",
     "variant": "100% Original Sellado · Código Batch",
@@ -13836,7 +13854,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-653",
+    "id": "orig-163",
     "name": "Narciso Rodriguez Pure Musc Blanc",
     "brand": "Narciso Rodríguez",
     "variant": "100% Original Sellado · Código Batch",
@@ -13845,7 +13863,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-654",
+    "id": "orig-597",
     "name": "Nasomatto Nudiflorum",
     "brand": "Nasomatto",
     "variant": "100% Original Sellado · Código Batch",
@@ -13854,7 +13872,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-655",
+    "id": "orig-598",
     "name": "Nasomatto Silver Musk",
     "brand": "Nasomatto",
     "variant": "100% Original Sellado · Código Batch",
@@ -13863,7 +13881,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1639",
+    "id": "orig-1642",
     "name": "Nautica Blue",
     "brand": "Nautica",
     "variant": "100% Original Sellado · Código Batch",
@@ -13872,7 +13890,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1484",
+    "id": "orig-1487",
     "name": "Nautica Classic",
     "brand": "Nautica",
     "variant": "100% Original Sellado · Código Batch",
@@ -13881,7 +13899,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1483",
+    "id": "orig-1486",
     "name": "Nautica Pure Blue",
     "brand": "Nautica",
     "variant": "100% Original Sellado · Código Batch",
@@ -13890,7 +13908,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2048",
+    "id": "orig-2051",
     "name": "Nautica Voyage EDT 100 ml",
     "brand": "Nautica",
     "variant": "100% Original Sellado · Código Batch",
@@ -13899,7 +13917,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-656",
+    "id": "orig-186",
     "name": "Nautica Voyage Intense",
     "brand": "Nautica",
     "variant": "100% Original Sellado · Código Batch",
@@ -13908,7 +13926,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1392",
+    "id": "orig-1396",
     "name": "Nautica Voyage Sport",
     "brand": "Nautica",
     "variant": "100% Original Sellado · Código Batch",
@@ -13917,7 +13935,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-657",
+    "id": "orig-489",
     "name": "New Notes Akigala Mandarino",
     "brand": "New Notes",
     "variant": "100% Original Sellado · Código Batch",
@@ -13926,7 +13944,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-658",
+    "id": "orig-942",
     "name": "New Notes Cocktail Maracuja",
     "brand": "New Notes",
     "variant": "100% Original Sellado · Código Batch",
@@ -13935,7 +13953,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-659",
+    "id": "orig-360",
     "name": "New Notes Felina",
     "brand": "New Notes",
     "variant": "100% Original Sellado · Código Batch",
@@ -13944,7 +13962,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-660",
+    "id": "orig-523",
     "name": "New Notes Latte Pistachio",
     "brand": "New Notes",
     "variant": "100% Original Sellado · Código Batch",
@@ -13953,7 +13971,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-661",
+    "id": "orig-236",
     "name": "New Notes Latte di Cherry",
     "brand": "New Notes",
     "variant": "100% Original Sellado · Código Batch",
@@ -13962,7 +13980,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-662",
+    "id": "orig-237",
     "name": "New Notes Magico Safrano",
     "brand": "New Notes",
     "variant": "100% Original Sellado · Código Batch",
@@ -13971,16 +13989,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-663",
+    "id": "orig-488",
     "name": "New Notes Mangomina D",
     "brand": "New Notes",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 550000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/New_Notes_Mangomina_D.jpg?v=1775673216",
     "compared": false
   },
   {
-    "id": "orig-664",
+    "id": "orig-340",
     "name": "Nicolai Parfumeur Createur Saint Honoré",
     "brand": "Nicolai Parfumeur Createur",
     "variant": "100% Original Sellado · Código Batch",
@@ -13989,7 +14007,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-665",
+    "id": "orig-271",
     "name": "Set de Regalo Nina Ricci Nina Rouge 50 ML",
     "brand": "Nina Ricci",
     "variant": "100% Original Sellado · Código Batch",
@@ -13998,7 +14016,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-666",
+    "id": "orig-516",
     "name": "Nishane Wulong Cha X",
     "brand": "Nishane",
     "variant": "100% Original Sellado · Código Batch",
@@ -14007,7 +14025,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-667",
+    "id": "orig-387",
     "name": "Nusuk Ana Al Awwal Pink",
     "brand": "Nusuk",
     "variant": "100% Original Sellado · Código Batch",
@@ -14016,7 +14034,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1657",
+    "id": "orig-1660",
     "name": "OSCAR DE LA RENTA POUR LUI",
     "brand": "OSCAR DE",
     "variant": "100% Original Sellado · Código Batch",
@@ -14025,7 +14043,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2013",
+    "id": "orig-2016",
     "name": "OUD TOBACCO EDP 100ml",
     "brand": "OUD TOBACCO",
     "variant": "100% Original Sellado · Código Batch",
@@ -14034,7 +14052,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1569",
+    "id": "orig-1572",
     "name": "Obsession",
     "brand": "Obsession",
     "variant": "100% Original Sellado · Código Batch",
@@ -14043,7 +14061,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1570",
+    "id": "orig-1573",
     "name": "Obsession for men",
     "brand": "Obsession for",
     "variant": "100% Original Sellado · Código Batch",
@@ -14052,7 +14070,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-668",
+    "id": "orig-233",
     "name": "Oman Luxury Royal Incense",
     "brand": "Oman Luxury",
     "variant": "100% Original Sellado · Código Batch",
@@ -14061,7 +14079,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-669",
+    "id": "orig-290",
     "name": "Omanluxury Belfiore",
     "brand": "Oman Luxury",
     "variant": "100% Original Sellado · Código Batch",
@@ -14070,7 +14088,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-670",
+    "id": "orig-338",
     "name": "Omanluxury Caden",
     "brand": "Oman Luxury",
     "variant": "100% Original Sellado · Código Batch",
@@ -14079,7 +14097,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-671",
+    "id": "orig-234",
     "name": "Omanluxury Voyage",
     "brand": "Oman Luxury",
     "variant": "100% Original Sellado · Código Batch",
@@ -14088,7 +14106,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1574",
+    "id": "orig-1577",
     "name": "Ombre Leather",
     "brand": "Ombre Leather",
     "variant": "100% Original Sellado · Código Batch",
@@ -14097,7 +14115,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-672",
+    "id": "orig-130",
     "name": "Nayaat Forbidden Bloom by Orientica",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14106,7 +14124,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-673",
+    "id": "orig-129",
     "name": "Nayaat Liquid Desire by Orientica",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14115,7 +14133,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-674",
+    "id": "orig-131",
     "name": "Nayaat Red Sugar Kiss by orientica",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14124,7 +14142,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1839",
+    "id": "orig-1842",
     "name": "ORIENTICA AMBER NOIR",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14133,7 +14151,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1838",
+    "id": "orig-1841",
     "name": "ORIENTICA ARTE BELLISIMO ROMANTIC",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14142,7 +14160,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2001",
+    "id": "orig-2004",
     "name": "ORIENTICA LE MOTIF IMPERIAL GOLD EDP 85ML",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14151,7 +14169,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2000",
+    "id": "orig-2003",
     "name": "ORIENTICA LE MOTIF WILD NEROLI EDP 85ML",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14160,7 +14178,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1837",
+    "id": "orig-1840",
     "name": "ORIENTICA MELODIE DE ORIENTICA",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14169,7 +14187,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1672",
+    "id": "orig-1675",
     "name": "Orientica Amber Rouge Luxrury Collection EDP (TESTER)",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14178,7 +14196,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2038",
+    "id": "orig-2041",
     "name": "Orientica Amber Rouge Luxrury Collection EDP 80 ml",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14187,7 +14205,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2037",
+    "id": "orig-2040",
     "name": "Orientica Amber Royal Luxury Collection EDP 80 ml",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14196,7 +14214,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1505",
+    "id": "orig-1508",
     "name": "Orientica Azure Fantasy",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14205,7 +14223,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-675",
+    "id": "orig-283",
     "name": "Orientica Café Arabica",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14214,7 +14232,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-676",
+    "id": "orig-810",
     "name": "Orientica Desert Dusk",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14223,7 +14241,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-677",
+    "id": "orig-288",
     "name": "Orientica Exclusive Imperial Jade",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14232,7 +14250,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1110",
+    "id": "orig-1115",
     "name": "Orientica Luxury Collection Dania",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14241,7 +14259,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-678",
+    "id": "orig-47",
     "name": "Orientica Luxury Lunar Radiance",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14250,7 +14268,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-679",
+    "id": "orig-48",
     "name": "Orientica Luxury Monsoon Petal",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14259,7 +14277,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-680",
+    "id": "orig-46",
     "name": "Orientica Luxury Pearl Sky",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14268,7 +14286,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-681",
+    "id": "orig-106",
     "name": "Orientica Nayaat XLNC Grandeur",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14277,7 +14295,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-682",
+    "id": "orig-105",
     "name": "Orientica Nayaat XLNC Infinity",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14286,7 +14304,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-683",
+    "id": "orig-107",
     "name": "Orientica Nayaat XLNC Titan",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14295,7 +14313,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2036",
+    "id": "orig-2039",
     "name": "Orientica Oud Saffron Luxury Collection EDP 150 ml (extra grande)",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14304,7 +14322,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-684",
+    "id": "orig-811",
     "name": "Orientica Rose Eclat",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14313,7 +14331,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2034",
+    "id": "orig-2037",
     "name": "Orientica Royal Bleu Luxury Collection EDP 80 ml",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14322,7 +14340,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-685",
+    "id": "orig-286",
+    "name": "Orientica Royal Collection Crown",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Orientica_Royal_Collection_Crown.jpg?v=1784776371",
+    "compared": false
+  },
+  {
+    "id": "orig-285",
     "name": "Orientica Royal Collection Dynasty",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14331,7 +14358,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-686",
+    "id": "orig-289",
     "name": "Orientica Royal Collection Monarch",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14340,25 +14367,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-687",
-    "name": "Orientica Royal Collection Monarch",
+    "id": "orig-287",
+    "name": "Orientica Royal Collection Victory",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 410000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/11/OrienticaPremiumMonarch_1.webp",
-    "compared": true
+    "price": 510000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Orientica_Royal_Collection_Victory.jpg?v=1784775614",
+    "compared": false
   },
   {
-    "id": "orig-688",
-    "name": "Orientica Royal Collection Monarch",
-    "brand": "Orientica",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 410000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/11/OrienticaPremiumMonarch_1.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-689",
+    "id": "orig-284",
     "name": "Orientica Soleil",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14367,7 +14385,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2035",
+    "id": "orig-2038",
     "name": "Orientica Velvet Gold Luxury Collection EDP 80 ml",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
@@ -14376,7 +14394,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1614",
+    "id": "orig-1617",
     "name": "Original santal",
     "brand": "Original santal",
     "variant": "100% Original Sellado · Código Batch",
@@ -14385,16 +14403,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-690",
+    "id": "orig-908",
     "name": "Orto Parisi Risvelium",
     "brand": "Orto Parisi",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1010000,
+    "price": 810000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_705be287-8b4a-42a8-b3cd-6db438f02687.jpg?v=1757374990",
     "compared": false
   },
   {
-    "id": "orig-691",
+    "id": "orig-596",
     "name": "Orto Parisi Seminalis",
     "brand": "Orto Parisi",
     "variant": "100% Original Sellado · Código Batch",
@@ -14403,7 +14421,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1403",
+    "id": "orig-1407",
     "name": "Oscar de La Renta Volupte",
     "brand": "Oscar de",
     "variant": "100% Original Sellado · Código Batch",
@@ -14412,7 +14430,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1424",
+    "id": "orig-1428",
     "name": "Oscar de la Renta Oscar",
     "brand": "Oscar de",
     "variant": "100% Original Sellado · Código Batch",
@@ -14421,7 +14439,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-692",
+    "id": "orig-84",
     "name": "Oud Elixir Dubai Oud Intense",
     "brand": "Oud Elixir",
     "variant": "100% Original Sellado · Código Batch",
@@ -14430,7 +14448,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-693",
+    "id": "orig-85",
     "name": "Oud Elixir Marshmallow Crush",
     "brand": "Oud Elixir",
     "variant": "100% Original Sellado · Código Batch",
@@ -14439,7 +14457,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1943",
+    "id": "orig-1946",
     "name": "PARIS HILTON GOLD RUSH EDP 100ML",
     "brand": "PARIS HILTON",
     "variant": "100% Original Sellado · Código Batch",
@@ -14448,7 +14466,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1730",
+    "id": "orig-1733",
     "name": "PARIS HILTON LOVE RUSH",
     "brand": "PARIS HILTON",
     "variant": "100% Original Sellado · Código Batch",
@@ -14457,7 +14475,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1939",
+    "id": "orig-1942",
     "name": "PARIS HILTON LUXE RUSH EDP 100ML ( EDICIÓN LUXURY )",
     "brand": "PARIS HILTON",
     "variant": "100% Original Sellado · Código Batch",
@@ -14466,7 +14484,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1941",
+    "id": "orig-1944",
     "name": "PARIS HILTON PINK RUSH EDP 100ML",
     "brand": "PARIS HILTON",
     "variant": "100% Original Sellado · Código Batch",
@@ -14475,7 +14493,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1942",
+    "id": "orig-1945",
     "name": "PARIS HILTON PLATINUM RUSH EDP 100ML",
     "brand": "PARIS HILTON",
     "variant": "100% Original Sellado · Código Batch",
@@ -14484,7 +14502,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1940",
+    "id": "orig-1943",
     "name": "PARIS HILTON ROSE RUSH EDP 100ML",
     "brand": "PARIS HILTON",
     "variant": "100% Original Sellado · Código Batch",
@@ -14493,7 +14511,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2025",
+    "id": "orig-2028",
     "name": "PINK EXTASY EDP 100ml",
     "brand": "PINK EXTASY",
     "variant": "100% Original Sellado · Código Batch",
@@ -14502,7 +14520,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1566",
+    "id": "orig-1569",
     "name": "POLO BLUE 125 mililitros eau de toilette",
     "brand": "POLO BLUE",
     "variant": "100% Original Sellado · Código Batch",
@@ -14511,7 +14529,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1575",
+    "id": "orig-1578",
     "name": "Black XS",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14520,7 +14538,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1091",
+    "id": "orig-1095",
     "name": "Emper Phantom My Hero",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14529,7 +14547,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1582",
+    "id": "orig-1585",
     "name": "Invictus Victory Elixir",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14538,7 +14556,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1579",
+    "id": "orig-1582",
     "name": "Olympea Parfum (sin alcohol), caja levemente hundida , Full códigos de lote",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14547,7 +14565,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1583",
+    "id": "orig-1586",
     "name": "One Million Elixir 50 MILILITROS, ( tamaño Mediano )",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14556,7 +14574,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1585",
+    "id": "orig-1588",
     "name": "One Million Gold",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14565,7 +14583,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1584",
+    "id": "orig-1587",
     "name": "One Million Parfum PURO 50 MILILITROS ( Mediano )",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14574,7 +14592,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1586",
+    "id": "orig-1589",
     "name": "One Million Royal",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14583,7 +14601,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1715",
+    "id": "orig-1718",
     "name": "PACO RABANNE 1 MILLION EDT",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14592,7 +14610,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1806",
+    "id": "orig-1809",
     "name": "PACO RABANNE CRAZY ME",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14601,7 +14619,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1810",
+    "id": "orig-1813",
     "name": "PACO RABANNE EROTIC ME",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14610,7 +14628,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1809",
+    "id": "orig-1812",
     "name": "PACO RABANNE FABULOUS ME",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14619,7 +14637,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1808",
+    "id": "orig-1811",
     "name": "PACO RABANNE GENIUS ME",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14628,7 +14646,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1714",
+    "id": "orig-1717",
     "name": "PACO RABANNE INVICTUS PLATINUM 100 ML",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14637,7 +14655,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1807",
+    "id": "orig-1810",
     "name": "PACO RABANNE STRONG ME",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14646,7 +14664,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1729",
+    "id": "orig-1732",
     "name": "PACO RABANNE ULTRARED",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14655,7 +14673,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1728",
+    "id": "orig-1731",
     "name": "PACO RABANNE ULTRAVIOLETA",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14664,7 +14682,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1576",
+    "id": "orig-1579",
     "name": "Paco Fame EDP",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14673,7 +14691,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2124",
+    "id": "orig-2127",
     "name": "Paco Rabanne Black XS EDP 80 ml",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14682,16 +14700,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-694",
+    "id": "orig-789",
     "name": "Paco Rabanne Fame Feline",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 610000,
+    "price": 510000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Paco_Rabanne_Fame_Feline.jpg?v=1763525081",
     "compared": false
   },
   {
-    "id": "orig-695",
+    "id": "orig-558",
     "name": "Paco Rabanne Fame In love",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14700,7 +14718,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1373",
+    "id": "orig-1377",
     "name": "Paco Rabanne Fame Intense ( 50 ML , tamaño mediano",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14709,7 +14727,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1344",
+    "id": "orig-1348",
     "name": "Paco Rabanne Invictus (Tester)",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14718,7 +14736,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-696",
+    "id": "orig-379",
     "name": "Paco Rabanne Invictus Absolu Set de Regalo",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14727,7 +14745,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2050",
+    "id": "orig-2053",
     "name": "Paco Rabanne Invictus EDT 100 ml",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14736,7 +14754,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1343",
+    "id": "orig-1347",
     "name": "Paco Rabanne Invictus Parfum (Tester)",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14745,7 +14763,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-697",
+    "id": "orig-538",
     "name": "Paco Rabanne Invictus Set de Regalo",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14754,7 +14772,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1345",
+    "id": "orig-1349",
     "name": "Paco Rabanne Invictus Victory (Tester)",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14763,16 +14781,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-698",
+    "id": "orig-966",
     "name": "Paco Rabanne Invictus Victory Absolu",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 605000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/08/PacoRabanneInvictusVictoryAbsolu.webp",
+    "price": 510000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/PacoRabanneInvictusVictoryAbsolu.png?v=1755520040",
     "compared": true
   },
   {
-    "id": "orig-2051",
+    "id": "orig-2054",
     "name": "Paco Rabanne Invictus victory EDP 100 mililitros",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14790,7 +14808,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1377",
+    "id": "orig-1381",
     "name": "Paco Rabanne Million Gold For Her EDP , 80 mililitros",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14799,7 +14817,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-699",
+    "id": "orig-879",
     "name": "Paco Rabanne Million Gold For Her Parfum",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14808,7 +14826,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1109",
+    "id": "orig-1114",
     "name": "Paco Rabanne Olympea Absolu",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14817,7 +14835,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2123",
+    "id": "orig-2126",
     "name": "Paco Rabanne Olympea EDP 80 ml",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14826,7 +14844,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1372",
+    "id": "orig-1376",
     "name": "Paco Rabanne Olympea Parfum puro sin alcohol (Tester) , Caja de Tester , Full códigos de lote en caja Tester y frasco",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14835,7 +14853,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1335",
+    "id": "orig-1340",
     "name": "Paco Rabanne One Million (Tester)",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14844,7 +14862,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1336",
+    "id": "orig-1341",
     "name": "Paco Rabanne One Million ELIXIR",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14853,7 +14871,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1338",
+    "id": "orig-1343",
     "name": "Paco Rabanne One Million Gold",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14862,7 +14880,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1337",
+    "id": "orig-1342",
     "name": "Paco Rabanne One Million Lucky (Tester)",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14871,7 +14889,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-700",
+    "id": "orig-784",
     "name": "Paco Rabanne One Million set de regalo 100 ML + 10 ML",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14880,7 +14898,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1219",
+    "id": "orig-1224",
     "name": "Paco Rabanne Paco Edt",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14889,7 +14907,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1346",
+    "id": "orig-1350",
     "name": "Paco Rabanne Phantom (Tester)",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14898,7 +14916,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2049",
+    "id": "orig-2052",
     "name": "Paco Rabanne Phantom EDT 100 ml",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14907,7 +14925,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1263",
+    "id": "orig-1268",
     "name": "Paco Rabanne Phantom Elixir",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14916,7 +14934,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1220",
+    "id": "orig-1225",
     "name": "Paco Rabanne Phantom Parfum",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14925,7 +14943,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-701",
+    "id": "orig-800",
     "name": "Paco Rabanne Phantom Set de regalo 50 ML",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14934,7 +14952,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-702",
+    "id": "orig-595",
     "name": "Paco Rabanne Phantom in Red",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14943,7 +14961,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1683",
+    "id": "orig-1686",
     "name": "Paco Rabanne XS Pure Dama",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14952,7 +14970,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1581",
+    "id": "orig-1584",
     "name": "Phantom Intense",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14961,16 +14979,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-703",
+    "id": "orig-372",
     "name": "Rabanne 1 Million Night Elixir",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 559000,
+    "price": 389000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Rabanne_1_Million_Night_Elixir.jpg?v=1780676766",
     "compared": true
   },
   {
-    "id": "orig-1577",
+    "id": "orig-1580",
     "name": "Rabanne Fame Intense",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14979,7 +14997,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1578",
+    "id": "orig-1581",
     "name": "Rabanne Fame Parfum",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14988,7 +15006,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-704",
+    "id": "orig-29",
     "name": "Rabanne Fame Winter Crush",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -14997,7 +15015,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-705",
+    "id": "orig-373",
     "name": "Rabanne Invictus Elixir",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -15006,7 +15024,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-706",
+    "id": "orig-438",
     "name": "Rabanne Million Gold for Her Pure Diamonds",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -15015,7 +15033,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-707",
+    "id": "orig-937",
     "name": "Rabanne Million Golden Oud",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -15024,16 +15042,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-708",
+    "id": "orig-151",
+    "name": "Rabanne One Million Black",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 419000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/RabanneOneMillionBlack.jpg?v=1787945304",
+    "compared": false
+  },
+  {
+    "id": "orig-1092",
     "name": "Rabanne One Million Gold elixir",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
     "price": 535000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_9e798bb8-8aeb-4d63-8437-00ee80809eb3.webp",
-    "compared": true
+    "compared": false
   },
   {
-    "id": "orig-709",
+    "id": "orig-274",
     "name": "Set de Regalo Rabanne 1 Million Elixir",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -15042,7 +15069,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-710",
+    "id": "orig-273",
     "name": "Set de Regalo Rabanne Fame",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -15051,7 +15078,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-711",
+    "id": "orig-272",
     "name": "Set de Regalo Rabanne Million Gold",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
@@ -15060,7 +15087,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-712",
+    "id": "orig-452",
     "name": "Pantheon Roma Annone Supremo",
     "brand": "Pantheon Roma",
     "variant": "100% Original Sellado · Código Batch",
@@ -15069,7 +15096,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-713",
+    "id": "orig-852",
     "name": "Pantheon Roma O",
     "brand": "Pantheon Roma",
     "variant": "100% Original Sellado · Código Batch",
@@ -15078,61 +15105,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-714",
-    "name": "Parfums De Marly Delina",
-    "brand": "Parfums De Marly",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 1230000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Delina-2.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-715",
-    "name": "Parfums De Marly Delina",
-    "brand": "Parfums De Marly",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 1230000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Delina-2.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-716",
-    "name": "Parfums De Marly Delina",
-    "brand": "Parfums De Marly",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 1230000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Delina-2.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-717",
-    "name": "Parfums De Marly Delina",
-    "brand": "Parfums De Marly",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 1230000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Delina-2.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-718",
-    "name": "Parfums De Marly Delina",
-    "brand": "Parfums De Marly",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 1230000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Delina-2.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-719",
-    "name": "Parfums De Marly Delina",
-    "brand": "Parfums De Marly",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 1230000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Delina-2.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-720",
+    "id": "orig-23",
     "name": "Parfums de Marly Althair Exclusif",
     "brand": "Parfums De Marly",
     "variant": "100% Original Sellado · Código Batch",
@@ -15141,7 +15114,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-721",
+    "id": "orig-418",
     "name": "Parfums de Marly Athalia",
     "brand": "Parfums De Marly",
     "variant": "100% Original Sellado · Código Batch",
@@ -15150,7 +15123,34 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-722",
+    "id": "orig-530",
+    "name": "Parfums de Marly Athenais",
+    "brand": "Parfums De Marly",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1150000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_6b418351-7031-4fea-afd4-b3687cdaa19a.jpg?v=1774099449",
+    "compared": false
+  },
+  {
+    "id": "orig-447",
+    "name": "Parfums de Marly Carios",
+    "brand": "Parfums De Marly",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1710000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ParfumsdeMarlyCarios_7e8553f9-0941-425c-879e-6945b8bd8e39.png?v=1776454256",
+    "compared": false
+  },
+  {
+    "id": "orig-431",
+    "name": "Parfums de Marly Carlisle",
+    "brand": "Parfums De Marly",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1150000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Parfums_de_Marly_Carlisle.jpg?v=1777821536",
+    "compared": false
+  },
+  {
+    "id": "orig-745",
     "name": "Parfums de Marly Cassili",
     "brand": "Parfums De Marly",
     "variant": "100% Original Sellado · Código Batch",
@@ -15159,7 +15159,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-723",
+    "id": "orig-521",
     "name": "Parfums de Marly Darcy",
     "brand": "Parfums De Marly",
     "variant": "100% Original Sellado · Código Batch",
@@ -15168,7 +15168,43 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1260",
+    "id": "orig-448",
+    "name": "Parfums de Marly Eragon",
+    "brand": "Parfums De Marly",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1710000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ParfumsdeMarlyEragon.png?v=1776451538",
+    "compared": false
+  },
+  {
+    "id": "orig-529",
+    "name": "Parfums de Marly Nisean",
+    "brand": "Parfums De Marly",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1310000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_e18f4ff4-0040-40ae-9557-e2db8c2617c9.jpg?v=1774099718",
+    "compared": false
+  },
+  {
+    "id": "orig-446",
+    "name": "Parfums de Marly Valero",
+    "brand": "Parfums De Marly",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1710000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ParfumsdeMarlyvalero_8c290f5e-43b5-4b1c-995c-809714765ce6.png?v=1776454118",
+    "compared": false
+  },
+  {
+    "id": "orig-1065",
+    "name": "Parfums De Marly Delina",
+    "brand": "Parfums de Marly",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Delina-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1265",
     "name": "Paris Corner Khair Pistachio",
     "brand": "Paris Corner",
     "variant": "100% Original Sellado · Código Batch",
@@ -15177,7 +15213,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1043",
+    "id": "orig-1044",
     "name": "Paris Corner Marshmallow Blush",
     "brand": "Paris Corner",
     "variant": "100% Original Sellado · Código Batch",
@@ -15186,7 +15222,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1165",
+    "id": "orig-1170",
     "name": "Paris Corner Mawj Cognac Blaze",
     "brand": "Paris Corner",
     "variant": "100% Original Sellado · Código Batch",
@@ -15195,7 +15231,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1164",
+    "id": "orig-1169",
     "name": "Paris Corner Taskeen Caramel Cascade",
     "brand": "Paris Corner",
     "variant": "100% Original Sellado · Código Batch",
@@ -15204,7 +15240,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2068",
+    "id": "orig-2071",
     "name": "Paris Hilton Can Can EDP 100 ml",
     "brand": "Paris Hilton",
     "variant": "100% Original Sellado · Código Batch",
@@ -15213,7 +15249,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1633",
+    "id": "orig-1636",
     "name": "Paris Hilton Dama",
     "brand": "Paris Hilton",
     "variant": "100% Original Sellado · Código Batch",
@@ -15222,7 +15258,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-724",
+    "id": "orig-855",
     "name": "Paris Hilton Gold Rush masculina",
     "brand": "Paris Hilton",
     "variant": "100% Original Sellado · Código Batch",
@@ -15231,7 +15267,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2069",
+    "id": "orig-2072",
     "name": "Paris Hilton Heiress EDP 100 ml",
     "brand": "Paris Hilton",
     "variant": "100% Original Sellado · Código Batch",
@@ -15240,7 +15276,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1624",
+    "id": "orig-1627",
     "name": "Pasha absolu",
     "brand": "Pasha absolu",
     "variant": "100% Original Sellado · Código Batch",
@@ -15249,25 +15285,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-725",
-    "name": "Pepe Jeans Celebrate for her",
-    "brand": "Pepe Jeans",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 189000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c8d25313-eab0-40c3-ab4b-4edfbc9ba273.jpg?v=1754400215",
-    "compared": false
-  },
-  {
-    "id": "orig-726",
-    "name": "Pepe jeans for her life is now",
-    "brand": "Pepe Jeans",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 189000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_1ebcdf10-cd91-4485-b24e-d12412f9caf2.jpg?v=1754400242",
-    "compared": false
-  },
-  {
-    "id": "orig-1680",
+    "id": "orig-1683",
     "name": "360° Collection Women",
     "brand": "Perry Ellis",
     "variant": "100% Original Sellado · Código Batch",
@@ -15276,7 +15294,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-727",
+    "id": "orig-169",
     "name": "Perry Ellis 360 Very Blue",
     "brand": "Perry Ellis",
     "variant": "100% Original Sellado · Código Batch",
@@ -15285,7 +15303,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1158",
+    "id": "orig-1163",
     "name": "Perry Ellis 360° Coral",
     "brand": "Perry Ellis",
     "variant": "100% Original Sellado · Código Batch",
@@ -15294,7 +15312,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1400",
+    "id": "orig-1404",
     "name": "Perry Ellis 360° Red For Men",
     "brand": "Perry Ellis",
     "variant": "100% Original Sellado · Código Batch",
@@ -15303,7 +15321,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-728",
+    "id": "orig-133",
     "name": "Philipp Plein No Limit$ Platinum",
     "brand": "Philipp Plein",
     "variant": "100% Original Sellado · Código Batch",
@@ -15312,7 +15330,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-729",
+    "id": "orig-235",
     "name": "Philipp Plein Plein Fatale Rosé",
     "brand": "Philipp Plein",
     "variant": "100% Original Sellado · Código Batch",
@@ -15321,7 +15339,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1431",
+    "id": "orig-1435",
     "name": "Pino Silvestre Pino Silvestre Original",
     "brand": "Pino Silvestre",
     "variant": "100% Original Sellado · Código Batch",
@@ -15330,7 +15348,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1293",
+    "id": "orig-1298",
     "name": "Pleasures Estée Lauder",
     "brand": "Pleasures Est",
     "variant": "100% Original Sellado · Código Batch",
@@ -15339,7 +15357,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1563",
+    "id": "orig-1566",
     "name": "Polo Black EDT 125 mililitros",
     "brand": "Polo Black",
     "variant": "100% Original Sellado · Código Batch",
@@ -15348,7 +15366,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1562",
+    "id": "orig-1565",
     "name": "Polo Clasica Verde Cologne Intense",
     "brand": "Polo Clasica",
     "variant": "100% Original Sellado · Código Batch",
@@ -15357,7 +15375,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1309",
+    "id": "orig-1314",
     "name": "Polo Club #1 Beverly Hills",
     "brand": "Polo Club",
     "variant": "100% Original Sellado · Código Batch",
@@ -15366,7 +15384,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1307",
+    "id": "orig-1312",
     "name": "Polo Club #2 Beverly Hills",
     "brand": "Polo Club",
     "variant": "100% Original Sellado · Código Batch",
@@ -15375,7 +15393,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1306",
+    "id": "orig-1311",
     "name": "Polo Club #2 Sport Beverly Hills",
     "brand": "Polo Club",
     "variant": "100% Original Sellado · Código Batch",
@@ -15384,7 +15402,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1305",
+    "id": "orig-1310",
     "name": "Polo Club #8 Beverly Hills",
     "brand": "Polo Club",
     "variant": "100% Original Sellado · Código Batch",
@@ -15393,7 +15411,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1302",
+    "id": "orig-1307",
     "name": "Polo Club #8 Sport Beverly Hiils",
     "brand": "Polo Club",
     "variant": "100% Original Sellado · Código Batch",
@@ -15402,7 +15420,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1304",
+    "id": "orig-1309",
     "name": "Polo Club #8 Sport Beverly Hills",
     "brand": "Polo Club",
     "variant": "100% Original Sellado · Código Batch",
@@ -15411,7 +15429,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1303",
+    "id": "orig-1308",
     "name": "Polo Club #9 Beverly Hills",
     "brand": "Polo Club",
     "variant": "100% Original Sellado · Código Batch",
@@ -15420,7 +15438,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1308",
+    "id": "orig-1313",
     "name": "Polo Club Sport #1 Beverly Hills",
     "brand": "Polo Club",
     "variant": "100% Original Sellado · Código Batch",
@@ -15429,7 +15447,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1564",
+    "id": "orig-1567",
     "name": "Polo Red EDT 125 mililitros",
     "brand": "Polo Red",
     "variant": "100% Original Sellado · Código Batch",
@@ -15438,7 +15456,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2070",
+    "id": "orig-2073",
     "name": "Agatha Ruiz De La Prada Gotas De Color EDT 100 ml",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15447,7 +15465,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2026",
+    "id": "orig-2029",
     "name": "Aghata Ruiz De La Prada Wow Girl. EDT 80ml",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15456,7 +15474,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-730",
+    "id": "orig-793",
     "name": "Prada Candy EDP",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15465,7 +15483,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1527",
+    "id": "orig-1530",
     "name": "Prada Luna Rossa",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15474,7 +15492,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1214",
+    "id": "orig-1219",
     "name": "Prada Luna Rossa Black",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15483,7 +15501,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2045",
+    "id": "orig-2048",
     "name": "Prada Luna Rossa Carbon EDT 100 ml",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15492,7 +15510,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-731",
+    "id": "orig-326",
     "name": "Prada Luna Rossa Carbon Eau de Parfum",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15501,7 +15519,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-732",
+    "id": "orig-865",
     "name": "Prada Paradigme",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15510,7 +15528,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-733",
+    "id": "orig-9",
     "name": "Prada Paradigme Le Parfum",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15519,7 +15537,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1119",
+    "id": "orig-1124",
     "name": "Prada Paradoxe ( caja ligeramente hundida, Full sellos ), 90 ML",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15528,7 +15546,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-734",
+    "id": "orig-916",
     "name": "Prada Paradoxe Intense Set de regalo",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15537,7 +15555,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-735",
+    "id": "orig-740",
     "name": "Prada Paradoxe Radical Essence",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -15546,7 +15564,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1595",
+    "id": "orig-1598",
     "name": "Pressence Dama",
     "brand": "Pressence Dama",
     "variant": "100% Original Sellado · Código Batch",
@@ -15555,7 +15573,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1645",
+    "id": "orig-1648",
     "name": "Quorum",
     "brand": "Quorum",
     "variant": "100% Original Sellado · Código Batch",
@@ -15564,7 +15582,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2006",
+    "id": "orig-2009",
     "name": "RED TOBACCO EDP 120ml",
     "brand": "RED TOBACCO",
     "variant": "100% Original Sellado · Código Batch",
@@ -15573,7 +15591,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2017",
+    "id": "orig-2020",
     "name": "RISTRETTO INTENSE CAFE EDP 100ml ( EXTRAT DE PERFUM PURO )",
     "brand": "RISTRETTO INTENSE",
     "variant": "100% Original Sellado · Código Batch",
@@ -15582,7 +15600,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2015",
+    "id": "orig-2018",
     "name": "ROSES ELIXIR EDP 100ml",
     "brand": "ROSES ELIXIR",
     "variant": "100% Original Sellado · Código Batch",
@@ -15591,7 +15609,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2024",
+    "id": "orig-2027",
     "name": "ROSES MUSK EDP 100ml",
     "brand": "ROSES MUSK",
     "variant": "100% Original Sellado · Código Batch",
@@ -15600,7 +15618,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2003",
+    "id": "orig-2006",
     "name": "ROSES VANILLE EDP 120ml",
     "brand": "ROSES VANILLE",
     "variant": "100% Original Sellado · Código Batch",
@@ -15609,7 +15627,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-736",
+    "id": "orig-666",
     "name": "Ralph Lauren Polo Ultra Blue",
     "brand": "Ralph Lauren",
     "variant": "100% Original Sellado · Código Batch",
@@ -15618,7 +15636,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2067",
+    "id": "orig-2070",
     "name": "Ralph Lauren Ralph EDT 100 ml",
     "brand": "Ralph Lauren",
     "variant": "100% Original Sellado · Código Batch",
@@ -15627,16 +15645,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-737",
+    "id": "orig-627",
     "name": "Ralph Lauren Ralph's Club edp",
     "brand": "Ralph Lauren",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 410000,
-    "image": "https://disperfumes.com/wp-content/uploads/2023/09/RALPH´S-CLUB-EDP.jpg",
+    "price": 370000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c65a043d-c316-4d24-8d68-925bf4f9f636.jpg?v=1771348070",
     "compared": true
   },
   {
-    "id": "orig-2066",
+    "id": "orig-2069",
     "name": "Ralph Lauren Romance EDP 100 ml",
     "brand": "Ralph Lauren",
     "variant": "100% Original Sellado · Código Batch",
@@ -15645,7 +15663,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-738",
+    "id": "orig-399",
     "name": "Ramon Monegal Faïsa",
     "brand": "Ramon Monegal",
     "variant": "100% Original Sellado · Código Batch",
@@ -15654,7 +15672,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-739",
+    "id": "orig-465",
     "name": "Ramon Monegal Matador",
     "brand": "Ramon Monegal",
     "variant": "100% Original Sellado · Código Batch",
@@ -15663,7 +15681,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-740",
+    "id": "orig-176",
     "name": "Combo Rasasi Hawas Ice + Hawas Malibú",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15672,7 +15690,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1440",
+    "id": "orig-1444",
     "name": "Rasasi Daarej Pour Homme EDP",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15681,7 +15699,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-741",
+    "id": "orig-662",
     "name": "Rasasi Hawas Atlantis",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15690,7 +15708,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1442",
+    "id": "orig-1446",
     "name": "Rasasi Hawas Black",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15699,7 +15717,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-742",
+    "id": "orig-187",
     "name": "Rasasi Hawas Chrome",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15708,7 +15726,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-743",
+    "id": "orig-841",
     "name": "Rasasi Hawas Diva",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15717,7 +15735,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1104",
+    "id": "orig-1109",
     "name": "Rasasi Hawas Elixir",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15726,7 +15744,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-744",
+    "id": "orig-333",
     "name": "Rasasi Hawas Exotic",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15735,7 +15753,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1042",
+    "id": "orig-1043",
     "name": "Rasasi Hawas Fire",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15744,7 +15762,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1444",
+    "id": "orig-1447",
     "name": "Rasasi Hawas For Him",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15753,7 +15771,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-745",
+    "id": "orig-26",
+    "name": "Rasasi Hawas Gold Digger",
+    "brand": "Rasasi",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/RasasiHawasGoldDigger_3.jpg?v=1794143885",
+    "compared": false
+  },
+  {
+    "id": "orig-87",
     "name": "Rasasi Hawas Highness",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15762,16 +15789,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1443",
-    "name": "Rasasi Hawas Ice",
+    "id": "orig-3",
+    "name": "Rasasi Hawas Ice Freeze",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
     "price": 310000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/01/rasasihawasice3.webp",
-    "compared": false
+    "compared": true
   },
   {
-    "id": "orig-746",
+    "id": "orig-884",
     "name": "Rasasi Hawas Kobra",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15780,7 +15807,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-747",
+    "id": "orig-67",
     "name": "Rasasi Hawas La Mer",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15789,7 +15816,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-748",
+    "id": "orig-332",
     "name": "Rasasi Hawas Lava Gold",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15798,16 +15825,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-749",
-    "name": "Rasasi Hawas Lava Gold",
-    "brand": "Rasasi",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 310000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/07/Rasasilavagold_1.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-750",
+    "id": "orig-537",
     "name": "Rasasi Hawas London",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15816,7 +15834,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-751",
+    "id": "orig-69",
     "name": "Rasasi Hawas Majestic",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15825,7 +15843,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-752",
+    "id": "orig-883",
     "name": "Rasasi Hawas Malibu",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15834,7 +15852,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-753",
+    "id": "orig-68",
     "name": "Rasasi Hawas Nautilus",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15843,7 +15861,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1041",
+    "id": "orig-1042",
     "name": "Rasasi Hawas Pink",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15852,7 +15870,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-754",
+    "id": "orig-66",
     "name": "Rasasi Hawas Private Dulce",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15861,7 +15879,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-755",
+    "id": "orig-65",
     "name": "Rasasi Hawas Private Luceo",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15870,7 +15888,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-756",
+    "id": "orig-64",
     "name": "Rasasi Hawas Private Terra",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15879,7 +15897,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-757",
+    "id": "orig-70",
     "name": "Rasasi Hawas Reina",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15888,7 +15906,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-758",
+    "id": "orig-62",
     "name": "Rasasi Hawas Sapphire X FB Fragrance",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15897,7 +15915,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-759",
+    "id": "orig-734",
     "name": "Rasasi Hawas Verde",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15906,7 +15924,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-760",
+    "id": "orig-683",
     "name": "Rasasi Hawas Viper",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15915,7 +15933,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-761",
+    "id": "orig-788",
     "name": "Rasasi La Yuqawam Pour Femme",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15924,7 +15942,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-762",
+    "id": "orig-663",
     "name": "Rasasi Shuhrah Elixir",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15933,7 +15951,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-763",
+    "id": "orig-331",
     "name": "Rasasi hawas thunder",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15942,7 +15960,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1441",
+    "id": "orig-1445",
     "name": "Shurah Pour Homme Rasasi",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
@@ -15951,7 +15969,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-764",
+    "id": "orig-73",
     "name": "Combo Rayhaan Tropical Vibe + Aquatica",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -15960,7 +15978,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-765",
+    "id": "orig-581",
     "name": "Rayhaan Aquatica",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -15969,7 +15987,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-766",
+    "id": "orig-307",
     "name": "Rayhaan Azul",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -15978,7 +15996,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-767",
+    "id": "orig-88",
     "name": "Rayhaan Cedrus Blanc",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -15987,7 +16005,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-768",
+    "id": "orig-692",
     "name": "Rayhaan Corium",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -15996,7 +16014,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-769",
+    "id": "orig-553",
     "name": "Rayhaan Dark Leather",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16005,7 +16023,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-770",
+    "id": "orig-705",
     "name": "Rayhaan Divine",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16014,7 +16032,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1163",
+    "id": "orig-1168",
     "name": "Rayhaan Elixir Eau de Parfum",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16023,7 +16041,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-771",
+    "id": "orig-40",
     "name": "Rayhaan Equinox",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16032,7 +16050,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-772",
+    "id": "orig-552",
     "name": "Rayhaan Imperia",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16041,7 +16059,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-773",
+    "id": "orig-693",
     "name": "Rayhaan Italia",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16050,7 +16068,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-774",
+    "id": "orig-504",
     "name": "Rayhaan Jungle Vibe",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16059,7 +16077,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-775",
+    "id": "orig-690",
     "name": "Rayhaan Kiss",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16068,7 +16086,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-776",
+    "id": "orig-830",
     "name": "Rayhaan Lion",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16077,7 +16095,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-777",
+    "id": "orig-89",
     "name": "Rayhaan Nava Sol",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16086,7 +16104,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-778",
+    "id": "orig-329",
     "name": "Rayhaan Nocturno Elixir",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16095,7 +16113,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-779",
+    "id": "orig-691",
     "name": "Rayhaan Obsidian",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16104,7 +16122,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1159",
+    "id": "orig-1164",
     "name": "Rayhaan Ocean Rush",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16113,7 +16131,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-780",
+    "id": "orig-306",
     "name": "Rayhaan Pacific Aloha",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16122,7 +16140,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-781",
+    "id": "orig-470",
     "name": "Rayhaan Pacific Aura",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16131,7 +16149,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-782",
+    "id": "orig-555",
     "name": "Rayhaan Pacific Men",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16140,7 +16158,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-783",
+    "id": "orig-469",
     "name": "Rayhaan Terra",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16158,7 +16176,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-784",
+    "id": "orig-838",
     "name": "Rayhaan Tropical Vibe",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16167,7 +16185,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-785",
+    "id": "orig-505",
     "name": "Rayhaan Valhala",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16176,7 +16194,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-786",
+    "id": "orig-39",
     "name": "Rayhaan Vanilla Vibe",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16185,7 +16203,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-787",
+    "id": "orig-41",
     "name": "Rayhaan Vantage",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16194,7 +16212,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-788",
+    "id": "orig-330",
     "name": "Rayhaan Wolf",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16203,7 +16221,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-789",
+    "id": "orig-551",
     "name": "Rayhaan Wood Noir",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16212,7 +16230,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-790",
+    "id": "orig-328",
     "name": "rayhaan Pharaoh",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16221,7 +16239,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1160",
+    "id": "orig-1165",
     "name": "rayhaan pacific for him",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16230,7 +16248,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-791",
+    "id": "orig-327",
     "name": "rayhaan tonquin giza",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16239,7 +16257,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1421",
+    "id": "orig-1425",
     "name": "Red Giorgio Beverly Hills",
     "brand": "Red Giorgio",
     "variant": "100% Original Sellado · Código Batch",
@@ -16248,7 +16266,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-792",
+    "id": "orig-110",
     "name": "Acqua di Parisis Delanoe Exclusif",
     "brand": "Reyane Tradition",
     "variant": "100% Original Sellado · Código Batch",
@@ -16257,7 +16275,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-793",
+    "id": "orig-573",
     "name": "Riiffs Freeze",
     "brand": "Riiffs",
     "variant": "100% Original Sellado · Código Batch",
@@ -16266,7 +16284,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-794",
+    "id": "orig-83",
     "name": "Riiffs Freeze In Flames",
     "brand": "Riiffs",
     "variant": "100% Original Sellado · Código Batch",
@@ -16275,7 +16293,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-795",
+    "id": "orig-162",
     "name": "Riiffs Hulm W Extrait",
     "brand": "Riiffs",
     "variant": "100% Original Sellado · Código Batch",
@@ -16284,7 +16302,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-796",
+    "id": "orig-478",
     "name": "Riiffs Momento",
     "brand": "Riiffs Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -16293,7 +16311,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-797",
+    "id": "orig-476",
     "name": "Riiffs Seasons Drift",
     "brand": "Riiffs Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -16302,7 +16320,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-798",
+    "id": "orig-477",
     "name": "Riiffs Seasons Rise",
     "brand": "Riiffs Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -16311,7 +16329,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-799",
+    "id": "orig-308",
     "name": "Roja Dove Burlington 1819",
     "brand": "Roja Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -16320,7 +16338,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-800",
+    "id": "orig-298",
     "name": "Roja Dove Elysium Noir",
     "brand": "Roja Parfums",
     "variant": "100% Original Sellado · Código Batch",
@@ -16329,16 +16347,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-801",
+    "id": "orig-44",
     "name": "Roja Elysium Eau de Parfum",
     "brand": "Roja Parfums",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1150000,
+    "price": 1010000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/RojaElysiumEaudeParfum.jpg?v=1793114285",
     "compared": false
   },
   {
-    "id": "orig-802",
+    "id": "orig-781",
     "name": "Ghetto by Ryan Castro",
     "brand": "Ryan Castro",
     "variant": "100% Original Sellado · Código Batch",
@@ -16347,7 +16365,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-2014",
+    "id": "orig-2017",
     "name": "SENSUAL INSTINC EDP 100ml",
     "brand": "SENSUAL INSTINC",
     "variant": "100% Original Sellado · Código Batch",
@@ -16356,7 +16374,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2010",
+    "id": "orig-2013",
     "name": "SOLEIL D´ITALIE EDP 120ml",
     "brand": "SOLEIL D",
     "variant": "100% Original Sellado · Código Batch",
@@ -16365,7 +16383,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2019",
+    "id": "orig-2022",
     "name": "STARRY NIGHTS EDP 100ml",
     "brand": "STARRY NIGHTS",
     "variant": "100% Original Sellado · Código Batch",
@@ -16374,7 +16392,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1039",
+    "id": "orig-1040",
     "name": "Sabrina Carpenter Caramel dream",
     "brand": "Sabrina Carpenter",
     "variant": "100% Original Sellado · Código Batch",
@@ -16383,7 +16401,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1037",
+    "id": "orig-1038",
     "name": "Sabrina Carpenter Cherry baby",
     "brand": "Sabrina Carpenter",
     "variant": "100% Original Sellado · Código Batch",
@@ -16392,7 +16410,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1038",
+    "id": "orig-1039",
     "name": "Sabrina Carpenter Sweet Tooth",
     "brand": "Sabrina Carpenter",
     "variant": "100% Original Sellado · Código Batch",
@@ -16401,16 +16419,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-803",
+    "id": "orig-882",
     "name": "Sabrina Carpenter Sweet Tooth Me Espresso",
     "brand": "Sabrina Carpenter",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 339000,
+    "price": 309000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Sabrina_Carpenter_Sweet_Tooth_6.jpg?v=1790710058",
     "compared": false
   },
   {
-    "id": "orig-804",
+    "id": "orig-522",
     "name": "Salvatore Ferragamo F by Ferragamo Pour Homme",
     "brand": "Salvatore Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -16419,7 +16437,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-805",
+    "id": "orig-534",
     "name": "Salvatore Ferragamo Red Leather",
     "brand": "Salvatore Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -16428,7 +16446,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-806",
+    "id": "orig-589",
     "name": "Salvatore Ferragamo Signorina Unica",
     "brand": "Salvatore Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -16437,7 +16455,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-807",
+    "id": "orig-335",
     "name": "Salvatore ferragamo Amo flowerful",
     "brand": "Salvatore Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
@@ -16446,7 +16464,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1593",
+    "id": "orig-1596",
     "name": "Signature",
     "brand": "Signature",
     "variant": "100% Original Sellado · Código Batch",
@@ -16455,7 +16473,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1592",
+    "id": "orig-1595",
     "name": "Signature Absolue",
     "brand": "Signature Absolue",
     "variant": "100% Original Sellado · Código Batch",
@@ -16464,7 +16482,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1618",
+    "id": "orig-1621",
     "name": "Silver mountain",
     "brand": "Silver mountain",
     "variant": "100% Original Sellado · Código Batch",
@@ -16473,7 +16491,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1420",
+    "id": "orig-1424",
     "name": "Sirene Vicky Tiel",
     "brand": "Sirene Vicky",
     "variant": "100% Original Sellado · Código Batch",
@@ -16482,16 +16500,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-808",
+    "id": "orig-948",
     "name": "Sol de janeiro Brazilian crush cheirosa 68",
     "brand": "Sol de Janeiro",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 309000,
+    "price": 130000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_48ba620a-62a7-4d80-9d54-12196374307f.jpg?v=1756245149",
     "compared": false
   },
   {
-    "id": "orig-809",
+    "id": "orig-945",
     "name": "Sol de janeiro cheirosa 59",
     "brand": "Sol de Janeiro",
     "variant": "100% Original Sellado · Código Batch",
@@ -16500,7 +16518,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-810",
+    "id": "orig-947",
     "name": "Sol de janeiro cheirosa 71",
     "brand": "Sol de Janeiro",
     "variant": "100% Original Sellado · Código Batch",
@@ -16509,7 +16527,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-811",
+    "id": "orig-946",
     "name": "Sol de janeiro rio radiance",
     "brand": "Sol de Janeiro",
     "variant": "100% Original Sellado · Código Batch",
@@ -16518,7 +16536,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-812",
+    "id": "orig-550",
     "name": "Sospiro Erba Pura Magica",
     "brand": "Sospiro Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -16527,7 +16545,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-813",
+    "id": "orig-444",
     "name": "Sospiro Il Padrino",
     "brand": "Sospiro Perfumes",
     "variant": "100% Original Sellado · Código Batch",
@@ -16536,7 +16554,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1547",
+    "id": "orig-1550",
     "name": "Spicebomb Extreme",
     "brand": "Spicebomb Extreme",
     "variant": "100% Original Sellado · Código Batch",
@@ -16545,7 +16563,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1548",
+    "id": "orig-1551",
     "name": "Spicebomb Infrared EDP (Tester sin caja)",
     "brand": "Spicebomb Infrared",
     "variant": "100% Original Sellado · Código Batch",
@@ -16554,7 +16572,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-814",
+    "id": "orig-120",
     "name": "Stephane Humbert Lucas The Queen and The Viper",
     "brand": "Stephane Humbert Lucas",
     "variant": "100% Original Sellado · Código Batch",
@@ -16563,7 +16581,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-815",
+    "id": "orig-92",
     "name": "Sultan Freya",
     "brand": "Sultan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16572,7 +16590,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-816",
+    "id": "orig-90",
     "name": "Sultan Pour Femme",
     "brand": "Sultan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16581,7 +16599,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-817",
+    "id": "orig-91",
     "name": "Sultan Pour Homme",
     "brand": "Sultan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16590,7 +16608,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-818",
+    "id": "orig-93",
     "name": "Sultan Ragner",
     "brand": "Sultan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16599,7 +16617,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-819",
+    "id": "orig-94",
     "name": "Sultan Vikingo",
     "brand": "Sultan",
     "variant": "100% Original Sellado · Código Batch",
@@ -16608,7 +16626,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-820",
+    "id": "orig-293",
     "name": "Superz Budapest Lake Balaton",
     "brand": "Superz Budapest",
     "variant": "100% Original Sellado · Código Batch",
@@ -16617,7 +16635,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-821",
+    "id": "orig-786",
     "name": "Swiss Arabian Shaghaf Oud Royale",
     "brand": "Swiss Arabian",
     "variant": "100% Original Sellado · Código Batch",
@@ -16626,7 +16644,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-822",
+    "id": "orig-319",
     "name": "Swiss Arabian Tobacco 01",
     "brand": "Swiss Arabian",
     "variant": "100% Original Sellado · Código Batch",
@@ -16635,7 +16653,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-823",
+    "id": "orig-731",
     "name": "Swiss Arabian Vanilla 01",
     "brand": "Swiss Arabian",
     "variant": "100% Original Sellado · Código Batch",
@@ -16644,7 +16662,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-824",
+    "id": "orig-613",
     "name": "Swiss Army For Her Apricot Rose",
     "brand": "Swiss Army",
     "variant": "100% Original Sellado · Código Batch",
@@ -16653,7 +16671,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-825",
+    "id": "orig-612",
     "name": "Swiss Army For Her Lilac Jasmine",
     "brand": "Swiss Army",
     "variant": "100% Original Sellado · Código Batch",
@@ -16662,7 +16680,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1696",
+    "id": "orig-1699",
     "name": "Ted Lapidus Creation",
     "brand": "Ted Lapidus",
     "variant": "100% Original Sellado · Código Batch",
@@ -16671,7 +16689,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1383",
+    "id": "orig-1387",
     "name": "Ted Lapidus Lapidus Pour Homme",
     "brand": "Ted Lapidus",
     "variant": "100% Original Sellado · Código Batch",
@@ -16680,7 +16698,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1625",
+    "id": "orig-1628",
     "name": "Terrae essense",
     "brand": "Terrae essense",
     "variant": "100% Original Sellado · Código Batch",
@@ -16689,7 +16707,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-826",
+    "id": "orig-229",
     "name": "The House Of Oud Doux Ennui EDP",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16698,7 +16716,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-827",
+    "id": "orig-228",
     "name": "The House of Oud Cypress Shade",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16707,7 +16725,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-828",
+    "id": "orig-230",
     "name": "The House of Oud Dates Delight",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16716,7 +16734,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-829",
+    "id": "orig-225",
     "name": "The House of Oud Dear Karma",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16725,7 +16743,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-830",
+    "id": "orig-224",
     "name": "The House of Oud Emerald Green",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16734,7 +16752,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-831",
+    "id": "orig-226",
     "name": "The House of Oud Guilty Crush",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16743,7 +16761,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-832",
+    "id": "orig-223",
     "name": "The House of Oud Neverending",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16752,7 +16770,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-833",
+    "id": "orig-222",
     "name": "The House of Oud Pure Diamond",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16761,7 +16779,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-834",
+    "id": "orig-227",
     "name": "The House of Oud Ruby Red",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16770,7 +16788,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-835",
+    "id": "orig-231",
     "name": "The House of Oud The Time",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16779,7 +16797,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-836",
+    "id": "orig-232",
     "name": "The House of Oud Wabisabi",
     "brand": "The House of Oud",
     "variant": "100% Original Sellado · Código Batch",
@@ -16788,7 +16806,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1682",
+    "id": "orig-1685",
     "name": "Thierry Mugler Alien",
     "brand": "Thierry Mugler",
     "variant": "100% Original Sellado · Código Batch",
@@ -16797,7 +16815,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1681",
+    "id": "orig-1684",
     "name": "Thierry Mugler Angel Dama (TESTER)",
     "brand": "Thierry Mugler",
     "variant": "100% Original Sellado · Código Batch",
@@ -16806,7 +16824,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-837",
+    "id": "orig-851",
     "name": "Tiziana Terenzi Cassiopea",
     "brand": "Tiziana Terenzi",
     "variant": "100% Original Sellado · Código Batch",
@@ -16815,7 +16833,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-838",
+    "id": "orig-10",
     "name": "Tiziana Terenzi Kirke Overdose",
     "brand": "Tiziana Terenzi",
     "variant": "100% Original Sellado · Código Batch",
@@ -16824,7 +16842,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1137",
+    "id": "orig-1142",
     "name": "Maison Alhambra Rose Petals (Alternativa de Tom Ford Rose Prick)",
     "brand": "Tom Ford",
     "variant": "100% Original Sellado · Código Batch",
@@ -16833,7 +16851,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1573",
+    "id": "orig-1576",
     "name": "TOM FORD PARFUM PURO Costa Azzura",
     "brand": "Tom Ford",
     "variant": "100% Original Sellado · Código Batch",
@@ -16842,16 +16860,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-839",
+    "id": "orig-166",
     "name": "Tom Ford Bois Pacifique",
     "brand": "Tom Ford",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 950000,
+    "price": 810000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Tomfordboispacifique.jpg?v=1787139169",
     "compared": false
   },
   {
-    "id": "orig-1246",
+    "id": "orig-1251",
     "name": "Tommy Hilfiger Tommy For Man",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
@@ -16860,7 +16878,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-840",
+    "id": "orig-779",
     "name": "Tommy Hilfiger Tommy Forever masculina",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
@@ -16869,25 +16887,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-841",
+    "id": "orig-475",
     "name": "Tommy Hilfiger Tommy Girl New York",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 270000,
+    "price": 220000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Tommygirlnewyork_1_1955e14c-aaa8-4699-ba3f-edb2d8e23ae0.png?v=1775942662",
     "compared": false
   },
   {
-    "id": "orig-842",
+    "id": "orig-621",
     "name": "Tommy Hilfiger Tommy Girl Now",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 180000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Tommy-hilfiger-dama-2.webp",
+    "price": 140000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_3e8851bc-40ef-468d-8355-71deafbcd4b2.jpg?v=1771385560",
     "compared": true
   },
   {
-    "id": "orig-843",
+    "id": "orig-802",
     "name": "Tommy Hilfiger Tommy Girl Set de regalo",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
@@ -16896,7 +16914,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-844",
+    "id": "orig-780",
     "name": "Tommy Hilfiger Tommy Girl forever",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
@@ -16905,7 +16923,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-845",
+    "id": "orig-474",
     "name": "Tommy Hilfiger Tommy New York Masculina",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
@@ -16914,7 +16932,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-846",
+    "id": "orig-801",
     "name": "Tommy Hilfiger for Men Set de regalo",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
@@ -16923,7 +16941,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1295",
+    "id": "orig-1300",
     "name": "Tonka Gold Atralia",
     "brand": "Tonka Gold",
     "variant": "100% Original Sellado · Código Batch",
@@ -16932,7 +16950,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1538",
+    "id": "orig-1541",
     "name": "Baby Tous Pink Friends",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -16941,7 +16959,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1539",
+    "id": "orig-1542",
     "name": "Bbay Tous Eau de Cologne",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -16950,7 +16968,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1897",
+    "id": "orig-1900",
     "name": "LATTAFA YARA TOUS",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -16959,7 +16977,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1742",
+    "id": "orig-1745",
     "name": "TOUS BONJOUR SEÑORITA",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -16968,7 +16986,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1744",
+    "id": "orig-1747",
     "name": "TOUS GEM PARTY",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -16977,7 +16995,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1741",
+    "id": "orig-1744",
     "name": "TOUS GEMS POWER",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -16986,7 +17004,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1743",
+    "id": "orig-1746",
     "name": "TOUS GOLD",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -16995,7 +17013,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1740",
+    "id": "orig-1743",
     "name": "TOUS HAPPY MOMENTS",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17004,7 +17022,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1698",
+    "id": "orig-1701",
     "name": "TOUS KIDS GIRL (TESTER)",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17013,7 +17031,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1747",
+    "id": "orig-1750",
     "name": "TOUS LOVEME",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17022,7 +17040,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1746",
+    "id": "orig-1749",
     "name": "TOUS LOVEME THE SILVER",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17031,7 +17049,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1719",
+    "id": "orig-1722",
     "name": "TOUS MAN CHILL",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17040,7 +17058,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1745",
+    "id": "orig-1748",
     "name": "TOUS Tradicional dama 90 ml",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17049,7 +17067,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1933",
+    "id": "orig-1936",
     "name": "TOUS YOUR POWERS EDT 90ML",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17067,7 +17085,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1542",
+    "id": "orig-1545",
     "name": "Tous Kids Bear",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17076,7 +17094,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1231",
+    "id": "orig-1236",
     "name": "Tous Kids Boy",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17085,7 +17103,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2117",
+    "id": "orig-2120",
     "name": "Tous L&#8217;Eau De Parfum EDP",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17094,7 +17112,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-847",
+    "id": "orig-389",
     "name": "Tous Love Me The Amethyst Elixir",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17103,7 +17121,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1232",
+    "id": "orig-1237",
     "name": "Tous LoveMe The Emerald Elixir",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17112,7 +17130,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2116",
+    "id": "orig-2119",
     "name": "Tous LoveMe The Onyx Parfum 90 ml",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17121,7 +17139,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1543",
+    "id": "orig-1546",
     "name": "Tous Man",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17130,7 +17148,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1545",
+    "id": "orig-1548",
     "name": "Tous Man Intense",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17139,7 +17157,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1544",
+    "id": "orig-1547",
     "name": "Tous Man Sport",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17148,7 +17166,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1540",
+    "id": "orig-1543",
     "name": "Tous Man Spritz",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17157,7 +17175,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1665",
+    "id": "orig-1668",
     "name": "Tous More More Pink",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
@@ -17175,7 +17193,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1631",
+    "id": "orig-1634",
     "name": "Tribu intense",
     "brand": "Tribu intense",
     "variant": "100% Original Sellado · Código Batch",
@@ -17184,7 +17202,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-848",
+    "id": "orig-17",
     "name": "Trivani Achiever III",
     "brand": "Trivani",
     "variant": "100% Original Sellado · Código Batch",
@@ -17193,7 +17211,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-849",
+    "id": "orig-18",
     "name": "Trivani Helper II",
     "brand": "Trivani",
     "variant": "100% Original Sellado · Código Batch",
@@ -17202,7 +17220,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-850",
+    "id": "orig-16",
     "name": "Trivani Perfectionist I",
     "brand": "Trivani",
     "variant": "100% Original Sellado · Código Batch",
@@ -17211,7 +17229,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-851",
+    "id": "orig-714",
     "name": "Tubbees Cookies & Cream",
     "brand": "Tubbees",
     "variant": "100% Original Sellado · Código Batch",
@@ -17220,7 +17238,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-852",
+    "id": "orig-790",
     "name": "Tubbees Passion Fruit Mojito",
     "brand": "Tubbees",
     "variant": "100% Original Sellado · Código Batch",
@@ -17229,7 +17247,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-853",
+    "id": "orig-889",
     "name": "Tubbees Sweet Caramel",
     "brand": "Tubbees",
     "variant": "100% Original Sellado · Código Batch",
@@ -17238,7 +17256,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-854",
+    "id": "orig-791",
     "name": "Tubbees Sweet Mango Melody",
     "brand": "Tubbees",
     "variant": "100% Original Sellado · Código Batch",
@@ -17247,7 +17265,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-855",
+    "id": "orig-792",
     "name": "Tubbees Tres leches",
     "brand": "Tubbees",
     "variant": "100% Original Sellado · Código Batch",
@@ -17256,7 +17274,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1480",
+    "id": "orig-1483",
     "name": "United Dreams Green Amazonia For Him",
     "brand": "United Dreams",
     "variant": "100% Original Sellado · Código Batch",
@@ -17265,7 +17283,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1481",
+    "id": "orig-1484",
     "name": "United Dreams Green Cactus For Him",
     "brand": "United Dreams",
     "variant": "100% Original Sellado · Código Batch",
@@ -17274,7 +17292,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1678",
+    "id": "orig-1681",
     "name": "United Dreams Live Free Dama",
     "brand": "United Dreams",
     "variant": "100% Original Sellado · Código Batch",
@@ -17283,7 +17301,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1641",
+    "id": "orig-1644",
     "name": "United Dreams Together Hombre (Tester)",
     "brand": "United Dreams",
     "variant": "100% Original Sellado · Código Batch",
@@ -17292,7 +17310,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1533",
+    "id": "orig-1536",
     "name": "Uomo Born In Roma Coral Fantasy",
     "brand": "Uomo Born",
     "variant": "100% Original Sellado · Código Batch",
@@ -17301,7 +17319,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1534",
+    "id": "orig-1537",
     "name": "Uomo Born In Roma Intense",
     "brand": "Uomo Born",
     "variant": "100% Original Sellado · Código Batch",
@@ -17310,7 +17328,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1536",
+    "id": "orig-1539",
     "name": "Uomo Born In Roma Yellow Dream",
     "brand": "Uomo Born",
     "variant": "100% Original Sellado · Código Batch",
@@ -17319,7 +17337,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1535",
+    "id": "orig-1538",
     "name": "Uomo Born in Roma hm 100 mililitros",
     "brand": "Uomo Born",
     "variant": "100% Original Sellado · Código Batch",
@@ -17328,7 +17346,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2022",
+    "id": "orig-2025",
     "name": "VAINILLA CAKE EDP 100ml",
     "brand": "VAINILLA CAKE",
     "variant": "100% Original Sellado · Código Batch",
@@ -17337,7 +17355,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1945",
+    "id": "orig-1948",
     "name": "VICTORINOX SWISS ARMY EDT 100ML",
     "brand": "VICTORINOX SWISS",
     "variant": "100% Original Sellado · Código Batch",
@@ -17346,7 +17364,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1669",
+    "id": "orig-1672",
     "name": "VALENTINO BORN IN ROMA",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17355,7 +17373,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1670",
+    "id": "orig-1673",
     "name": "VALENTINO BORN IN ROMA CORAL FANTASY",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17364,7 +17382,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1668",
+    "id": "orig-1671",
     "name": "VALENTINO BORN IN ROMA GREEN STRAVAGANZA",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17373,7 +17391,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1667",
+    "id": "orig-1670",
     "name": "VALENTINO BORN IN ROMA YELLOW DREAM",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17382,7 +17400,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1712",
+    "id": "orig-1715",
     "name": "VALENTINO VOCE VIVA",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17391,7 +17409,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1537",
+    "id": "orig-1540",
     "name": "Valentino Born In Roma Intense",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17400,7 +17418,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-856",
+    "id": "orig-407",
     "name": "Valentino Donna Born In Roma The Gold",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17409,7 +17427,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1248",
+    "id": "orig-1253",
     "name": "Valentino Donna Born in Roma Extradose",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17418,7 +17436,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-857",
+    "id": "orig-650",
     "name": "Valentino Donna Born in Roma Ivory",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17427,16 +17445,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-858",
+    "id": "orig-603",
     "name": "Valentino Donna Born in Roma Purple Melancholia",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 810000,
+    "price": 650000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Valentino_Donna_Born_in_Roma_Purple_Melancholia.jpg?v=1771821335",
     "compared": false
   },
   {
-    "id": "orig-1532",
+    "id": "orig-1535",
     "name": "Valentino Uomo Born In roma green stravaganza",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17445,7 +17463,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1118",
+    "id": "orig-1123",
     "name": "Valentino Uomo Born in Roma Extradose",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17454,7 +17472,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-859",
+    "id": "orig-608",
     "name": "Valentino Uomo Born in Roma Ivory",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17463,16 +17481,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-860",
+    "id": "orig-607",
     "name": "Valentino Uomo Born in Roma Purple Melancholia",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 710000,
+    "price": 609000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Valentino_Uomo_Purple_Melancholia.jpg?v=1771818144",
     "compared": false
   },
   {
-    "id": "orig-861",
+    "id": "orig-14",
     "name": "Valentino Vendetta Donna",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17481,7 +17499,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-862",
+    "id": "orig-15",
     "name": "Valentino Vendetta Uomo",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17490,7 +17508,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1414",
+    "id": "orig-1418",
     "name": "Valentino Voce Viva Intense , sin caja mermadada , 2/3",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
@@ -17499,7 +17517,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-863",
+    "id": "orig-139",
     "name": "Atelier Versace Ambre Nectar",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17508,7 +17526,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-864",
+    "id": "orig-136",
     "name": "Atelier Versace Cedrat de Diamante",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17517,7 +17535,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-865",
+    "id": "orig-143",
     "name": "Atelier Versace Figue Blanche",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17526,7 +17544,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-866",
+    "id": "orig-141",
     "name": "Atelier Versace Gingembre Pétillant",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17535,7 +17553,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-867",
+    "id": "orig-135",
     "name": "Atelier Versace Iris Delite",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17544,7 +17562,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-868",
+    "id": "orig-138",
     "name": "Atelier Versace Jasmin au Soleil",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17553,7 +17571,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-869",
+    "id": "orig-134",
     "name": "Atelier Versace Rêve de Myrrhe",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17562,7 +17580,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-870",
+    "id": "orig-140",
     "name": "Atelier Versace Safran Royal",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17571,7 +17589,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-871",
+    "id": "orig-142",
     "name": "Atelier Versace Santal Boisé",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17580,7 +17598,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-872",
+    "id": "orig-137",
     "name": "Atelier Versace Vanille Rouge",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17589,7 +17607,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1779",
+    "id": "orig-1782",
     "name": "VERSACE BRIGHT CRYSTAL ABSOLUT",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17598,7 +17616,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1782",
+    "id": "orig-1785",
     "name": "VERSACE CRISTAL NOIR",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17607,7 +17625,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1781",
+    "id": "orig-1784",
     "name": "VERSACE CRISTAL NOIR EDP",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17616,7 +17634,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1777",
+    "id": "orig-1780",
     "name": "VERSACE DYLAN BLUE POUR FEMME",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17625,7 +17643,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1776",
+    "id": "orig-1779",
     "name": "VERSACE DYLAN PURPLE POUR FEMME",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17634,7 +17652,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1780",
+    "id": "orig-1783",
     "name": "VERSACE DYLAN TORQUOISE POUR FEMME",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17643,7 +17661,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1774",
+    "id": "orig-1777",
     "name": "VERSACE EROS POUR FEMME EDP 100ML",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17652,7 +17670,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1775",
+    "id": "orig-1778",
     "name": "VERSACE POUR FEMME OUD ORIENTAL",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17661,7 +17679,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1713",
+    "id": "orig-1716",
     "name": "VERSACE POUR HOMME",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17670,7 +17688,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1655",
+    "id": "orig-1658",
     "name": "VERSACE RED JEANS 100ML",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17679,7 +17697,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1778",
+    "id": "orig-1781",
     "name": "VERSACE YELLOW DIAMON INTENSE",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17688,7 +17706,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2112",
+    "id": "orig-2115",
     "name": "Versace Bright Crystal EDT",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17697,7 +17715,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1660",
+    "id": "orig-1663",
     "name": "Versace Bright Crystal EDT , eau de Toilette (TESTER)",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17706,7 +17724,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1666",
+    "id": "orig-1669",
     "name": "Versace Bright Crystal EDT 90 ml",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17715,7 +17733,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1664",
+    "id": "orig-1667",
     "name": "Versace Bright Crystal Parfum 90 ml",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17724,7 +17742,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-873",
+    "id": "orig-724",
     "name": "Versace Bright Crystal set de regalo",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17733,16 +17751,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-874",
+    "id": "orig-411",
     "name": "Versace Crystal Emerald",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 430000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Versace_Crystal_Emerald.webp",
+    "price": 370000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Versace_Crystal_Emerald.jpg?v=1778461332",
     "compared": true
   },
   {
-    "id": "orig-1363",
+    "id": "orig-1367",
     "name": "Versace Crystal Noir Edt (tester)",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17751,7 +17769,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1362",
+    "id": "orig-1366",
     "name": "Versace Dylan Blue (Tester)",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17760,7 +17778,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1647",
+    "id": "orig-1650",
     "name": "Versace Dylan Blue edt ( solo en 100 mililitros )",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17769,7 +17787,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-875",
+    "id": "orig-604",
     "name": "Versace Dylan Blush Pink",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17778,7 +17796,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-1361",
+    "id": "orig-1365",
     "name": "Versace Dylan Purple (Tester)",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17787,7 +17805,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2058",
+    "id": "orig-2061",
     "name": "Versace Eros EDT",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17796,7 +17814,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1333",
+    "id": "orig-1338",
     "name": "Versace Eros EDT (Tester)",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17805,7 +17823,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1411",
+    "id": "orig-1415",
     "name": "Versace Eros Eau De Parfum",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17814,7 +17832,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1334",
+    "id": "orig-1339",
     "name": "Versace Eros Eau De Parfum (Tester)",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17823,7 +17841,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-876",
+    "id": "orig-380",
     "name": "Versace Eros Energy Set de Regalo",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17832,7 +17850,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1488",
+    "id": "orig-1491",
     "name": "Versace Eros Flame",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17841,7 +17859,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1332",
+    "id": "orig-1337",
     "name": "Versace Eros Flame (Tester)",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17850,7 +17868,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-877",
+    "id": "orig-384",
     "name": "Versace Eros Man EDP Set de Regalo",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17859,7 +17877,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1247",
+    "id": "orig-1252",
     "name": "Versace Eros Najim",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17868,7 +17886,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1218",
+    "id": "orig-1223",
     "name": "Versace Eros PARFUM (PURO), 100 ML",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17877,7 +17895,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2057",
+    "id": "orig-2060",
     "name": "Versace Man Eau Fraiche EDT 100 ml",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17886,16 +17904,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-878",
-    "name": "Versace Man Eau Fraiche Extreme",
-    "brand": "Versace",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 359800,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.107802.avif",
-    "compared": true
-  },
-  {
-    "id": "orig-1105",
+    "id": "orig-1110",
     "name": "Versace The Dreamer",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17904,7 +17913,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2110",
+    "id": "orig-2113",
     "name": "Versace Versense EDT 100 ml",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17913,7 +17922,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2111",
+    "id": "orig-2114",
     "name": "Versace Yellow Diamond EDT 90 ml",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17922,7 +17931,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-879",
+    "id": "orig-854",
     "name": "Versace Yellow Diamond intense",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17931,7 +17940,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1464",
+    "id": "orig-1467",
     "name": "Versace eros energy",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17940,7 +17949,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-880",
+    "id": "orig-871",
     "name": "Versace eros energy set de regalo",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
@@ -17949,7 +17958,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-881",
+    "id": "orig-866",
+    "name": "Versace man eau fraiche extreme",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_f28d7c31-faae-463c-ad39-4b29ff09b9d4.jpg?v=1759717254",
+    "compared": true
+  },
+  {
+    "id": "orig-86",
     "name": "Viktor & Rolf Flowerbomb Extreme",
     "brand": "Victor & Rolf",
     "variant": "100% Original Sellado · Código Batch",
@@ -17958,7 +17976,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-882",
+    "id": "orig-708",
     "name": "Viktor & Rolf Spicebomb Metallic Musk",
     "brand": "Victor & Rolf",
     "variant": "100% Original Sellado · Código Batch",
@@ -17967,7 +17985,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-883",
+    "id": "orig-846",
     "name": "Viktor Rolf Spicebomb Set de regalo",
     "brand": "Victor & Rolf",
     "variant": "100% Original Sellado · Código Batch",
@@ -17976,7 +17994,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-884",
+    "id": "orig-899",
     "name": "Victoria secret Bombshell midnight",
     "brand": "Victoria's Secret",
     "variant": "100% Original Sellado · Código Batch",
@@ -17985,7 +18003,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1432",
+    "id": "orig-1436",
     "name": "Victorinox Altitude",
     "brand": "Victorinox Altitude",
     "variant": "100% Original Sellado · Código Batch",
@@ -17994,7 +18012,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2073",
+    "id": "orig-2076",
     "name": "Victorinox Swiss Army For Her EDT 100 ml",
     "brand": "Victorinox Swiss",
     "variant": "100% Original Sellado · Código Batch",
@@ -18003,7 +18021,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-2072",
+    "id": "orig-2075",
     "name": "Victorinox Swiss Army For Her Eau Floral EDT 100 ml",
     "brand": "Victorinox Swiss",
     "variant": "100% Original Sellado · Código Batch",
@@ -18012,7 +18030,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1433",
+    "id": "orig-1437",
     "name": "Victorinox Swiss army sport",
     "brand": "Victorinox Swiss",
     "variant": "100% Original Sellado · Código Batch",
@@ -18021,7 +18039,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1617",
+    "id": "orig-1620",
     "name": "Viking cologne",
     "brand": "Viking cologne",
     "variant": "100% Original Sellado · Código Batch",
@@ -18030,7 +18048,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-885",
+    "id": "orig-588",
     "name": "Viktor & Rolf Flowerbomb Ruby Orchid",
     "brand": "Viktor & Rolf",
     "variant": "100% Original Sellado · Código Batch",
@@ -18039,7 +18057,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-886",
+    "id": "orig-929",
     "name": "Viktor Rolf Flowerbomb Ruby Orchid set de regalo",
     "brand": "Viktor & Rolf",
     "variant": "100% Original Sellado · Código Batch",
@@ -18048,7 +18066,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1658",
+    "id": "orig-1661",
     "name": "VIKTOR &amp; ROLF SPICEBOMB",
     "brand": "Viktor &amp; Rolf",
     "variant": "100% Original Sellado · Código Batch",
@@ -18057,7 +18075,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1366",
+    "id": "orig-1370",
     "name": "Viktor &amp; Rolf Flowerbomb (Tester)",
     "brand": "Viktor &amp; Rolf",
     "variant": "100% Original Sellado · Código Batch",
@@ -18066,7 +18084,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1044",
+    "id": "orig-1045",
     "name": "Viktor &amp; Rolf spicebomb dark leather",
     "brand": "Viktor &amp; Rolf",
     "variant": "100% Original Sellado · Código Batch",
@@ -18075,7 +18093,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1350",
+    "id": "orig-1354",
     "name": "Viktor &#038; Rolf Spicebomb Night Vision (Tester)",
     "brand": "Viktor 038",
     "variant": "100% Original Sellado · Código Batch",
@@ -18084,7 +18102,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-887",
+    "id": "orig-644",
     "name": "Voet Amber Mirage",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -18093,7 +18111,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-888",
+    "id": "orig-720",
     "name": "Voet Amber Skin",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -18102,7 +18120,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-889",
+    "id": "orig-377",
     "name": "Voet Golden Vice",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -18111,7 +18129,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-890",
+    "id": "orig-722",
     "name": "Voet Nocturne",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -18120,7 +18138,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-891",
+    "id": "orig-712",
     "name": "Voet Noir Blossom",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -18129,7 +18147,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-892",
+    "id": "orig-721",
     "name": "Voet Pearl Obsession",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -18138,7 +18156,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-893",
+    "id": "orig-78",
     "name": "Voet Serenity",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -18147,7 +18165,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-894",
+    "id": "orig-376",
     "name": "Voet Wild Caramel",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -18156,16 +18174,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-895",
+    "id": "orig-339",
     "name": "Xerjoff 1861 Zefiro",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 950000,
+    "price": 810000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/XerjoffZefiro1861.png?v=1781327881",
     "compared": false
   },
   {
-    "id": "orig-896",
+    "id": "orig-715",
     "name": "Xerjoff Coro",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18174,7 +18192,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1244",
+    "id": "orig-1249",
     "name": "Xerjoff Erba Gold",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18183,7 +18201,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-897",
+    "id": "orig-81",
     "name": "Xerjoff Lamborghini Avanguardia",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18192,7 +18210,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-898",
+    "id": "orig-82",
     "name": "Xerjoff Lamborghini Fierezza",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18201,7 +18219,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-899",
+    "id": "orig-80",
     "name": "Xerjoff Lamborghini Perseveranza",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18210,7 +18228,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-900",
+    "id": "orig-417",
     "name": "Xerjoff Shooting Stars Cruz del Sur I",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18219,7 +18237,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-901",
+    "id": "orig-515",
     "name": "Xerjoff Shooting Stars Cruz del Sur II",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18228,7 +18246,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-902",
+    "id": "orig-510",
     "name": "Xerjoff Shooting Stars Nio",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18237,7 +18255,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-903",
+    "id": "orig-416",
     "name": "Xerjoff Shooting Stars Oesel",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18246,16 +18264,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-904",
+    "id": "orig-415",
     "name": "Xerjoff Starlight",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 850000,
+    "price": 750000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/XerjoffStarlight.jpg?v=1778029414",
     "compared": false
   },
   {
-    "id": "orig-905",
+    "id": "orig-609",
     "name": "Xerjoff Tony Iommi deified",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18264,7 +18282,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-906",
+    "id": "orig-449",
     "name": "Xerjoff Torino 24",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18273,7 +18291,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-907",
+    "id": "orig-119",
     "name": "Xerjoff Torino 25",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18282,7 +18300,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1245",
+    "id": "orig-1250",
     "name": "Xerjoff XJ 1861 Naxos",
     "brand": "Xerjoff",
     "variant": "100% Original Sellado · Código Batch",
@@ -18291,7 +18309,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1549",
+    "id": "orig-1552",
     "name": "Black Opium EDP",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18300,7 +18318,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-908",
+    "id": "orig-484",
     "name": "Yves Saint Laurent Babycat",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18309,7 +18327,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-909",
+    "id": "orig-189",
     "name": "Yves Saint Laurent Black Opium Glitter",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18318,7 +18336,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-910",
+    "id": "orig-845",
     "name": "Yves Saint Laurent Black Opium set de regalo",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18327,7 +18345,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-911",
+    "id": "orig-349",
     "name": "Yves Saint Laurent Libre Berry Crush",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18336,7 +18354,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-912",
+    "id": "orig-116",
     "name": "Yves Saint Laurent Libre EDT",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18345,7 +18363,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1258",
+    "id": "orig-1263",
     "name": "Yves Saint Laurent Libre Intense",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18354,7 +18372,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1055",
+    "id": "orig-1056",
     "name": "Yves Saint Laurent Libre Le Parfum",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18363,7 +18381,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-913",
+    "id": "orig-787",
     "name": "Yves Saint Laurent Libre L’Eau Nue",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18372,7 +18390,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1080",
+    "id": "orig-1083",
     "name": "Yves Saint Laurent MYSLF EDP X 100 MILILITROS",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18381,7 +18399,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-914",
+    "id": "orig-342",
     "name": "Yves Saint Laurent MYSLF Eau de Toilette Intense",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18390,7 +18408,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-915",
+    "id": "orig-864",
+    "name": "Yves Saint Laurent MYSLF L’Absolu",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 810000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c12e68b4-a382-4b90-8ed1-b673066c3859.jpg?v=1759719008",
+    "compared": false
+  },
+  {
+    "id": "orig-281",
     "name": "Yves Saint Laurent Opium",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18399,7 +18426,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-916",
+    "id": "orig-485",
     "name": "Yves Saint Laurent Tuxedo Sharp Patchouli",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18408,7 +18435,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1550",
+    "id": "orig-1553",
     "name": "Yves Saint Laurent Y EDP Intense",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18417,7 +18444,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1553",
+    "id": "orig-1556",
     "name": "Yves Saint Laurent Y EDT",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18426,7 +18453,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1551",
+    "id": "orig-1554",
     "name": "Yves Saint Laurent Y Eau De Parfum ( edp )",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18435,16 +18462,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-917",
+    "id": "orig-433",
     "name": "Yves Saint Laurent Y Iced Cologne",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 750000,
+    "price": 590000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Yves_saint_laurent_Y_ICED_cologne.jpg?v=1777338419",
     "compared": false
   },
   {
-    "id": "orig-1552",
+    "id": "orig-1555",
     "name": "Yves Saint Laurent Y Le Parfum 100 mililitros",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
@@ -18453,16 +18480,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-918",
+    "id": "orig-1082",
     "name": "Yves saint laurent MYSLF Le parfum",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
     "price": 730000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/09/YSL_MYSLF.webp",
-    "compared": true
+    "compared": false
   },
   {
-    "id": "orig-919",
+    "id": "orig-74",
     "name": "Zakat Eagle of Arabia",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
@@ -18471,7 +18498,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-920",
+    "id": "orig-160",
     "name": "Zakat World Cup",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
@@ -18480,7 +18507,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-921",
+    "id": "orig-159",
     "name": "Zakat World Cup VIP",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
@@ -18489,7 +18516,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-922",
+    "id": "orig-592",
     "name": "Zakat You Are My Fire",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
@@ -18498,8 +18525,8 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-923",
-    "name": "Zakat Z 25 Parfum",
+    "id": "orig-797",
+    "name": "Zakat Z 25 Parfum (dupe Bond Bleecker)",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
     "price": 240000,
@@ -18507,7 +18534,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-924",
+    "id": "orig-653",
     "name": "Zakat Z28",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
@@ -18516,7 +18543,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-925",
+    "id": "orig-736",
     "name": "Zakat z35",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
@@ -18525,7 +18552,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-988",
+    "id": "orig-987",
     "name": "Zakat Z23 Parfum",
     "brand": "Zakat Z23",
     "variant": "100% Original Sellado · Código Batch",
@@ -18552,7 +18579,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-987",
+    "id": "orig-986",
     "name": "Zakat z12",
     "brand": "Zakat z12",
     "variant": "100% Original Sellado · Código Batch",
@@ -18561,7 +18588,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-926",
+    "id": "orig-968",
     "name": "Zimaya Tiramisu caramel",
     "brand": "Zimaya",
     "variant": "100% Original Sellado · Código Batch",
@@ -18570,7 +18597,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-927",
+    "id": "orig-877",
+    "name": "Agatha Ruiz de la Prada Gotas de Color Dot To Dot",
+    "brand": "agatha ruiz de la prada",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_cb642de9-11b1-4dd9-8ba6-2a078e964714.jpg?v=1758982905",
+    "compared": false
+  },
+  {
+    "id": "orig-385",
     "name": "Agatha Ruiz de la Prada Gotas de Color Pink Spritz",
     "brand": "agatha ruiz de la prada",
     "variant": "100% Original Sellado · Código Batch",
@@ -18579,25 +18615,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-928",
-    "name": "Agatha Ruiz de la Prada Gotas de Color Pink Spritz",
-    "brand": "agatha ruiz de la prada",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 180000,
-    "image": "https://disperfumes.com/wp-content/uploads/2026/07/gotasdecolorpinkspritz_2.webp",
-    "compared": true
-  },
-  {
-    "id": "orig-929",
+    "id": "orig-492",
     "name": "Giorgio Armani Acqua di Gio Profondo EDT",
     "brand": "armani",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 570000,
+    "price": 480000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Giorgio_Armani_Acqua_di_Gio_Profondo_EDT.jpg?v=1775619573",
     "compared": false
   },
   {
-    "id": "orig-930",
+    "id": "orig-480",
     "name": "Giorgio Armani Stronger With You Powerfully",
     "brand": "armani",
     "variant": "100% Original Sellado · Código Batch",
@@ -18606,7 +18633,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1095",
+    "id": "orig-1099",
     "name": "game of spades Bonus Jo Milano",
     "brand": "game of",
     "variant": "100% Original Sellado · Código Batch",
@@ -18615,7 +18642,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1093",
+    "id": "orig-1097",
     "name": "game of spades jackpot Jo Milano",
     "brand": "game of",
     "variant": "100% Original Sellado · Código Batch",
@@ -18624,7 +18651,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-931",
+    "id": "orig-178",
     "name": "Combo Lattafa Yara Elixir + Lattafa Asad Elixir",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18633,7 +18660,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-932",
+    "id": "orig-401",
     "name": "Lattafa Al Qiam Gold Set de Regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18642,7 +18669,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-933",
+    "id": "orig-860",
     "name": "Lattafa Ana abiyedh Coral",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18651,7 +18678,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-934",
+    "id": "orig-512",
     "name": "Lattafa Angham Second Song",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18660,7 +18687,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-935",
+    "id": "orig-842",
     "name": "Lattafa Art Of Universe set de regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18669,7 +18696,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-936",
+    "id": "orig-853",
     "name": "Lattafa Art of Wood",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18678,7 +18705,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-937",
+    "id": "orig-402",
     "name": "Lattafa Artisan Ethnique Set de Regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18687,7 +18714,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-938",
+    "id": "orig-955",
     "name": "Lattafa Asad + Asad Zanzibar set de regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18696,7 +18723,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-939",
+    "id": "orig-346",
     "name": "Lattafa Asad Bourbon Set de Regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18705,7 +18732,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-940",
+    "id": "orig-771",
     "name": "Lattafa Asad Elixir",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18714,7 +18741,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-941",
+    "id": "orig-158",
     "name": "Lattafa Asad Elixir Combo 3X2",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18723,7 +18750,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-942",
+    "id": "orig-660",
     "name": "Lattafa Asad Zanzibar Limited Edition",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18732,7 +18759,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-943",
+    "id": "orig-179",
     "name": "Lattafa Bade'e Al Oud Amethyst Fusion",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18741,7 +18768,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-944",
+    "id": "orig-71",
     "name": "Lattafa Badee Al Oud Black Exposed",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18750,7 +18777,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-945",
+    "id": "orig-833",
     "name": "Lattafa Berry On Top Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18759,7 +18786,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-946",
+    "id": "orig-837",
     "name": "Lattafa Choco Overdose Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18768,7 +18795,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-947",
+    "id": "orig-835",
     "name": "Lattafa Cookie Crave Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18777,7 +18804,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-948",
+    "id": "orig-392",
     "name": "Lattafa Dalal",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18786,7 +18813,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-949",
+    "id": "orig-753",
     "name": "Lattafa Dynasty",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18795,7 +18822,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-950",
+    "id": "orig-859",
     "name": "Lattafa Eclaire Banoffi",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18804,7 +18831,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-951",
+    "id": "orig-858",
     "name": "Lattafa Eclaire Pistache",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18813,7 +18840,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-952",
+    "id": "orig-495",
     "name": "Lattafa Eclaire Set de Regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18822,7 +18849,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-953",
+    "id": "orig-511",
     "name": "Lattafa Eternal Vanille",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18831,7 +18858,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-954",
+    "id": "orig-400",
     "name": "Lattafa Fakhar Black Set de Regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18840,7 +18867,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-955",
+    "id": "orig-706",
     "name": "Lattafa Fire on Ice",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18849,7 +18876,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-956",
+    "id": "orig-472",
     "name": "Lattafa Habik Masculino",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18858,7 +18885,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-957",
+    "id": "orig-921",
     "name": "Lattafa Hayaati",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18867,7 +18894,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-958",
+    "id": "orig-375",
     "name": "Lattafa Ishq Al Shuyukh Silver set de regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18876,7 +18903,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-959",
+    "id": "orig-311",
     "name": "Lattafa Khamrah Waha",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18885,7 +18912,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-960",
+    "id": "orig-368",
     "name": "Lattafa London The City of Contrast",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18894,7 +18921,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-961",
+    "id": "orig-369",
     "name": "Lattafa Love in Paris",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18903,7 +18930,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-962",
+    "id": "orig-294",
     "name": "Lattafa Maahir Honor",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18912,8 +18939,8 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-963",
-    "name": "Lattafa Mallow Madness Give Me Gourmand",
+    "id": "orig-836",
+    "name": "Lattafa Mallow madness Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
     "price": 259800,
@@ -18921,7 +18948,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-964",
+    "id": "orig-496",
     "name": "Lattafa Mayar Set de regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18930,7 +18957,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-965",
+    "id": "orig-625",
     "name": "Lattafa Musamam Black Intense",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18939,7 +18966,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-966",
+    "id": "orig-493",
     "name": "Lattafa Musamam White Intense Set de Regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18948,7 +18975,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-967",
+    "id": "orig-808",
     "name": "Lattafa Nebras Elixir",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18957,7 +18984,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-968",
+    "id": "orig-370",
     "name": "Lattafa New York City of Dreams",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18966,7 +18993,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-969",
+    "id": "orig-857",
     "name": "Lattafa Opulent Dubai",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18975,7 +19002,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-970",
+    "id": "orig-891",
     "name": "Lattafa Petra",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18984,7 +19011,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-971",
+    "id": "orig-347",
     "name": "Lattafa Pisa Set de Regalo",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -18993,7 +19020,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-972",
+    "id": "orig-587",
     "name": "Lattafa Pride set 5x20ML #5",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19002,7 +19029,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-973",
+    "id": "orig-622",
     "name": "Lattafa Queen Of Arabia",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19011,7 +19038,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-974",
+    "id": "orig-390",
     "name": "Lattafa Raed Intensely",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19020,7 +19047,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-975",
+    "id": "orig-661",
     "name": "Lattafa Sherif",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19029,7 +19056,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-976",
+    "id": "orig-554",
     "name": "Lattafa Suqraat",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19038,7 +19065,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-977",
+    "id": "orig-834",
     "name": "Lattafa Vanilla Freak Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19047,7 +19074,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-978",
+    "id": "orig-832",
     "name": "Lattafa Whipped Pleasure Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19056,7 +19083,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-979",
+    "id": "orig-770",
     "name": "Lattafa Yara Elixir",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19065,7 +19092,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": true
   },
   {
-    "id": "orig-980",
+    "id": "orig-157",
     "name": "Lattafa Yara Elixir Combo 3X2",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19074,7 +19101,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-981",
+    "id": "orig-895",
     "name": "Lattafa set miniaturas",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19083,7 +19110,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-982",
+    "id": "orig-391",
     "name": "lattafa raed absolu",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19092,7 +19119,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1525",
+    "id": "orig-1528",
     "name": "luna rossa ocean EDP",
     "brand": "luna rossa",
     "variant": "100% Original Sellado · Código Batch",
@@ -19101,7 +19128,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1629",
+    "id": "orig-1632",
     "name": "touch",
     "brand": "touch",
     "variant": "100% Original Sellado · Código Batch",
@@ -19110,7 +19137,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1531",
+    "id": "orig-1534",
     "name": "uomo born in roma rockstud noir",
     "brand": "uomo born",
     "variant": "100% Original Sellado · Código Batch",
@@ -19119,7 +19146,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-983",
+    "id": "orig-191",
     "name": "Voet Paradise",
     "brand": "voet",
     "variant": "100% Original Sellado · Código Batch",
@@ -19128,7 +19155,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-984",
+    "id": "orig-646",
     "name": "Voet Velvet Flame",
     "brand": "voet",
     "variant": "100% Original Sellado · Código Batch",
