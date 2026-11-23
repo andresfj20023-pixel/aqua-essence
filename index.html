@@ -2591,6 +2591,63 @@
         // Enlace público oficial del Logo de Aqua Essence para los correos electrónicos
         const OFFICIAL_LOGO_URL = 'https://raw.githubusercontent.com/andresfj20023-pixel/aqua-essence/main/assets/logo.png';
 
+        // Función universal de envío de correos (compatible con Vercel, dominio web y pruebas en archivo local file:///)
+        function sendFormEmail(targetEmail, payload) {
+            if (!targetEmail || !targetEmail.includes('@')) return;
+
+            if (window.location.protocol === 'http:' || window.location.protocol === 'https:') {
+                fetch(`https://formsubmit.co/ajax/${targetEmail}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                    body: JSON.stringify(payload)
+                }).then(res => res.json())
+                    .then(d => {
+                        console.log('Correo despachado con éxito vía AJAX:', d);
+                        if (d && (d.success === 'false' || d.success === false)) {
+                            sendViaHiddenForm(targetEmail, payload);
+                        }
+                    })
+                    .catch(() => sendViaHiddenForm(targetEmail, payload));
+            } else {
+                sendViaHiddenForm(targetEmail, payload);
+            }
+        }
+
+        function sendViaHiddenForm(targetEmail, payload) {
+            try {
+                let iframe = document.getElementById('hidden_email_iframe');
+                if (!iframe) {
+                    iframe = document.createElement('iframe');
+                    iframe.id = 'hidden_email_iframe';
+                    iframe.name = 'hidden_email_iframe';
+                    iframe.style.display = 'none';
+                    document.body.appendChild(iframe);
+                }
+
+                const form = document.createElement('form');
+                form.action = `https://formsubmit.co/${targetEmail}`;
+                form.method = 'POST';
+                form.target = 'hidden_email_iframe';
+                form.style.display = 'none';
+
+                for (const [k, v] of Object.entries(payload)) {
+                    const input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = k;
+                    input.value = typeof v === 'object' ? JSON.stringify(v) : v;
+                    form.appendChild(input);
+                }
+
+                document.body.appendChild(form);
+                form.submit();
+                setTimeout(() => {
+                    try { document.body.removeChild(form); } catch(e){}
+                }, 3000);
+            } catch (err) {
+                console.log('Error en fallback de envío:', err);
+            }
+        }
+
         // Notificación automática al correo del cliente cuando el Administrador actualiza el estado
         function sendOrderStatusUpdateEmail(order, newStatus) {
             const cust = order.customer || {};
@@ -2638,17 +2695,7 @@
                 ATENCION_AL_CLIENTE: 'WhatsApp Oficial: 3206062038 · Medellín, Colombia'
             };
 
-            try {
-                fetch(`https://formsubmit.co/ajax/${cust.correo}`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                    body: JSON.stringify(payload)
-                }).then(res => res.json())
-                    .then(d => console.log('Notificación de cambio de estado enviada al cliente por correo:', d))
-                    .catch(e => console.log('Error enviando notificación de estado:', e));
-            } catch (err) {
-                console.log('Error correo estado:', err);
-            }
+            sendFormEmail(cust.correo, payload);
         }
 
         // Envío directo de correos al pulsar "Pagar": Notificación al Administrador y Confirmación al Cliente (Estilo Clemont)
@@ -2679,17 +2726,7 @@
                 Instrucciones: 'El cliente debe consignar a Bancolombia 10362869492 o Llave 1001132365 y enviar el comprobante con el número de pedido al WhatsApp 3206062038 para validación manual.'
             };
 
-            try {
-                fetch(`https://formsubmit.co/ajax/${adminEmail}`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                    body: JSON.stringify(adminPayload)
-                }).then(res => res.json())
-                    .then(d => console.log('Notificación enviada al administrador:', d))
-                    .catch(e => console.log('Error enviando correo a admin:', e));
-            } catch (err) {
-                console.log('Error correo admin:', err);
-            }
+            sendFormEmail(adminEmail, adminPayload);
 
             // 2. Correo de Confirmación de Pedido al Cliente (Estilo Clemont)
             if (user.correo && user.correo.includes('@')) {
@@ -2714,17 +2751,7 @@
                     IMPORTANTE: 'Pedido sin enviar soporte después de un día se cancelará.'
                 };
 
-                try {
-                    fetch(`https://formsubmit.co/ajax/${user.correo}`, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                        body: JSON.stringify(clientPayload)
-                    }).then(res => res.json())
-                        .then(d => console.log('Confirmación enviada al cliente:', d))
-                        .catch(e => console.log('Error enviando correo a cliente:', e));
-                } catch (err) {
-                    console.log('Error correo cliente:', err);
-                }
+                sendFormEmail(user.correo, clientPayload);
             }
 
             // 3. Envío al Webhook de Google Sheets (Apps Script envía directamente desde andresfj20023@gmail.com con el diseño HTML idéntico a Clemont)
@@ -3084,17 +3111,7 @@
                 Enlace_WhatsApp: cleanPhone ? `https://wa.me/57${cleanPhone}` : 'No especificado'
             };
 
-            try {
-                fetch(`https://formsubmit.co/ajax/${adminEmail}`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                    body: JSON.stringify(payload)
-                }).then(res => res.json())
-                    .then(d => console.log('Notificación de nuevo cliente enviada al admin por correo:', d))
-                    .catch(e => console.log('Error enviando notificación nuevo cliente:', e));
-            } catch (err) {
-                console.log('Error correo nuevo cliente:', err);
-            }
+            sendFormEmail(adminEmail, payload);
         }
 
         function showAuthError(msg) {
