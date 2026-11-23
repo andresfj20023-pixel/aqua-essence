@@ -2527,10 +2527,11 @@
             }
         }
 
-        // Sincronizar cambio de estado de pedido en la nube
-        function syncStatusToCloudDatabase(orderCode, status) {
+        // Sincronizar cambio de estado de pedido en la nube y notificar
+        function syncStatusToCloudDatabase(orderCode, status, customer) {
             const cloudUrl = getCloudDbUrl();
             if (!cloudUrl) return;
+            const cust = customer || {};
             try {
                 fetch(cloudUrl, {
                     method: 'POST',
@@ -2539,11 +2540,74 @@
                     body: JSON.stringify({
                         type: 'actualizar_estado',
                         orderCode: orderCode,
-                        status: status
+                        status: status,
+                        cliente: cust.nombre || '',
+                        correo: cust.correo || '',
+                        telefono: cust.telefono || '',
+                        ciudad: cust.ciudad || '',
+                        direccion: cust.direccion || ''
                     })
                 }).catch(e => console.log('Error sincronizando estado en la nube:', e));
             } catch (err) {
                 console.log(err);
+            }
+        }
+
+        // Notificación automática al correo del cliente cuando el Administrador actualiza el estado
+        function sendOrderStatusUpdateEmail(order, newStatus) {
+            const cust = order.customer || {};
+            if (!cust.correo || !cust.correo.includes('@')) return;
+
+            let statusTitle = '';
+            let statusDesc = '';
+            let statusEmoji = '📦';
+
+            if (newStatus === 'En preparación') {
+                statusEmoji = '📦';
+                statusTitle = `Tu pedido #${order.orderCode} está en preparación`;
+                statusDesc = `¡Hola ${cust.nombre}! Tu pago ha sido confirmado exitosamente y nuestro equipo ya está empaquetando tus fragancias con el máximo cuidado para entregarlas a la transportadora.`;
+            } else if (newStatus === 'Enviado') {
+                statusEmoji = '🚚';
+                statusTitle = `¡Tu pedido #${order.orderCode} va en camino!`;
+                statusDesc = `¡Buenas noticias, ${cust.nombre}! Tu pedido ya fue despachado y se encuentra en ruta hacia tu dirección (${cust.direccion}, ${cust.ciudad}). Tiempo estimado de entrega: de 1 a 3 días hábiles.`;
+            } else if (newStatus === 'Entregado') {
+                statusEmoji = '🎉';
+                statusTitle = `¡Tu pedido #${order.orderCode} ha sido entregado!`;
+                statusDesc = `¡Hola ${cust.nombre}! Tu paquete ha sido entregado exitosamente. Esperamos que disfrutes al máximo tus fragancias exclusivas. ¡Muchas gracias por confiar en Aqua Essence!`;
+            } else if (newStatus === 'Cancelado') {
+                statusEmoji = '❌';
+                statusTitle = `Actualización: Pedido #${order.orderCode} Cancelado`;
+                statusDesc = `Hola ${cust.nombre}, te informamos que tu pedido #${order.orderCode} ha sido cancelado. Si tienes alguna inquietud o requieres soporte, escríbenos a nuestro WhatsApp oficial 3206062038.`;
+            } else {
+                statusEmoji = '⏳';
+                statusTitle = `Actualización de tu pedido #${order.orderCode}`;
+                statusDesc = `Hola ${cust.nombre}, te informamos que tu pedido #${order.orderCode} se encuentra en estado: ${newStatus}.`;
+            }
+
+            const payload = {
+                _subject: `${statusEmoji} ${statusTitle} - Aqua Essence`,
+                _template: 'box',
+                _captcha: 'false',
+                PEDIDO: `#${order.orderCode}`,
+                ESTADO: newStatus.toUpperCase(),
+                MENSAJE: statusDesc,
+                DESTINATARIO: `${cust.nombre} (${cust.telefono || ''})`,
+                DIRECCION_ENTREGA: `${cust.direccion || ''}, ${cust.ciudad || ''}`,
+                METODO_ENVIO: order.shippingText || 'Estándar',
+                TOTAL: `$${Number(order.total || 0).toLocaleString('es-CO')} COP`,
+                ATENCION_AL_CLIENTE: 'WhatsApp Oficial: 3206062038 · Medellín, Colombia'
+            };
+
+            try {
+                fetch(`https://formsubmit.co/ajax/${cust.correo}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                    body: JSON.stringify(payload)
+                }).then(res => res.json())
+                    .then(d => console.log('Notificación de cambio de estado enviada al cliente por correo:', d))
+                    .catch(e => console.log('Error enviando notificación de estado:', e));
+            } catch (err) {
+                console.log('Error correo estado:', err);
             }
         }
 
@@ -3241,7 +3305,8 @@ Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!
             const allOrders = getAllOrders();
             const idx = allOrders.findIndex(o => o.orderCode === orderCode);
             if (idx !== -1) {
-                allOrders[idx].status = newStatus;
+                const targetOrder = allOrders[idx];
+                targetOrder.status = newStatus;
                 saveAllOrders(allOrders);
 
                 // Si el usuario actual o en la lista de usuarios tiene este pedido, actualizarlo también
@@ -3254,10 +3319,13 @@ Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!
                 });
                 saveUsers(users);
 
-                // Sincronizar actualización de estado a Google Sheets en la nube
-                syncStatusToCloudDatabase(orderCode, newStatus);
+                // 1. Notificación automática por correo al cliente con el nuevo estado
+                sendOrderStatusUpdateEmail(targetOrder, newStatus);
 
-                showToast(`Pedido #${orderCode} actualizado a: ${newStatus}`);
+                // 2. Sincronizar actualización de estado a Google Sheets en la nube
+                syncStatusToCloudDatabase(orderCode, newStatus, targetOrder.customer);
+
+                showToast(`Pedido #${orderCode} actualizado a "${newStatus}" y notificado al cliente por correo.`);
                 renderAdminDashboard();
             }
         }
@@ -3366,6 +3434,8 @@ TOTAL A RECAUDAR / COBRAR: $${Number(o.total || 0).toLocaleString('es-CO')} COP
                 const c = o.customer || {};
                 const cleanPhone = (c.telefono || '').replace(/\D/g, '');
                 const waLink = cleanPhone ? `https://wa.me/57${cleanPhone}` : '#';
+                const msgUpdate = `¡Hola ${c.nombre || 'Cliente'}! Te informamos desde *Aqua Essence* que tu pedido *#${o.orderCode}* ha sido actualizado a estado: *${o.status || 'Pendiente'}*.\n\n📍 Destino: ${c.direccion || ''}, ${c.ciudad || ''}\n🚚 Método: ${o.shippingText || 'Estándar'}\n\nCualquier duda con gusto te atendemos por este medio. ¡Muchas gracias por tu compra!`;
+                const notifyWaLink = cleanPhone ? `https://wa.me/57${cleanPhone}?text=${encodeURIComponent(msgUpdate)}` : '#';
 
                 let statusBadgeBg = 'bg-amber-100 text-amber-800 border-amber-300';
                 if (o.status === 'En preparación') statusBadgeBg = 'bg-blue-100 text-blue-800 border-blue-300';
@@ -3410,10 +3480,14 @@ TOTAL A RECAUDAR / COBRAR: $${Number(o.total || 0).toLocaleString('es-CO')} COP
                             <div class="p-3.5 rounded-xl bg-[#FAF9F6] border border-[#EAE8E3] space-y-1.5">
                                 <div class="text-[10px] font-bold uppercase tracking-wider text-[#888888]">Datos del Comprador</div>
                                 <div class="font-bold text-[#111111] text-sm">${c.nombre || 'Cliente'}</div>
-                                <div class="flex items-center gap-2 pt-0.5">
+                                <div class="flex flex-wrap items-center gap-1.5 pt-0.5">
                                     <a href="${waLink}" target="_blank"
                                         class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-[#25D366]/15 hover:bg-[#25D366]/25 text-[#128C7E] font-bold transition">
                                         💬 WhatsApp: ${c.telefono || 'Sin teléfono'}
+                                    </a>
+                                    <a href="${notifyWaLink}" target="_blank"
+                                        class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-[#111111] hover:bg-[#252525] text-white font-semibold transition text-[11px]" title="Enviar mensaje con el estado actual a su WhatsApp">
+                                        📲 Avisar Estado
                                     </a>
                                 </div>
                                 <div class="text-[#666666] text-[11px]">✉️ ${c.correo || 'Sin correo'}</div>

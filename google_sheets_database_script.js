@@ -246,7 +246,29 @@ function doPost(e) {
           var codeInSheet = String(pCodes[k][0]).replace(/^#/, '').trim();
           if (codeInSheet === targetCode) {
             sheetPedidos.getRange(k + 2, 11).setValue(data.status || 'Pendiente');
-            return ContentService.createTextOutput(JSON.stringify({ status: "success", message: "Estado de pedido actualizado" }))
+
+            // Enviar notificación automática por correo al cliente desde andresfj20023@gmail.com
+            var customerEmail = (data.correo || String(sheetPedidos.getRange(k + 2, 5).getValue() || '')).trim();
+            var customerName = (data.cliente || String(sheetPedidos.getRange(k + 2, 3).getValue() || 'Cliente')).trim();
+
+            if (customerEmail && customerEmail.indexOf('@') > -1) {
+              try {
+                var updateSubject = "Actualización de tu pedido #" + targetCode + ": " + (data.status || 'Pendiente');
+                var updateHtml = buildClemontStyleStatusEmail(targetCode, data.status, customerName, data);
+
+                MailApp.sendEmail({
+                  to: customerEmail,
+                  subject: updateSubject,
+                  name: "Aqua Essence",
+                  htmlBody: updateHtml
+                });
+                Logger.log("Correo de actualización enviado exitosamente a: " + customerEmail);
+              } catch (eMail) {
+                Logger.log("Error enviando correo de actualización: " + eMail.toString());
+              }
+            }
+
+            return ContentService.createTextOutput(JSON.stringify({ status: "success", message: "Estado de pedido actualizado y notificado al cliente" }))
               .setMimeType(ContentService.MimeType.JSON);
           }
         }
@@ -402,4 +424,84 @@ function buildClemontStyleCustomerEmail(data, totalFormatted, waLink) {
 
     "</div>" +
     "</body></html>";
+}
+
+// =========================================================================
+// PLANTILLA DE NOTIFICACIÓN DE ESTADO AL CLIENTE (ESTILO CLEMONT)
+// =========================================================================
+function buildClemontStyleStatusEmail(orderCode, status, cliente, data) {
+  var waSupport = "https://wa.me/57" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent("¡Hola Aqua Essence! Tengo una consulta sobre mi pedido #" + orderCode);
+  var statusBadgeColor = "#D4AF37";
+  var statusDesc = "Estamos preparando tu pedido para enviarlo.";
+  var statusIcon = "📦";
+
+  if (status === "En preparación") {
+    statusBadgeColor = "#2563EB";
+    statusIcon = "📦";
+    statusDesc = "Tu pago ha sido confirmado exitosamente y nuestro equipo ya está empaquetando tus fragancias con los más altos estándares de calidad.";
+  } else if (status === "Enviado") {
+    statusBadgeColor = "#7C3AED";
+    statusIcon = "🚚";
+    statusDesc = "¡Buenas noticias! Tu pedido ya fue despachado y se encuentra en camino hacia tu destino. Tiempo estimado de entrega: de 1 a 3 días hábiles.";
+  } else if (status === "Entregado") {
+    statusBadgeColor = "#059669";
+    statusIcon = "🎉";
+    statusDesc = "Tu paquete ha sido entregado exitosamente. Esperamos que disfrutes al máximo tus fragancias exclusivas. ¡Gracias por confiar en Aqua Essence!";
+  } else if (status === "Cancelado") {
+    statusBadgeColor = "#DC2626";
+    statusIcon = "❌";
+    statusDesc = "Tu pedido #" + orderCode + " ha sido cancelado. Si tienes dudas o deseas reactivarlo, comunícate con nosotros por WhatsApp.";
+  }
+
+  return "<!DOCTYPE html>" +
+    "<html><head><meta charset='utf-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/></head>" +
+    "<body style='margin: 0; padding: 0; background-color: #f7f7f7; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;'>" +
+    "<div style='max-width: 580px; margin: 30px auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e5e5e5;'>" +
+
+    // ENCABEZADO
+    "<div style='padding: 35px 35px 20px 35px; border-bottom: 1px solid #f0f0f0;'>" +
+    "<table style='width: 100%; border-collapse: collapse;'>" +
+    "<tr>" +
+    "<td style='vertical-align: middle;'>" +
+    "<span style='font-family: Georgia, serif; font-size: 28px; font-weight: bold; color: #111111; letter-spacing: -0.5px;'>Aqua Essence</span>" +
+    "</td>" +
+    "<td style='vertical-align: middle; text-align: right;'>" +
+    "<span style='font-size: 11px; font-weight: 600; color: #888888; text-transform: uppercase; letter-spacing: 1px;'>PEDIDO #" + orderCode + "</span>" +
+    "</td>" +
+    "</tr>" +
+    "</table>" +
+    "</div>" +
+
+    // CUERPO DEL MENSAJE
+    "<div style='padding: 35px;'>" +
+
+    "<div style='margin-bottom: 25px;'>" +
+    "<span style='display: inline-block; padding: 4px 12px; border-radius: 999px; background-color: #FAF9F6; border: 1px solid #EAE8E3; font-size: 12px; font-weight: 700; color: " + statusBadgeColor + "; text-transform: uppercase; letter-spacing: 0.5px;'>" +
+    statusIcon + " ESTADO: " + status.toUpperCase() +
+    "</span>" +
+    "</div>" +
+
+    "<h2 style='font-family: Georgia, serif; font-size: 22px; color: #111111; margin: 0 0 12px 0;'>¡Hola, " + cliente + "!</h2>" +
+    "<p style='font-size: 14px; line-height: 1.6; color: #555555; margin: 0 0 25px 0;'>" + statusDesc + "</p>" +
+
+    // BOTÓN DE ACCIÓN
+    "<div style='margin: 30px 0; text-align: center;'>" +
+    "<a href='" + waSupport + "' target='_blank' style='background: #111111; color: #ffffff; padding: 13px 28px; border-radius: 999px; text-decoration: none; font-size: 13px; font-weight: 600; display: inline-block;'>Consultar por WhatsApp</a>" +
+    "</div>" +
+
+    // PIE DE INFORMACIÓN
+    "<div style='border-top: 1px solid #f0f0f0; padding-top: 20px; font-size: 12px; color: #888888; line-height: 1.6;'>" +
+    "<p style='margin: 0;'>Despacho coordinado hacia <strong>" + (data.ciudad || "tu ciudad") + "</strong> · Entrega estimada en 1 a 3 días hábiles.</p>" +
+    "<p style='margin: 6px 0 0;'>Si tienes preguntas sobre tu envío, escríbenos directamente a nuestro WhatsApp oficial: <strong>" + WHATSAPP_NUMBER + "</strong>.</p>" +
+    "</div>" +
+
+    "</div>" +
+
+    // FOOTER
+    "<div style='background: #fbfbfb; border-top: 1px solid #eeeeee; padding: 20px; text-align: center; font-size: 11px; color: #999999;'>" +
+    "<p style='margin: 0;'>Aqua Essence · Alta Perfumería, Originales, Réplicas 1.1 y Fragancias</p>" +
+    "<p style='margin: 4px 0 0;'>Medellín, Colombia · WhatsApp: 3206062038</p>" +
+    "</div>" +
+
+    "</div></body></html>";
 }
