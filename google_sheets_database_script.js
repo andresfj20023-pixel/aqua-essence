@@ -374,8 +374,11 @@ function buildClemontStyleCustomerEmail(data, totalFormatted, waLink) {
     "<div style='padding: 32px 32px 20px 32px; border-bottom: 1px solid #f2f2f2;'>" +
     "<table style='width: 100%; border-collapse: collapse;'>" +
     "<tr>" +
-    "<td style='vertical-align: middle;'>" +
-    "<span style='font-family: Georgia, Garamond, serif; font-size: 28px; font-weight: bold; letter-spacing: -0.5px; color: #111111;'>Aqua Essence</span>" +
+    "<td style='vertical-align: middle; width: 68px;'>" +
+    "<img src='https://raw.githubusercontent.com/andresfj20023-pixel/aqua-essence/main/assets/logo.png' width='56' height='56' style='display: block; border-radius: 50%; object-fit: cover;' alt='Aqua Essence' />" +
+    "</td>" +
+    "<td style='vertical-align: middle; padding-left: 12px;'>" +
+    "<span style='font-family: Georgia, Garamond, serif; font-size: 26px; font-weight: bold; letter-spacing: -0.5px; color: #111111; display: block;'>Aqua Essence</span>" +
     "</td>" +
     "<td style='vertical-align: middle; text-align: right;'>" +
     "<span style='font-size: 12px; font-weight: 600; color: #888888; letter-spacing: 1px; text-transform: uppercase;'>PEDIDO #" + orderCode + "</span>" +
@@ -495,11 +498,14 @@ function buildClemontStyleStatusEmail(orderCode, status, cliente, data) {
     "<div style='max-width: 580px; margin: 30px auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e5e5e5;'>" +
 
     // ENCABEZADO
-    "<div style='padding: 35px 35px 20px 35px; border-bottom: 1px solid #f0f0f0;'>" +
+    "<div style='padding: 30px 32px 20px 32px; border-bottom: 1px solid #f0f0f0;'>" +
     "<table style='width: 100%; border-collapse: collapse;'>" +
     "<tr>" +
-    "<td style='vertical-align: middle;'>" +
-    "<span style='font-family: Georgia, serif; font-size: 28px; font-weight: bold; color: #111111; letter-spacing: -0.5px;'>Aqua Essence</span>" +
+    "<td style='vertical-align: middle; width: 64px;'>" +
+    "<img src='https://raw.githubusercontent.com/andresfj20023-pixel/aqua-essence/main/assets/logo.png' width='52' height='52' style='display: block; border-radius: 50%; object-fit: cover;' alt='Aqua Essence' />" +
+    "</td>" +
+    "<td style='vertical-align: middle; padding-left: 12px;'>" +
+    "<span style='font-family: Georgia, serif; font-size: 24px; font-weight: bold; color: #111111; letter-spacing: -0.5px; display: block;'>Aqua Essence</span>" +
     "</td>" +
     "<td style='vertical-align: middle; text-align: right;'>" +
     "<span style='font-size: 11px; font-weight: 600; color: #888888; text-transform: uppercase; letter-spacing: 1px;'>PEDIDO #" + orderCode + "</span>" +

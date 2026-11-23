@@ -2568,6 +2568,9 @@
             }
         }
 
+        // Enlace público oficial del Logo de Aqua Essence para los correos electrónicos
+        const OFFICIAL_LOGO_URL = 'https://raw.githubusercontent.com/andresfj20023-pixel/aqua-essence/main/assets/logo.png';
+
         // Notificación automática al correo del cliente cuando el Administrador actualiza el estado
         function sendOrderStatusUpdateEmail(order, newStatus) {
             const cust = order.customer || {};
@@ -2603,6 +2606,8 @@
                 _subject: `${statusEmoji} ${statusTitle} - Aqua Essence`,
                 _template: 'box',
                 _captcha: 'false',
+                TIENDA: 'Aqua Essence (Alta Perfumería)',
+                LOGO: OFFICIAL_LOGO_URL,
                 PEDIDO: `#${order.orderCode}`,
                 ESTADO: newStatus.toUpperCase(),
                 MENSAJE: statusDesc,
@@ -2638,6 +2643,8 @@
                 _subject: `🛍️ NUEVO PEDIDO #${order.orderCode} - ${user.nombre} (${totalFmt})`,
                 _template: 'table',
                 _captcha: 'false',
+                TIENDA: 'Aqua Essence (Alta Perfumería)',
+                LOGO: OFFICIAL_LOGO_URL,
                 Numero_Pedido: `#${order.orderCode}`,
                 Fecha: order.date,
                 Estado_Pago: 'PENDIENTE DE CONFIRMACIÓN MANUAL (COMPROBANTE)',
@@ -2667,10 +2674,12 @@
             // 2. Correo de Confirmación de Pedido al Cliente (Estilo Clemont)
             if (user.correo && user.correo.includes('@')) {
                 const clientPayload = {
-                    _subject: `Confirmación de pedido #${order.orderCode}`,
+                    _subject: `Confirmación de pedido #${order.orderCode} - Aqua Essence`,
                     _replyto: adminEmail,
                     _template: 'box',
                     _captcha: 'false',
+                    TIENDA: 'Aqua Essence (Alta Perfumería)',
+                    LOGO: OFFICIAL_LOGO_URL,
                     PEDIDO: `#${order.orderCode}`,
                     Estado: '¡Gracias por tu compra! Estamos preparando tu pedido para enviarlo.',
                     Cliente: user.nombre,
@@ -3042,6 +3051,8 @@
                 _subject: `👤 NUEVO CLIENTE REGISTRADO - ${user.nombre} (${user.ciudad})`,
                 _template: 'table',
                 _captcha: 'false',
+                TIENDA: 'Aqua Essence (Alta Perfumería)',
+                LOGO: OFFICIAL_LOGO_URL,
                 Tipo_Evento: 'NUEVO REGISTRO DE USUARIO',
                 Nombre_Cliente: user.nombre,
                 Telefono_WhatsApp: user.telefono,
