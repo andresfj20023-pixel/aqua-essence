@@ -830,6 +830,10 @@
                         <span>Pagar</span>
                         <span>→</span>
                     </button>
+                    <p class="text-[11px] text-center text-amber-800 font-semibold pt-2 flex items-center justify-center gap-1">
+                        <span>⚠️</span>
+                        <span>Pedido sin enviar soporte después de un día se cancelará</span>
+                    </p>
                 </div>
             </div>
 
@@ -1131,6 +1135,14 @@
                         </svg>
                         <span>Enviar Comprobante al WhatsApp (3206062038)</span>
                     </a>
+
+                    <!-- AVISO IMPORTANTE: CANCELACIÓN DESPUÉS DE UN DÍA SIN SOPORTE -->
+                    <div class="p-3.5 rounded-2xl bg-amber-50 border border-amber-200/90 text-center shadow-2xs">
+                        <p class="text-xs font-bold text-amber-900 flex items-center justify-center gap-1.5">
+                            <span class="text-base">⚠️</span>
+                            <span>Pedido sin enviar soporte después de un día se cancelará</span>
+                        </p>
+                    </div>
 
                     <button type="button" onclick="closeOrderSuccessModal()"
                         class="w-full py-2.5 rounded-xl bg-white border border-[#E6E4DF] hover:border-[#111111] text-[#666666] hover:text-[#111111] text-xs font-semibold transition">
@@ -2355,6 +2367,12 @@
             // 2. BOTÓN DE PAGO DINÁMICO
             const btnBox = document.getElementById('cart-checkout-btn-box');
             if (btnBox) {
+                const cancelNotice = `
+                    <p class="text-[11px] text-center text-amber-800 font-semibold pt-2.5 flex items-center justify-center gap-1">
+                        <span>⚠️</span>
+                        <span>Pedido sin enviar soporte después de un día se cancelará</span>
+                    </p>
+                `;
                 if (currentUser) {
                     btnBox.innerHTML = `
                         <button type="button" onclick="checkoutWhatsApp()"
@@ -2362,6 +2380,7 @@
                             <span>Pagar</span>
                             <span>→</span>
                         </button>
+                        ${cancelNotice}
                     `;
                 } else {
                     btnBox.innerHTML = `
@@ -2370,6 +2389,7 @@
                             <span>Pagar</span>
                             <span>→</span>
                         </button>
+                        ${cancelNotice}
                     `;
                 }
             }
@@ -2690,7 +2710,8 @@
                     Subtotal: subtotalFmt,
                     Total_a_Pagar: totalFmt,
                     Datos_de_Pago: 'Bancolombia Ahorros: 10362869492 | Llave: 1001132365',
-                    Enviar_Comprobante: `WhatsApp: 3206062038 con el número de pedido #${order.orderCode}`
+                    Enviar_Comprobante: `WhatsApp: 3206062038 con el número de pedido #${order.orderCode}`,
+                    IMPORTANTE: 'Pedido sin enviar soporte después de un día se cancelará.'
                 };
 
                 try {
@@ -3179,6 +3200,8 @@ ${itemsText}
 
 *PAGO REALIZADO A:*
 10362869492 Ahorros Bancolombia / Llave: 1001132365
+
+⚠️ *IMPORTANTE:* Pedido sin enviar soporte después de un día se cancelará.
 
 Adjunto la captura del comprobante para coordinar el despacho. ¡Muchas gracias!`;
 

@@ -440,7 +440,8 @@ function buildClemontStyleCustomerEmail(data, totalFormatted, waLink) {
     "• <strong>Llave de Transferencia:</strong> <span style='font-family: monospace; font-size: 14px;'>1001132365</span>" +
     "</div>" +
     "<div style='margin-top: 14px; padding-top: 12px; border-top: 1px dashed #DDD9CE; font-size: 12px; color: #444444; line-height: 1.5;'>" +
-    "Envía la foto de tu comprobante a nuestro WhatsApp <strong>3206062038</strong> indicando tu número de pedido <strong>#" + orderCode + "</strong> para coordinar el despacho." +
+    "Envía la foto de tu comprobante a nuestro WhatsApp <strong>3206062038</strong> indicando tu número de pedido <strong>#" + orderCode + "</strong> para coordinar el despacho.<br/>" +
+    "<strong style='display: block; margin-top: 6px; color: #b45309;'>⚠️ Pedido sin enviar soporte después de un día se cancelará.</strong>" +
     "</div>" +
     "<div style='margin-top: 14px; text-align: center;'>" +
     "<a href='" + waLink + "' target='_blank' style='background: #25D366; color: #ffffff; padding: 11px 22px; border-radius: 999px; text-decoration: none; font-size: 12px; font-weight: bold; display: inline-block;'>💬 Enviar Comprobante por WhatsApp</a>" +
