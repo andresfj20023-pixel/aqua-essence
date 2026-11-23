@@ -1252,6 +1252,11 @@
                 </div>
 
                 <div class="flex items-center gap-2">
+                    <button type="button" onclick="openManualOrderModal()"
+                        class="px-3.5 py-2 rounded-xl bg-[#D4AF37] hover:bg-[#b5952f] text-[#111111] text-xs font-bold flex items-center gap-1.5 transition shadow-xs"
+                        title="Registrar un pedido recibido por correo, WhatsApp o Instagram">
+                        ➕ Registrar Pedido
+                    </button>
                     <button type="button" onclick="exportAllOrdersToCSV()"
                         class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-1.5 transition border border-white/15"
                         title="Exportar historial de ventas a Excel">
@@ -1420,6 +1425,96 @@
 
             </div>
 
+        </div>
+    </div>
+
+    <!-- MODAL PARA REGISTRAR PEDIDO MANUALMENTE EN EL PANEL ADMIN -->
+    <div id="manual-order-modal" class="fixed inset-0 z-[70] hidden flex items-center justify-center p-4">
+        <div onclick="closeManualOrderModal()" class="absolute inset-0 bg-black/70 backdrop-blur-xs"></div>
+        <div class="relative w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-[#E6E4DF] overflow-hidden p-6 space-y-4">
+            <div class="flex items-center justify-between pb-3 border-b border-[#EAE8E3]">
+                <div class="flex items-center gap-2.5">
+                    <span class="text-xl">📝</span>
+                    <div>
+                        <h4 class="font-editorial text-lg font-semibold text-[#111111]">Registrar Pedido en el Panel</h4>
+                        <p class="text-[11px] text-[#777777]">Ingresa pedidos recibidos por Correo, WhatsApp o Instagram</p>
+                    </div>
+                </div>
+                <button type="button" onclick="closeManualOrderModal()" class="w-8 h-8 rounded-full bg-[#F0EFEA] hover:bg-[#E6E4DF] text-[#555555] flex items-center justify-center transition">✕</button>
+            </div>
+
+            <form onsubmit="handleSaveManualOrder(event)" class="space-y-3 text-xs">
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block font-semibold text-[#333333] mb-1"># de Pedido</label>
+                        <input type="text" id="manual-order-code" required placeholder="AQ-1021-345"
+                            class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs font-mono font-bold focus:outline-none focus:border-[#111111]">
+                    </div>
+                    <div>
+                        <label class="block font-semibold text-[#333333] mb-1">Estado</label>
+                        <select id="manual-order-status" class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111]">
+                            <option value="Pendiente">Pendiente</option>
+                            <option value="En preparación">En preparación</option>
+                            <option value="Enviado">Enviado</option>
+                            <option value="Entregado">Entregado</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block font-semibold text-[#333333] mb-1">Nombre del Cliente</label>
+                        <input type="text" id="manual-order-name" required placeholder="Ana María Jiménez"
+                            class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111]">
+                    </div>
+                    <div>
+                        <label class="block font-semibold text-[#333333] mb-1">Teléfono / WhatsApp</label>
+                        <input type="tel" id="manual-order-phone" required placeholder="3201234567"
+                            class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111]">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block font-semibold text-[#333333] mb-1">Correo Electrónico</label>
+                        <input type="email" id="manual-order-email" placeholder="cliente@gmail.com"
+                            class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111]">
+                    </div>
+                    <div>
+                        <label class="block font-semibold text-[#333333] mb-1">Ciudad</label>
+                        <input type="text" id="manual-order-city" required placeholder="Medellín"
+                            class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111]">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block font-semibold text-[#333333] mb-1">Dirección de Entrega</label>
+                    <input type="text" id="manual-order-address" required placeholder="Calle 10 #20-30 Apto 401"
+                        class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111]">
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block font-semibold text-[#333333] mb-1">Productos / Detalle</label>
+                        <input type="text" id="manual-order-items" required placeholder="1x Bharara King EDP 100ml"
+                            class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs focus:outline-none focus:border-[#111111]">
+                    </div>
+                    <div>
+                        <label class="block font-semibold text-[#333333] mb-1">Total (COP)</label>
+                        <input type="number" id="manual-order-total" required placeholder="210000"
+                            class="w-full px-3 py-2 rounded-xl bg-[#FAF9F6] border border-[#E6E4DF] text-xs font-semibold focus:outline-none focus:border-[#111111]">
+                    </div>
+                </div>
+
+                <div class="pt-2 flex justify-end gap-2">
+                    <button type="button" onclick="closeManualOrderModal()"
+                        class="px-4 py-2 rounded-xl bg-[#F0EFEA] text-[#555555] hover:bg-[#E6E4DF] transition font-medium">Cancelar</button>
+                    <button type="submit"
+                        class="px-5 py-2 rounded-xl bg-[#111111] text-[#D4AF37] hover:bg-[#252525] transition font-bold shadow-xs">
+                        Guardar Pedido
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -3464,6 +3559,60 @@ TOTAL A RECAUDAR / COBRAR: $${Number(o.total || 0).toLocaleString('es-CO')} COP
             } else {
                 prompt('Copia los datos de envío:', labelText);
             }
+        }
+
+        // -------------------------------------------------------------
+        // REGISTRO MANUAL DE PEDIDOS EN EL PANEL ADMIN
+        // -------------------------------------------------------------
+        function openManualOrderModal() {
+            const codeInput = document.getElementById('manual-order-code');
+            if (codeInput) codeInput.value = generateNewOrderCode().replace(/^#/, '');
+            document.getElementById('manual-order-modal').classList.remove('hidden');
+        }
+
+        function closeManualOrderModal() {
+            document.getElementById('manual-order-modal').classList.add('hidden');
+        }
+
+        function handleSaveManualOrder(e) {
+            e.preventDefault();
+            const orderCode = (document.getElementById('manual-order-code').value || '').replace(/^#/, '').trim();
+            const status = document.getElementById('manual-order-status').value || 'Pendiente';
+            const nombre = document.getElementById('manual-order-name').value.trim();
+            const telefono = document.getElementById('manual-order-phone').value.trim();
+            const correo = document.getElementById('manual-order-email').value.trim();
+            const ciudad = document.getElementById('manual-order-city').value.trim();
+            const direccion = document.getElementById('manual-order-address').value.trim();
+            const itemsText = document.getElementById('manual-order-items').value.trim();
+            const total = Number(document.getElementById('manual-order-total').value || 0);
+
+            const newOrder = {
+                orderCode,
+                date: new Date().toLocaleString('es-CO'),
+                customer: { nombre, telefono, correo, ciudad, direccion },
+                items: [{ name: itemsText, variant: 'Estándar', qty: 1, price: total }],
+                shippingText: 'Estándar',
+                subtotal: total,
+                shipping: 0,
+                total,
+                status
+            };
+
+            const allOrders = getAllOrders();
+            const existingIdx = allOrders.findIndex(o => o.orderCode === orderCode);
+            if (existingIdx !== -1) {
+                allOrders[existingIdx] = newOrder;
+            } else {
+                allOrders.unshift(newOrder);
+            }
+            saveAllOrders(allOrders);
+
+            // Sincronizar con Google Sheets si está conectado
+            syncOrderToCloudDatabase(newOrder, newOrder.customer);
+
+            closeManualOrderModal();
+            renderAdminDashboard();
+            showToast(`¡Pedido #${orderCode} registrado en el panel con éxito!`);
         }
 
         function renderAdminDashboard() {
