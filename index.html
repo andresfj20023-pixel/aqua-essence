@@ -1779,6 +1779,30 @@
         }
 
         // -------------------------------------------------------------
+        // MOTOR DE BÚSQUEDA INTELIGENTE MULTI-PALABRA (Insensible a tildes, mayúsculas y orden)
+        // -------------------------------------------------------------
+        function normalizeSearchText(str) {
+            return (str || '')
+                .toLowerCase()
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/(\d+)([a-zA-Z]+)/g, '$1 $2')
+                .replace(/([a-zA-Z]+)(\d+)/g, '$1 $2')
+                .replace(/[^a-z0-9\s]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        function matchSearchQuery(searchQuery, ...targetFields) {
+            const cleanQuery = normalizeSearchText(searchQuery);
+            if (!cleanQuery) return true;
+            const tokens = cleanQuery.split(' ').filter(Boolean);
+            if (tokens.length === 0) return true;
+            const combinedTarget = normalizeSearchText(targetFields.filter(Boolean).join(' '));
+            return tokens.every(token => combinedTarget.includes(token));
+        }
+
+        // -------------------------------------------------------------
         // RENDERIZADO: SUBPÁGINA ORIGINALES CON VALIDACIÓN DE PRECIOS
         // -------------------------------------------------------------
         function onOriginalsSearch() {
@@ -1787,13 +1811,9 @@
         }
 
         function getFilteredOriginals() {
-            const q = (document.getElementById('search-originales')?.value || '').toLowerCase().trim();
-            if (!q) return ALL_ORIGINALS;
-            return ALL_ORIGINALS.filter(p => {
-                const nameMatch = p.name && p.name.toLowerCase().includes(q);
-                const brandMatch = p.brand && p.brand.toLowerCase().includes(q);
-                return nameMatch || brandMatch;
-            });
+            const q = document.getElementById('search-originales')?.value || '';
+            if (!q.trim()) return ALL_ORIGINALS;
+            return ALL_ORIGINALS.filter(p => matchSearchQuery(q, p.brand, p.name, p.family, p.variant));
         }
 
         function renderOriginales(scrollToTop = false) {
@@ -1916,15 +1936,9 @@
         }
 
         function getFilteredReplicas() {
-            const q = (document.getElementById('search-replicas')?.value || '').toLowerCase().trim();
-            if (!q) return ALL_REPLICAS;
-            const normalize = s => (s || '').toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-            const queryNorm = normalize(q);
-            return ALL_REPLICAS.filter(p => {
-                const nameNorm = normalize(p.name);
-                const brandNorm = normalize(p.brand);
-                return nameNorm.includes(queryNorm) || brandNorm.includes(queryNorm);
-            });
+            const q = document.getElementById('search-replicas')?.value || '';
+            if (!q.trim()) return ALL_REPLICAS;
+            return ALL_REPLICAS.filter(p => matchSearchQuery(q, p.brand, p.name, p.family, p.variant));
         }
 
         function renderReplicas(scrollToTop = false) {
@@ -2055,23 +2069,19 @@
         }
 
         function getFilteredFragrances() {
-            const q = (document.getElementById('search-fragancias')?.value || '').toLowerCase().trim();
-            const normalize = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            const q = document.getElementById('search-fragancias')?.value || '';
 
             return ALL_FRAGRANCES.filter(p => {
-                const pFam = normalize(p.family);
-                const pName = normalize(p.name);
-
                 // Filtro por familia
                 if (activeFragFamily !== 'all') {
-                    const targetFam = normalize(activeFragFamily);
-                    if (!pFam.includes(targetFam)) return false;
+                    const normFamily = normalizeSearchText(p.family);
+                    const normTarget = normalizeSearchText(activeFragFamily);
+                    if (!normFamily.includes(normTarget)) return false;
                 }
 
-                // Filtro por buscador
-                if (!q) return true;
-                const queryNorm = normalize(q);
-                return pName.includes(queryNorm) || pFam.includes(queryNorm);
+                // Filtro por buscador inteligente
+                if (!q.trim()) return true;
+                return matchSearchQuery(q, p.name, p.family, p.brand || '', p.notes || '');
             });
         }
 
@@ -3733,8 +3743,8 @@ TOTAL A RECAUDAR / COBRAR: $${Number(o.total || 0).toLocaleString('es-CO')} COP
             if (currentAdminSearch) {
                 filtered = filtered.filter(o => {
                     const c = o.customer || {};
-                    const searchStr = `${o.orderCode} ${c.nombre || ''} ${c.telefono || ''} ${c.ciudad || ''} ${c.direccion || ''} ${(o.items || []).map(i => i.name).join(' ')}`.toLowerCase();
-                    return searchStr.includes(currentAdminSearch);
+                    const itemsText = (o.items || []).map(i => `${i.name} ${i.variant || ''}`).join(' ');
+                    return matchSearchQuery(currentAdminSearch, o.orderCode, c.nombre, c.telefono, c.correo, c.ciudad, c.direccion, itemsText, o.status);
                 });
             }
 
