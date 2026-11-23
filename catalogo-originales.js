@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 23/11/2026 10:03 AM
+// Actualizado: 23/11/2026 12:56 PM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
