@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 24/11/2026 12:46 AM
+// Actualizado: 24/11/2026 03:49 AM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -7,9 +7,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "AHLI LYRA",
     "brand": "AHLI",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 438000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ahlilyra3.jpg?v=1708192521",
-    "compared": false
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/ahlilyra3.webp",
+    "compared": true
   },
   {
     "id": "orig-739",
@@ -36,6 +36,195 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 779100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ComboAhliVega_AhliKarpos.jpg?v=1786042384",
+    "compared": false
+  },
+  {
+    "id": "orig-1876",
+    "name": "ALBANE NOBLE ADVENTURE",
+    "brand": "ALBANE NOBLE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/ALBANE-NOBLE-ADVENTURE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1875",
+    "name": "ALBANE NOBLE GRIS CHIC",
+    "brand": "ALBANE NOBLE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/ALBANE-NOBLE-GRIS-CHIC-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1878",
+    "name": "ALBANE NOBLE RED SOLAR",
+    "brand": "ALBANE NOBLE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/ALBANE-NOBLE-RED-SOLAR.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1877",
+    "name": "ALBANE NOBLE ROYAL AMBER",
+    "brand": "ALBANE NOBLE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/perfume5-99.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1808",
+    "name": "ALEXANDRE.J THE MAJESTIC AMBER",
+    "brand": "ALEXANDRE J",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ALEXANDRE.J-THE-MAJESTIC-AMBER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1807",
+    "name": "ALEXANDRE.J THE MAJESTIC MUSK",
+    "brand": "ALEXANDRE J",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ALEXANDRE.J-THE-MAJESTIC-MUSK.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1970",
+    "name": "ALHAMBRA BRIGHT PEACH EDP 80 ML",
+    "brand": "ALHAMBRA BRIGHT",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-BRIGHT-PEACH-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1969",
+    "name": "ALHAMBRA INFINI OUD EDP 100ML",
+    "brand": "ALHAMBRA INFINI",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-INFINI-OUD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1966",
+    "name": "ALHAMBRA LOVELY CHERIE EDP 80 ML",
+    "brand": "ALHAMBRA LOVELY",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-LOVELY-CHERIE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1961",
+    "name": "ALHAMBRA WOODY OUD EDP 80 ML",
+    "brand": "ALHAMBRA WOODY",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-WOODY-OUD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1802",
+    "name": "ANA AL AWWAL NUSUK FOR MEN",
+    "brand": "ANA AL",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ANA-AL-AWWAL-NUSUK-FOR-MEN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1723",
+    "name": "ANTONIO BANDERAS POWER OF SEDUTION",
+    "brand": "ANTONIO BANDERAS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 165000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ANTONIO-BANDERAS-POWER-OF-SEDUTION.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1725",
+    "name": "ANTONIO BANDERAS SEDUCTION IN BLACK 200 ML",
+    "brand": "ANTONIO BANDERAS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ANOTNIO-BANCERAS-SEDUCTION-IN-BLACK.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1711",
+    "name": "ANTONIO BANDERAS THE ICON EDP",
+    "brand": "ANTONIO BANDERAS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/antonio-banderar-ico.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1726",
+    "name": "ANTONIO BANDERAS THE ICON EDT",
+    "brand": "ANTONIO BANDERAS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ANOTNIO-BANDERAS-THE-ICON.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1724",
+    "name": "ANTONIO BANERAS KING OF SEDUCTION ABSOLUTE",
+    "brand": "ANTONIO BANERAS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ANTONIO-BANERAS-KING-OF-SEDUCTION-ABSOLUTE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2014",
+    "name": "ARABIANS TONKA EDP 100ml",
+    "brand": "ARABIANS TONKA",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/arabians-tonka.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1792",
+    "name": "ARIANA GRANDE GOD IS A WOMAN",
+    "brand": "ARIANA GRANDE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ARIANA-GRANDE-GOD-IS-A-WOMAN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1794",
+    "name": "ARIANA GRANDE MOD VANILLA",
+    "brand": "ARIANA GRANDE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ARIANA-GRANDE-MOD-VANILLA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1793",
+    "name": "ARIANA GRANDE MOOD BLUSH",
+    "brand": "ARIANA GRANDE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ARIANA-GRANDE-MOD-BLUSH.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1795",
+    "name": "ARIANA GRANDE SWEET LIKE CANDY",
+    "brand": "ARIANA GRANDE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ARIANA-GRANDE-SWEET-LIKE-CANDY.jpg",
     "compared": false
   },
   {
@@ -66,21 +255,147 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1884",
+    "name": "AFNAN 9 AM POUR FEMME",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/AFNAN-9-AM-POUR-FEMME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1958",
+    "name": "AFNAN 9 PM EDP 100ML",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/AFNAN-9-PM-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1957",
+    "name": "AFNAN SOUVENIR DESERT ROSE EDP 100ML",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 249700,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/AFNAN-SOUVENIR-DESERT-ROSE-EDP-100ML.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1956",
+    "name": "AFNAN SOUVENIR FLORAL BOUQUET EDP 100ML",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/AFNAN-SOUVENIR-FLORAL-BOUQUET-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1924",
+    "name": "AFNAN SUPREMACY GOLD EDP 100ML",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/AFNAN-SUPREMACY-GOLD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1922",
+    "name": "AFNAN SUPREMACY IN OUD EDP 100ML",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/AFNAN-SUPREMACY-IN-OUD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1955",
+    "name": "AFNAN SUPREMACY INCENSE EDP 100ML",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/AFNAN-SUPREMACY-INCENSE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1925",
+    "name": "AFNAN SUPREMACY NOIR EDP 100ML",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/AFNAN-SUPREMACY-NOIR-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1923",
+    "name": "AFNAN SUPREMACY NOT ONLY INTENSE EDP 150 (mililitros)",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/AFNAN-SUPREMACY-NOT-ONLY-INTENSE-EDP-100ML.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1883",
+    "name": "AFNAN ZIMAYA FATIMA",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/afnan-zimaya-fatima.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1882",
+    "name": "AFNAN ZIMAYA FATIMA VELVET",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/AFNAN-ZIMAYA-FATIMA-VELVET.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1474",
+    "name": "Afnan 9 AM Dive",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Afnan-9-am-dive.webp",
+    "compared": false
+  },
+  {
     "id": "orig-949",
     "name": "Afnan 9 PM Elixir",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 294900,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_26655d54-d7d9-47da-afb1-5ed373dec83c.jpg?v=1755949514",
-    "compared": false
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_26655d54-d7d9-47da-afb1-5ed373dec83c.webp",
+    "compared": true
   },
   {
     "id": "orig-633",
     "name": "Afnan 9 PM Night Out",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 366000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/LV_Ombre_Nomade_6.jpg?v=1785510545",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/03/Afnan_9_PM_Night_Out_COLOMBIA.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1473",
+    "name": "Afnan 9 PM Pour Femme EDP",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/afnan-9-pm_ff7ea2e5-7797-40c8-8be4-bfa88169c34f.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1472",
+    "name": "Afnan 9 PM Rebel",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Afnan_9_pm_Rebel_2fb5e703-0667-43ff-aa2c-b8242cab3dff.webp",
     "compared": false
   },
   {
@@ -120,12 +435,66 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1058",
+    "name": "Afnan Turathi Blue Homme",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Afnan-turathi-blue.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1139",
+    "name": "Afnan Turathi Electric",
+    "brand": "Afnan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/AfnanTurathiElectric.webp",
+    "compared": false
+  },
+  {
     "id": "orig-950",
     "name": "Afnan Zimaya Tiramisu Coco",
     "brand": "Afnan",
     "variant": "100% Original Sellado · Código Batch",
     "price": 280500,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_3843052f-88a3-42ac-94e4-d01cfe4837f6.jpg?v=1755949546",
+    "compared": false
+  },
+  {
+    "id": "orig-1070",
+    "name": "Ahli Corvus",
+    "brand": "Ahli",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/ahli-corvus-perfume-unisex-60ml-edp.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1071",
+    "name": "Ahli Karpos",
+    "brand": "Ahli",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/KARPOS.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1069",
+    "name": "Ahli Overdose",
+    "brand": "Ahli",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/descarga-54.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1072",
+    "name": "Ahli Vega",
+    "brand": "Ahli",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/descarga-53.jpeg",
     "compared": false
   },
   {
@@ -144,6 +513,213 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 321000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/AhmedAlMaghribiKaafNoir.jpg?v=1787146089",
+    "compared": false
+  },
+  {
+    "id": "orig-1698",
+    "name": "Ajmal Aristocrat lila , sin celofan",
+    "brand": "Ajmal Aristocrat",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/91nvq64LBGL._AC_UF10001000_QL80_.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1874",
+    "name": "AL HARAMAIN AMBER OUD BLUE EDICIÓN 60 ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/AL-HARAMAIN-AMBER-OUD-BLUE-EDITION.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1998",
+    "name": "AL HARAMAIN AMBER OUD CARBON EDITION EDP 60 ml",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/AL-HARAMAIN-AMBER-OUD-CARBON-EDITION-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2001",
+    "name": "AL HARAMAIN AMBER OUD CLASSIC EXCLUSIF EDP 60ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/AL-HARAMAIN-AMBER-OUD-CALSSIC-EXCLUSIF-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2000",
+    "name": "AL HARAMAIN AMBER OUD ESMERALD EXCLUSIF EDP 60ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/AL-HARAMAIN-AMBER-OUD-ESMERALD-EXCLUSIF.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1954",
+    "name": "AL HARAMAIN AMBER OUD ROUGE EDP 60ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/05/Amber-oud-rouge.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1991",
+    "name": "AL HARAMAIN AMBER OUD RUBY EDP 120 ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/AL-HARAMAIN-AMBER-OUD-RUBY-EDITION-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2002",
+    "name": "AL HARAMAIN AMBER OUD SPORT EXCLUSIF EDP 60ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 375000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/AL-HARAMAIN-AMBER-OUD-SPORT-EXCLUSIF-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1999",
+    "name": "AL HARAMAIN AMBER OUD TOBACCO EDITION EDP 60ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/AL-HARAMAIN-AMBER-OUD-TOBACCO-EDITION-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1992",
+    "name": "AL HARAMAIN AMBER OUD WHITE EDITION EDP",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/AL-HARAMAIN-AMBER-OUD-WHITE-EDITION-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1995",
+    "name": "AL HARAMAIN L´AVENTURE EDP 100ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/AL-HARAMAIN-L´AVENTURE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1993",
+    "name": "AL HARAMAIN L´AVENTURE GOLD EDP 100ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/AL-HARAMAIN-LAVENTURE-GOLD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1996",
+    "name": "AL HARAMAIN L´AVENTURE KNIGHT EDP 100ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/AL-HARAMAIN-LAVENTURE-KING-EDP-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1994",
+    "name": "AL HARAMAIN L´AVENTURE ROSE EDP",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/AL-HARAMAIN-LAVENTURE-ROSE-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1873",
+    "name": "AL HARAMAIN PORTAFOLIO EUPHORIC ROOTS",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/AL-HARAMAIN-PORTAFOLIO-EUPHORIC-ROOTS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1871",
+    "name": "AL HARAMAIN PORTAFOLIO FLORAL SCULPTURE",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/AL-HARAMAIN-PORTAFOLIO-FLORAL-SCULPTURE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1872",
+    "name": "AL HARAMAIN PORTAFOLIO NEROLI CANVAS",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/AL-HARAMAIN-PORTAFOLIO-NEROLI-CANVAS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2030",
+    "name": "Al Haramain AMBER OUD GOLD Edition EDP",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/AL-HARAMAIN-AMBER-OUD-GOLD-EDITION-EDP-UNISEXO-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1488",
+    "name": "Al Haramain Amber Oud Aqua Dubai",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/al_haramain_aqua_dubai_2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1489",
+    "name": "Al Haramain Amber Oud Dubai Night 100 ML",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/alharamainamberouddubainight.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1490",
+    "name": "Al Haramain Amber Oud Ultra Violet",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/al-haramain-amber-oud-violet-edition-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1107",
+    "name": "Al Haramain Junoon Rose",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/D_NQ_NP_949529-MLA49324534979_032022-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1147",
+    "name": "Al haramain Amber Green Dubai",
+    "brand": "Al Haramain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/375x500.106696.avif",
     "compared": false
   },
   {
@@ -189,6 +765,42 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 1221000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/AlexandreJSweetEnigma_4.jpg?v=1785198195",
+    "compared": false
+  },
+  {
+    "id": "orig-1806",
+    "name": "AMOUAGE BRACKEN WOMAN",
+    "brand": "Amouage",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/AMOUAGE-BRACKEN-WOMAN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1803",
+    "name": "AMOUAGE FIGMENT WOMAN",
+    "brand": "Amouage",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/AMOUAGE-FIGMENT-WOMAN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1804",
+    "name": "AMOUAGE GOLD WOMAN",
+    "brand": "Amouage",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/AMOUAGE-GOLD-WOMAN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1805",
+    "name": "AMOUAGE MEMOIR WOMAN",
+    "brand": "Amouage",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/AMOUAGE-MEMOIR-WOMAN.jpg",
     "compared": false
   },
   {
@@ -300,31 +912,49 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1678",
+    "name": "Animale Dama",
+    "brand": "Animale Dama",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/892456000037_69380be2-62ec-41f1-ba4d-e00226254ea1_1200x1200.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1651",
+    "name": "Animale Hombre",
+    "brand": "Animale Hombre",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 195000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/185435-800-auto.png",
+    "compared": false
+  },
+  {
     "id": "orig-657",
     "name": "Another Lab Germany 92",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 402000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Another_Lab_Germany_92.jpg?v=1770045347",
-    "compared": false
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/02/Another_Lab_Germany_92.webp",
+    "compared": true
   },
   {
     "id": "orig-658",
     "name": "Another Lab Italy 86",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 402000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Another_Lab_Italy_86.jpg?v=1770046810",
-    "compared": false
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/02/Another_Lab_Italy_86-1.webp",
+    "compared": true
   },
   {
     "id": "orig-268",
     "name": "Another Lab Lyche Fiyi 88",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 402000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/AnotherlablycheFiyi88.jpg?v=1785178620",
-    "compared": false
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/AnotherlablycheFiyi88.webp",
+    "compared": true
   },
   {
     "id": "orig-123",
@@ -340,8 +970,26 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Another Lab Rioh 99",
     "brand": "Another Lab",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 402000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/rioh_2.png?v=1782148533",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/04/Anotherlabrioh99.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1485",
+    "name": "Antonio Banderas Blue Seduction Summer Essence",
+    "brand": "Antonio Banderas",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 160000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Blue_Seduction.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1639",
+    "name": "Antonio Banderas Blue Seduction Summer Essence Hombre",
+    "brand": "Antonio Banderas",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Perfume-Antonio-Banderas-Blue-Seduction-Summer-Essence-EDT-M-100-ml.webp",
     "compared": false
   },
   {
@@ -363,6 +1011,51 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1129",
+    "name": "Antonio Banderas Icon Elixir",
+    "brand": "Antonio Banderas",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/antoniobanderasiconelixir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1052",
+    "name": "Antonio Banderas Icon Woman Supreme",
+    "brand": "Antonio Banderas",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/descarga-61.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1414",
+    "name": "Antonio Banderas King of Seduction",
+    "brand": "Antonio Banderas",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/King-of-seduction-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1638",
+    "name": "Antonio Banderas Power Of Seduction",
+    "brand": "Antonio Banderas",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/PerfumePowerOfSeductionAntonioBanderas100ML.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1055",
+    "name": "Antonio Banderas Queen of seduction",
+    "brand": "Antonio Banderas",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/w800h800fitpad-3.webp",
+    "compared": false
+  },
+  {
     "id": "orig-386",
     "name": "Antonio Banderas Seduction X",
     "brand": "Antonio Banderas",
@@ -372,12 +1065,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1128",
+    "name": "Antonio Banderas The Icon Supreme",
+    "brand": "Antonio Banderas",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/w800h800fitpad-1.webp",
+    "compared": false
+  },
+  {
     "id": "orig-125",
     "name": "Arabian Oud Bullet",
     "brand": "Arabian Oud",
     "variant": "100% Original Sellado · Código Batch",
     "price": 1131000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Arabianoudbullet.jpg?v=1788542893",
+    "compared": false
+  },
+  {
+    "id": "orig-1075",
+    "name": "Arabiyat Safa Prestige",
+    "brand": "Arabiyat",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/375x500.115550.avif",
     "compared": false
   },
   {
@@ -417,13 +1128,22 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1076",
+    "name": "Arabiyat Prestige Mahad Al Dhahab",
+    "brand": "Arabiyat Prestige",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_63fbdc63-365b-4792-985b-876c65ef4d07.webp",
+    "compared": false
+  },
+  {
     "id": "orig-4",
     "name": "Arabiyat Prestige Marwa Extrait",
     "brand": "Arabiyat Prestige",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 321000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/MargielaReplicaAfternoonDelight_9f118280-09a9-419b-a0cb-ea8f6e5898fb.jpg?v=1795181742",
-    "compared": false
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_8e59bc39-4048-4149-ba09-5bcf83586ae3.webp",
+    "compared": true
   },
   {
     "id": "orig-892",
@@ -480,6 +1200,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1649",
+    "name": "Aramis",
+    "brand": "Aramis",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/675m_580x.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1074",
+    "name": "Arbiyat Prestige Uhud",
+    "brand": "Arbiyat Prestige",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_9f3f6538-7258-44c5-ad9b-dc2bfcbe1339.webp",
+    "compared": false
+  },
+  {
     "id": "orig-620",
     "name": "Ard Al Zaafaran Manaal",
     "brand": "Ard Al Zaafaran",
@@ -489,12 +1227,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2083",
+    "name": "Ariana Grande Ari EDP 100 ml",
+    "brand": "Ariana Grande",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ARIANA-GRANDE-ARI-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-1",
     "name": "Ariana Grande Cloud Aurora",
     "brand": "Ariana Grande",
     "variant": "100% Original Sellado · Código Batch",
     "price": 370000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ArianagrandeCloudAurora.jpg?v=1795369765",
+    "compared": false
+  },
+  {
+    "id": "orig-2087",
+    "name": "Ariana Grande Cloud EDP 100 ml",
+    "brand": "Ariana Grande",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ARIANA-GRANDE-CLOUD-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1296",
+    "name": "Ariana Grande Cloud Pink",
+    "brand": "Ariana Grande",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Ariana_Grande_Cloud_Pink_390f00f2-3226-4927-a4e4-1a56e4315fce.webp",
     "compared": false
   },
   {
@@ -525,6 +1290,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2082",
+    "name": "Ariana Grande Moonlight EDP 100 ml",
+    "brand": "Ariana Grande",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 255000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ARIANA-GRANDE-MOONLIGHT-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1148",
+    "name": "Ariana Grande REM",
+    "brand": "Ariana Grande",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/REM.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2084",
+    "name": "Ariana Grande thank u Next EDP 100 ml",
+    "brand": "Ariana Grande",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ARIANA-GRANDE-THAK-U-NEXT.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-506",
     "name": "Ariana grande Rem Cherry Eclipse",
     "brand": "Ariana Grande",
@@ -540,6 +1332,87 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 329100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_cbeb9230-512d-45f4-a846-24190a1b15b2.jpg?v=1763524587",
+    "compared": true
+  },
+  {
+    "id": "orig-1789",
+    "name": "ARMAF CLUB DE NUIT ICONIC",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ARMAF-CLUB-DE-NUIT-ICONIC.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1791",
+    "name": "ARMAF CLUB DE NUIT INTENSE EDP 200 ml",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ARMAF-CLUB-DE-NUIT-INTENSE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1707",
+    "name": "ARMAF CLUB DE NUIT UNTOLD EDP",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/armaf-fragancias-armaf-club-de-nuit-untold-unisex-edp-105ml-spray-6294015164176-39458532196606_600x.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1788",
+    "name": "ARMAF CLUB DE NUIT URBAN ELIXIR",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ARMAF-CLUB-DE-NUIT-URBAN-ELIXIR.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1790",
+    "name": "ARMAF CLUB DE NUIT URBAN MAN",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ARMAF-CLUB-DE-NUIT-URBAN-MAN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1708",
+    "name": "ARMAF ODYSSEY MANDARIN SKY EDP",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/D_NQ_NP_806818-MLM73982503686_012024-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1662",
+    "name": "ARMAF ODYSSEY TYRANT",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Armaf-Odyssey-tyrant.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1706",
+    "name": "Arma club de nuit Woman",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/image-502aed819a9542e88f7625f5293201a5.png",
+    "compared": false
+  },
+  {
+    "id": "orig-1105",
+    "name": "Armaf Beach Party",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_235fb000-1fd4-42e5-8a72-24a09c2fbac2.webp",
     "compared": false
   },
   {
@@ -561,12 +1434,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2064",
+    "name": "Armaf Club De Nuit Intense",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ARMAF-CLUB-DE-NUIT-INTENSE-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-180",
     "name": "Armaf Club De Nuit Intense Overdose",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
     "price": 366000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ClubDeNuitIntenseOverdose_2.jpg?v=1786038788",
+    "compared": false
+  },
+  {
+    "id": "orig-2062",
+    "name": "Armaf Club De Nuit Milestone EDP 105 ml",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ARMAF-CLUB-DE-NUIT-MILESTONE-EDP-HOMBRE-2.jpg",
     "compared": false
   },
   {
@@ -615,13 +1506,22 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1317",
+    "name": "Armaf Club de Nuit Lionheart Man",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Lionheart_man_7087dd5c-efec-4f7d-9fe9-3bcb20aa8108.webp",
+    "compared": false
+  },
+  {
     "id": "orig-831",
     "name": "Armaf Club de Nuit Precieux IV",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
     "price": 339000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/armafclubdenuitprecieuxiv.jpg?v=1761405874",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-566",
@@ -630,6 +1530,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 276000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Armaf_Club_de_Nuit_Woman_Extrait_de_Parfum.jpg?v=1773195609",
+    "compared": false
+  },
+  {
+    "id": "orig-1111",
+    "name": "Armaf Club de nuit intense extrait",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 285000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/1_4590ddfa-a87f-40d3-937f-9ea9631976bf.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2063",
+    "name": "Armaf Clud De Nuit Sillage EDP 105 ml",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ARMAF-CLUB-DE-NUIT-SILLAGE-EDP-HOMBRE-2.jpg",
     "compared": false
   },
   {
@@ -642,12 +1560,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1256",
+    "name": "Armaf Delights Yum Yum",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/ArmafDelightsYumYum.webp",
+    "compared": false
+  },
+  {
     "id": "orig-404",
     "name": "Armaf Dunescape",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
     "price": 284100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ArmafDUNESCAPE.jpg?v=1778694509",
+    "compared": true
+  },
+  {
+    "id": "orig-1133",
+    "name": "Armaf Eter Arabian Sky",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/armafeterarabiansky2.webp",
     "compared": false
   },
   {
@@ -666,7 +1602,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 312000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_8d528d92-3405-4c1c-b2ba-7e61cd4b1671.jpg?v=1761752028",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-503",
@@ -678,12 +1614,48 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1106",
+    "name": "Armaf Odyssey Artisto",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_5435d002-d135-4687-8288-98a5702a7e9e.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1279",
+    "name": "Armaf Odyssey Dubai Chocolat",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Armaf_Odyssey_Dubai_Chocolat.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1132",
+    "name": "Armaf Odyssey Eau de montagne",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/ArmafOdysseyEaudemontagne.webp",
+    "compared": false
+  },
+  {
     "id": "orig-875",
     "name": "Armaf Odyssey Go Mango Tropical",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 280500,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_75008cf6-b909-4da9-8b84-9901bfdb515b.jpg?v=1758987298",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_75008cf6-b909-4da9-8b84-9901bfdb515b.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1167",
+    "name": "Armaf Odyssey Homme White Edition",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/Armaf-odyssey-homme-edition-2.webp",
     "compared": false
   },
   {
@@ -693,6 +1665,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 321000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Armaf_Odyssey_Li_chi_Lush.jpg?v=1778598812",
+    "compared": false
+  },
+  {
+    "id": "orig-1093",
+    "name": "Armaf Odyssey Mandarin Sky Elixir",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/375x500.106709.avif",
     "compared": false
   },
   {
@@ -729,6 +1710,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 204000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_2c508de9-87c0-446a-b1fa-86041146130e.jpg?v=1760960125",
+    "compared": true
+  },
+  {
+    "id": "orig-1067",
+    "name": "Armaf Odyssey Wild One Gold Edition",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/armaf-odyssey-wild-one-gold-edition.webp",
     "compared": false
   },
   {
@@ -736,18 +1726,18 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Armaf Odyssey bahamas tropical",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 267000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_9d894cbe-5a84-4073-98e7-7ddffbc12a14.jpg?v=1758985685",
-    "compared": false
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_9d894cbe-5a84-4073-98e7-7ddffbc12a14.webp",
+    "compared": true
   },
   {
     "id": "orig-885",
     "name": "Armaf Odyssey marshmallow",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 267000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_5c434755-3e61-4bef-b0db-f1d49798d608.jpg?v=1758734061",
-    "compared": false
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_5c434755-3e61-4bef-b0db-f1d49798d608.webp",
+    "compared": true
   },
   {
     "id": "orig-600",
@@ -768,6 +1758,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1100",
+    "name": "Armaf club de nuit Maleka",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Armaf_club_de_nuit_Maleka.webp",
+    "compared": false
+  },
+  {
     "id": "orig-870",
     "name": "Armaf club de nuit iconic set de regalo",
     "brand": "Armaf",
@@ -783,7 +1782,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 280500,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Armaf_Bon_Bon.jpg?v=1770051227",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-651",
@@ -792,6 +1791,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 249000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Armaf_odyssey_Mandarin_Sky_Vintage_edition.jpg?v=1770051708",
+    "compared": false
+  },
+  {
+    "id": "orig-1130",
+    "name": "Armaf odyssey Revolution",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Armaf_odyssey_Revolution.webp",
     "compared": false
   },
   {
@@ -813,6 +1821,60 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1653",
+    "name": "Club De Nuit Private Key To My Dreams(sin caja)",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Private_Key_To_My_Dreams.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1656",
+    "name": "Club De Nuit Private Key To My Life EXTRACT",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/ARMAF-CLUB-DE-NUIT-TO-MY-LIFE.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1654",
+    "name": "Club De Nuit Private Key To My Love (sin caja)",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/ARMAF-CLUB-DE-NUIT-TO-MY-LOVE.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1657",
+    "name": "Club De Nuit Private Key To My Soul",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/D_NQ_NP_781829-MLA79220119552_092024-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1655",
+    "name": "Club De Nuit Private Key To My Success (sin caja)",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/ArmafClubdeNuitPrivateKeyToMySuccess-ExtraitdeParfum-100ml-Unisex.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1493",
+    "name": "Club de Nuit Imperiale",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Armaf-club-de-nuit-imperiale-1.webp",
+    "compared": false
+  },
+  {
     "id": "orig-685",
     "name": "Club de Nuit Intense Man Extracto Set de Regalo",
     "brand": "Armaf",
@@ -822,12 +1884,156 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1492",
+    "name": "Club de Nuit Oud",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/armafclubdenuitoud2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1494",
+    "name": "Club de Nuit Precieux 1",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/armafclubdenuitprecieux2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-177",
     "name": "Combo Armaf Club De Nuit Intense + Armaf Odyssey Mandarin Sky",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
     "price": 384000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ClubdeNuitIntense_OdysseyMandarinSky.jpg?v=1786041516",
+    "compared": false
+  },
+  {
+    "id": "orig-1497",
+    "name": "Odyssey Aoud",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/armaf-odyssey-aoud.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1499",
+    "name": "Odyssey Aqua Edition EXTRAGRANDE , 200 MILILITROS",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/armaf-odyssey-aqua-edition-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1498",
+    "name": "Odyssey Candy 200 mililitros ( Contenido EXTRA )",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/candee.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1495",
+    "name": "Odyssey Mega",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Armaf-odyssey-mega-2-600x600-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1500",
+    "name": "Odyssey limoni",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Odyssey_Limoni_a91f5742-9c1e-4b68-b048-b4dcfdb9ab0a.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1496",
+    "name": "Spectra odyssey 100 ml",
+    "brand": "Armaf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Odyssey_Spectra_e5ae2a7f-2429-4e7a-8b64-7b546765db01.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1355",
+    "name": "Armani Acqua di Gio Pour Homme Eau de Parfum (Tester)",
+    "brand": "Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Armani-acqua-di-gio-eau-de-parfum-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1229",
+    "name": "Armani Acqua di Gio Profondo Parfum PURO 100 ml",
+    "brand": "Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 630000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/acquadigioprofondoparfum2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1562",
+    "name": "Armani Code Parfum",
+    "brand": "Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/armanicodeparfum2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2099",
+    "name": "Emporio Armani Because It&#8217;s You EDP 100 ml",
+    "brand": "Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/EMPORIO-ARMANI-BECAUSE-ITS-YOU-DAMA-3.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1231",
+    "name": "Emporio Armani Stronger With You Absolutely",
+    "brand": "Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 600000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Stronger-with-you-absolutely-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1230",
+    "name": "Emporio Armani Stronger With You Intensely",
+    "brand": "Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/stronger-with-you.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2055",
+    "name": "Emporio Armani You Stronger Whit EDT 100 ml",
+    "brand": "Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 385000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/EMPORIO-ARMANI-STRONGER-WITH-YOU-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1023",
+    "name": "Emporio Armani para Mujer",
+    "brand": "Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/emporio.webp",
     "compared": false
   },
   {
@@ -957,12 +2163,75 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1410",
+    "name": "Azzaro Azzaro Pour Homme 100 mililitros",
+    "brand": "Azzaro",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Azzaro-Pour-Homme-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1440",
+    "name": "Azzaro Azzaro The Most Wanted Parfum 100 mililitros",
+    "brand": "Azzaro",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 590000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/azzaro-the-most-wanted-parfum-2.jpg-2-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-343",
     "name": "Azzaro Forever Wanted Absolu",
     "brand": "Azzaro",
     "variant": "100% Original Sellado · Código Batch",
     "price": 645000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Azzaroforeverwantedabsolu_1.png?v=1781285555",
+    "compared": false
+  },
+  {
+    "id": "orig-1442",
+    "name": "Azzaro The Most Wanted EDP INTENSE 100 mililitros",
+    "brand": "Azzaro",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 490000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/azzaro-the-most-wanted-3.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1441",
+    "name": "Azzaro Wanted",
+    "brand": "Azzaro",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Azzaro-wanted-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1173",
+    "name": "azzaro forever wanted elixir",
+    "brand": "Azzaro",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 720000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/azzaroforeverwantedelixir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1960",
+    "name": "BASSANO EXTREMIS BLACK EDT 100ML",
+    "brand": "BASSANO EXTREMIS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 229800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/BASSANO-EXTREMIS-BLACK-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1959",
+    "name": "BASSANO EXTREMIS INTENSE EDT 100ML",
+    "brand": "BASSANO EXTREMIS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 229800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/BASSANO-EXTREMIS-INTENSE-EDT.jpg",
     "compared": false
   },
   {
@@ -1011,6 +2280,42 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1705",
+    "name": "BILLIE EILISH «EILISH»",
+    "brand": "BILLIE EILISH",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/7e4077_d577b23b73a2473992295df10b5b09f8mv2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2011",
+    "name": "BLACK INTENSITIVE AOUD EDP 120ml",
+    "brand": "BLACK INTENSITIVE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/BLACK-INTENSIVE-AOUD.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1947",
+    "name": "BLUE JEANS EDT 75ML",
+    "brand": "BLUE JEANS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/BLUE-JEANS-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2023",
+    "name": "BLUE MATCHA EDP 100ml",
+    "brand": "BLUE MATCHA",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/blue-matcha.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-686",
     "name": "BORNTOSTANDOUT® Angels' Powder",
     "brand": "BORNTOSTANDOUT®",
@@ -1035,6 +2340,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 1392000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/BORNTOSTANDOUT_Indecent_Cherry.jpg?v=1769138219",
+    "compared": false
+  },
+  {
+    "id": "orig-1647",
+    "name": "Baldessarini Black",
+    "brand": "Baldessarini Black",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/D_NQ_NP_916057-CBT79113046252_092024-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1295",
+    "name": "Banderas Blue Seduction Summer essence for woman",
+    "brand": "Banderas Blue",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 160000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/blueseductionsummeressence2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1691",
+    "name": "Be Delicious",
+    "brand": "Be Delicious",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 285000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/DKNY-be-delicious.jpg",
     "compared": false
   },
   {
@@ -1065,12 +2397,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1641",
+    "name": "Benetton Colors Rose",
+    "brand": "Benetton Colors",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 140000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/4735_1_2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1482",
+    "name": "Benetton Paradiso Infierno",
+    "brand": "Benetton Paradiso",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Perfume-Inferno-Paradiso-Pink-De-Benetton-Para-Mujer-100-ml-FRASCO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1009",
+    "name": "Benetton Sisterland Stranger things",
+    "brand": "Benetton Sisterland",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/images.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1325",
+    "name": "Bentley For Men Intense",
+    "brand": "Bentley",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Bentley-for-men-intense-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-814",
     "name": "Bentley Infinite Intense",
     "brand": "Bentley",
     "variant": "100% Original Sellado · Código Batch",
     "price": 249000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_5ba9eb95-4fc2-4f75-9094-adfebaa7a3b3.jpg?v=1762039151",
+    "compared": false
+  },
+  {
+    "id": "orig-1326",
+    "name": "Bentley black edition",
+    "brand": "Bentley",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Bentley_Black_Edition.webp",
     "compared": false
   },
   {
@@ -1087,9 +2464,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Bharara Boujee",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 411000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_99a9b22e-45d4-43d7-a882-5b8e82dfffa3.jpg?v=1766976625",
-    "compared": false
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/05/1_99a9b22e-45d4-43d7-a882-5b8e82dfffa3.webp",
+    "compared": true
   },
   {
     "id": "orig-487",
@@ -1110,12 +2487,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1162",
+    "name": "Bharara Don",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/descarga-23.jpeg",
+    "compared": false
+  },
+  {
     "id": "orig-951",
     "name": "Bharara Enchanted",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
     "price": 348000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_62e23c49-b985-42e9-9656-eb7680eeaa7e.jpg?v=1755949598",
+    "compared": true
+  },
+  {
+    "id": "orig-1113",
+    "name": "Bharara Enigma",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/descarga-41.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1112",
+    "name": "Bharara Essence",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Bharara_Essence_be759bd2-5310-45c3-a962-322e4e26e6d3.webp",
     "compared": false
   },
   {
@@ -1146,6 +2550,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2033",
+    "name": "Bharara King EDP 100 ml",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/BHARARA-KING-EDP-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1161",
+    "name": "Bharara King Soleil",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/bharara_king_soleil.webp",
+    "compared": false
+  },
+  {
     "id": "orig-806",
     "name": "Bharara Mast Perfume Azul",
     "brand": "Bharara",
@@ -1170,6 +2592,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 221100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c0fce8fc-5a0f-43af-ae14-3bfe4fcca5da.jpg?v=1762268098",
+    "compared": false
+  },
+  {
+    "id": "orig-1259",
+    "name": "Bharara Mast Perfume Ocean Green",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/64f646ff2e95a-3952f976-f0a0-4b4f-a6c1-5c57a25e316d-1600x1600-1.webp",
     "compared": false
   },
   {
@@ -1213,9 +2644,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Bharara Mast Perfume Rome Extradose femenina",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 266100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_7709bc6f-a082-4b54-88f4-6fb3552a736d.jpg?v=1765303803",
-    "compared": false
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/04/1_7709bc6f-a082-4b54-88f4-6fb3552a736d.webp",
+    "compared": true
   },
   {
     "id": "orig-730",
@@ -1231,27 +2662,27 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Bharara Mast Perfume Rome Fantasmagory",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 266100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/BhararaMastPerfumeRomeFantasmagory_1.png?v=1774912620",
-    "compared": false
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/BhararaMastPerfumeRomeFantasmagory_1.webp",
+    "compared": true
   },
   {
     "id": "orig-572",
     "name": "Bharara Mast Perfume Rome Ivory Femenino",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 249000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Bharara_Mast_Perfume_Rome_Ivory_Femenino.jpg?v=1772829963",
-    "compared": false
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/04/Bharara_Mast_Perfume_Rome_Ivory_Femenino.webp",
+    "compared": true
   },
   {
     "id": "orig-682",
     "name": "Bharara Mast Perfume Rome Ivory Pour Homme",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 249000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Mast_Perfumes_Rome_Ivory_Pour_Homme.jpg?v=1769265473",
-    "compared": false
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/04/Bharara_Mast_Perfume_Rome_Ivory_Femenino.webp",
+    "compared": true
   },
   {
     "id": "orig-574",
@@ -1263,12 +2694,75 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1305",
+    "name": "Bharara Mast Perfume Velvet Rose",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/bhararamastperfumevelvetrose.webp",
+    "compared": false
+  },
+  {
     "id": "orig-282",
     "name": "Bharara Mast Rome La Bomba",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
     "price": 266100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/BhararaMastRomeLaBomba.jpg?v=1785039554",
+    "compared": false
+  },
+  {
+    "id": "orig-1394",
+    "name": "Bharara Niche EDP 100 ml",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Bharara-niche.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2032",
+    "name": "Bharara Niche EDP 200 mililitros",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/BHARARA-NICHE-EDP-UNISEXO-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2031",
+    "name": "Bharara Niche Femme EDP 100 ML",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/BHARARA-NICHE-FEMME-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1257",
+    "name": "Bharara Onyx",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/13104526-aa45-41b3-9a40-ec113c95a025_jpeg.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1281",
+    "name": "Bharara Pharaoh Ramesses",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 470000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Pharaoh_Ramesses.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1280",
+    "name": "Bharara Pharaoh Ramesses II",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 630000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/BhararaPharaohRamessesII.webp",
     "compared": false
   },
   {
@@ -1308,21 +2802,93 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1461",
+    "name": "Bharara Viking Beirut",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Bharara-viking-beirut.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1459",
+    "name": "Bharara Viking Cairo",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Bharara-viking-cairo.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1458",
+    "name": "Bharara Viking Dubai Parfum",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Bharara-Viking-Dubai.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1457",
+    "name": "Bharara Viking Kashmir",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Bharara-viking-kashmir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1460",
+    "name": "Bharara Viking Rio EDP 100 mililitros",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/fit.120737.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1037",
+    "name": "Bharara elegance",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/11/Elegance_Bharara.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1138",
+    "name": "Bharara mast perfume Rome Imagine",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/1_d72ec095-6672-4221-964b-6ecd3febf6c1.webp",
+    "compared": false
+  },
+  {
     "id": "orig-914",
     "name": "Bharara mast perfume Rome Paradox",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 266100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/romeparadox.jpg?v=1791902483",
-    "compared": false
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/11/Bharara_mast_perfume_Rome_Paradox.webp",
+    "compared": true
   },
   {
     "id": "orig-913",
     "name": "Bharara mast perfume Rome Yum Yum",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 249000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_64318fbd-a18c-464b-bdba-39f8a72fc525.jpg?v=1757286914",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/11/1_64318fbd-a18c-464b-bdba-39f8a72fc525.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1057",
+    "name": "Bharara mast perfume rome pour femme",
+    "brand": "Bharara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Bharara_Mast_Rome_Pour_Femme_61f589d4-33ea-49b3-b577-ac1a376dd1af.webp",
     "compared": false
   },
   {
@@ -1348,18 +2914,18 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Mast Perfume Rome Lucky By Bharara",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 280500,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Mast_Perfumes_Rome_Lucky_23.jpg?v=1785535428",
-    "compared": false
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/images-1.jpeg",
+    "compared": true
   },
   {
     "id": "orig-194",
     "name": "Mast Perfume Rome Melancholia Pour Femme By Bharara",
     "brand": "Bharara",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 280500,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Mast_Perfumes_Rome_Melancholia_Pour_Femme3.jpg?v=1785535848",
-    "compared": false
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/images-1.jpeg",
+    "compared": true
   },
   {
     "id": "orig-196",
@@ -1368,6 +2934,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 280500,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Mast_Perfumes_Rome_Pour_Homme_Int2ense2.jpg?v=1785534930",
+    "compared": false
+  },
+  {
+    "id": "orig-1568",
+    "name": "Big Pony 2",
+    "brand": "Big Pony",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/big-pony-2-polo-ralph-lauren-2.jpg",
     "compared": false
   },
   {
@@ -1384,9 +2959,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "BlackOud Okinawa",
     "brand": "Blackoud",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 374100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/BlackOud_Okinawa.jpg?v=1768324979",
-    "compared": false
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/BlackOud_Okinawa.webp",
+    "compared": true
   },
   {
     "id": "orig-22",
@@ -1404,6 +2979,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 374100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GeneratedImageJuly06_2026-6_36AM.jpg?v=1783338228",
+    "compared": false
+  },
+  {
+    "id": "orig-1079",
+    "name": "Blackoud By Drew",
+    "brand": "Blackoud By",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/375x500.96400.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1077",
+    "name": "Blackoud Dubai Night",
+    "brand": "Blackoud Dubai",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/375x500.96396.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1078",
+    "name": "Blackoud Oud Vainilla",
+    "brand": "Blackoud Oud",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/375x500.96398.avif",
     "compared": false
   },
   {
@@ -1488,6 +3090,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1122",
+    "name": "Bond No. 9 Downtown Bleecker Street",
+    "brand": "Bond No",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Bond-blecker.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1064",
+    "name": "Bond No. 9 The Scent of Peace",
+    "brand": "Bond No",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Bond-the-scent-of-peace-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-421",
     "name": "Bond 9 Dubai Amber",
     "brand": "Bond No. 9",
@@ -1524,6 +3144,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1239",
+    "name": "Hugo Boos Boss Orange",
+    "brand": "Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.5979.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-689",
     "name": "Botanicae Endurance",
     "brand": "Botanicae",
@@ -1546,8 +3175,17 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Britney Spears Fantasy Blissful",
     "brand": "Britney Spears",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 185100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/BritneySpearsFantasyBlissful.jpg?v=1787833363",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/britney-fantasy.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1427",
+    "name": "Britney Spears Fantasy Midnight",
+    "brand": "Britney Spears",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/britney-fantasy-midnight-1.webp",
     "compared": false
   },
   {
@@ -1560,12 +3198,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2100",
+    "name": "Burberry For Women EDP 100 ml",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 255000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/BURBERRY-FOR-WOMEN-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1631",
+    "name": "Burberry Goddess",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 600000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/goddess.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-468",
     "name": "Burberry Goddess Parfum",
     "brand": "Burberry",
     "variant": "100% Original Sellado · Código Batch",
     "price": 465000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Burberry_Goddess_Parfum.jpg?v=1776221180",
+    "compared": false
+  },
+  {
+    "id": "orig-985",
+    "name": "Burberry Her Blossom",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Burberry-her-blossom-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1297",
+    "name": "Burberry Her Eau de Parfum",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Burberry-her-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-984",
+    "name": "Burberry Her Elixir",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 580000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Burberry_Her.webp",
     "compared": false
   },
   {
@@ -1593,7 +3276,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 465000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Burberryherparfum.png?v=1776449100",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-536",
@@ -1602,6 +3285,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 591000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_362ffc05-91f4-41ae-8330-13970215b0aa.jpg?v=1774096291",
+    "compared": false
+  },
+  {
+    "id": "orig-1015",
+    "name": "Burberry Hero EDP",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Burberry_Hero_7b46e6f9-2070-4cd5-b657-e98bdfa4b626.png",
     "compared": false
   },
   {
@@ -1614,6 +3306,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1248",
+    "name": "Burberry My Burberry Black",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 470000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.32566.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2101",
+    "name": "Burberry My Burberry EDP 90 ml",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 420000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/BURBERRY-MY-BURBERRY-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1247",
+    "name": "Burberry Touch for Women",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/images-8.jpeg",
+    "compared": false
+  },
+  {
     "id": "orig-905",
     "name": "Burberry Touch for her",
     "brand": "Burberry",
@@ -1623,12 +3342,84 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1090",
+    "name": "Burberry goddess intense",
+    "brand": "Burberry",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Burberry_Goddess_Intense.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1773",
+    "name": "BVLGARI OMNIA BY MARY KATRANTZOU",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 780000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/BVLGARI-OMNIA-BY-MARY-KATRANTZOU.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1774",
+    "name": "BVLGARI OMNIA GOLDEN CITRINE",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 850000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/BVLGARI-OMNIA-GOLDEN-CITRINE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1776",
+    "name": "BVLGARI OMNIA PINK SAPPHIRE",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 730000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/BVLGARI-OMNIA-PINK-SAPPHIRE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1775",
+    "name": "BVLGARI ROSE GOLDEA",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/BVLGARI-ROSE-GOLDEA.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-614",
     "name": "Bvlgari Aqva Divina",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
     "price": 294000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/aqva-divina-2.jpg?v=1705009328",
+    "compared": true
+  },
+  {
+    "id": "orig-1262",
+    "name": "Bvlgari Aqva Pour Homme Marine",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Bvlgari-aqva-marine-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1593",
+    "name": "Bvlgari Blv",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Bvlgari-BVL.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1629",
+    "name": "Bvlgari Glacial essense",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Glacial-essense.jpg",
     "compared": false
   },
   {
@@ -1641,12 +3432,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1630",
+    "name": "Bvlgari Man In Black",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/in-black.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1592",
+    "name": "Bvlgari Man Rain Essence",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/bvlgari-man-rain-essence.webp",
+    "compared": false
+  },
+  {
     "id": "orig-898",
     "name": "Bvlgari Man Rain Essence Set De Regalo",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
     "price": 501000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_2246cc7c-21b5-43b7-b0d4-1a35be026688.jpg?v=1757772128",
+    "compared": false
+  },
+  {
+    "id": "orig-1591",
+    "name": "Bvlgari Man Wood Essence , ( LE PERFUM PURO ) , NO EAU DE P",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Bvlgari-man-wood-essence-2.webp",
     "compared": false
   },
   {
@@ -1659,12 +3477,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1330",
+    "name": "Bvlgari Man Wood Neroli",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 630000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Bvlgari-man-wood-neroli.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2110",
+    "name": "Bvlgari Omnia Amethyste EDT 100ml",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/img_8618.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-2111",
+    "name": "Bvlgari Omnia Coral EDT 100ml",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 409800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/img_8619.jpeg",
+    "compared": false
+  },
+  {
     "id": "orig-915",
     "name": "Bvlgari Omnia Coral set de regalo 100 ML + 15 ML",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
     "price": 645000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/2_047875ea-a6ff-4087-b737-2eac036614d3.jpg?v=1757186664",
+    "compared": false
+  },
+  {
+    "id": "orig-1378",
+    "name": "Bvlgari Omnia Crystalline (tester)",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/bvlgari-omnia-crystalline-100-ml_8aa46049-3463-4e08-8def-1a54d70e69f6-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2112",
+    "name": "Bvlgari Omnia Crystalline 100 ml ( NEW DESIGN )",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/img_8620.jpeg",
     "compared": false
   },
   {
@@ -1683,6 +3546,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 501000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_f1daa7b4-1897-4194-bc60-c669c7f76d37.jpg?v=1755899576",
+    "compared": false
+  },
+  {
+    "id": "orig-1018",
+    "name": "Bvlgari Pour Homme EDT (CAJA SIN CELOFÁN) , FULL CÓDIGOS INTERNOS Y EXTERNOS",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Bvlgari-pour-homme.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1232",
+    "name": "Bvlgari Pour Homme eau de (PERFUM) 100 mililitros",
+    "brand": "Bvlgari",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 630000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.143.jpg",
     "compared": false
   },
   {
@@ -1713,12 +3594,165 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1659",
+    "name": "CAFÉ DAMA",
+    "brand": "CAF DAMA",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 130000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/375x500.3866.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1575",
+    "name": "CK One 100 ml",
+    "brand": "CK One",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Calvin-Klein-CK-One-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1439",
+    "name": "Cacharel Amor Amor",
+    "brand": "Cacharel Amor",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Amor-amor-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1438",
+    "name": "Cacharel Anaïs Anaïs L&#8217;Original",
+    "brand": "Cacharel Ana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Anais-anais-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1767",
+    "name": "CALVIN KLEIN BEAUTY",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CALVIN-KLEIN-BEAUTY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1766",
+    "name": "CALVIN KLEIN CK BE 200 ml ( EXTRA CONTENIDO )",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 199800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CALVIN-KLEIN-CK-BE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1765",
+    "name": "CALVIN KLEIN CK ONE SHOCK FOR HER 200 ml",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CALVIN-KLEIN-CK-ONE-SHOCK-FOR-HIR.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1763",
+    "name": "CALVIN KLEIN ETERNITY FLAME",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CALVIN-KLEIN-ETERNITY-FLAME-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1764",
+    "name": "CALVIN KLEIN SHEER BEAUTY",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CALVIN-KLEIN-SHEER-BEAUTY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1227",
+    "name": "Calvin Klein CK Free",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/CK-free-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2093",
+    "name": "Calvin Klein CK IN2U For Her",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CALVIN-KLEIN-CK-IN2U-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2049",
+    "name": "Calvin Klein CK IN2U For Him",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CALVIN-KLEIN-CK-IN2U-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-115",
     "name": "Calvin Klein CK One Essence",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
     "price": 257100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Calvinkleinckoneessence.jpg?v=1788702647",
+    "compared": false
+  },
+  {
+    "id": "orig-1406",
+    "name": "Calvin Klein CK One Gold",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/calvinkleinckonegold2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2050",
+    "name": "Calvin Klein Ck One EDT 200 ml",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CALVIN-KLEIN-CK-ONE-EDT-HOMBRE-3.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1405",
+    "name": "Calvin Klein Ck all 200 mililitros",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/D_NQ_NP_984794-MLA70321925743_072023-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1245",
+    "name": "Calvin Klein Contradiction",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.255.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1228",
+    "name": "Calvin Klein Contradiction for men",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.256.jpg",
     "compared": false
   },
   {
@@ -1740,6 +3774,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1226",
+    "name": "Calvin Klein Eternity for Men",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Eternity-for-men-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-269",
     "name": "Calvin Klein Eternity for Men Eau de Parfum",
     "brand": "Calvin Klein",
@@ -1749,12 +3792,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2091",
+    "name": "Calvin Klein Euphoria EDP (NEW DESING) 100 ml",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/Euphoria-dm-160-ml-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-631",
     "name": "Calvin Klein My Euphoria",
     "brand": "Calvin Klein",
     "variant": "100% Original Sellado · Código Batch",
     "price": 321000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_ef915be9-55cb-4ef5-a130-cdde528701f8.jpg?v=1771343507",
+    "compared": false
+  },
+  {
+    "id": "orig-1246",
+    "name": "Calvin Klein Truth",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.267.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2092",
+    "name": "Calvin Klein Women EDP 100 ml",
+    "brand": "Calvin Klein",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CALVIN-KLEIN-WOMEN-EDP-DAMA-2.jpg",
     "compared": false
   },
   {
@@ -1776,12 +3846,201 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1469",
+    "name": "Bad Boy Cobalt Elixir",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 515000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/carolinaherrerabadboycobaltelixir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1466",
+    "name": "Bad Boy EDT",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Carolina-herrera-bad-boy-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1465",
+    "name": "Bad Boy Le Parfum",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 520000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Bad-boy-le-parfum.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1697",
+    "name": "CAROLINA HERRERA 212 DAMA",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/w800h800fitpad.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1814",
+    "name": "CAROLINA HERRERA 212 HEROES FOREVER YOUNG",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CAROLINA-HERRERA-212-HEROES-FOREVER-YOUNG.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1816",
+    "name": "CAROLINA HERRERA 212 SEXY",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CAROLINA-HERRERA-212-SEXY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1762",
+    "name": "CAROLINA HERRERA 212 VIP 100 Ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CAROLINA-HERRERA-212-VIP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1761",
+    "name": "CAROLINA HERRERA 212 VIP BLACK",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/Carolina-herrera-212-vip-black-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1760",
+    "name": "CAROLINA HERRERA 212 VIP WINS",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CAROLINA-HERRERA-212-VIP-WINS-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1815",
+    "name": "CAROLINA HERRERA 212 VIP WINS MEN",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CAROLINA-HERRERA-212-VIP-WINS-MEN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1759",
+    "name": "CAROLINA HERRERA I LOVE NY",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/CAROLINA-HERRERA-I-LOVE-NY-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1464",
+    "name": "CH Men Pasión (( LIMITED EDITION )), Últimas piezas",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/carolinaherrerachmenpasion.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2067",
+    "name": "Carolina Herera 212 Vip Black Smiley EDP 100 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CAROLINA-HERRERA-212-VIP-BLACK-SMILEY-EDP-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2128",
+    "name": "Carolina Herrera 212 Men NYC EDT 100 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CAROLINA-HERRERA-212-MEN-NYC-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-388",
     "name": "Carolina Herrera 212 Men NYC Parfum",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
     "price": 474000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/212MenNycParfum_3.jpg?v=1779771232",
+    "compared": true
+  },
+  {
+    "id": "orig-2132",
+    "name": "Carolina Herrera 212 NYC EDT 100ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 420000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CAROLINA-HERRERA-212-NYC-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1364",
+    "name": "Carolina Herrera 212 Sexy For Woman (Tester)",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/212-sexy-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1332",
+    "name": "Carolina Herrera 212 Sexy Men (Tester)",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/sexy-men-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1333",
+    "name": "Carolina Herrera 212 VIP Black (Tester)",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Carolina-herrera-212-vip-black-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1331",
+    "name": "Carolina Herrera 212 VIP Black Elixir",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/212_VIP_Black_Elixir_f9351da2-8181-4e49-9e5d-b1f76312c5d9.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1363",
+    "name": "Carolina Herrera 212 VIP Rose (Tester) , 125 mililitros",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/212-vip-rose.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1152",
+    "name": "Carolina Herrera 212 VIP Rose Elixir",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/viproseelixir.webp",
     "compared": false
   },
   {
@@ -1794,12 +4053,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2129",
+    "name": "Carolina Herrera 212 Vip Rose EDP 80 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CAROLINA-HERRERA-212-VIP-ROSE-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-594",
     "name": "Carolina Herrera 212 vip rose 212 CAB edición limitada",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
     "price": 537000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Carolina_Herrera_212_vip_rose_212_CAB_edici_n_limitada.jpg?v=1771881142",
+    "compared": true
+  },
+  {
+    "id": "orig-1335",
+    "name": "Carolina Herrera Bad Boy (Tester)",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Carolina-herrera-bad-boy-2-1.webp",
     "compared": false
   },
   {
@@ -1821,6 +4098,51 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1019",
+    "name": "Carolina Herrera Bad Boy Dazzling Garden , 100 ML",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 630000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/375x500.84050.2x.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1053",
+    "name": "Carolina Herrera Bad Boy Elixir",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Carolina_Herrera_Bad_Boy_Elixir_86dc64e6-2fae-4fd5-9967-3dbd79fad64c.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1468",
+    "name": "Carolina Herrera Bad Boy Sparkling Ice",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Carolina_Herrera_Bad_Boy_Sparkling_Ice.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2068",
+    "name": "Carolina Herrera CH EDT 100 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CAROLINA-HERRERA-CH-HOMBRE-EDT-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2131",
+    "name": "Carolina Herrera CH EDT 100 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CAROLINA-HERRERA-CH-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-965",
     "name": "Carolina Herrera CH La Bomba",
     "brand": "Carolina Herrera",
@@ -1834,8 +4156,17 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Carolina Herrera CH Men Privé",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 447000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/products/Carolina-herrera-CH-men-privee-2.jpg?v=1699805202",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Carolina-herrera-CH-men-2.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1680",
+    "name": "Carolina Herrera CH Pasión Dama 100 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/carolina-herrera-ch-pasion.webp",
     "compared": false
   },
   {
@@ -1848,13 +4179,22 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1174",
+    "name": "Carolina Herrera Chic Men",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/chic-for-men.webp",
+    "compared": false
+  },
+  {
     "id": "orig-827",
     "name": "Carolina Herrera Good Girl Blush Bowtastic",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
     "price": 564000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_57ab57c3-993a-4e2a-9bac-588ae7a434d9.jpg?v=1761671342",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-30",
@@ -1863,6 +4203,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 644100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/CarolinaHerreraGoodGirlBlushCrystalClass.jpg?v=1794054623",
+    "compared": false
+  },
+  {
+    "id": "orig-1368",
+    "name": "Carolina Herrera Good Girl Blush Elixir",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/goodgirlblushelixir.webp",
     "compared": false
   },
   {
@@ -1884,12 +4233,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1041",
+    "name": "Carolina Herrera Good Girl Bowtastic Edition",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.111761-1.avif",
+    "compared": false
+  },
+  {
     "id": "orig-31",
     "name": "Carolina Herrera Good Girl Crystal Class",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
     "price": 599100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/CarolinaHerreraGoodGirlCrystalClass.jpg?v=1794053852",
+    "compared": false
+  },
+  {
+    "id": "orig-1702",
+    "name": "Carolina Herrera Good Girl Dazzling Garden EDP 80 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 640000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/61eQhkTLKgL._AC_UF10001000_QL80_.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1703",
+    "name": "Carolina Herrera Good Girl EDP 80 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/GOOD-GIRL-Eau-de-Parfum-80ml.jpg",
     "compared": false
   },
   {
@@ -1911,12 +4287,75 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1704",
+    "name": "Carolina Herrera Good Girl Supreme EDP 80 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 580000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/173468-800-auto.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1369",
+    "name": "Carolina Herrera Good Girl Suprême (Tester)",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Good-girl-supreme-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1119",
+    "name": "Carolina Herrera La Bomba EAU DE PARFUM , 100 mililitros EDP",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/o.105931.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-122",
     "name": "Carolina Herrera La Bomba Intensa",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
     "price": 537000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/CarolinaHerreraLabombaintensa.jpg?v=1788619279",
+    "compared": false
+  },
+  {
+    "id": "orig-1371",
+    "name": "Carolina Herrera Tradicional (Tester)",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Carolina-herrera-woman-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1020",
+    "name": "Carolina Herrera Tradicional para Hombre",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Carolina-herrera-for-men-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1021",
+    "name": "Carolina Herrera Tradicional para Mujer",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Carolina-herrera-woman-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2130",
+    "name": "Carolina Herrera Very Good Girl EDP 80 ml",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 485000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CAROLINA-HERRERA-VERY-GOOD-GIRL-DAMA-2.jpg",
     "compared": false
   },
   {
@@ -1929,12 +4368,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1151",
+    "name": "Carolina Herrera Very Good Girl elixir",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 575000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/Carolina_Herrera_Very_Good_Girl_elixir.webp",
+    "compared": false
+  },
+  {
     "id": "orig-593",
     "name": "Carolina Herrrera 212 vip black 212 cab edición limitada",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
     "price": 537000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Carolina_Herrrera_212_vip_black_212_cab_edici_n_limitada.jpg?v=1771881687",
+    "compared": true
+  },
+  {
+    "id": "orig-1334",
+    "name": "Carolina herrera 212 VIP Men (Tester)",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/212-vip.webp",
     "compared": false
   },
   {
@@ -1965,12 +4422,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1351",
+    "name": "Carolina herrera ch men sport",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Carolina_Herrera_CH_Men_Sport.webp",
+    "compared": false
+  },
+  {
     "id": "orig-956",
     "name": "Carolina herrera good girl set de regalo",
     "brand": "Carolina Herrera",
     "variant": "100% Original Sellado · Código Batch",
     "price": 591000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/2_d280cd75-f8f7-46c3-99df-3ed03d95d500.jpg?v=1755899956",
+    "compared": false
+  },
+  {
+    "id": "orig-1463",
+    "name": "Good Girl Blush",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/carolina-herrera-good-girl-blush.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1462",
+    "name": "Good girl sparkling ice",
+    "brand": "Carolina Herrera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Carolina_Herrera_Sparkling_Ice.webp",
     "compared": false
   },
   {
@@ -1983,13 +4467,67 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2081",
+    "name": "Cartier Baiser Volé EDP 100 ml EDP",
+    "brand": "Cartier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CARTIER-BAISER-VOLE-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2065",
+    "name": "Cartier Declaration Essence EDT 100 ml",
+    "brand": "Cartier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CARTIER-DECLARATION-ESSENCE-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2079",
+    "name": "Cartier La Panthere EDP 75 ml",
+    "brand": "Cartier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CARTIER-LE-PANTHERE-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2080",
+    "name": "Cartier La Panthere EDT 75 ml",
+    "brand": "Cartier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CARTIER-LA-PANTHERE-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1081",
+    "name": "Cartier Must",
+    "brand": "Cartier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Cartier-must-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1353",
+    "name": "Cartier Pasha Edition Noire Sport (Sport)",
+    "brand": "Cartier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Cartier-pasha-noire-sport-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-500",
     "name": "Cartier Santos EDT",
     "brand": "Cartier",
     "variant": "100% Original Sellado · Código Batch",
     "price": 465000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Cartier_Santos_EDT.jpg?v=1774979952",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-719",
@@ -1998,6 +4536,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 1761000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Amouage_Guidance_46.jpg?v=1767282079",
+    "compared": false
+  },
+  {
+    "id": "orig-1625",
+    "name": "Bleu de chanel edt",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 770000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Perfume_Bleu_De_Chanel_Eau_De_Toilette_-_150Ml_-_Hombre_360x.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1700",
+    "name": "CHANEL N°5 Premiere",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/3145891053401.webp",
     "compared": false
   },
   {
@@ -2023,8 +4579,26 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Chanel Chance Eau Fraiche Eau de Parfum",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 915000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Chanel_Chance_Eau_Fraiche_Eau_de_Parfum.jpg?v=1780677825",
+    "price": 759800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.83980.jpg",
+    "compared": true
+  },
+  {
+    "id": "orig-1293",
+    "name": "Chanel Chance Eau Fraîche EDT",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 659800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/chanelchancefraiche.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1294",
+    "name": "Chanel Chance Eau Parfum",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 870000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Chance-EDP-2.webp",
     "compared": false
   },
   {
@@ -2037,12 +4611,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1402",
+    "name": "Chanel Chance Eau Tendre EDP 150 MILILITROS ( NEW FRAGANCE , ELEGANCE PREMIERE )",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 759800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Chance-tendre-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1403",
+    "name": "Chanel Chance Eau Tendre EDT 150 mililitros (extra grande)",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 759800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Chance-tendre-edt-2-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1292",
+    "name": "Chanel Chance Eau Vive EDT",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 640000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/descarga.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1291",
+    "name": "Chanel Coco Mademoiselle 100 mililitros",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 960000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/w800h800fitpad-6.avif",
+    "compared": false
+  },
+  {
     "id": "orig-146",
     "name": "Chanel Coco Mademoiselle Crush Absolu",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
     "price": 1004100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ChanelcocomademoiselleCrushAbsolu.jpg?v=1787950515",
+    "compared": false
+  },
+  {
+    "id": "orig-1290",
+    "name": "Chanel Coco Mademoiselle Intense",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 759800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Coco-intense-2.webp",
     "compared": false
   },
   {
@@ -2068,17 +4687,53 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Chanel Gabrielle",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 915000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_a9e29f07-4e67-4e2f-af7d-93f98776c8c0.jpg?v=1774983037",
-    "compared": false
+    "price": 759800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.43718.jpg",
+    "compared": true
   },
   {
     "id": "orig-798",
     "name": "L'Eau Chanel Chanel No 5",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 825000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_6c82c195-4f6b-4030-b5d0-a3761c963261.jpg?v=1763525518",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Pefumes-2024-08-09T150919.811.jpg",
+    "compared": true
+  },
+  {
+    "id": "orig-1677",
+    "name": "Ciel",
+    "brand": "Ciel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 125000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/CIEL.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1687",
+    "name": "Clinique Happy Dama",
+    "brand": "Clinique Happy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/FR-00002314-2_1024x1024.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1622",
+    "name": "Clinique Happy for Men",
+    "brand": "Clinique Happy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Happy-men-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1421",
+    "name": "Clinique Happy™ Heart",
+    "brand": "Clinique Happy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Happy-heart-2.webp",
     "compared": false
   },
   {
@@ -2136,12 +4791,120 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1646",
+    "name": "Cold Benetton",
+    "brand": "Cold Benetton",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 130000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/ColdBenettonnuevapresentacion.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1645",
+    "name": "Colors De Benetton",
+    "brand": "Colors De",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 130000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/perfume-colors-man-de-benetton-para-hombre-100ml-3-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1643",
+    "name": "Colors De Dama",
+    "brand": "Colors De",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 130000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Perfume-Colors-De-Benetton-Para-Mujer-100-ml.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-525",
     "name": "Colour Me Neon Pink",
     "brand": "Colour Me",
     "variant": "100% Original Sellado · Código Batch",
     "price": 195000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_1b0f4e49-3c83-4974-b922-badde84028a5.jpg?v=1774490798",
+    "compared": false
+  },
+  {
+    "id": "orig-1952",
+    "name": "COMBO SENSUAL X3 MUJER",
+    "brand": "Combos Decants",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 113900,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/05/Combo-sensual.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1271",
+    "name": "Confiluxe Watt Black",
+    "brand": "Confiluxe Watt",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 120000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/D_NQ_NP_974990-MCO73646771115_122023-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1676",
+    "name": "Cool Water Dama (TESTER)",
+    "brand": "Cool Water",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 158000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/3414202011714-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1063",
+    "name": "Creed Absolu Aventus",
+    "brand": "Creed",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1760000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/descarga-56.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1289",
+    "name": "Creed Aventus",
+    "brand": "Creed",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1650000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Creed-aventus-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2074",
+    "name": "Creed Aventus For Her EDP 75 ml",
+    "brand": "Creed",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1050000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CREED-AVENTUS-FOR-HER-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1288",
+    "name": "Creed Bois du Portugal",
+    "brand": "Creed",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 930000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.3805.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1287",
+    "name": "Creed Green Irish Tweed",
+    "brand": "Creed",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 950000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Creed-green-irish-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1286",
+    "name": "Creed Himalaya",
+    "brand": "Creed",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 940000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Creed-himalaya-2.webp",
     "compared": false
   },
   {
@@ -2334,12 +5097,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1799",
+    "name": "DSQARED2 2 WOOD",
+    "brand": "DSQARED2 2",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 229800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/DSQARED2-2-WOOD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1798",
+    "name": "DSQARED2 GREEN WOOD",
+    "brand": "DSQARED2 GREEN",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 229800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/DSQARED2-GREEN-WOOD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1800",
+    "name": "DSQARED2 RED WOOD",
+    "brand": "DSQARED2 RED",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 229800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/DSQARED2-RED-WOOD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1801",
+    "name": "DSQARED2 WOOD",
+    "brand": "DSQARED2 WOOD",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 229800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/DSQARED2-WOOD.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-113",
     "name": "Davidoff Cool Water Elixir",
     "brand": "Davidoff",
     "variant": "100% Original Sellado · Código Batch",
     "price": 321000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/DavidoffCoolwaterelixir.jpg?v=1788705266",
+    "compared": false
+  },
+  {
+    "id": "orig-1213",
+    "name": "Davidoff Cool Water Hombre",
+    "brand": "Davidoff",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Coolwater-2.webp",
     "compared": false
   },
   {
@@ -2352,12 +5160,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1212",
+    "name": "Davidoff Cool Water Woman",
+    "brand": "Davidoff",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Coolwater-dama-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1626",
+    "name": "Declaration edt 100 mililitros (tradicional)",
+    "brand": "Declaration edt",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/declaration.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-744",
     "name": "Sinfonía by Piso21",
     "brand": "Devier",
     "variant": "100% Original Sellado · Código Batch",
     "price": 591000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Sinfon_a_by_Piso21.jpg?v=1765379685",
+    "compared": false
+  },
+  {
+    "id": "orig-1688",
+    "name": "Diamante Blanco 100 ml",
+    "brand": "Diamante Blanco",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/600_580x.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2047",
+    "name": "Diesel Fuel For Life EDT 125 ml",
+    "brand": "Diesel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 235000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/DIESEL-FUEL-FOR-LIFE-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1478",
+    "name": "Diesel Only The Brave",
+    "brand": "Diesel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Diesel-only-the-brave-2.webp",
     "compared": false
   },
   {
@@ -2385,6 +5238,195 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 294000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/products/Diesel-spirit-of-the-brave-2.jpg?v=1699805360",
+    "compared": false
+  },
+  {
+    "id": "orig-1696",
+    "name": "Christian Dior Addict 100 mililitros",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 670000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/3348901181839_2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2043",
+    "name": "Christian Dior Fahrenheit EDT edt 200 ml",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 780000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CHRISTIAN-DIOR-FAHRENHEIT-EDT-3.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1710",
+    "name": "Christian Dior J&#8217;ADORE",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 659800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/jADORE.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2044",
+    "name": "Christian Dior Sauvage Parfum 100 ml",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 759800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/CHRISTIAN-DIOR-SAUVAGE-PARFUM-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1624",
+    "name": "DIOR Homme EDT 100 ml",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 590000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Homme-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1345",
+    "name": "DIOR Sauvage PARFUM PURO 100 ml",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 750000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Sauvage-parfum.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1558",
+    "name": "Dior Dune",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 580000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/dune.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1166",
+    "name": "Dior Eau Sauvage EDT 100 mililitros",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/Dior-eau-sauvage.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1559",
+    "name": "Dior Homme Sport",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Dior_Homme_Sport_c2b2b761-9d5d-4c3c-ad1d-7a50384a8be3.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1623",
+    "name": "Dior Homme intense",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 610000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Dior-homme-intense.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1242",
+    "name": "Dior Hypnotic Poison EDP",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 630000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Dior_Hypnotic_Poison_EDP.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1561",
+    "name": "Dior Sauvage EDP",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 690000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Dior-sauvage-EDP-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1346",
+    "name": "Dior Sauvage EDP (Tester)",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Dior-sauvage-EDP-1-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1352",
+    "name": "Dior Sauvage EDT (Tester)",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Dior-sauvage-EDT.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1003",
+    "name": "Dior Sauvage Eau Forte",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 659800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/Sauvage_Eau_Forte.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1557",
+    "name": "Miss Dior EDP",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 690000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/dior_miss_dior.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1523",
+    "name": "Miss Dior EDT",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/MISS-DIOR-EDT-2.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1117",
+    "name": "Miss Dior Parfum",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 659800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/miss_dior.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1618",
+    "name": "Neroli sauvage",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 840000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/neroli-sauvage.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1602",
+    "name": "Sauvage EDT",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/suavage-edt.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1560",
+    "name": "Sauvage Elixir 100 mililitros",
+    "brand": "Dior",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1059800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Sauvage-elixir-2.webp",
     "compared": false
   },
   {
@@ -2437,9 +5479,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Dolce & Gabbana My devotion",
     "brand": "Dolce & Gabanna",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 501000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_ddaf79f0-d4aa-4f11-a551-3f5424cce5b1.jpg?v=1774096530",
-    "compared": false
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/dolcegabbanadevotion-1.webp",
+    "compared": true
   },
   {
     "id": "orig-132",
@@ -2619,7 +5661,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 321000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_37cf16dd-6f01-4f7c-bb45-10288ab67f14.jpg?v=1756294028",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-775",
@@ -2655,6 +5697,240 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 384000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_d45ed1d9-93a7-47ba-b2e8-3bd8d4bd14c6.jpg?v=1756307306",
+    "compared": true
+  },
+  {
+    "id": "orig-1144",
+    "name": "Dolce &#038; Gabbana The One EDP",
+    "brand": "Dolce & Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/Dolce-gabanna-the-one-dama.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1505",
+    "name": "Dolce &#038; Gabbana The One for Men EDT",
+    "brand": "Dolce & Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/The-one-edt-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1140",
+    "name": "Dolce gabbana light blue 2025",
+    "brand": "Dolce & Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/1_1da15380-8b7a-49af-b961-e343cc33b5f6.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1141",
+    "name": "Dolce gabbana light blue pour homme 2025",
+    "brand": "Dolce & Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 335000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/1_238d57fb-4f96-433d-b747-882070306f6f.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1739",
+    "name": "DOLCE &amp; GABBANA FLORAL DROPS ( sin Caja ) 100 ML",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/DOLCE-GABBANA-FLORAL-DROPS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1741",
+    "name": "DOLCE &amp; GABBANA LIGHT BLUE EAU INTENSE 100 ML TESTER",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/DOLCE-GABBANA-LIGHT-BLUE-INTENSE.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1740",
+    "name": "DOLCE &amp; GABBANA LIGHT BLUE ITALIAN LOVE",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/DOLCE-GABBANA-LIGHT-BLUE-ITALIAN-LOVE-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1742",
+    "name": "DOLCE &amp; GABBANA Q BY EDP",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/DOLCE-GABBANA-Q-BY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1674",
+    "name": "Dolce &amp; Gabbana Devotion Dama 100 ml",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/dolcegabbanadevotion.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1503",
+    "name": "Dolce &amp; Gabbana K EDP 100 mililitros",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Dolce-Gabanna-K-EDP-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2046",
+    "name": "Dolce &amp; Gabbana K EDT 200 mililitros ( extra contenido )",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/DOLCE-GABBANA-K-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1502",
+    "name": "Dolce &amp; Gabbana K Intense ( sin caja 100 ml )",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/DolcegabbanaKIntense.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2094",
+    "name": "Dolce &amp; Gabbana Light Blue EDT",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/DOLCE-GABBANA-LIGHT-BLUE-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1413",
+    "name": "Dolce &amp; Gabbana Light Blue Eau Intense For Women",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Light-blue-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1336",
+    "name": "Dolce &amp; Gabbana Light Blue Pour Homme (Tester)",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Light-blue-hm-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2045",
+    "name": "Dolce &amp; Gabbana Light Blue Pour Homme EDT 125 ml",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/DOLCE-GABBANA-LIGHT-BLUE-POUR-HOMME-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1506",
+    "name": "Dolce &amp; Gabbana Light Blue Pour Homme( Eau Intense )200 mililitros",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Dolce-gabanna-light-blue-intense-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1509",
+    "name": "Dolce &amp; Gabbana Pour Homme EDT",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/v7xglrsf9tpqridrc9vsloeex8ru7f3e1zuq2cwks4d5gh3ie50mhtgb5mdh-w500-q85.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1507",
+    "name": "Dolce &amp; Gabbana Pour Homme Intenso 200 mililitros (extra grande)",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Dolce-gabanna-intenso-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1243",
+    "name": "Dolce &amp; Gabbana Q by Dolce &amp; EDP Intense",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.89376.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1504",
+    "name": "Dolce &amp; Gabbana The One for Men EDP 100 mililitros",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Dolce-gabanna-the-one-EDP-men-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1501",
+    "name": "dolce &amp; gabbana Q edp intense",
+    "brand": "Dolce &amp; Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Pefumes-3.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1244",
+    "name": "Dolce &#038; Gabbana L´Imperatrice",
+    "brand": "Dolce 038",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Dolce-gabanna-lemperatriz-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1131",
+    "name": "Dolce Gabbana Devotion Intense",
+    "brand": "Dolce Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 435000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Dolce___Gabbana_Devotion.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1208",
+    "name": "Dolce Gabbana K Parfum puro 100 mililitros",
+    "brand": "Dolce Gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Dolce_Gabbana_K_Parfum.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1150",
+    "name": "Dolce gabbana devotion pour homme",
+    "brand": "Dolce gabbana",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 470000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/Dolcegabbanadevotionpourhomme.webp",
     "compared": false
   },
   {
@@ -2685,12 +5961,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1011",
+    "name": "Dumont Nitro Green",
+    "brand": "Dumont",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/04/dark-375x500.73024.2x.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1143",
+    "name": "Dumont Nitro Intense",
+    "brand": "Dumont",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/descarga-29.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1233",
+    "name": "Dumont Nitro Red",
+    "brand": "Dumont",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/dumontnitrored2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1066",
+    "name": "Dumont Nitro Red Intensely",
+    "brand": "Dumont",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/dumontnitroredintensely.webp",
+    "compared": false
+  },
+  {
     "id": "orig-171",
     "name": "Dumont Nitro White Intensely",
     "brand": "Dumont",
     "variant": "100% Original Sellado · Código Batch",
     "price": 321000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/DumontNitroWhiteIntensely.jpg?v=1786624039",
+    "compared": false
+  },
+  {
+    "id": "orig-1160",
+    "name": "Dumont Paris Nitro Blue",
+    "brand": "Dumont Paris",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/1_0c426641-19ec-4868-af5d-ef33c88466b4.webp",
     "compared": false
   },
   {
@@ -2718,6 +6039,51 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 419100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_8e4a471d-97d8-466b-9516-c02f91b55bc1.jpg?v=1773199236",
+    "compared": false
+  },
+  {
+    "id": "orig-1544",
+    "name": "Electro Touch (sin caja)",
+    "brand": "Electro Touch",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/tous_rosa.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1267",
+    "name": "Elixir 88 By Stallion 53",
+    "brand": "Elixir 88",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/D_NQ_NP_711977-MCO82219944754_022025-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1422",
+    "name": "Elizabeth Arden 5th Avenue",
+    "brand": "Elizabeth Arden",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 185000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/5ta-avenida.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1423",
+    "name": "Red Door Elizabeth Arden",
+    "brand": "Elizabeth Arden",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 195000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/descarga-4.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1600",
+    "name": "Emblem",
+    "brand": "Emblem",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Montblanc-Emblem-2.webp",
     "compared": false
   },
   {
@@ -2824,26 +6190,71 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Emper Stallion 9 to 9",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 231000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Emper_Stallion_9_to_9.jpg?v=1774973635",
-    "compared": false
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/descarga-55.jpeg",
+    "compared": true
   },
   {
     "id": "orig-873",
     "name": "Emper Stallion Mandora",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 258000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_37f116e1-4126-447a-8306-b95088d8fbc7.jpg?v=1758987007",
-    "compared": false
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_37f116e1-4126-447a-8306-b95088d8fbc7.webp",
+    "compared": true
   },
   {
     "id": "orig-872",
     "name": "Intenso by Stallion 53",
     "brand": "Emper Le Chameu",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 238200,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_d48865f0-32fa-4bb9-a1fd-d3c2be23a585.jpg?v=1759018142",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_d48865f0-32fa-4bb9-a1fd-d3c2be23a585.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1401",
+    "name": "Emper Stallion 53",
+    "brand": "Emper Stallion",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Emper-stallion-53.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1255",
+    "name": "Emper captcha 36",
+    "brand": "Emper captcha",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Captcha_36_01d2f1e2-22e9-4780-a16a-afcd321a4166.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1303",
+    "name": "Equest Canter Atralia",
+    "brand": "Equest Canter",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.100253.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1302",
+    "name": "Equest Gallop Atralia",
+    "brand": "Equest Gallop",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.100254.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1301",
+    "name": "Equest Trot Atralia",
+    "brand": "Equest Trot",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.100255.jpg",
     "compared": false
   },
   {
@@ -2871,6 +6282,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 267000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Escadachiffon_3767e6be-da4e-4139-962f-9ef3ab04cc8c.jpg?v=1784440431",
+    "compared": false
+  },
+  {
+    "id": "orig-1571",
+    "name": "Escape For Her",
+    "brand": "Escape For",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 195000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Escape-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1570",
+    "name": "Escape For Men",
+    "brand": "Escape For",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Escape-for-men-2.webp",
     "compared": false
   },
   {
@@ -2982,6 +6411,168 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1574",
+    "name": "Eternity for her",
+    "brand": "Eternity for",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Eternity-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1524",
+    "name": "Euphoria Men",
+    "brand": "Euphoria Men",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Euphoria-men-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1599",
+    "name": "Explorer Ultra Blue",
+    "brand": "Explorer Ultra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Explorer-ultra-blue.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2012",
+    "name": "FEMINITY EDP 120ml",
+    "brand": "FEMINITY EDP",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/mancera-feminity.png",
+    "compared": false
+  },
+  {
+    "id": "orig-1597",
+    "name": "Femme Individuelle",
+    "brand": "Femme Individuelle",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Individuelle.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1679",
+    "name": "Ferragamo Bright leather",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/8052464891702_1200x1200.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1770",
+    "name": "SALVATORE FERRAGAMO AMO DE FERRAGAMO",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/SALVATORE-FERRAGAMO-AMO-DE-FERRAGAMO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1771",
+    "name": "SALVATORE FERRAGAMO INCANTO CHARMS",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/SALVATORE-FERRAGAMO-INCANTO-CHARMS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1772",
+    "name": "SALVATORE FERRAGAMO INCANTO SHINE",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/SALVATORE-FERRAGAMO-INCANTO-SHINE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1769",
+    "name": "SALVATORE FERRAGAMO SIGNORINA ELEGANZA",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/SALVATORE-FERRAGAMO-SIGNORINA-ELEGANZA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1768",
+    "name": "SALVATORE FERRAGAMO SIGNORINA RIBELLE",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/SALVATORE-FERRAGAMO-SIGNORINA-RIBELLE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1532",
+    "name": "Salvatore Ferragamo Free Time",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/ferragamo-free-time-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2105",
+    "name": "Salvatore Ferragamo Signorina EDP 100 ml",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/SALVATORE-FERRAGAMO-SIGNORINA-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2104",
+    "name": "Salvatore Ferragamo Signorina Misteriosa EDP 100 ml",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/SALVATORE-FERRAGAMO-SIGNORINA-MISTERIOSA-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1533",
+    "name": "Salvatore Ferragamo Uomo",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Ferragamo-uomo-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1531",
+    "name": "Salvatore Ferragamo Uomo Signature",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Uomo-signature.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1153",
+    "name": "Salvatore ferragamo signorina libera",
+    "brand": "Ferragamo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/Salvatore_Ferragamo_Signorina_Libera.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1549",
+    "name": "Flowerbomb",
+    "brand": "Flowerbomb",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Flowerbomb-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-578",
     "name": "Fragance One Black Tie for Men",
     "brand": "Fragance One",
@@ -3036,6 +6627,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1118",
+    "name": "Fragance world Azzure Aoud",
+    "brand": "Fragance world",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/azzureee.webp",
+    "compared": false
+  },
+  {
     "id": "orig-640",
     "name": "Fragance du Bois Sirene",
     "brand": "Fragrance Du Bois",
@@ -3051,6 +6651,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 1581000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/FraganceduboisSireneprivee_3.jpg?v=1784601021",
+    "compared": false
+  },
+  {
+    "id": "orig-1652",
+    "name": "273 Fred Hayman’s Hombre",
+    "brand": "Fred Hayman",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/837015000455_800x600_944788dc-bda7-4c9d-bb17-dd00f054b88e_grande.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1633",
+    "name": "273 hombre (tester) , sin Caja Ni tapa",
+    "brand": "Fred Hayman",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 145000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/273-hombre.jpg",
     "compared": false
   },
   {
@@ -3078,6 +6696,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 348000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Aromatix_X_French_Avenue_Teas_Me.jpg?v=1765302022",
+    "compared": false
+  },
+  {
+    "id": "orig-1159",
+    "name": "Fragance World Chocola Addict By French Avenue",
+    "brand": "French Avenue",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/FragranceWorldChocolaAddictByFrenchAvenue.webp",
     "compared": false
   },
   {
@@ -3144,6 +6771,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1172",
+    "name": "French Avenue Liquid Brun",
+    "brand": "French Avenue",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/burn.webp",
+    "compared": false
+  },
+  {
     "id": "orig-508",
     "name": "French Avenue Liquid Brun edicion limitada",
     "brand": "French Avenue",
@@ -3202,8 +6838,17 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "French Avenue Tropical Kiss",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 312000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_ae6e68b6-b8b6-47a2-b7e0-6ebb6ab6da36.jpg?v=1761413258",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_ae6e68b6-b8b6-47a2-b7e0-6ebb6ab6da36.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1010",
+    "name": "French Avenue Veneno Bianco By Fragance World",
+    "brand": "French Avenue",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/FrenchAvenueVenenoBiancoByFraganceWorld.webp",
     "compared": false
   },
   {
@@ -3211,9 +6856,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "French Avenue Veneno Scarlet",
     "brand": "French Avenue",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 275100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_fc96c1ab-ad20-47f2-921c-7d66f4e81d08.jpg?v=1762265637",
-    "compared": false
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/1_fc96c1ab-ad20-47f2-921c-7d66f4e81d08.webp",
+    "compared": true
   },
   {
     "id": "orig-576",
@@ -3279,6 +6924,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1136",
+    "name": "French Avenue vulcan feu",
+    "brand": "French Avenue",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/1_a2357a63-7a58-4e3e-bbaf-d6fe080aada7.webp",
+    "compared": false
+  },
+  {
     "id": "orig-21",
     "name": "Fugazzi Angel Dust Extrait",
     "brand": "Fugazzi",
@@ -3315,13 +6969,103 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1881",
+    "name": "GAME OF SPADES BID JO MILANO",
+    "brand": "GAME OF",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/f8203cf960ac202fb97ad9f80d23085e.game-of-spades-bid-jo-milano-bottle.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1879",
+    "name": "GAME OF SPADES QUEEN JO MILANO",
+    "brand": "GAME OF",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/GAME-OF-SPADES-QEEN-JO-MILANO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1880",
+    "name": "GAME OF SPADES ROYALE JO MILANO",
+    "brand": "GAME OF",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/GAME-OF-SPADES-ROYALE-JO-MILANO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1094",
+    "name": "Game Of Spades Blind Bid Jo Milano",
+    "brand": "Game Of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 420000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/descarga-46.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1098",
+    "name": "Game Of Spades Gold Jo Milano",
+    "brand": "Game Of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/gameofspadesgold.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1101",
+    "name": "Game Of Spades Yellow Sapphire Jo Milano , dupe o clon de Bond # 9 signature , conocida como La Sellos de ORO",
+    "brand": "Game Of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359900,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/unnamed-file.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1285",
+    "name": "Game of Spades High Roller",
+    "brand": "Game of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/gameofspades.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1108",
+    "name": "Game of Spades King Jo Milano Paris",
+    "brand": "Game of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Game-of-spades-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1395",
+    "name": "Game of Spades WildCard Jo Milano",
+    "brand": "Game of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/descarga-17.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1054",
+    "name": "Game of Spades Win Jo Milano",
+    "brand": "Game of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/descarga-58.jpeg",
+    "compared": false
+  },
+  {
     "id": "orig-634",
     "name": "Game Of Spades All In",
     "brand": "Game of Spades",
     "variant": "100% Original Sellado · Código Batch",
     "price": 418200,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_3d1d058a-f116-43ad-be33-e0eb688feac8.jpg?v=1771281976",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-2",
@@ -3423,12 +7167,84 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2057",
+    "name": "Acqua Di Gio Pour Homme EDT",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/GIORGIO-ARMANI-ACQUA-DI-GIO-EDT-HOMBRE-2-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1563",
+    "name": "Acqua di Gio EDP 100 MILILITROS",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 600000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Armani-acqua-di-gio-eau-de-parfum.webp",
+    "compared": false
+  },
+  {
     "id": "orig-799",
     "name": "Acqua di Gio Eau de Parfum Set de regalo",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
     "price": 555000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/tommy_247eef30-44ef-4efa-9bb2-e75d7eb4c189.jpg?v=1763049398",
+    "compared": false
+  },
+  {
+    "id": "orig-1564",
+    "name": "Acqua di Gio Parfum 100 ML",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 650000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/armaniacquadigioparfum.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1719",
+    "name": "GIORGIO ARMANI ACQUA DI GIO ABSOLU",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 610000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GIORGIO-ARMANI-ACQUA-DI-GIO-ABSOLU.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1721",
+    "name": "GIORGIO ARMANI ACQUA DI GIO PROFONDO (EAU DE PERFUM) 100 mililitros",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 610000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GIORGIO-ARMANI-ACQUA-DI-GIO-PROFONDO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1720",
+    "name": "GIORGIO ARMANI ACQUA DI GIO PROFUMO",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 630000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GIORGIO-ARMANI-ACQUA-DI-GIO-PROFUMO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2098",
+    "name": "Giorgio Armani Acqua Di Gioia Edp",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/GIORGIO-ARMANI-ACQUA-DI-GIOIA-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1116",
+    "name": "Giorgio Armani Acqua di Gio Elixir",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 630000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Acquadigioelixir.webp",
     "compared": false
   },
   {
@@ -3450,12 +7266,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2056",
+    "name": "Giorgio Armani Armani Code Edt 125 ml",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/GIORGIO-ARMANI-ARMANI-CODE-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-58",
     "name": "Giorgio Armani I Will",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
     "price": 735000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GiorgioArmaniIWill.jpg?v=1791734365",
+    "compared": false
+  },
+  {
+    "id": "orig-2097",
+    "name": "Giorgio Armani My Way EDP 90 ml",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/GIORGIO-ARMANI-MY-WAY-EDP-DAMA-2-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1024",
+    "name": "Giorgio Armani My Way Nectar",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 640000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/My_Way_Giorgio_Armani.webp",
     "compared": false
   },
   {
@@ -3468,12 +7311,129 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1022",
+    "name": "Giorgio Armani code Eau de parfum",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 590000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Armani_code_EDP.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1155",
+    "name": "Giorgio armani Stronger With You Parfum",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/StrongerWithYouParfumGiorgioArmani.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1025",
+    "name": "Giorgio armani my way intense",
+    "brand": "Giorgio Armani",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 680000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/My_way_giorgio_armani_intense_1bbea6db-e844-47b0-9859-50e89ad1840a.webp",
+    "compared": false
+  },
+  {
     "id": "orig-519",
     "name": "Giorgio armani power of you",
     "brand": "Giorgio Armani",
     "variant": "100% Original Sellado · Código Batch",
     "price": 618000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c1a87931-e0cb-456c-aee4-93ea25e6fc8c.jpg?v=1774643640",
+    "compared": false
+  },
+  {
+    "id": "orig-1426",
+    "name": "Giorgio Giorgio Beverly Hills",
+    "brand": "Giorgio Giorgio",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/D_NQ_NP_755487-MLU74875553284_032024-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1217",
+    "name": "GIVENCHY Gentleman Society",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/gentleman-society-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1664",
+    "name": "GIVENCHY INSENSÉ ULTRAMARINE",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/D_NQ_NP_697373-MLU69223177783_052023-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1241",
+    "name": "Givenchy Amarige",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/209-1.png",
+    "compared": false
+  },
+  {
+    "id": "orig-1033",
+    "name": "Givenchy Ange ou Démon Le Secret",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Ange-oud-demon-le-secret-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2090",
+    "name": "Givenchy Angel Ou Démon EDP 100 ml",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/GIVENCHY-ANGE-OU-DEMOND-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1062",
+    "name": "Givenchy Gentleman Boisee",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Givenchy-gentleman-boise-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1028",
+    "name": "Givenchy Gentleman Givenchy Boisee",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Givenchy-gentleman-boise-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1216",
+    "name": "Givenchy Gentleman Intense EDT",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Givenchy-gentleman-intense-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1029",
+    "name": "Givenchy Gentleman Reserve Privee EDP",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Givenchy-gentleman-reserve-prive-2.webp",
     "compared": false
   },
   {
@@ -3486,12 +7446,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1154",
+    "name": "Givenchy Gentleman Society Extreme",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 415000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/givenchygentlemansocietyextreme-1.webp",
+    "compared": false
+  },
+  {
     "id": "orig-514",
     "name": "Givenchy Gentleman Society Sport",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
     "price": 501000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Givenchy_gentleman_society_sport_2.png?v=1774898455",
+    "compared": false
+  },
+  {
+    "id": "orig-1032",
+    "name": "Givenchy Hot couture",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/375x500.35.2x.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1060",
+    "name": "Givenchy Irresistible Eau de Parfum",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 390000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Irresistible-givenchy-2.webp",
     "compared": false
   },
   {
@@ -3558,6 +7545,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1149",
+    "name": "Givenchy L’Interdit EDP",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/givenchylinterdit2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1061",
+    "name": "Givenchy L’Interdit Intense",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Linterdit-intense.webp",
+    "compared": false
+  },
+  {
     "id": "orig-585",
     "name": "Givenchy L’interdit Rouge Ultime",
     "brand": "Givenchy",
@@ -3567,12 +7572,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2089",
+    "name": "Givenchy Organza EDP 100 ml",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/GIVENCHY-ORGANZA-EDP-DAMA-2-copia.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-549",
     "name": "Givenchy Play for her",
     "brand": "Givenchy",
     "variant": "100% Original Sellado · Código Batch",
     "price": 411000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_99a75c31-0ba7-4c9f-b588-fa3ea4fda0f6.jpg?v=1774093789",
+    "compared": false
+  },
+  {
+    "id": "orig-1218",
+    "name": "Givenchy Pí EdT",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Givenchy-pi.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1030",
+    "name": "Givenchy blue label",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/givenchy_blue.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1409",
+    "name": "Givenchy blue label",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/givenchy_blue.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1031",
+    "name": "Givenchy pour Homme",
+    "brand": "Givenchy",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/375x500.37.2x.avif",
     "compared": false
   },
   {
@@ -3630,13 +7680,22 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1433",
+    "name": "Gucci Gucci Guilty Black Pour Homme",
+    "brand": "Gucci",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Gucci-guilty-black-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-291",
     "name": "Gucci Gucci Guilty Essence",
     "brand": "Gucci",
     "variant": "100% Original Sellado · Código Batch",
     "price": 339000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GucciGuiltyessence_2.jpg?v=1784606594",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-13",
@@ -3648,12 +7707,192 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1431",
+    "name": "Gucci Guilty Pour Homme EDP",
+    "brand": "Gucci",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Gucci-guilty-edp-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1432",
+    "name": "Gucci Guilty Pour Homme EDT",
+    "brand": "Gucci",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Gucci-guilty-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1434",
+    "name": "Gucci Rush",
+    "brand": "Gucci",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Gucci-rush.webp",
+    "compared": false
+  },
+  {
     "id": "orig-145",
     "name": "Guerlain Aqua Allegoria Nerolia Vetiver Forte",
     "brand": "Guerlain",
     "variant": "100% Original Sellado · Código Batch",
     "price": 501000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GuerlainAquaAllegoriaNeroliaVetiverForte_2.jpg?v=1787951171",
+    "compared": false
+  },
+  {
+    "id": "orig-1817",
+    "name": "GUESS 1981 LOS ANGELES",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GUESS-1981-LOS-ANGELES.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1823",
+    "name": "GUESS BY MARCIANO FOR MEN EDT",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GUESS-BY-MARCIANO-FOR-MEN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1822",
+    "name": "GUESS BY MARCIANO FOR WOMAN EDP",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GUESS-BY-MARCIANO-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2077",
+    "name": "GUESS EDP",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/GUESS-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1819",
+    "name": "GUESS INDIGO HOMBRE 1981",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/img_0957.png",
+    "compared": false
+  },
+  {
+    "id": "orig-1820",
+    "name": "GUESS NIGHT",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GUESS-NIGHT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1821",
+    "name": "GUESS SEDUCTIVE BLUE",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GUESS-SEDUCTIVE-BLUE-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1818",
+    "name": "GUESS SEDUCTIVE NOIR",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/GUESS-SEDUCTIVE-NOIR.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1273",
+    "name": "Guess Bella Vita Paradiso",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.87476.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1274",
+    "name": "Guess Bella Vita Rosa",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.73223.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1637",
+    "name": "Guess Girl Belle",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/guess-girl-belle.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2078",
+    "name": "Guess Gold EDP 75 ml",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/GUESS-GOLD-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1270",
+    "name": "Guess Iconic",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.91498.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1214",
+    "name": "Guess Uomo",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/375x500.73285.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1269",
+    "name": "Guess Uomo Acqua",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.82555.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1824",
+    "name": "MAN DE GUESS",
+    "brand": "Guess",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/img_0956.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1935",
+    "name": "HOT COUTURE EDP 100ML",
+    "brand": "HOT COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/HOT-COUTURE-EDP.jpg",
     "compared": false
   },
   {
@@ -3684,6 +7923,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1476",
+    "name": "Halloween Man",
+    "brand": "Halloween",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/halloween-men.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1475",
+    "name": "Halloween Man Mystery",
+    "brand": "Halloween",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/halloweenmanmystery2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1477",
+    "name": "Halloween Man X",
+    "brand": "Halloween",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Halloween-man-x-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-642",
     "name": "Halloween My Wish",
     "brand": "Halloween",
@@ -3699,6 +7965,60 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 231000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/HalloweenMyWorld.jpg?v=1785185378",
+    "compared": false
+  },
+  {
+    "id": "orig-1869",
+    "name": "JESUS DEL POZO HALLOWEEN BLOSSOM (sin caja)",
+    "brand": "Halloween",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 158900,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JESUS-DEL-POZO-HALLOWEEN-BLOSSOM.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1870",
+    "name": "JESUS DEL POZO HALLOWEEN MIA ME MINE",
+    "brand": "Halloween",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JESUS-DEL-POZO-HALLOWEEN-MIA-ME-MINE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2122",
+    "name": "Jesus del Pozo Halloween Blue Drop EDT 100 ml",
+    "brand": "Halloween",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/JESUS-DEL-POZO-HALLOWEEN-BLUE-DROP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2123",
+    "name": "Jesus del Pozo Halloween EDT 100 ml",
+    "brand": "Halloween",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/JESUS-DEL-POZO-HALLOWEEN-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1429",
+    "name": "Halston Femenina",
+    "brand": "Halston Femenina",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/halstondama.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1430",
+    "name": "Halston Z-14",
+    "brand": "Halston Z",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 155000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/halstonz14.webp",
     "compared": false
   },
   {
@@ -3765,6 +8085,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1408",
+    "name": "Hinode INEBRIANTE",
+    "brand": "Hinode INEBRIANTE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/inebriante.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2086",
+    "name": "Hugo Boss Alive EDT 80 ml",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/HUGO-BOSS-ALIVE-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-432",
     "name": "Hugo Boss Alive Intense",
     "brand": "Hugo Boss",
@@ -3783,13 +8121,31 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1452",
+    "name": "Hugo Boss BOSS Bottled Parfum",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Hugo-boss-bottled-parfum-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1034",
+    "name": "Hugo Boss BOSS Bottled Tonic",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Hugo-boss-bottled-tonic-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-863",
     "name": "Hugo Boss Boss Bottled Beyond",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 464100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Hugo_Boss_Boss_Bottled_Beyond_1.jpg?v=1791902855",
-    "compared": false
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Hugo-boss-bottled-2.webp",
+    "compared": true
   },
   {
     "id": "orig-671",
@@ -3810,12 +8166,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1455",
+    "name": "Hugo Boss Bottled Elixir",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/bossbottledelixir.webp",
+    "compared": false
+  },
+  {
     "id": "orig-434",
     "name": "Hugo Boss Bottled Infinite set de regalo 100 ML + 30 ML",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
     "price": 474000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Hugo_Boss_Bottled_Infinite_set_de_regalo_100_ML_30_ML.jpg?v=1777337912",
+    "compared": false
+  },
+  {
+    "id": "orig-1306",
+    "name": "Hugo Boss Bottled Night",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Hugo-boss-bottled-night-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1456",
+    "name": "Hugo Boss Bottled Pacific",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/hugo-boss-bottled-pacific.webp",
     "compared": false
   },
   {
@@ -3837,12 +8220,93 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1448",
+    "name": "Hugo Boss Bottled Triumph Elixir",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/bossbottledtriumphelixir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2066",
+    "name": "Hugo Boss Bottled Unlimited EDT 100 ml",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/HUGO-BOSS-BOTTLED-UNLIMITED-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1454",
+    "name": "Hugo Boss Bottled absolu",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 650000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Disenosintitulo.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1451",
+    "name": "Hugo Boss Dark Blue",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Dark-blue.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2085",
+    "name": "Hugo Boss Deep Red EDP 90 ml",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/HUGO-BOSS-DEEP-RED-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1453",
+    "name": "Hugo Boss Energise",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Hugo-boss-energise.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1450",
+    "name": "Hugo Boss Femme ( NUEVA IMÁGEN )",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Boss-femme.webp",
+    "compared": false
+  },
+  {
     "id": "orig-829",
     "name": "Hugo Boss Hugo X superman",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
     "price": 339000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_72f48d8f-5c4a-4151-b619-250c70deb8dd.jpg?v=1761413173",
+    "compared": false
+  },
+  {
+    "id": "orig-1068",
+    "name": "Hugo Boss Ma vie",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Hugo_Bosss.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1327",
+    "name": "Hugo Boss Red Intense",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/descarga-20.jpeg",
     "compared": false
   },
   {
@@ -3855,12 +8319,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2088",
+    "name": "Hugo Boss The Scent For Her EDP 80 ml",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/HUGO-BOSS-THE-SCENT-FOR-HER-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-540",
     "name": "Hugo Boss The Scent Intense",
     "brand": "Hugo Boss",
     "variant": "100% Original Sellado · Código Batch",
     "price": 537000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Hugo_Boss_The_Scent_Intense_decants_colombia.jpg?v=1774575243",
+    "compared": false
+  },
+  {
+    "id": "orig-1240",
+    "name": "Hugo Boss Woman",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Hugo-woman-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1449",
+    "name": "Hugo Boss XX",
+    "brand": "Hugo Boss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Hugo-boss-xx.webp",
     "compared": false
   },
   {
@@ -3897,6 +8388,150 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 1275000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/InitioWildRush.jpg?v=1787140797",
+    "compared": false
+  },
+  {
+    "id": "orig-2007",
+    "name": "INSTANT CRUSH EDP 120ml ( INTENSE EXTRACT DE PARFUM PURO )",
+    "brand": "INSTANT CRUSH",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 950000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/INSTANT-CRUSH-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2026",
+    "name": "INTENSE BLACK OUD EDP 100ml",
+    "brand": "INTENSE BLACK",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/black-aoud-intense.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2015",
+    "name": "INTENSE CAFE EDP 100ml",
+    "brand": "INTENSE CAFE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/intense-cafe.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1608",
+    "name": "Il dolce oro , sin caja (solo frasco con tapa) , 30 ml , extractos al 60% de concentrado puro",
+    "brand": "Il dolce",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-dolce-oro.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1616",
+    "name": "Il ego",
+    "brand": "Il ego",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-ego.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1610",
+    "name": "Il ego oro",
+    "brand": "Il ego",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 670000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Il-ego-oro2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1614",
+    "name": "Il erotique , sin caja ( solo frasco con tapa ), extracto al 40% de pureza",
+    "brand": "Il erotique",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 375000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-erotique.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1613",
+    "name": "Il femme",
+    "brand": "Il femme",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-femme.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1615",
+    "name": "Il kakuno , frasco con tapa , (sin caja) , levemente mermado “ de 2 a 3 milímetros “",
+    "brand": "Il kakuno",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 375000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-kakuno.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1609",
+    "name": "Il kakuno oro",
+    "brand": "Il kakuno",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 585000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-kakuno-oro.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1607",
+    "name": "Il lonve oro , sin caja ( con tapa ), extractos al 60% de pureza",
+    "brand": "Il lonve",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-lonve-oro.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1611",
+    "name": "Il mexico , sin caja ( con tapa ) , extracto al 40% de pureza",
+    "brand": "Il mexico",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 375000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-mexico.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1605",
+    "name": "Il mexico oro , sin caja ( con tapa ) , extractos al 60% de pureza",
+    "brand": "Il mexico",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-mexico-oro.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1606",
+    "name": "Il oomph oro , sin caja ( con tapa ) , extractos al 60% de pureza",
+    "brand": "Il oomph",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-oomph-oro.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1612",
+    "name": "Il roso",
+    "brand": "Il roso",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-roso.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1604",
+    "name": "Il roso oro",
+    "brand": "Il roso",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/il-roso-oro.avif",
     "compared": false
   },
   {
@@ -3945,6 +8580,105 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1319",
+    "name": "Ilmin IL Piete",
+    "brand": "Ilmin IL",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Ilmin-il-piete.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1320",
+    "name": "Ilmin Il Orgasme",
+    "brand": "Ilmin Il",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Ilmin-il-orgasme.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1321",
+    "name": "Ilmin il Arte",
+    "brand": "Ilmin il",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Ilmin-il-arte.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1272",
+    "name": "Immensity pour Homme Immensity",
+    "brand": "Immensity pour",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 120000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/D_NQ_NP_626455-MCO79109032397_092024-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1689",
+    "name": "Initio Atomic Rose",
+    "brand": "Initio",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 959800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/atomic-rose-initio.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1412",
+    "name": "Initio Parfums Oud For Greatness",
+    "brand": "Initio",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 959800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Initio-oud-for-greatness-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1210",
+    "name": "Issey Miyake Issey Miyake L&#8217;Eau d&#8217;Issey Pour Homme Intense",
+    "brand": "Issey Miyake",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Miyake-intense-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1209",
+    "name": "Issey Miyake L&#8217;Eau Bleue d&#8217;Issey Pour Homme",
+    "brand": "Issey Miyake",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/isseymiyakeblue.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1471",
+    "name": "Issey Miyake L&#8217;Eau d&#8217;Issey Pour Femme",
+    "brand": "Issey Miyake",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Miyake-dama-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1470",
+    "name": "Issey Miyake L&#8217;Eau d&#8217;Issey Pour Homme",
+    "brand": "Issey Miyake",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Miyake-hombre-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1211",
+    "name": "Issey Miyake L&#8217;Eau d&#8217;Issey Pour Homme Sport",
+    "brand": "Issey Miyake",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Miyake-sport-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-182",
     "name": "Issey Miyake Le Sel D'Issey Eau de Parfum",
     "brand": "Issey Miyake",
@@ -3963,13 +8697,103 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1234",
+    "name": "issey miyake nectar d&#8217;issey première fleur",
+    "brand": "Issey Miyake",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.63283.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2010",
+    "name": "JARDIN EXCLUSIF EDP 120ml",
+    "brand": "JARDIN EXCLUSIF",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/JARDIN-EXCLUSIF.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1754",
+    "name": "JUICY COUTURE COUTURE LALA",
+    "brand": "JUICY COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JUICY-COUTURE-COUTURE-LALA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1752",
+    "name": "JUICY COUTURE I LOVE",
+    "brand": "JUICY COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JUICY-COUTURE-I-LOVE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1753",
+    "name": "JUICY COUTURE ROYAL ROSE",
+    "brand": "JUICY COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JUICY-COUTURE-ROYAL-ROSE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1755",
+    "name": "JUICY COUTURE VIA LA JUICY NEON",
+    "brand": "JUICY COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JUICY-COUTURE-VIA-LA-JUICY-NEON.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1756",
+    "name": "JUICY COUTURE VIVA LA JUICY",
+    "brand": "JUICY COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JUICY-COUTURE-VIVA-LA-JUICY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1757",
+    "name": "JUICY COUTURE VIVA LA JUICY GOLD",
+    "brand": "JUICY COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JUICY-COUTURE-VIVA-LA-JUICY-GOLD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1758",
+    "name": "JUICY COUTURE VIVA LA JUICY I AM",
+    "brand": "JUICY COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JUICY-COUTURE-VIVA-LA-JUICY-I-AM.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1751",
+    "name": "JUICY COUTURE VIVA LA JUICY NOIR",
+    "brand": "JUICY COUTURE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JUICY-COUTURE-VIVA-LA-JUICY-NOIR.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-437",
     "name": "Jean Paul Gaultier Divine Couture",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 681000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/JeanPaulGaultierDivineCouture_2.jpg?v=1777071678",
-    "compared": false
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/Jean_Paul_Gaultier_Divine_Couture_3.webp",
+    "compared": true
   },
   {
     "id": "orig-878",
@@ -3987,16 +8811,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 249000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/JeanPaulGaultierLeBeauMale.jpg?v=1791738742",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-430",
     "name": "Jean Paul Gaultier Le Male In Blue",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 546000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Jean_Paul_Gaultier_Le_Male_In_Blue.jpg?v=1777822018",
-    "compared": false
+    "price": 490000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/Jean_Paul_Gaultier_Le_Male_In_Blue.webp",
+    "compared": true
   },
   {
     "id": "orig-748",
@@ -4012,9 +8836,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Jean Paul Gaultier Scandal Pour Homme Elixir",
     "brand": "Jean Paul",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 555000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ScandalPourHommeElixir_3.png?v=1782149525",
-    "compared": false
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/ScandalPourHommeElixir_3.webp",
+    "compared": true
   },
   {
     "id": "orig-967",
@@ -4044,12 +8868,120 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1712",
+    "name": "JEAN PAUL GAULTIER CLASSIQUE",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/JEAN-PAUL-GAULTIER-CLASSIQUE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1713",
+    "name": "JEAN PAUL GAULTIER LA BELLE INTENSE",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 470000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/images-5.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1714",
+    "name": "JEAN PAUL GAULTIER SCANDAL edp",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/Scandal-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1379",
+    "name": "Jean Paul Gaultier Classique Edp (Tester)",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.46149.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1380",
+    "name": "Jean Paul Gaultier Gaultier Divine 100 mililitros, full lujo",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Jeanpaulgaultierdivine.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1519",
+    "name": "Jean Paul Gaultier La Belle",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/jeanpaulgaultierlabelle.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1299",
+    "name": "Jean Paul Gaultier La Belle Flower Edition (Tester)",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Jean_Paul_Gaultier_La_Belle_Flower_Edition.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1520",
+    "name": "Jean Paul Gaultier La Belle Paradise Garden",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/jeanpaullabelleparadisegarden.webp",
+    "compared": false
+  },
+  {
     "id": "orig-121",
     "name": "Jean Paul Gaultier La Belle Rosea",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 591000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/JeanPaulGaultierLabelleRosea_2.jpg?v=1788619968",
+    "price": 580000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/10/JeanPaulGaultierLabelleRosea_2.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1514",
+    "name": "Jean Paul Gaultier Le Beau",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Jean-paul-le-beau-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1329",
+    "name": "Jean Paul Gaultier Le Beau Flower EAU D PERFUME Edition 125 mililitros ( FLOWER EDITION LIMITED )",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 650000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Jean_Paul_Gaultier_Le_Beau_Flower_Edition.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1511",
+    "name": "Jean Paul Gaultier Le Beau Le Parfum",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Jean-paul-le-beau-le-parfum.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1358",
+    "name": "Jean Paul Gaultier Le Beau Le Parfum 75 mililitros ( TAMAÑO MEDIANO )",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Jean-paul-le-beau-le-parfum-1.webp",
     "compared": false
   },
   {
@@ -4057,8 +8989,80 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Jean Paul Gaultier Le Beau Narcisse",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 591000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Jeanpaulgaultierlebeaunarcisse_2.jpg?v=1786038076",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Jeanpaulgaultierlebeaunarcisse_2.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1515",
+    "name": "Jean Paul Gaultier Le Beau Paradise Garden",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 650000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/jeanpaulgaultierlebeauparadise.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1362",
+    "name": "Jean Paul Gaultier Le Beau Paradise Garden (Tester)",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/jeanpaulgaultierlebeauparadise-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1512",
+    "name": "Jean Paul Gaultier Le Male Elixir Parfum 125 mililitros",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/le-male-elixir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1360",
+    "name": "Jean Paul Gaultier Le Male Le Parfum 125 mililitros",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Le-male-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1513",
+    "name": "Jean Paul Gaultier Le Male Le Parfum 125ML (tester)",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 470000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Le-male.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1359",
+    "name": "Jean Paul Gaultier Le Male MEDIANO 75 mililitros (2 onzas y media )",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Jean-paul-2-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1361",
+    "name": "Jean Paul Gaultier Le Male elixir tester",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 600000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/le-male-elixir-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1517",
+    "name": "Jean Paul Gaultier Scandal , pour Homme 100 mililitros LE ( PERFUM ), EDP INTENSE",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/jean-paul-gaultier-scandal-le-parfum-2_98ba5feb-fdfe-456d-b7d9-7d6f73a6e9d8.webp",
     "compared": false
   },
   {
@@ -4066,8 +9070,107 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Jean Paul Gaultier Scandal Elixir Femenino",
     "brand": "Jean Paul Gaultier",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 501000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Jean_Paul_gaultier_scandal_for_her_ELIXIR_4.jpg?v=1786591401",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/ScandalPourHommeElixir_3.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1121",
+    "name": "Jean Paul Gaultier Scandal Intense",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/descarga-36.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1145",
+    "name": "Jean Paul Gaultier Scandal Intense",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/1_9068648b-7b45-4256-95ef-8d120e089d6c.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1120",
+    "name": "Jean Paul Gaultier Scandal Intense (Tester)",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 435000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/descarga-36.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1522",
+    "name": "Jean Paul Gaultier Scandal Le Parfum",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 470000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Jean-paul-gaultier-scandal-le-parfum-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1518",
+    "name": "Jean Paul Gaultier Scandal Pour Homme",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Scandal2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1356",
+    "name": "Jean Paul Gaultier Scandal Pour Homme (Tester)",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Scandal2-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1516",
+    "name": "Jean Paul Gaultier Scandal Pour Homme Absolu",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 580000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/jeanpaulgaultierscandalabsolu.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1357",
+    "name": "Jean Paul Gaultier Scandal Pour Homme Absolu (Tester)",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/jeanpaulgaultierscandalabsolu-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1521",
+    "name": "Jean Paul Gaultier Scandal So Scandal!",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/So-scandal-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1510",
+    "name": "Jean Paul Gaultier Ultra Male",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/6_5_65119981.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1146",
+    "name": "Jean Paul gaultier Le Male Elixir Absolut (PURO PERFUM) 125 mililitros",
+    "brand": "Jean Paul Gaultier",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/Jean_Paul_gaultier_Le_Male_Elixir_Absolu_2e5291eb-6adb-40b2-acda-761d03ff3973.webp",
     "compared": false
   },
   {
@@ -4077,6 +9180,42 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 501000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Set_de_Regalo_Jean_Paul_Gaultier_Scandal_Pour_Homme.jpg?v=1785168666",
+    "compared": false
+  },
+  {
+    "id": "orig-1238",
+    "name": "Jennifer Lopez Glow",
+    "brand": "Jennifer Lopez",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Glow-2-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1235",
+    "name": "Jennifer Lopez Live Luxe",
+    "brand": "Jennifer Lopez",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/jlo-live-luxe1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2096",
+    "name": "Jennifer Lopez Miami Glow EDT 100 ml",
+    "brand": "Jennifer Lopez",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/JENNIFER-LOPEZ-MIAMI-GLOW-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2095",
+    "name": "Jennifer Lopez Still EDP 100 ml",
+    "brand": "Jennifer Lopez",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/JENNIFER-LOPEZ-STILL-EDP-DAMA-2.jpg",
     "compared": false
   },
   {
@@ -4192,9 +9331,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Game Of spades Bonus",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 446100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_60bb4b87-ed1f-4d05-8e9f-0c6d4d6e619c.jpg?v=1757005686",
-    "compared": false
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Game_of_Spades_Double_Bonus.webp",
+    "compared": true
   },
   {
     "id": "orig-918",
@@ -4219,9 +9358,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Game of Spades Double Bonus",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 446100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Game_of_Spades_Double_Bonus.jpg?v=1765025155",
-    "compared": false
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Game_of_Spades_Double_Bonus.webp",
+    "compared": true
   },
   {
     "id": "orig-763",
@@ -4314,12 +9453,75 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1137",
+    "name": "Jo Milano Game Of Spades Diamond",
+    "brand": "Jo Milano",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/gameofspadesdiamond.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1393",
+    "name": "Jo Milano Game Of Spades full house",
+    "brand": "Jo Milano",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/gameofspadesfullhouse.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1282",
+    "name": "Jo Milano Game of Spades Ace",
+    "brand": "Jo Milano",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Game-of-spade.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1283",
+    "name": "Jo Milano Game of Spades Boston",
+    "brand": "Jo Milano",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 385000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/jomilanogameofspadesboston.webp",
+    "compared": false
+  },
+  {
     "id": "orig-765",
     "name": "Jo Milano Game of Spades Diamond collection set 3 x 30 ML",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
     "price": 465000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Jo_Milano_Game_of_Spades_Diamond_collection_set_3_x_30_ML.jpg?v=1765022666",
+    "compared": false
+  },
+  {
+    "id": "orig-1284",
+    "name": "Jo Milano Game of Spades Moon",
+    "brand": "Jo Milano",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 490000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/gameofspadesmoon2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1135",
+    "name": "Jo Milano Game of Spades Opal",
+    "brand": "Jo Milano",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Game_of_spades_opal_0d1c6afa-fb1f-4278-b209-d4b003788ef3.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1096",
+    "name": "Jo Milano Game of Spades Platinum",
+    "brand": "Jo Milano",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 385000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Game_of_spades_platinum_47bb6ed6-f81b-47ac-bc57-95c4f7e3d89f-2.webp",
     "compared": false
   },
   {
@@ -4372,9 +9574,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Jo Milano Paris GAME OF SPADES BLACK SAPPHIRE",
     "brand": "Jo Milano",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 446100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GameofSpadesBlackSapphire.png?v=1776225774",
-    "compared": false
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/GameofSpadesBlackSapphire.webp",
+    "compared": true
   },
   {
     "id": "orig-463",
@@ -4467,6 +9669,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2103",
+    "name": "Juicy Couture Oui EDP 100 ml",
+    "brand": "Juicy Couture",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/JUICY-COUTURE-OUI-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2102",
+    "name": "Juicy couture Viva La Juicy Rose EDP 100 ml",
+    "brand": "Juicy couture",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/JUICY-COUTURE-VIVA-LA-JUICY-ROSE-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1934",
+    "name": "KATY PERRY MEOW EDP 100ML",
+    "brand": "KATY PERRY",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 185000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/KATY-PERRY-MEOW-EDP.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-479",
     "name": "Kajal III",
     "brand": "Kajal",
@@ -4527,6 +9756,42 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 825000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_13f15ad1-6916-4fb1-8710-73f14f2ca1e4.jpg?v=1769462943",
+    "compared": false
+  },
+  {
+    "id": "orig-1046",
+    "name": "Flower by Kenzo L&#8217;Absolue Kenzo",
+    "brand": "Kenzo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.74442.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1682",
+    "name": "Kenzo Flower",
+    "brand": "Kenzo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/kenzo-flower-30ml-edp-fragancia-femenina-.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1048",
+    "name": "Kenzo Homme Indigo Kenzo for men",
+    "brand": "Kenzo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 299800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Kenzo_Homme_Indigo_Kenzo_for_men.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1047",
+    "name": "Kenzo Homme Marine",
+    "brand": "Kenzo",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/descarga-64.jpeg",
     "compared": false
   },
   {
@@ -4620,6 +9885,78 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1008",
+    "name": "Korbaj Emir",
+    "brand": "Korbaj Emir",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/korbajemir2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1080",
+    "name": "Korbaj Jade royale",
+    "brand": "Korbaj Jade",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Korbaj_Jade_Royale_27a2a2ff-24e5-421d-b730-0821102aa028.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1525",
+    "name": "Korbaj Musky Signature",
+    "brand": "Korbaj Musky",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 470000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/korbajmuskysignature2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1527",
+    "name": "Korbaj Mystique",
+    "brand": "Korbaj Mystique",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/korbajmystique2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1104",
+    "name": "Korbaj Oud for you",
+    "brand": "Korbaj Oud",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Korbaj_Oud_For_You_7b0f841d-b09b-4585-895d-a8580d4af72a.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1103",
+    "name": "Korbaj Rose sands",
+    "brand": "Korbaj Rose",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Korbaj_Rose_Sands_66355091-27bd-405c-a455-e1e329da1af1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1526",
+    "name": "Korbaj Toxic Desire",
+    "brand": "Korbaj Toxic",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/korbajtoxicdesire2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1102",
+    "name": "Korbaj scarlet amber",
+    "brand": "Korbaj scarlet",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Korbaj_Scarlet_Amber_88b04ab2-923a-4ad0-83bf-09d7ebbaf557.webp",
+    "compared": false
+  },
+  {
     "id": "orig-667",
     "name": "Kylie Jenner Cosmic",
     "brand": "Kylie Jenner",
@@ -4635,6 +9972,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 294000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Kylie_jenner_cosmic_2.0.jpg?v=1766774375",
+    "compared": false
+  },
+  {
+    "id": "orig-2021",
+    "name": "LEATHER PATCHOULI EDP 100ml",
+    "brand": "LEATHER PATCHOULI",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/leather-patchouli.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2005",
+    "name": "LEMON LINE EDP 120ml",
+    "brand": "LEMON LINE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LEMON-LINE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1384",
+    "name": "La Vida es Belle EDP REFILL",
+    "brand": "La Vida",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/195321-800-auto.png",
     "compared": false
   },
   {
@@ -4755,6 +10119,114 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1927",
+    "name": "EAU DE LACOSTE L.12.12 POUR ELLE ELEGANT EDT 90ML",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/EAU-DE-LACOSTE-L.12.12-POUR-ELLE-ELEGANT-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1928",
+    "name": "EAU DE LACOSTE L.12.12 POUR ELLE MAGNETIC EDT 80ML",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/EAU-DE-LACOSTE-L.12.12-POUR-ELLE-MAGNETIC-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1930",
+    "name": "Eau de Lacoste L.12.12 pour Elle French Panache EDT 100ML(sin caja)",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/Eau-de-Lacoste-L.12.12-pour-Elle-French-Panache-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1929",
+    "name": "Eau de Lacoste L.12.12 pour Lui French Panache EDT 100ML",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/Eau-de-Lacoste-L.12.12-pour-Lui-French-Panache-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1926",
+    "name": "LACOSTE JAUNE EDT 100ML",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/LACOSTE-JAUNE-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1931",
+    "name": "LACOSTE L.12.12 EAU DE PARFUM ROSE FOR HER EDT 100ML",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/LACOSTE-L.12.12-EAU-DE-PARFUM-ROSE-FOR-HER-EDT-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1389",
+    "name": "Lacoste Blanc Eau de Parfum ( EXTRA FIJACIÓN FRESH )",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Lacoste-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1220",
+    "name": "Lacoste Booster",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/descarga-3.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2059",
+    "name": "Lacoste Eau de Lacoste L.12.12 Blanc &#8211; Pure EDT 100 ml",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LACOSTE-L.12.12-BLANC-PURE-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2108",
+    "name": "Lacoste Eau de Lacoste L.12.12 Pour Elle Natural EDT 90 ml",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LACOSTE-EAU-L.12.12-NATURAL-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2109",
+    "name": "Lacoste Eau de Lacoste L.12.12 Pour Elle Sparkling EDT 90 ml",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LACOSTE-EAU-L.12.12-SPARKLING-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1222",
+    "name": "Lacoste Essential",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259900,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.787.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-518",
     "name": "Lacoste L.12.12 Silver Grey",
     "brand": "Lacoste",
@@ -4770,6 +10242,78 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 249000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_68e3e958-863c-4cdb-b054-c9fa6dffb561.jpg?v=1774643315",
+    "compared": false
+  },
+  {
+    "id": "orig-1221",
+    "name": "Lacoste Match Point",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/descarga-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2058",
+    "name": "Lacoste Red Pour Homme EDT 125 ml",
+    "brand": "Lacoste",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/Lacoste-red.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1590",
+    "name": "Lady Million",
+    "brand": "Lady Million",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Paco-rabanne-lady-million-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1796",
+    "name": "LANCOME LA VIDA ES BELLA INTENSE",
+    "brand": "Lancome",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 610000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/LANCOME-LA-VIDA-ES-BELLA-INTENSEMENT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1797",
+    "name": "LANCOME LA VIDA ES BELLA SOLEIL CRISTAL",
+    "brand": "Lancome",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 610000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/LANCOME-LA-VIDA-ES-BELLA-SOLEIL-CRISTAL.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2124",
+    "name": "Lancome La Vie Est Belle EDP",
+    "brand": "Lancome",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LANCOME-LA-VIE-EST-BELLE-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2125",
+    "name": "Lancome Miracle EDP",
+    "brand": "Lancome",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LANCOME-MIRACLE-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1315",
+    "name": "Lancome Poeme",
+    "brand": "Lancome",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 409800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.171.jpg",
     "compared": false
   },
   {
@@ -4809,12 +10353,786 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1001",
+    "name": "Lancôme La Vie Est Belle Iris Absolu",
+    "brand": "Lancôme",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/lancomelavidaesbellairisabsolute.webp",
+    "compared": false
+  },
+  {
     "id": "orig-605",
     "name": "Lancôme La Vie Est Belle Vanille Nude",
     "brand": "Lancôme",
     "variant": "100% Original Sellado · Código Batch",
     "price": 645000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Lanc_me_La_Vie_Est_Belle_Vanille_Nude.jpg?v=1771820062",
+    "compared": false
+  },
+  {
+    "id": "orig-1277",
+    "name": "Lataffa His Confession",
+    "brand": "Lataffa His",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Lattafa_His_Confession.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1890",
+    "name": "LATTAFA AJWAD",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 179800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-AJWAD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1982",
+    "name": "LATTAFA AL AREEQ SILVER EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/Al-Areeq-Silver5.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1893",
+    "name": "LATTAFA AL NOBLE AMEER",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-AL-NOBLE-AMEER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1666",
+    "name": "LATTAFA AL NOBLE SAFEER",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/perfume-lataffa-al-noble-safeer-100ml-perfumes-951.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1972",
+    "name": "LATTAFA AL QIAM GOLD EDP",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/23_2d3f263b-6dba-4efd-8abf-1e72219afc43.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1891",
+    "name": "LATTAFA AMEERAT AL ARAB PRIVE ROSE DE ASDAAF",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 205000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-AMEERAT-AL-ARAB-PRIVE-ROSE-DE-ASDAAF.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1901",
+    "name": "LATTAFA ASAD",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-ASAD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1902",
+    "name": "LATTAFA BADE&#8217;E AL OUD HONOR &amp; GLORY",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-BADEE-AL-OUD-HONOR-GLORY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1903",
+    "name": "LATTAFA BADE&#8217;E AL OUD SUBLIME",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-BADEE-AL-OUD-SUBLIME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1905",
+    "name": "LATTAFA FACKAR BLACK",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-FACKAR-BLACK.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1904",
+    "name": "LATTAFA FACKAR ROSE",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-FACKAR-ROSE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1897",
+    "name": "LATTAFA HAYA",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-HAYA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1894",
+    "name": "LATTAFA ISHQ AL SHUYUKH GOLD",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-ISHQ-AL-SHUYUKH-GOLD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1887",
+    "name": "LATTAFA JUST OUD BOULEVARD",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-JUST-OUD-BOULEVARD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1895",
+    "name": "LATTAFA KHALTA OF BLEND",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-KHALTA-OF-BLEND.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1912",
+    "name": "LATTAFA MAAHIR",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-MAAHIR.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1910",
+    "name": "LATTAFA MAAHIR BLACK",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-MAAHIR-BLACK.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1909",
+    "name": "LATTAFA MAAHIR LEGACY",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-MAAHIR-LEGACY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1896",
+    "name": "LATTAFA MAYAR",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-MAYAR.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1885",
+    "name": "LATTAFA MOHRA",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-MOHRA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1911",
+    "name": "LATTAFA MUSAMAM",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-MUSAMAM.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1990",
+    "name": "LATTAFA MUSK MOOD EDP 100ML(sin caja)",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-MUSK-MOOD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1989",
+    "name": "LATTAFA NAJDIA PURE CONCENTRATED 25ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-NAJDIA-PURE-CONCENTRATED-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1899",
+    "name": "LATTAFA OPULENT MUSK",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-OPULENT-MUSK.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1988",
+    "name": "LATTAFA OUD MOOD EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATAFFA-OUD-MOOD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1986",
+    "name": "LATTAFA OUD MOOD ELIXIR EDP 100ML(sin caja)",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-OUD-MOOD-ELIXIR-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1987",
+    "name": "LATTAFA OUD MOOD PURE CONCENTRATED EDP 25ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-OUD-MOOD-PURE-CONCENTRATED-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1985",
+    "name": "LATTAFA OUD MOOD REMINISCENCE EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATAFFA-OUD-MOOD-REMINISCENCE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1984",
+    "name": "LATTAFA PRIDE AFAQ EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/12_78ba35e1-6761-49a8-81c8-5ec39d96c8e8.png",
+    "compared": false
+  },
+  {
+    "id": "orig-1983",
+    "name": "LATTAFA PRIDE AL ARREQ GOLD EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-PRIDE-AL-ARREQ-GOLD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1906",
+    "name": "LATTAFA PRIDE ANSAAM SILVER",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-PRIDE-ANSAAM-SILVER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1981",
+    "name": "LATTAFA PRIDE BLUE SAPPHIRE EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 205000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-PRIDE-BLUE-SAPPHIRE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1980",
+    "name": "LATTAFA PRIDE ETERNAL OUD EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-PRIDE-ETERNAL-OUD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1979",
+    "name": "LATTAFA PRIDE ISHQ AL SHUYUKH SILVER EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-PRIDE-ISHQ-AL-SHUYUKH-SILVER-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1978",
+    "name": "LATTAFA PRIDE LAHDATH EDP 80ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-PRIDE-LAHDATH-EDP-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1977",
+    "name": "LATTAFA PRIDE MAHARJAN GOLD EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/DFTTHHTH_900x.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1976",
+    "name": "LATTAFA PRIDE NEBRAS EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-PRIDE-NEBRAS-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1975",
+    "name": "LATTAFA PRIDE THOUQ EDP 80ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/Lattafa-pride-thouq-768x768-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1908",
+    "name": "LATTAFA QAA´ED",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-QAA´ED.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1907",
+    "name": "LATTAFA QAA´ED AL SHABAAB",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-QAA´ED-AL-SHABAAB.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1889",
+    "name": "LATTAFA QAED AL FURSAN",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-QAED-AL-FURSAN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1888",
+    "name": "LATTAFA QAED AL FURSAN UNLIMITED",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159900,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-QAED-AL-FURSAN-UNLIMITED.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1892",
+    "name": "LATTAFA REHLAT EDP",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-REHLAT-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1886",
+    "name": "LATTAFA SHAHEEN GOLD",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-SHAHEEN-GOLD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1974",
+    "name": "LATTAFA VURV VIBRANT LEATHER EDP 100ML( sin Celofán) full códigos",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-VURV-VIBRANT-LEATHER-EDP.png",
+    "compared": false
+  },
+  {
+    "id": "orig-1973",
+    "name": "LATTAFA WASHWASHAH PURE CONCENTRATED EDP 25ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-WASHWASHAH-PURE-CONCENTRATED-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1971",
+    "name": "LATTAFA YARA EDP 100ML",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/LATTAFA-YARA-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1898",
+    "name": "LATTAFA Yara Moi",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-MOI.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1276",
+    "name": "Lattafa Ajwad Pink to Pink",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/lattafaajwadpinktopink3.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-999",
+    "name": "Lattafa Al Noble Wazeer",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/lattafa-al-noble-wazeer.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1035",
+    "name": "Lattafa Angham",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/11/Lattafa_Angham_bff209cb-b489-4d66-9641-24a716aa4a1b.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1382",
+    "name": "Lattafa Asad Bourbon",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Asad_Bourbon_Lattafa.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1400",
+    "name": "Lattafa Asad Zanzibar",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/ASADZANZIBAR3.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-998",
+    "name": "Lattafa Atheeri",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/1_2963226d-1fc8-47e2-a148-dcadb66d0035.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1390",
+    "name": "Lattafa Atlas",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/lattafaatlas2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1420",
+    "name": "Lattafa Eclaire",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/lattafaeclaire2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-988",
+    "name": "Lattafa Emaan",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/10/Lattafa-emaan.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1386",
+    "name": "Lattafa Emeer",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/lattafa-emeer.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-989",
+    "name": "Lattafa Fakhar Gold",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/10/images-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1158",
+    "name": "Lattafa Fakhar Platin",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/fakhar_platin_lattafa.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1278",
+    "name": "Lattafa Her Confession",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/her_db1ba3b7-43f5-4b2f-9a43-e84de918f8cb.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1383",
+    "name": "Lattafa Jasoor",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/lattafajasoor.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1417",
+    "name": "Lattafa Khamrah",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Lattafa-khamrah-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1254",
+    "name": "Lattafa Khamrah Dukhan",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/lattafakhamrahdukhan.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1416",
+    "name": "Lattafa Khamrah Qahwa",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/lattafa-khamrah-qahwa.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1304",
+    "name": "Lattafa Khashabi",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Lattafa-khashabi-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1051",
+    "name": "Lattafa Mayar Natural Intense",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.89759.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1258",
+    "name": "Lattafa Niche Emarati Khanjar",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 335000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/nicheemaratikhanjar2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2036",
+    "name": "Lattafa Oud Amethyst EDP 100 ml",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LATTAFA-OUD-AMETHYST-EDP-UNISEXO-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2035",
+    "name": "Lattafa Oud For Glory EDP 100 ml",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LATTAFA-OUD-FOR-GLORY-EDP-UNISRXO-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1036",
+    "name": "Lattafa Pride Art of Arabia II",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/11/lattafaartofarabiaII.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1134",
+    "name": "Lattafa Pride Art of universe",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/375x500.101314.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1266",
+    "name": "Lattafa Pride Pisa ( sin caja )",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/lattafapridepisa2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1261",
+    "name": "Lattafa Rave Now Rouge",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Lattafa-Rave-Now-Rouge.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1275",
+    "name": "Lattafa Rave Now Woman",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/lattafaravenowwoman2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1411",
+    "name": "Lattafa Sakeena",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/lattafa-sakeena-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1388",
+    "name": "Lattafa The Kingdom Pour Homme",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Lattafa_The_Kingdom.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1157",
+    "name": "Lattafa Victoria",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/LattafaVictoria.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1635",
+    "name": "Lattafa Yara Candy 100 mililitros",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/perfume-lattafa-yara-candy-100ml-perfumes-924.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1260",
+    "name": "Lattafa afeef",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Lattafa_Afeer.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1059",
+    "name": "Lattafa teriaq intense",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Teriaq_Intense_Lattafa-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1391",
+    "name": "lattafa Lattafa Teriaq",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/lattafateriaq.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1392",
+    "name": "lattafa badee al oud noble blush",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Noble_Blush_dce3752c-8ae3-4a03-a56f-1389be0a720d.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1419",
+    "name": "lattafa mayar cherry intense",
+    "brand": "Lattafa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Lattafa_Mayar_Cherry_Intense.webp",
     "compared": false
   },
   {
@@ -4899,12 +11217,102 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1601",
+    "name": "Legend Red",
+    "brand": "Legend Red",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Legend-red.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1603",
+    "name": "Legend Spirit EDP",
+    "brand": "Legend Spirit",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Legend-spirit-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1480",
+    "name": "Liz Claiborne Curve",
+    "brand": "Liz Claiborne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 140000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Curve-dama-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1479",
+    "name": "Liz Claiborne Curve Crush For Men",
+    "brand": "Liz Claiborne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 140000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Curve-crush-hombre-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-55",
     "name": "Liz Claiborne Curve Sport",
     "brand": "Liz Claiborne",
     "variant": "100% Original Sellado · Código Batch",
     "price": 159000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/LizClaiborneCurvesport.jpg?v=1791742865",
+    "compared": false
+  },
+  {
+    "id": "orig-1481",
+    "name": "Liz Claiborne Curve for Men",
+    "brand": "Liz Claiborne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Curve-men-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1728",
+    "name": "LOEWE 001 MAN DE LOEWE EAU DE (PERFUM)",
+    "brand": "Loewe",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 670000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/LOEWE-001-MAN-DE-LOEWE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1727",
+    "name": "LOEWE 7 DE LOEWE",
+    "brand": "Loewe",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/LOEWE-7-DE-LOEWE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1729",
+    "name": "LOEWE ATLAS DE LOEWE",
+    "brand": "Loewe",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 670000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/LOEWE-ATLAS-DE-LOEWE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1730",
+    "name": "LOEWE SOLO CEDRO",
+    "brand": "Loewe",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/LOEWE-SOLO-LOEWE-CEDRO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1344",
+    "name": "LOEWE Solo Clásico (Tester)",
+    "brand": "Loewe",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Loewe-solo-2-1.webp",
     "compared": false
   },
   {
@@ -4998,12 +11406,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1594",
+    "name": "Loewe Solo Clasico",
+    "brand": "Loewe",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Loewe-solo-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-544",
     "name": "Loewe Solo Elixir",
     "brand": "Loewe",
     "variant": "100% Original Sellado · Código Batch",
     "price": 915000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_446d0022-d6bb-41f4-b064-ed80dbd80afc.jpg?v=1773593956",
+    "compared": false
+  },
+  {
+    "id": "orig-2042",
+    "name": "Loewe Solo Mercurio EDP 100 ml",
+    "brand": "Loewe",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 670000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LOEWE-SOLO-MERCURIO-EDP-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1191",
+    "name": "Loewe Solo Origami",
+    "brand": "Loewe",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 650000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-23.jpg",
     "compared": false
   },
   {
@@ -5025,6 +11460,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2121",
+    "name": "Lolita Lempicka Lolita Lempicka EDP 100 ml",
+    "brand": "Lolita Lempicka",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LOLITA-LEMPICKA-LOLITA-LEMPICKA-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-813",
     "name": "Lorenzo Pazzaglia Gasoleather",
     "brand": "Lorenzo Pazzaglia",
@@ -5043,12 +11487,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1000",
+    "name": "Lorenzo Pazzaglia Pax",
+    "brand": "Lorenzo Pazzaglia",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 910000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/pax.webp",
+    "compared": false
+  },
+  {
     "id": "orig-856",
     "name": "Lorenzo Pazzaglia Speachless",
     "brand": "Lorenzo Pazzaglia",
     "variant": "100% Original Sellado · Código Batch",
     "price": 941100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_d95be11c-ff10-4224-91b5-4c3ed6f3d97c.jpg?v=1760192612",
+    "compared": false
+  },
+  {
+    "id": "orig-1073",
+    "name": "Lorenzo Pazzaglia Summer Hammer",
+    "brand": "Lorenzo Pazzaglia",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 785000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/summerhammer-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1007",
+    "name": "Lorenzo Pazzaglia Sun Gria",
+    "brand": "Lorenzo Pazzaglia",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 840000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/lorenzopazzagliasungria.webp",
     "compared": false
   },
   {
@@ -5067,7 +11538,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 950100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c8c5e405-f66a-4f1e-b33a-a43fabc64433.jpg?v=1755945294",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-509",
@@ -5097,6 +11568,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1529",
+    "name": "Luna Rossa Sport",
+    "brand": "Luna Rossa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Prada-luna-rosa-sport-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2019",
+    "name": "MANGO MANGA EDP 100ml",
+    "brand": "MANGO MANGA",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 600000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/mango-manga-argent.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-656",
     "name": "Matai Aura",
     "brand": "MATAI",
@@ -5121,6 +11610,51 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 348000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Matai_Mirza.jpg?v=1770048430",
+    "compared": false
+  },
+  {
+    "id": "orig-1939",
+    "name": "METROPOLIS GREEN VALLEY VILLAGE EDP 100ML",
+    "brand": "METROPOLIS GREEN",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/METROPOLIS-GREEN-VALLEY-VILLAGE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1937",
+    "name": "METROPOLIS HOT LIPS EDP 100ML",
+    "brand": "METROPOLIS HOT",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/METROPOLIS-HOT-LIPS-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1938",
+    "name": "METROPOLIS MASTERPIECE EDP 100ML",
+    "brand": "METROPOLIS MASTERPIECE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/METROPOLIS-MASTERPIECE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1940",
+    "name": "METROPOLIS NIGHT PARTY EDP 100ML",
+    "brand": "METROPOLIS NIGHT",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/METROPLIS-NIGHT-PARTY-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1941",
+    "name": "METROPOLIS ROCK STREET EDP 100ML",
+    "brand": "METROPOLIS ROCK",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/METROPOLIS-ROCK-STREET-EDP.jpg",
     "compared": false
   },
   {
@@ -5169,6 +11703,186 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1968",
+    "name": "ALHAMBRA KISMET FOR MEN EDP100ML",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-KISMET-FOR-MEN-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1967",
+    "name": "ALHAMBRA KISMET FOR WOMEN EDP 100ML",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-KISMET-FOR-WOMEN-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1965",
+    "name": "ALHAMBRA PHILOS PURA EDP 100ML",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-PHILOS-PURA-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1964",
+    "name": "ALHAMBRA PHILOS ROSSO EDP 100ML",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-PHILOS-ROSSO-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1963",
+    "name": "ALHAMBRA SALVO EDP 100ML",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-SALVO-EDP.png",
+    "compared": false
+  },
+  {
+    "id": "orig-1962",
+    "name": "ALHAMBRA SALVO INTENSE EDP 100ML",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ALHAMBRA-SALVO-INTENSE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2034",
+    "name": "Delilah Maison alhambra EDP",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/LATTAFA-DELILAH-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1399",
+    "name": "Jean Lowe Matiere",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Maison-Alhambra-Matiere.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1398",
+    "name": "Jean Lowe Noir",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/maisonalhambrajeanlowenoir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1397",
+    "name": "Jean Lowe Noveau",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/descarga-12.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1921",
+    "name": "MAISON ALHAMBRA BAROQUE ROUGE 540",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1914",
+    "name": "MAISON ALHAMBRA EXPOSE BLANC",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-EXPOSE-BLANC.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1913",
+    "name": "MAISON ALHAMBRA EXPOSE INTENSE",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-EXPOSE-INTENSE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1918",
+    "name": "MAISON ALHAMBRA FABULO INTENSE",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-FABULO-INTENSE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1920",
+    "name": "MAISON ALHAMBRA JEAN LOWE OMBRE",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-JEAN-LOWE-OMBRE-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1915",
+    "name": "MAISON ALHAMBRA NARISSA FOR HER",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-NARISSA-FOR-HER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1916",
+    "name": "MAISON ALHAMBRA REYNA POUR FEMME",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-REYNA-POUR-FEMME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1917",
+    "name": "MAISON ALHAMBRA TOBACCO TOUCH",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-TOBACCO-TOUCH.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1919",
+    "name": "MAISON ALHAMBRA TOSCANO LEATHER",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-TOSCANO-LEATHER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1171",
+    "name": "Maison Alhambra Delilah Blanc",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Maison_Alhambra_Delilah_Blanc_8e475fa9-86c1-46b3-b02b-1540eb0d2bdb.webp",
+    "compared": false
+  },
+  {
     "id": "orig-72",
     "name": "Maison Alhambra Delilah Viola",
     "brand": "Maison Alhambra",
@@ -5205,12 +11919,48 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1665",
+    "name": "Maison Alhambra Kismet Moscow",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Kismet-moscow-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1264",
+    "name": "Maison Alhambra Maître de Blue",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.95880.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-314",
     "name": "Maison Alhambra Megara (Alternativa Orto Parisi Megamare)",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
     "price": 321000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/products/Alhambra-megara.jpg?v=1699807994",
+    "compared": false
+  },
+  {
+    "id": "orig-1156",
+    "name": "Maison Alhambra Sceptre Desert",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/descarga-33.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1328",
+    "name": "Maison Alhambra Sceptre Malachite",
+    "brand": "Maison Alhambra",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/maisonalhambrasceptremalachite.webp",
     "compared": false
   },
   {
@@ -5466,12 +12216,399 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1825",
+    "name": "MANCERA AOUT VIOLET",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-AOUT-VIOLET.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1838",
+    "name": "MANCERA BLACK INTENSITIVE AOUD",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 750000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-BLACK-INTENSITIVE-AOUD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2008",
+    "name": "MANCERA CEDRAT BOISE EDP 120ml",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/CEDRAIT-BOISE-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1827",
+    "name": "MANCERA FRENCH RIVIERA",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-FRENCH-RIVIERA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1834",
+    "name": "MANCERA JUICY FLOWERS",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-JUICY-FLOWERS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1833",
+    "name": "MANCERA LOVELY GARDEN",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-LOVELY-GARDEN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1832",
+    "name": "MANCERA PINK PRESTIGIUM",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-PINK-PRESTIGIUM.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1839",
+    "name": "MANCERA ROSES GREEDY",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 700000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-ROSES-GREEDY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1831",
+    "name": "MANCERA SICILY",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-SICILY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1826",
+    "name": "MANCERA SO BLUE",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-SO-BLUE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1830",
+    "name": "MANCERA VANILLE EXCLUSIVE",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-VANILLE-EXCLUSIVE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1829",
+    "name": "MANCERA VELVET VANILLA",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-VELVET-VANILLA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1837",
+    "name": "MANCERA WILD CHERRY",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-WILD-CHERRY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1836",
+    "name": "MANCERA WILD LEATHER",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-WILD-LEATHER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1835",
+    "name": "MANCERA WILD PYTHON",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-WILD-PYTHON.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1828",
+    "name": "MANCERA WILD ROSE AOUD",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MANCERA-WILD-ROSE-AOUD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1189",
+    "name": "Mancera Amber Fever , ( Levemente mermado 2 MILÍMETROS Del Cuello )",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-3.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1183",
+    "name": "Mancera Amore Caffé",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/manceraamorecaffe2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1185",
+    "name": "Mancera Aoud Black Candy ( Con bolsa , Sin caja )",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-12.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1188",
+    "name": "Mancera Aoud Blue Notes",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 710000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-4.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1186",
+    "name": "Mancera Aoud Cafe",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-9.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-992",
+    "name": "Mancera Aoud Orchid",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/images-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1187",
+    "name": "Mancera Aoud VANILLE",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 750000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-8.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-993",
+    "name": "Mancera Aoud cafe Tester",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/images.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-991",
+    "name": "Mancera Black Line",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/Mancera-black-line.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1182",
+    "name": "Mancera Cedrat Boise Intense",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 710000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Mancera-intense-cedrat-boise-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1180",
+    "name": "Mancera Coco VANILLE",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 750000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/coco-vanille.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1177",
+    "name": "Mancera Crazy For Oud Tester",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/perfume-unisex-crazy-for-oud-de-mancera-120-ml-edp.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1374",
+    "name": "Mancera Feminity",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/mancerafeminity.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1190",
+    "name": "Mancera Fig Extasy",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-1.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-995",
+    "name": "Mancera Gold Intensive Aoud Tester",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/dark-375x500.11163.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1179",
+    "name": "Mancera Hindu Kush",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Mancera-hindu-kush.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-997",
+    "name": "Mancera Hindu Kush Tester",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/Mancera-hindu-kush.webp",
+    "compared": false
+  },
+  {
     "id": "orig-886",
     "name": "Mancera Intense Instant Crush",
     "brand": "Mancera",
     "variant": "100% Original Sellado · Código Batch",
     "price": 492000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_66bc2da2-3b1a-4cb9-bf3c-dc6826f38a13.jpg?v=1758647661",
+    "compared": false
+  },
+  {
+    "id": "orig-1184",
+    "name": "Mancera Intense Red Tobacco",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 710000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/manceraintenseredtobacco2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1176",
+    "name": "Mancera Intensitive Aoud Gold",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-20.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1375",
+    "name": "Mancera Roses Vanille EDP 100 ml",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Mancera-roses-vainille-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1181",
+    "name": "Mancera Royal Vanilla",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/375x500.55845.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1373",
+    "name": "Mancera Royal Vanilla (Tester)",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.55845.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1178",
+    "name": "Mancera Tonka Kola",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-18.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-996",
+    "name": "Mancera Tonka Kola Tester",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/Mancera-tonka-cola.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1175",
+    "name": "Mancera Wild Candy",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Mancera_Wild_Candy.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-994",
+    "name": "Mancera Wild Candy Tester",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/Mancera_Wild_Candy.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1372",
+    "name": "Mancera Wild Python",
+    "brand": "Mancera",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.49151.jpg",
     "compared": false
   },
   {
@@ -5484,12 +12621,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1049",
+    "name": "Marc Jacobs Daisy Eau de Toilette",
+    "brand": "Marc Jacobs",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/descarga-63.jpeg",
+    "compared": false
+  },
+  {
     "id": "orig-659",
     "name": "Marc Jacobs Daisy Love Eau So Sweet",
     "brand": "Marc Jacobs",
     "variant": "100% Original Sellado · Código Batch",
     "price": 429000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Marc_Jacobs_Daisy_Love_Eau_So_Sweet.jpg?v=1780690497",
+    "compared": false
+  },
+  {
+    "id": "orig-1050",
+    "name": "Marc Jacobs Daisy Love Eau So Sweet Eau de Toilette",
+    "brand": "Marc Jacobs",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.54415-1.avif",
     "compared": false
   },
   {
@@ -5526,6 +12681,60 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 951000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Marc-Antoine_Barrois_Ganymede_1.jpg?v=1765252668",
+    "compared": false
+  },
+  {
+    "id": "orig-1089",
+    "name": "Matai Nasim",
+    "brand": "Matai Nasim",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Matri_Nasim_67daadaf-0cd9-4d10-a49a-423813fa40d5.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1088",
+    "name": "Matai Noor",
+    "brand": "Matai Noor",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Matai_Noor_76be55b3-bcfb-4f04-86b8-922375349b78.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1087",
+    "name": "Matai Oryx",
+    "brand": "Matai Oryx",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Matai_Oryx.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1086",
+    "name": "Matai Sabah",
+    "brand": "Matai Sabah",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Matai_Sabah.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1085",
+    "name": "Matai Sahara",
+    "brand": "Matai Sahara",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Matai_Sahara_621cf7d3-1f13-48de-b219-58adcd0ba47b-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1084",
+    "name": "Matai Zenith",
+    "brand": "Matai Zenith",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Matai_Zenith_06e45a45-d4ea-4a20-9bdc-f1d0d2bd3a67.webp",
     "compared": false
   },
   {
@@ -5601,6 +12810,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1385",
+    "name": "Mercedes-Benz Club",
+    "brand": "Mercedes-Benz",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Mercedes-benz-club-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1443",
+    "name": "Mercedes-Benz Club Black",
+    "brand": "Mercedes-Benz",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Mercedes-benz-club-black-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-678",
     "name": "Michael Malul Amber+Smoke",
     "brand": "Michael Malul London",
@@ -5673,12 +12900,462 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1619",
+    "name": "Milesime imperial",
+    "brand": "Milesime imperial",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/milesime-imperial.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1012",
+    "name": "Milestone Perfumes The Immencity",
+    "brand": "Milestone",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/02/milestoneperfumestheinmencity.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1583",
+    "name": "Million Gold for her",
+    "brand": "Million Gold",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/375x500.95640.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1951",
+    "name": "MONT BLANC INDIVIDUEL EDT 75ML",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/MONT-BLANC-INDIVIDUEL-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1737",
+    "name": "MONT BLANC LEGEND EDP",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-AMBER-NOIR-eu.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1738",
+    "name": "MONT BLANC LEGEND EDT",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 275000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONT-BLANC-LEGEND.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1736",
+    "name": "MONT BLANC LEGEND RED",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONT-BLANC-LEGEND-RED.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1949",
+    "name": "MONT BLANC LEGEND SPIRIT EDT 100ML",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/MONT-BLANC-LEGEND-SPIRIT-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1734",
+    "name": "MONT BLANC PRESENCE",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONT-BLANC-PRESENCE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1950",
+    "name": "MONT BLANC STARWALKER EDT",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/MONT-BLANC-STARWALKER-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2106",
+    "name": "Mont Blanc Presence D&#8217;une Femme EDT 75 ml",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/MONT-BLANC-PRESENCE-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2107",
+    "name": "Mont Blanc Signature EDP 90 ml",
+    "brand": "Mont Blanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/MONT-BLANC-SIGNATURE-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1844",
+    "name": "MONTALE AOUD JASMINE",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-AOUD-JASMINE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1852",
+    "name": "MONTALE AOUD LEATHER",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-AOUD-LEATHER.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1845",
+    "name": "MONTALE AOUD LEGEND",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-AOUD-LEGEND.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1848",
+    "name": "MONTALE AOUD SAFRAN",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-AOUD-SAFRAN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1862",
+    "name": "MONTALE BOISE FRUITE",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-BOISE-FRUITE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1860",
+    "name": "MONTALE CHOCOLATE GREEDY",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-CHOCOLATE-GREEDY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1856",
+    "name": "MONTALE DAY DREAMS",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-DAY-DREAMS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1865",
+    "name": "MONTALE DIAMOND GREEDY",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-DIAMOND-GREEDY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1853",
+    "name": "MONTALE FANTASTIC OUD",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-FANTASTIC-OUD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1843",
+    "name": "MONTALE FULL INCENSE",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-FULL-INCENSE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1857",
+    "name": "MONTALE GOLDEN AOUD",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-GOLDEN-AOUD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1847",
+    "name": "MONTALE GOLDEN SAND",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-GOLDEN-SAND.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1849",
+    "name": "MONTALE HERBAL ACUATICA",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-HERBAL-ACUATICA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1855",
+    "name": "MONTALE HONEY AOUD",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-HONEY-AOUD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1846",
+    "name": "MONTALE INTENSE PEPER",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-INTENSE-PEPER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1854",
+    "name": "MONTALE INTENSE ROSES MUSK ( EXTRACT DE PARFUM PURO )",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-INTENSE-ROSES-MUSK.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1866",
+    "name": "MONTALE LOUBAN",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-LOUBAN.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1861",
+    "name": "MONTALE OUD EDITION",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-OUD-EDITION.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1867",
+    "name": "MONTALE OUDRISING",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-OUDRISING.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1868",
+    "name": "MONTALE PURE GOLD",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-PURE-GOLD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1864",
+    "name": "MONTALE SWEET ORIENTAL DREAM",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 680000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-SWEET-O0RIENTAL-DREAM.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1863",
+    "name": "MONTALE SWEET VANILLA",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-SWEET-VANILLA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1858",
+    "name": "MONTALE TROPICAL WOOD",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-TROPICAL-WOOD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1850",
+    "name": "MONTALE VELVET FANTASY",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-VELVET-FANTASY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1851",
+    "name": "MONTALE WOOD ON FIRE",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-WOOD-ON-FIRE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1197",
+    "name": "Montale Amber &amp; Spices",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 730000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-11.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1203",
+    "name": "Montale Aoud Musk",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-7.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1196",
+    "name": "Montale Aqua Palma",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Montale-aqua-palma.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1125",
+    "name": "Montale Arabians Musk",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 750000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Montale_Arabians_Musk_3e8744b7-215a-4cf9-9c7b-1e7c0c288c2c.webp",
+    "compared": false
+  },
+  {
     "id": "orig-944",
     "name": "Montale Arabians Rose Leather",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 591000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_562b0bd0-5dff-453e-919e-0757ff931fd4.jpg?v=1756294090",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/1_562b0bd0-5dff-453e-919e-0757ff931fd4.jpg",
+    "compared": true
+  },
+  {
+    "id": "orig-1027",
+    "name": "Montale Beast Love",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Montale_Beast_Love.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1091",
+    "name": "Montale Beast Love",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/Montale_Beast_Love.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1126",
+    "name": "Montale Bubble Forever",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Montale_Bubble_Forever_db879a79-7393-4e55-b68b-f7205f48f0e4.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1200",
+    "name": "Montale Crazy in Love",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Montale-crazy-in-love-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1199",
+    "name": "Montale Dark Aoud",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Montale-Dark-Aoud-Tester-600x600-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1204",
+    "name": "Montale Dark Purple",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/montale-dark-purple.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1206",
+    "name": "Montale Fantastic Basilic",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/41NbD37VM0L._AC_UL210_SR210210_.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1202",
+    "name": "Montale Holy Neroli",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/montalehoneyneroli2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1207",
+    "name": "Montale Intense Iris",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/375x500.43413-1.jpg",
     "compared": false
   },
   {
@@ -5691,12 +13368,120 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1201",
+    "name": "Montale Intense café",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Montale-intense-cafe-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1026",
+    "name": "Montale Lucky Candy",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 750000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/montaleluckycandy2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1127",
+    "name": "Montale Lucky Candy",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/montaleluckycandy2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1198",
+    "name": "Montale Oud Pashmina",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 730000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-9.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1859",
+    "name": "Montale Oud dream",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-OUD-DREAM.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1192",
+    "name": "Montale Oudmazing",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-21.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1205",
+    "name": "Montale Pretty Fruity",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/375x500.12301.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-334",
     "name": "Montale So Amber",
     "brand": "Montale",
     "variant": "100% Original Sellado · Código Batch",
     "price": 474000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/soamber.png?v=1781706615",
+    "compared": false
+  },
+  {
+    "id": "orig-1194",
+    "name": "Montale So Iris",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-16.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1193",
+    "name": "Montale Spicy Aoud",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/D_Q_NP_974391-MLA80997597421_112024-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1195",
+    "name": "Montale Wood &amp; Spices",
+    "brand": "Montale",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/descarga-12.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1735",
+    "name": "MONTBLANC EXPLORER PLATINUM",
+    "brand": "Montblanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 285000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONT-BLANC-EXPLORER-PLATINUM.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1316",
+    "name": "Montblanc Black Meisterstuck",
+    "brand": "Montblanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 850000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Montblanc_Blck_Meistertuck.webp",
     "compared": false
   },
   {
@@ -5709,21 +13494,48 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1323",
+    "name": "Montblanc Emblem Absolu",
+    "brand": "Montblanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Emblem-absolu-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-907",
     "name": "Montblanc Explorer Extreme",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
     "price": 339000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_01e56f11-3044-4247-9f1f-0ee7ef0c64cc.jpg?v=1757373482",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-27",
     "name": "Montblanc Explorer Infinite",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 465000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/MontblancExplorerInfinite.jpg?v=1794143137",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Montblanc-Explorer-2.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1324",
+    "name": "Montblanc Extreme Leather 100ml",
+    "brand": "Montblanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Montblanc_Extreme_Leaher.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1016",
+    "name": "Montblanc Legend Blue",
+    "brand": "Montblanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/montblanclegendblue2.webp",
     "compared": false
   },
   {
@@ -5736,12 +13548,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1017",
+    "name": "Montblanc Presence Hombre",
+    "brand": "Montblanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Montblanc-Presence-Hombre-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-197",
     "name": "Montblanc Signature Elixir",
     "brand": "Montblanc",
     "variant": "100% Original Sellado · Código Batch",
     "price": 366000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Montblanc_Signature_Elixir.jpg?v=1785534412",
+    "compared": false
+  },
+  {
+    "id": "orig-1322",
+    "name": "Montblanc Vetiver Glacier (Tester)",
+    "brand": "Montblanc",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Montblanc_vetiver_glacier_e811e909-2405-40e4-855c-402aaeb3fbb2.webp",
     "compared": false
   },
   {
@@ -5754,13 +13584,121 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1933",
+    "name": "MOSCHINO BUBBLE GUM EDP 100ML",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259900,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/MOSCHINO-BUBBLE-GUM-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1787",
+    "name": "MOSCHINO FUNNY!",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MOSCHINO-FUNNY-MOSCHINO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1690",
+    "name": "MOSCHINO FUNNY! (TESTER) sin Tapa",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MOSCHINO-FUNNY-MOSCHINO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1786",
+    "name": "MOSCHINO I LOVE LOVE DE MOSCHINO",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 239900,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MOSCHINO-I-LOVE-LOVE-DE-MOSCHINO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1694",
+    "name": "MOSCHINO I LOVE LOVE MOSCHINO 100 mililitros (TESTER SIN TAPA)",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 195000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MOSCHINO-I-LOVE-LOVE-DE-MOSCHINO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1932",
+    "name": "MOSCHINO TOY 2 EDP 100ML",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/MOSCHINO-TOY-2-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1709",
+    "name": "MOSCHINO TOY 2 PEARL EDP 100ML",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259900,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/pearl.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1692",
+    "name": "MOSCHINO TOY 2 PEARL EDP 100ML (TESTER)",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/pearl.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1953",
+    "name": "MOSCHINO TOY BOY EDP 100ML",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259900,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/MOSCHINO-TOY-BOY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2118",
+    "name": "Moschino Fresh Couture EDT 100 ml",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/MOSCHINO-FRESH-COUTURE-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2116",
+    "name": "Moschino Fresh Gold EDP 100 ml",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 219900,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/MOSCHINO-FRESH-GOLD-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1693",
+    "name": "Moschino Fresh Gold EDP 100 ml (TESTER SIN TAPA)",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 215000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/MOSCHINO-FRESH-GOLD-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-61",
     "name": "Moschino Toy 2 Gummy",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 375000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/MoschinoToy2Gummy.jpg?v=1790771265",
-    "compared": false
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/MoschinoToy2Gummy.webp",
+    "compared": true
   },
   {
     "id": "orig-60",
@@ -5776,8 +13714,35 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Moschino Toy Boy 2",
     "brand": "Moschino",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 276000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_5fc2b814-db0a-4c94-a3df-d0d0ca56f461.jpg?v=1772793184",
+    "price": 239800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/03/1_5fc2b814-db0a-4c94-a3df-d0d0ca56f461.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1215",
+    "name": "Moschino Uomo?",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Moschino-uomo-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2117",
+    "name": "Moschino fresh Pink Couture EDT 100 ml",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 199800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/MOSCHINO-FRESH-PINK-EDT-DAMA-2-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1695",
+    "name": "Moschino fresh Pink Couture EDT 100 ml (TESTER SIN TAPA)",
+    "brand": "Moschino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 195000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/MOSCHINO-FRESH-PINK-EDT-DAMA-2-1.jpg",
     "compared": false
   },
   {
@@ -5835,13 +13800,22 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1318",
+    "name": "Mugler Angel Nova EDP",
+    "brand": "Mugler",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Mugler-angel-nova.webp",
+    "compared": false
+  },
+  {
     "id": "orig-11",
     "name": "Mugler Angel Stellar",
     "brand": "Mugler",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 555000,
+    "price": 410000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/MuglerAngelStellar.jpg?v=1794661561",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-900",
@@ -5868,6 +13842,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 285000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_75fe235b-430b-4c38-972d-aec9abdceca6.jpg?v=1757621288",
+    "compared": false
+  },
+  {
+    "id": "orig-2024",
+    "name": "NEPAL AOUD EDP 100ml",
+    "brand": "NEPAL AOUD",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 750000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/nepal-aoud.jpg",
     "compared": false
   },
   {
@@ -5898,12 +13881,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1642",
+    "name": "Nautica Blue",
+    "brand": "Nautica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 160000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Perfume-Para-Hombre-Nautica-Blue-100ml.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1487",
+    "name": "Nautica Classic",
+    "brand": "Nautica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 145000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/nautica-classic-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1486",
+    "name": "Nautica Pure Blue",
+    "brand": "Nautica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 160000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Pefumes-2024-09-02T152243.319.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2051",
+    "name": "Nautica Voyage EDT 100 ml",
+    "brand": "Nautica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/NAUTICA-VOYAGE-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-186",
     "name": "Nautica Voyage Intense",
     "brand": "Nautica",
     "variant": "100% Original Sellado · Código Batch",
     "price": 194100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/NauticaVoyageIntense_2.jpg?v=1785613384",
+    "compared": false
+  },
+  {
+    "id": "orig-1396",
+    "name": "Nautica Voyage Sport",
+    "brand": "Nautica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 160000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/375x500.36402.jpg",
     "compared": false
   },
   {
@@ -6003,6 +14031,42 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 204000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Anaalawaaipink_3.jpg?v=1779811277",
+    "compared": true
+  },
+  {
+    "id": "orig-1660",
+    "name": "OSCAR DE LA RENTA POUR LUI",
+    "brand": "OSCAR DE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/OSCAR-DE-LA-RENTA-POUR-LUI-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2016",
+    "name": "OUD TOBACCO EDP 100ml",
+    "brand": "OUD TOBACCO",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/oud-tobacco.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1572",
+    "name": "Obsession",
+    "brand": "Obsession",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Obsession-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1573",
+    "name": "Obsession for men",
+    "brand": "Obsession for",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Obsession-men-2.webp",
     "compared": false
   },
   {
@@ -6042,6 +14106,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1577",
+    "name": "Ombre Leather",
+    "brand": "Ombre Leather",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 770000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Ombre-leather.webp",
+    "compared": false
+  },
+  {
     "id": "orig-130",
     "name": "Nayaat Forbidden Bloom by Orientica",
     "brand": "Orientica",
@@ -6069,6 +14142,87 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1842",
+    "name": "ORIENTICA AMBER NOIR",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/MONTALE-AMBER-NOIR-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1841",
+    "name": "ORIENTICA ARTE BELLISIMO ROMANTIC",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ORIENTICA-ARTE-BELLISIMO-ROMANTIC.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2004",
+    "name": "ORIENTICA LE MOTIF IMPERIAL GOLD EDP 85ML",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ORIENTICA-LE-MOFIT-IMPERIAL-GOLD-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2003",
+    "name": "ORIENTICA LE MOTIF WILD NEROLI EDP 85ML",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 158900,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ORIENTICA-LE-MOFIT-WILD-NEROLI-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1840",
+    "name": "ORIENTICA MELODIE DE ORIENTICA",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/ORIENTICA-MELODIE-DE-ORIENTICA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1675",
+    "name": "Orientica Amber Rouge Luxrury Collection EDP (TESTER)",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ORIENTICA-AMBER-ROUGE-LUXURY-COLLECTION-EDP-UNISEXO-2-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2041",
+    "name": "Orientica Amber Rouge Luxrury Collection EDP 80 ml",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ORIENTICA-AMBER-ROUGE-LUXURY-COLLECTION-EDP-UNISEXO-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2040",
+    "name": "Orientica Amber Royal Luxury Collection EDP 80 ml",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ORIENTICA-AMBER-ROYAL-LUXURY-COLLECTION-EDP-UNISEXO-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1508",
+    "name": "Orientica Azure Fantasy",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/orienticaazurefantasy3.webp",
+    "compared": false
+  },
+  {
     "id": "orig-283",
     "name": "Orientica Café Arabica",
     "brand": "Orientica",
@@ -6091,8 +14245,17 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Orientica Exclusive Imperial Jade",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 465000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Orientica_exclusive_imperial_jade.jpg?v=1784774924",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/10/Orientica_exclusive_imperial_jade.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1115",
+    "name": "Orientica Luxury Collection Dania",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 520000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/1_06518148-947c-408f-afbb-44e507c9b66c-1.webp",
     "compared": false
   },
   {
@@ -6150,12 +14313,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2039",
+    "name": "Orientica Oud Saffron Luxury Collection EDP 150 ml (extra grande)",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ORIENTICA-OUD-SAFFRON-COLLECTION-LUXURY-EDP-UNISEXO-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-811",
     "name": "Orientica Rose Eclat",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
     "price": 455100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_8c1e7dd8-fae2-4fc5-b5e4-5095f81bb1f6.jpg?v=1762265623",
+    "compared": false
+  },
+  {
+    "id": "orig-2037",
+    "name": "Orientica Royal Bleu Luxury Collection EDP 80 ml",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ORIENTICA-ROYAL-BLEU-LUXURY-COLLECTION-EDP-UNISEXO-2.jpg",
     "compared": false
   },
   {
@@ -6172,18 +14353,18 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Orientica Royal Collection Dynasty",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 465000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Orientica_Royal_Collection_Dynasty.jpg?v=1784776930",
-    "compared": false
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Orientica_Royal_Collection_Dynasty.webp",
+    "compared": true
   },
   {
     "id": "orig-289",
     "name": "Orientica Royal Collection Monarch",
     "brand": "Orientica",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 465000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/OrienticaPremiumMonarch_1.jpg?v=1784691834",
-    "compared": false
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/OrienticaPremiumMonarch_1.webp",
+    "compared": true
   },
   {
     "id": "orig-287",
@@ -6201,6 +14382,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 438000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Orientica_Soleil.jpg?v=1784861618",
+    "compared": false
+  },
+  {
+    "id": "orig-2038",
+    "name": "Orientica Velvet Gold Luxury Collection EDP 80 ml",
+    "brand": "Orientica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/ORIENTICA-VELVET-GOLD-LUXURY-COLLECTION-EDP-UNISECO-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1617",
+    "name": "Original santal",
+    "brand": "Original santal",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1010000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/original-santal.jpg",
     "compared": false
   },
   {
@@ -6222,6 +14421,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1407",
+    "name": "Oscar de La Renta Volupte",
+    "brand": "Oscar de",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/375x500.2661.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1428",
+    "name": "Oscar de la Renta Oscar",
+    "brand": "Oscar de",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Oscar-de-la-renta-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-84",
     "name": "Oud Elixir Dubai Oud Intense",
     "brand": "Oud Elixir",
@@ -6237,6 +14454,249 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 374100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Oudelixirmarshmallowcrush.jpg?v=1789711801",
+    "compared": false
+  },
+  {
+    "id": "orig-1946",
+    "name": "PARIS HILTON GOLD RUSH EDP 100ML",
+    "brand": "PARIS HILTON",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/PARIS-HILTON-GOLD-RUSH-ED.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1733",
+    "name": "PARIS HILTON LOVE RUSH",
+    "brand": "PARIS HILTON",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PARIS-HILTON-LOVE-RUSH.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1942",
+    "name": "PARIS HILTON LUXE RUSH EDP 100ML ( EDICIÓN LUXURY )",
+    "brand": "PARIS HILTON",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/PARIS-HILTON-LUXE-RUSH-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1944",
+    "name": "PARIS HILTON PINK RUSH EDP 100ML",
+    "brand": "PARIS HILTON",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/PARIS-HILTON-PINK-RUSH-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1945",
+    "name": "PARIS HILTON PLATINUM RUSH EDP 100ML",
+    "brand": "PARIS HILTON",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/PARIS-HILTON-PLATINUM-RUSH-EDP.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1943",
+    "name": "PARIS HILTON ROSE RUSH EDP 100ML",
+    "brand": "PARIS HILTON",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/paris-rose-rush1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2028",
+    "name": "PINK EXTASY EDP 100ml",
+    "brand": "PINK EXTASY",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/pink-extasy.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1569",
+    "name": "POLO BLUE 125 mililitros eau de toilette",
+    "brand": "POLO BLUE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Ralph-Lauren-polo-blue-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1578",
+    "name": "Black XS",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Paco-rabanne-Black-XS-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1095",
+    "name": "Emper Phantom My Hero",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/375x500.103431.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1585",
+    "name": "Invictus Victory Elixir",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/invictus-victory-elixir-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1582",
+    "name": "Olympea Parfum (sin alcohol), caja levemente hundida , Full códigos de lote",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/w1500h1500fitpad-1.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1586",
+    "name": "One Million Elixir 50 MILILITROS, ( tamaño Mediano )",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/One-million-elixir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1588",
+    "name": "One Million Gold",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/onemillion.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1587",
+    "name": "One Million Parfum PURO 50 MILILITROS ( Mediano )",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Paco-rabanne-One-million-Parfum-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1589",
+    "name": "One Million Royal",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 600000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/One-million-royal.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1718",
+    "name": "PACO RABANNE 1 MILLION EDT",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-1-MILLON.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1809",
+    "name": "PACO RABANNE CRAZY ME",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-CRAZY-ME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1813",
+    "name": "PACO RABANNE EROTIC ME",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-EROTIC-ME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1812",
+    "name": "PACO RABANNE FABULOUS ME",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-FABULOUS-ME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1811",
+    "name": "PACO RABANNE GENIUS ME",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-GENIUS-ME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1717",
+    "name": "PACO RABANNE INVICTUS PLATINUM 100 ML",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-INVICTUS-PLATINUM.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1810",
+    "name": "PACO RABANNE STRONG ME",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-STRONG-ME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1732",
+    "name": "PACO RABANNE ULTRARED",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-ULTRARED-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1731",
+    "name": "PACO RABANNE ULTRAVIOLETA",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/PACO-RABANNE-ULTRAVIOLETA-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1579",
+    "name": "Paco Fame EDP",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Paco-rabanne-fame.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2127",
+    "name": "Paco Rabanne Black XS EDP 80 ml",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/PACO-RABANNE-BLACK-XS-DAMA-2-1.jpg",
     "compared": false
   },
   {
@@ -6258,12 +14718,48 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1377",
+    "name": "Paco Rabanne Fame Intense ( 50 ML , tamaño mediano",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Paco_Rabanne_Fame_Intense-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1348",
+    "name": "Paco Rabanne Invictus (Tester)",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Paco-Rabanne-Invictus-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-379",
     "name": "Paco Rabanne Invictus Absolu Set de Regalo",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
     "price": 591000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/InvictusAbsoluset.png?v=1780070059",
+    "compared": false
+  },
+  {
+    "id": "orig-2053",
+    "name": "Paco Rabanne Invictus EDT 100 ml",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/Paco-Rabanne-Invictus-2-768x768-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1347",
+    "name": "Paco Rabanne Invictus Parfum (Tester)",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/rabanne_invictus_parfum.webp",
     "compared": false
   },
   {
@@ -6276,12 +14772,48 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1349",
+    "name": "Paco Rabanne Invictus Victory (Tester)",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Invictus-victory.webp",
+    "compared": false
+  },
+  {
     "id": "orig-966",
     "name": "Paco Rabanne Invictus Victory Absolu",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
     "price": 465000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/PacoRabanneInvictusVictoryAbsolu.png?v=1755520040",
+    "compared": true
+  },
+  {
+    "id": "orig-2054",
+    "name": "Paco Rabanne Invictus victory EDP 100 mililitros",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/PACO-RABANNE-INVICTUS-VICTORY-EDP-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1002",
+    "name": "Paco Rabanne Lady Million Royal",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 450000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/images-9.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1381",
+    "name": "Paco Rabanne Million Gold For Her EDP , 80 mililitros",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 470000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/gold_mujeeer.webp",
     "compared": false
   },
   {
@@ -6294,12 +14826,120 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1114",
+    "name": "Paco Rabanne Olympea Absolu",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/375x500.103469-1.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-2126",
+    "name": "Paco Rabanne Olympea EDP 80 ml",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 455000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/PACO-RABANNE-OLYMPEA-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1376",
+    "name": "Paco Rabanne Olympea Parfum puro sin alcohol (Tester) , Caja de Tester , Full códigos de lote en caja Tester y frasco",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.90432.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1340",
+    "name": "Paco Rabanne One Million (Tester)",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Paco-rabanne-One-million-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1341",
+    "name": "Paco Rabanne One Million ELIXIR",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Paco-rabanne-One-million-Parfum-2-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1343",
+    "name": "Paco Rabanne One Million Gold",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/onemillion-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1342",
+    "name": "Paco Rabanne One Million Lucky (Tester)",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 480000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Paco-rabanne-One-million-lucky-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-784",
     "name": "Paco Rabanne One Million set de regalo 100 ML + 10 ML",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
     "price": 438000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/one_million_parfum_set_de_regalo.jpg?v=1763663295",
+    "compared": false
+  },
+  {
+    "id": "orig-1224",
+    "name": "Paco Rabanne Paco Edt",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 159800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/HPAC__90747.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1350",
+    "name": "Paco Rabanne Phantom (Tester)",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Phantom.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2052",
+    "name": "Paco Rabanne Phantom EDT 100 ml",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/PACO-RABANNE-PANTHOM-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1268",
+    "name": "Paco Rabanne Phantom Elixir",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Paco_Rabanne_Phantom_Elixir.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1225",
+    "name": "Paco Rabanne Phantom Parfum",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/paco-rabanne-phantom-parfum.webp",
     "compared": false
   },
   {
@@ -6316,8 +14956,26 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Paco Rabanne Phantom in Red",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 537000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Paco_Rabanne_Phantom_in_Red.jpg?v=1771880830",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/03/Paco_Rabanne_Phantom_in_Red.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1686",
+    "name": "Paco Rabanne XS Pure Dama",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/paco-pure-xs-women-paco-rabanne_grande.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1584",
+    "name": "Phantom Intense",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/pacorabannephantomintense.webp",
     "compared": false
   },
   {
@@ -6327,6 +14985,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 356100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Rabanne_1_Million_Night_Elixir.jpg?v=1780676766",
+    "compared": true
+  },
+  {
+    "id": "orig-1580",
+    "name": "Rabanne Fame Intense",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Paco_Rabanne_Fame_Intense.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1581",
+    "name": "Rabanne Fame Parfum",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Fameparfum.webp",
     "compared": false
   },
   {
@@ -6345,16 +15021,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 555000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Rabanne_Invictus_Elixir_1.jpg?v=1780676412",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-438",
     "name": "Rabanne Million Gold for Her Pure Diamonds",
     "brand": "Paco Rabanne",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 645000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/MillionGoldforHerPureDiamonds_3.jpg?v=1777070693",
-    "compared": false
+    "price": 620000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/MillionGoldforHerPureDiamonds_3.webp",
+    "compared": true
   },
   {
     "id": "orig-937",
@@ -6372,6 +15048,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 383100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/RabanneOneMillionBlack.jpg?v=1787945304",
+    "compared": false
+  },
+  {
+    "id": "orig-1092",
+    "name": "Rabanne One Million Gold elixir",
+    "brand": "Paco Rabanne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 535000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_9e798bb8-8aeb-4d63-8437-00ee80809eb3.webp",
     "compared": false
   },
   {
@@ -6510,6 +15195,69 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1065",
+    "name": "Parfums De Marly Delina",
+    "brand": "Parfums de Marly",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Delina-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1265",
+    "name": "Paris Corner Khair Pistachio",
+    "brand": "Paris Corner",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/verdee.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1044",
+    "name": "Paris Corner Marshmallow Blush",
+    "brand": "Paris Corner",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_ff5373a9-34f5-41cf-b823-ca7647db72dd.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1170",
+    "name": "Paris Corner Mawj Cognac Blaze",
+    "brand": "Paris Corner",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/cognac_blaze_1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1169",
+    "name": "Paris Corner Taskeen Caramel Cascade",
+    "brand": "Paris Corner",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 189800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/dedeee_7ebce46f-475d-4cbc-9e69-96bfd151cc67.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2071",
+    "name": "Paris Hilton Can Can EDP 100 ml",
+    "brand": "Paris Hilton",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/PARIS-HILTON-CAN-CAN-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1636",
+    "name": "Paris Hilton Dama",
+    "brand": "Paris Hilton",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/ParisHiltonTrad.webp",
+    "compared": false
+  },
+  {
     "id": "orig-855",
     "name": "Paris Hilton Gold Rush masculina",
     "brand": "Paris Hilton",
@@ -6519,12 +15267,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2072",
+    "name": "Paris Hilton Heiress EDP 100 ml",
+    "brand": "Paris Hilton",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/PARIS-HILTON-HEIRESS-EDP-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1627",
+    "name": "Pasha absolu",
+    "brand": "Pasha absolu",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Pasha-absolu.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1683",
+    "name": "360° Collection Women",
+    "brand": "Perry Ellis",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/colonia-perry-ellis-360-collection-edp-100ml-mujer_580x.webp",
+    "compared": false
+  },
+  {
     "id": "orig-169",
     "name": "Perry Ellis 360 Very Blue",
     "brand": "Perry Ellis",
     "variant": "100% Original Sellado · Código Batch",
     "price": 222000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/PerryEllis360VeryBlue.jpg?v=1787095576",
+    "compared": false
+  },
+  {
+    "id": "orig-1163",
+    "name": "Perry Ellis 360° Coral",
+    "brand": "Perry Ellis",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/descarga-26.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1404",
+    "name": "Perry Ellis 360° Red For Men",
+    "brand": "Perry Ellis",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/360_RED.webp",
     "compared": false
   },
   {
@@ -6546,12 +15339,174 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1435",
+    "name": "Pino Silvestre Pino Silvestre Original",
+    "brand": "Pino Silvestre",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 135000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Pinosilvestre.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1298",
+    "name": "Pleasures Estée Lauder",
+    "brand": "Pleasures Est",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.536.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1566",
+    "name": "Polo Black EDT 125 mililitros",
+    "brand": "Polo Black",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Ralph-Lauren-polo-black-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1565",
+    "name": "Polo Clasica Verde Cologne Intense",
+    "brand": "Polo Clasica",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/375x500.66411.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1314",
+    "name": "Polo Club #1 Beverly Hills",
+    "brand": "Polo Club",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.56675-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1312",
+    "name": "Polo Club #2 Beverly Hills",
+    "brand": "Polo Club",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.56676.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1311",
+    "name": "Polo Club #2 Sport Beverly Hills",
+    "brand": "Polo Club",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.56674.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1310",
+    "name": "Polo Club #8 Beverly Hills",
+    "brand": "Polo Club",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.56678-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1307",
+    "name": "Polo Club #8 Sport Beverly Hiils",
+    "brand": "Polo Club",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.56672.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1309",
+    "name": "Polo Club #8 Sport Beverly Hills",
+    "brand": "Polo Club",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.56673.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1308",
+    "name": "Polo Club #9 Beverly Hills",
+    "brand": "Polo Club",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.56677.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1313",
+    "name": "Polo Club Sport #1 Beverly Hills",
+    "brand": "Polo Club",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.56671.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1567",
+    "name": "Polo Red EDT 125 mililitros",
+    "brand": "Polo Red",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Ralph-Lauren-polo-red-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2073",
+    "name": "Agatha Ruiz De La Prada Gotas De Color EDT 100 ml",
+    "brand": "Prada",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/AGATHA-RUIZ-DE-LA-PRADA-GOTAS-DE-COLOR-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2029",
+    "name": "Aghata Ruiz De La Prada Wow Girl. EDT 80ml",
+    "brand": "Prada",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/AGATHA-RUIZ-DE-LA-PRADA-WOW-GIRL-DAMA-EDT-3.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-793",
     "name": "Prada Candy EDP",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
     "price": 591000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/prada_candy.jpg?v=1763524658",
+    "compared": false
+  },
+  {
+    "id": "orig-1530",
+    "name": "Prada Luna Rossa",
+    "brand": "Prada",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/375x500.15754.avif",
+    "compared": false
+  },
+  {
+    "id": "orig-1219",
+    "name": "Prada Luna Rossa Black",
+    "brand": "Prada",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Prada-black.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2048",
+    "name": "Prada Luna Rossa Carbon EDT 100 ml",
+    "brand": "Prada",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 610000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/PRADA-LUNA-ROSSA-CARBON-EDT-HOMBRE-2.jpg",
     "compared": false
   },
   {
@@ -6568,9 +15523,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Prada Paradigme",
     "brand": "Prada",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 735000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_4080a1c0-30da-4ab0-b31c-bfb0b70b4204.jpg?v=1759718279",
-    "compared": false
+    "price": 690000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/1_4080a1c0-30da-4ab0-b31c-bfb0b70b4204.webp",
+    "compared": true
   },
   {
     "id": "orig-9",
@@ -6579,6 +15534,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 735000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Pradaparadigmeleparfum.jpg?v=1794663453",
+    "compared": false
+  },
+  {
+    "id": "orig-1124",
+    "name": "Prada Paradoxe ( caja ligeramente hundida, Full sellos ), 90 ML",
+    "brand": "Prada",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 509800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/Pradaparadoxe.webp",
     "compared": false
   },
   {
@@ -6600,6 +15564,69 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1598",
+    "name": "Pressence Dama",
+    "brand": "Pressence Dama",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Montblanc-Presence-Dama-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1648",
+    "name": "Quorum",
+    "brand": "Quorum",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 145000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Perrfume-quorum-marca-antonio-puig-para-hombre-de-Perfumes-y-marcas-El-Mejor-Perfume-solo-originales.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2009",
+    "name": "RED TOBACCO EDP 120ml",
+    "brand": "RED TOBACCO",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/RED-TOBACCO.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2020",
+    "name": "RISTRETTO INTENSE CAFE EDP 100ml ( EXTRAT DE PERFUM PURO )",
+    "brand": "RISTRETTO INTENSE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ristretto-intense-cafe-1.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2018",
+    "name": "ROSES ELIXIR EDP 100ml",
+    "brand": "ROSES ELIXIR",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/rose-elixir-rose-.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2027",
+    "name": "ROSES MUSK EDP 100ml",
+    "brand": "ROSES MUSK",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/roses-musk.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2006",
+    "name": "ROSES VANILLE EDP 120ml",
+    "brand": "ROSES VANILLE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 500000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/ROSES-VANILLE-EDP.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-666",
     "name": "Ralph Lauren Polo Ultra Blue",
     "brand": "Ralph Lauren",
@@ -6609,12 +15636,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-2070",
+    "name": "Ralph Lauren Ralph EDT 100 ml",
+    "brand": "Ralph Lauren",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/RALPH-RALPH-LAUREN-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-627",
     "name": "Ralph Lauren Ralph's Club edp",
     "brand": "Ralph Lauren",
     "variant": "100% Original Sellado · Código Batch",
     "price": 339000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c65a043d-c316-4d24-8d68-925bf4f9f636.jpg?v=1771348070",
+    "compared": true
+  },
+  {
+    "id": "orig-2069",
+    "name": "Ralph Lauren Romance EDP 100 ml",
+    "brand": "Ralph Lauren",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/RALPH-LAUREN-ROMANCE-EDP-DAMA-2.jpg",
     "compared": false
   },
   {
@@ -6645,12 +15690,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1444",
+    "name": "Rasasi Daarej Pour Homme EDP",
+    "brand": "Rasasi",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Daarej.webp",
+    "compared": false
+  },
+  {
     "id": "orig-662",
     "name": "Rasasi Hawas Atlantis",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
     "price": 266100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Rasasi_Hawas_Atlantis.jpg?v=1769486150",
+    "compared": true
+  },
+  {
+    "id": "orig-1446",
+    "name": "Rasasi Hawas Black",
+    "brand": "Rasasi",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/375x500.96817.jpg",
     "compared": false
   },
   {
@@ -6667,8 +15730,17 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Rasasi Hawas Diva",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 366000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_6c870ee3-ef9c-45f3-ab63-40d8376a52ba.jpg?v=1760935530",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_6c870ee3-ef9c-45f3-ab63-40d8376a52ba.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1109",
+    "name": "Rasasi Hawas Elixir",
+    "brand": "Rasasi",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/descarga-44.jpeg",
     "compared": false
   },
   {
@@ -6676,8 +15748,26 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Rasasi Hawas Exotic",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 356100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/RasasiHawasExotic.png?v=1781894195",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/RasasiHawasExotic.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1043",
+    "name": "Rasasi Hawas Fire",
+    "brand": "Rasasi",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Rasasi_Hawas_Fire_41455b20-15fc-4668-b02a-f24703ed1d4e.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1447",
+    "name": "Rasasi Hawas For Him",
+    "brand": "Rasasi",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Hawas.webp",
     "compared": false
   },
   {
@@ -6703,18 +15793,18 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Rasasi Hawas Ice Freeze",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 374100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/RasasiHawasIceFreeze.jpg?v=1795183301",
-    "compared": false
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/rasasihawasice3.webp",
+    "compared": true
   },
   {
     "id": "orig-884",
     "name": "Rasasi Hawas Kobra",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 348000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_9dbaafe5-9950-491f-bbca-d4e7d0ec0d83.jpg?v=1758734454",
-    "compared": false
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_9dbaafe5-9950-491f-bbca-d4e7d0ec0d83-1.webp",
+    "compared": true
   },
   {
     "id": "orig-67",
@@ -6730,9 +15820,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Rasasi Hawas Lava Gold",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 356100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Rasasilavagold_1.png?v=1781895496",
-    "compared": false
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/Rasasilavagold_1.webp",
+    "compared": true
   },
   {
     "id": "orig-537",
@@ -6759,7 +15849,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 329100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_f16c8caf-a4e9-4c2b-b1f8-209bfeb1eeec.jpg?v=1758735831",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-68",
@@ -6768,6 +15858,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 339000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/RasasiHawasnautilus.jpg?v=1790743187",
+    "compared": false
+  },
+  {
+    "id": "orig-1042",
+    "name": "Rasasi Hawas Pink",
+    "brand": "Rasasi",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_f8d93c27-9246-48f7-9bdc-3f7a96bc13a2.webp",
     "compared": false
   },
   {
@@ -6856,8 +15955,17 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Rasasi hawas thunder",
     "brand": "Rasasi",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 356100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Rasasihawasthunder.png?v=1781897303",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/Rasasihawasthunder.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1445",
+    "name": "Shurah Pour Homme Rasasi",
+    "brand": "Rasasi",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Shurah.webp",
     "compared": false
   },
   {
@@ -6924,6 +16032,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1168",
+    "name": "Rayhaan Elixir Eau de Parfum",
+    "brand": "Rayhaan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/rayna.webp",
+    "compared": false
+  },
+  {
     "id": "orig-40",
     "name": "Rayhaan Equinox",
     "brand": "Rayhaan",
@@ -6946,18 +16063,18 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Rayhaan Italia",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 302100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Rayhaan_Italia_1.jpg?v=1769051743",
-    "compared": false
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/Rayhaan_Italia_1.webp",
+    "compared": true
   },
   {
     "id": "orig-504",
     "name": "Rayhaan Jungle Vibe",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 302100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_655011b7-ff74-496f-95e0-616a2a138278.jpg?v=1774975182",
-    "compared": false
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/1_655011b7-ff74-496f-95e0-616a2a138278.webp",
+    "compared": true
   },
   {
     "id": "orig-690",
@@ -7005,6 +16122,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1164",
+    "name": "Rayhaan Ocean Rush",
+    "brand": "Rayhaan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/descarga.png",
+    "compared": false
+  },
+  {
     "id": "orig-306",
     "name": "Rayhaan Pacific Aloha",
     "brand": "Rayhaan",
@@ -7038,6 +16164,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 302100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/terra.png?v=1776290542",
+    "compared": false
+  },
+  {
+    "id": "orig-1013",
+    "name": "Rayhaan Tiger",
+    "brand": "Rayhaan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Rayhaan_Tiger.webp",
     "compared": false
   },
   {
@@ -7104,12 +16239,30 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1165",
+    "name": "rayhaan pacific for him",
+    "brand": "Rayhaan",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/rayhaan_pacific_for_him.webp",
+    "compared": false
+  },
+  {
     "id": "orig-327",
     "name": "rayhaan tonquin giza",
     "brand": "Rayhaan",
     "variant": "100% Original Sellado · Código Batch",
     "price": 284100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/rayhaantonquingiza.png?v=1781969234",
+    "compared": false
+  },
+  {
+    "id": "orig-1425",
+    "name": "Red Giorgio Beverly Hills",
+    "brand": "Red Giorgio",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/descarga-1.jpeg",
     "compared": false
   },
   {
@@ -7207,8 +16360,62 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Ghetto by Ryan Castro",
     "brand": "Ryan Castro",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 249000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Ghetto_Ryan_Castro.jpg?v=1764199460",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/03/Ghetto_Ryan_Castro.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-2017",
+    "name": "SENSUAL INSTINC EDP 100ml",
+    "brand": "SENSUAL INSTINC",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/sensual-instinct.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2013",
+    "name": "SOLEIL D´ITALIE EDP 120ml",
+    "brand": "SOLEIL D",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/SOLEIL-D´ITALIE-EDP.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-2022",
+    "name": "STARRY NIGHTS EDP 100ml",
+    "brand": "STARRY NIGHTS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/starry-nights.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1040",
+    "name": "Sabrina Carpenter Caramel dream",
+    "brand": "Sabrina Carpenter",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_a634c839-ebc4-4f87-8bfb-831a59503d91.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1038",
+    "name": "Sabrina Carpenter Cherry baby",
+    "brand": "Sabrina Carpenter",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_116d3d8a-3850-4c32-879d-e561000a2c74.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1039",
+    "name": "Sabrina Carpenter Sweet Tooth",
+    "brand": "Sabrina Carpenter",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/1_eb6e30b4-45dc-4254-b13e-e0525dfefd36.webp",
     "compared": false
   },
   {
@@ -7225,9 +16432,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Salvatore Ferragamo F by Ferragamo Pour Homme",
     "brand": "Salvatore Ferragamo",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 249000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c1563f79-4b21-4c11-9af5-0f770b72a1a9.jpg?v=1774493562",
-    "compared": false
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/06/Perfume-F-Pour-Homme-De-Salvatore-Ferragamo-Para-Hombre-100-ml-Frasco.webp",
+    "compared": true
   },
   {
     "id": "orig-534",
@@ -7236,7 +16443,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 284100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_ad7b5952-45bb-4503-9951-f9e2d05147f4.jpg?v=1774097169",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-589",
@@ -7254,6 +16461,42 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 312000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/SalvatoreferragamoAmoflowerful.png?v=1781705388",
+    "compared": false
+  },
+  {
+    "id": "orig-1596",
+    "name": "Signature",
+    "brand": "Signature",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/signature.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1595",
+    "name": "Signature Absolue",
+    "brand": "Signature Absolue",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/montblanc-signature-absolut.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1621",
+    "name": "Silver mountain",
+    "brand": "Silver mountain",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1560000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/silver-mountain.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1424",
+    "name": "Sirene Vicky Tiel",
+    "brand": "Sirene Vicky",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/descarga-3.jpeg",
     "compared": false
   },
   {
@@ -7308,6 +16551,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 1221000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/SospiroilPadrino.jpg?v=1776971608",
+    "compared": false
+  },
+  {
+    "id": "orig-1550",
+    "name": "Spicebomb Extreme",
+    "brand": "Spicebomb Extreme",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/spicebomb-extreme-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1551",
+    "name": "Spicebomb Infrared EDP (Tester sin caja)",
+    "brand": "Spicebomb Infrared",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/spicebomb-infrared-edp.webp",
     "compared": false
   },
   {
@@ -7419,6 +16680,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1699",
+    "name": "Ted Lapidus Creation",
+    "brand": "Ted Lapidus",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 165000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/Perfume-creation-marca-ted-lapidus-para-mujer-de-Perfumes-y-marcas-El-Mejor-Perfume-solo-originales.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1387",
+    "name": "Ted Lapidus Lapidus Pour Homme",
+    "brand": "Ted Lapidus",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 150000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Lapidus-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1628",
+    "name": "Terrae essense",
+    "brand": "Terrae essense",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Terrae-essense.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-229",
     "name": "The House Of Oud Doux Ennui EDP",
     "brand": "The House of Oud",
@@ -7518,6 +16806,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1685",
+    "name": "Thierry Mugler Alien",
+    "brand": "Thierry Mugler",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/alien-thierry_580x.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1684",
+    "name": "Thierry Mugler Angel Dama (TESTER)",
+    "brand": "Thierry Mugler",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 460000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/s-l1200.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-851",
     "name": "Tiziana Terenzi Cassiopea",
     "brand": "Tiziana Terenzi",
@@ -7536,12 +16842,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1142",
+    "name": "Maison Alhambra Rose Petals (Alternativa de Tom Ford Rose Prick)",
+    "brand": "Tom Ford",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 139800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/Rose-Petals.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1576",
+    "name": "TOM FORD PARFUM PURO Costa Azzura",
+    "brand": "Tom Ford",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/tomfordcostaazurraparfum2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-166",
     "name": "Tom Ford Bois Pacifique",
     "brand": "Tom Ford",
     "variant": "100% Original Sellado · Código Batch",
     "price": 735000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Tomfordboispacifique.jpg?v=1787139169",
+    "compared": false
+  },
+  {
+    "id": "orig-1251",
+    "name": "Tommy Hilfiger Tommy For Man",
+    "brand": "Tommy Hilfiger",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Tommy-hilfiger-hombre-2.webp",
     "compared": false
   },
   {
@@ -7569,7 +16902,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 132000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_3e8851bc-40ef-468d-8355-71deafbcd4b2.jpg?v=1771385560",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-802",
@@ -7585,9 +16918,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Tommy Hilfiger Tommy Girl forever",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 258000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Tommy_Hilfiger_Tommy_Girl_forever.jpg?v=1764199740",
-    "compared": false
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Tommy-hilfiger-dama-2.webp",
+    "compared": true
   },
   {
     "id": "orig-474",
@@ -7608,12 +16941,264 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1300",
+    "name": "Tonka Gold Atralia",
+    "brand": "Tonka Gold",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.100256.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1541",
+    "name": "Baby Tous Pink Friends",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Baby-tous.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1542",
+    "name": "Bbay Tous Eau de Cologne",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 190000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Tous-Baby-de-Tous-para-bebes-botella.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1900",
+    "name": "LATTAFA YARA TOUS",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-YARA-TOUS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1745",
+    "name": "TOUS BONJOUR SEÑORITA",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-BONJOUR-SENORITA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1747",
+    "name": "TOUS GEM PARTY",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-GEM-PARTY.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1744",
+    "name": "TOUS GEMS POWER",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-GEMS-POWER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1746",
+    "name": "TOUS GOLD",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-GOLD.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1743",
+    "name": "TOUS HAPPY MOMENTS",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-HAPPY-MOMENTS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1701",
+    "name": "TOUS KIDS GIRL (TESTER)",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/img_8187.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1750",
+    "name": "TOUS LOVEME",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-LOVEME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1749",
+    "name": "TOUS LOVEME THE SILVER",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-LOVEME-THE-SILVER.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1722",
+    "name": "TOUS MAN CHILL",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-MAN-CHILL.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1748",
+    "name": "TOUS Tradicional dama 90 ml",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/TOUS-TOUS.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1936",
+    "name": "TOUS YOUR POWERS EDT 90ML",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/TOUS-YOUR-POWERS-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1004",
+    "name": "Tous Kaos",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/images-6.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1545",
+    "name": "Tous Kids Bear",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/touss.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1236",
+    "name": "Tous Kids Boy",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Tous-kids-boy-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2120",
+    "name": "Tous L&#8217;Eau De Parfum EDP",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/TOUS-LEAU-PARFUM-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-389",
     "name": "Tous Love Me The Amethyst Elixir",
     "brand": "Tous",
     "variant": "100% Original Sellado · Código Batch",
     "price": 366000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/LoveMeTheAmethystElixir_3.jpg?v=1779770600",
+    "compared": false
+  },
+  {
+    "id": "orig-1237",
+    "name": "Tous LoveMe The Emerald Elixir",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/touslovemeemerald2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2119",
+    "name": "Tous LoveMe The Onyx Parfum 90 ml",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/TOUS-LOVEME-ONYX-EDP-DAMA.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1546",
+    "name": "Tous Man",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Tous-Man-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1548",
+    "name": "Tous Man Intense",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 220000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Tous-man-intense.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1547",
+    "name": "Tous Man Sport",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Tous-man-sport-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1543",
+    "name": "Tous Man Spritz",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/spritz.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1668",
+    "name": "Tous More More Pink",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/more-more-pink.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1014",
+    "name": "Tous Tous Touch",
+    "brand": "Tous",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Tous-touch-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1634",
+    "name": "Tribu intense",
+    "brand": "Tribu intense",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Tribu-intense.jpg",
     "compared": false
   },
   {
@@ -7689,6 +17274,150 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1483",
+    "name": "United Dreams Green Amazonia For Him",
+    "brand": "United Dreams",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/375x500.92319.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1484",
+    "name": "United Dreams Green Cactus For Him",
+    "brand": "United Dreams",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 170000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/375x500.82130.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1681",
+    "name": "United Dreams Live Free Dama",
+    "brand": "United Dreams",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 145000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/49964.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1644",
+    "name": "United Dreams Together Hombre (Tester)",
+    "brand": "United Dreams",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 120000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/united-dreams-together-for-him-edt-100ml-perfumes-954.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1536",
+    "name": "Uomo Born In Roma Coral Fantasy",
+    "brand": "Uomo Born",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/valentino-uomo-born-in-roma-coral-fantasy.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1537",
+    "name": "Uomo Born In Roma Intense",
+    "brand": "Uomo Born",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/valentinouomoborninromaintense2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1539",
+    "name": "Uomo Born In Roma Yellow Dream",
+    "brand": "Uomo Born",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 570000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/valentino-uomo-born-in-roma-yellow-dream-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1538",
+    "name": "Uomo Born in Roma hm 100 mililitros",
+    "brand": "Uomo Born",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 530000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Born-in-roma.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2025",
+    "name": "VAINILLA CAKE EDP 100ml",
+    "brand": "VAINILLA CAKE",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/04/vanilla-cake.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1948",
+    "name": "VICTORINOX SWISS ARMY EDT 100ML",
+    "brand": "VICTORINOX SWISS",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2023/09/VICTORINOX-SWISS-ARMY-EDT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1672",
+    "name": "VALENTINO BORN IN ROMA",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 609800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/VALENTINO_DONNA_BORN_IN_ROMA_580x.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1673",
+    "name": "VALENTINO BORN IN ROMA CORAL FANTASY",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 670000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/140713-3.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1671",
+    "name": "VALENTINO BORN IN ROMA GREEN STRAVAGANZA",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 660000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/D_Q_NP_718826-MLU75496215743_032024-O.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1670",
+    "name": "VALENTINO BORN IN ROMA YELLOW DREAM",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/img_8239.jpeg",
+    "compared": false
+  },
+  {
+    "id": "orig-1715",
+    "name": "VALENTINO VOCE VIVA",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 610000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/voce-viva.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1540",
+    "name": "Valentino Born In Roma Intense",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 659800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/375x500.78739.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-407",
     "name": "Valentino Donna Born In Roma The Gold",
     "brand": "Valentino",
@@ -7698,13 +17427,22 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1253",
+    "name": "Valentino Donna Born in Roma Extradose",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 710000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Valentino_Donna_Born_in_Roma_Extradose.webp",
+    "compared": false
+  },
+  {
     "id": "orig-650",
     "name": "Valentino Donna Born in Roma Ivory",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
     "price": 708000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Valentino_Donna_Born_in_Roma_Ivory.jpg?v=1770052617",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-603",
@@ -7713,6 +17451,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 591000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Valentino_Donna_Born_in_Roma_Purple_Melancholia.jpg?v=1771821335",
+    "compared": false
+  },
+  {
+    "id": "orig-1535",
+    "name": "Valentino Uomo Born In roma green stravaganza",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Valentino_Born_In_Roma_Green.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1123",
+    "name": "Valentino Uomo Born in Roma Extradose",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 670000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/ValentinoUomoBorninRomaExtradose100ML.webp",
     "compared": false
   },
   {
@@ -7738,17 +17494,26 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Valentino Vendetta Donna",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 735000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ValentinoVendettaDonna.jpg?v=1794604491",
-    "compared": false
+    "price": 650000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VALENTINO-DONNA.jpg",
+    "compared": true
   },
   {
     "id": "orig-15",
     "name": "Valentino Vendetta Uomo",
     "brand": "Valentino",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 689100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ValentinoVendettaUomo.jpg?v=1794603893",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/UOMO.jpg",
+    "compared": true
+  },
+  {
+    "id": "orig-1418",
+    "name": "Valentino Voce Viva Intense , sin caja mermadada , 2/3",
+    "brand": "Valentino",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/descarga-6.jpeg",
     "compared": false
   },
   {
@@ -7842,6 +17607,141 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1782",
+    "name": "VERSACE BRIGHT CRYSTAL ABSOLUT",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-BRIGHT-CRYSTAL-ABSOLUT.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1785",
+    "name": "VERSACE CRISTAL NOIR",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-CRISTAL-NOIR.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1784",
+    "name": "VERSACE CRISTAL NOIR EDP",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/Versace-crystal-noir-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1780",
+    "name": "VERSACE DYLAN BLUE POUR FEMME",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-DYLAN-BLUE-POUR-FEMME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1779",
+    "name": "VERSACE DYLAN PURPLE POUR FEMME",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-DYLAN-PURPLE-POUR-FEMME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1783",
+    "name": "VERSACE DYLAN TORQUOISE POUR FEMME",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-DYLAN-TORQUOISE-POUR-FEMME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1777",
+    "name": "VERSACE EROS POUR FEMME EDP 100ML",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 400000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-EROS-POUR-FEMME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1778",
+    "name": "VERSACE POUR FEMME OUD ORIENTAL",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-POUR-FEMME-OUD-ORIENTAL.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1716",
+    "name": "VERSACE POUR HOMME",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-POUR-HOMME.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1658",
+    "name": "VERSACE RED JEANS 100ML",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/versace_red_jeans_eau_de_toilette_spray_75ml_with_box.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1781",
+    "name": "VERSACE YELLOW DIAMON INTENSE",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/02/VERSACE-YELLOW-DIAMON-INTENSE.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2115",
+    "name": "Versace Bright Crystal EDT",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/VERSACE-BRIGHT-CRYSTAL-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1663",
+    "name": "Versace Bright Crystal EDT , eau de Toilette (TESTER)",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/versace.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1669",
+    "name": "Versace Bright Crystal EDT 90 ml",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 350000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/VERSACE-BRIGHT-CRYSTAL-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1667",
+    "name": "Versace Bright Crystal Parfum 90 ml",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/versace-1.webp",
+    "compared": false
+  },
+  {
     "id": "orig-724",
     "name": "Versace Bright Crystal set de regalo",
     "brand": "Versace",
@@ -7857,6 +17757,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 339000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Versace_Crystal_Emerald.jpg?v=1778461332",
+    "compared": true
+  },
+  {
+    "id": "orig-1367",
+    "name": "Versace Crystal Noir Edt (tester)",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/375x500.67502.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1366",
+    "name": "Versace Dylan Blue (Tester)",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Versace-dylan-blue-dama-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1650",
+    "name": "Versace Dylan Blue edt ( solo en 100 mililitros )",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/perfume-versace-dylan-blue-edt-m-200-ml_grande_4f7e0843-9ee7-4edf-add0-68c7805fff59_580x.webp",
     "compared": false
   },
   {
@@ -7864,8 +17791,53 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Versace Dylan Blush Pink",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 446100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Versace_Dylan_Blush_Pink.jpg?v=1771820854",
+    "price": 440000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Versace_Dylan_Blush_Pink.webp",
+    "compared": true
+  },
+  {
+    "id": "orig-1365",
+    "name": "Versace Dylan Purple (Tester)",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 310000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/versace-dylan-purple-3.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2061",
+    "name": "Versace Eros EDT",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 295000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/VERSACE-EROS-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1338",
+    "name": "Versace Eros EDT (Tester)",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 270000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Versace-eros-hombre-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1415",
+    "name": "Versace Eros Eau De Parfum",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/02/Versace-eros-edp-hombre-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1339",
+    "name": "Versace Eros Eau De Parfum (Tester)",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Versace-eros-edp-hombre-2-1.webp",
     "compared": false
   },
   {
@@ -7878,6 +17850,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1491",
+    "name": "Versace Eros Flame",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 380000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Versace-eros-flame-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1337",
+    "name": "Versace Eros Flame (Tester)",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 320000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Versace-eros-flame-2-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-384",
     "name": "Versace Eros Man EDP Set de Regalo",
     "brand": "Versace",
@@ -7887,12 +17877,75 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1252",
+    "name": "Versace Eros Najim",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 359900,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.99116.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1223",
+    "name": "Versace Eros PARFUM (PURO), 100 ML",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Versace-eros-parfum.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2060",
+    "name": "Versace Man Eau Fraiche EDT 100 ml",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 330000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/VERSACE-FRAICHE-EDT-HOMBRE-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1110",
+    "name": "Versace The Dreamer",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 260000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/08/The-dreamer-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2113",
+    "name": "Versace Versense EDT 100 ml",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 340000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/VERSACE-VERSENSE-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2114",
+    "name": "Versace Yellow Diamond EDT 90 ml",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 290000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/VERSACE-YELLOW-DIAMOND-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-854",
     "name": "Versace Yellow Diamond intense",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
     "price": 366000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/VersaceYellowdiamondintense.jpg?v=1760283011",
+    "compared": false
+  },
+  {
+    "id": "orig-1467",
+    "name": "Versace eros energy",
+    "brand": "Versace",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Versace_Eros_Energy.webp",
     "compared": false
   },
   {
@@ -7911,7 +17964,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 294000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_f28d7c31-faae-463c-ad39-4b29ff09b9d4.jpg?v=1759717254",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-86",
@@ -7950,6 +18003,51 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1436",
+    "name": "Victorinox Altitude",
+    "brand": "Victorinox Altitude",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 175000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Swiss-army-altitude-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-2076",
+    "name": "Victorinox Swiss Army For Her EDT 100 ml",
+    "brand": "Victorinox Swiss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/VICTORINOS-SWISS-ARMY-FOR-HER-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-2075",
+    "name": "Victorinox Swiss Army For Her Eau Floral EDT 100 ml",
+    "brand": "Victorinox Swiss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2022/11/VICTORINOX-SWISS-ARMY-FOR-HER-FLORAL-EDT-DAMA-2.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1437",
+    "name": "Victorinox Swiss army sport",
+    "brand": "Victorinox Swiss",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 200000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Victorinox_Swiss_army_sport_1456dd9d-1898-47d7-8162-ac66c4420e2c.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1620",
+    "name": "Viking cologne",
+    "brand": "Viking cologne",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 850000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/Viking-cologne.jpg",
+    "compared": false
+  },
+  {
     "id": "orig-588",
     "name": "Viktor & Rolf Flowerbomb Ruby Orchid",
     "brand": "Viktor & Rolf",
@@ -7968,22 +18066,58 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1661",
+    "name": "VIKTOR &amp; ROLF SPICEBOMB",
+    "brand": "Viktor &amp; Rolf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 410000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/11/spice-bomb-viktor-rolf-perfumes-836.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1370",
+    "name": "Viktor &amp; Rolf Flowerbomb (Tester)",
+    "brand": "Viktor &amp; Rolf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Flowerbomb-2-1.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1045",
+    "name": "Viktor &amp; Rolf spicebomb dark leather",
+    "brand": "Viktor &amp; Rolf",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 540000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/Spicebomb_dark_leather_d9976372-3ab8-44f2-8c12-a1cd43bd402d.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1354",
+    "name": "Viktor &#038; Rolf Spicebomb Night Vision (Tester)",
+    "brand": "Viktor 038",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/viktor-rolf-spicebomb-night-vision.webp",
+    "compared": false
+  },
+  {
     "id": "orig-644",
     "name": "Voet Amber Mirage",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 465000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Voet_Amber_Mirage.jpg?v=1770920244",
-    "compared": false
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/06/Voet_Amber_Mirage.webp",
+    "compared": true
   },
   {
     "id": "orig-720",
     "name": "Voet Amber Skin",
     "brand": "Voet",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 465000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Voet_Amber_Skin.jpg?v=1767281473",
-    "compared": false
+    "price": 360000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/06/Voet_Amber_Skin.webp",
+    "compared": true
   },
   {
     "id": "orig-377",
@@ -8055,6 +18189,15 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 1131000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Xerjoff_Coro.jpg?v=1768234070",
+    "compared": false
+  },
+  {
+    "id": "orig-1249",
+    "name": "Xerjoff Erba Gold",
+    "brand": "Xerjoff",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/xerjofferbagold2.webp",
     "compared": false
   },
   {
@@ -8157,6 +18300,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1250",
+    "name": "Xerjoff XJ 1861 Naxos",
+    "brand": "Xerjoff",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/05/Xerjoff-Naxos.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1552",
+    "name": "Black Opium EDP",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 590000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Black-opium-2.webp",
+    "compared": false
+  },
+  {
     "id": "orig-484",
     "name": "Yves Saint Laurent Babycat",
     "brand": "Yves Saint Laurent",
@@ -8170,9 +18331,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Yves Saint Laurent Black Opium Glitter",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 591000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Yvessaintlaurentblackopiumglitter.jpg?v=1785603797",
-    "compared": false
+    "price": 510000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/03/Black-opium-2-1.webp",
+    "compared": true
   },
   {
     "id": "orig-845",
@@ -8188,9 +18349,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Yves Saint Laurent Libre Berry Crush",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 771000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/YvesSaintLaurentLibreBerryCrush.png?v=1781280996",
-    "compared": false
+    "price": 760000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/YvesSaintLaurentLibreBerryCrush.webp",
+    "compared": true
   },
   {
     "id": "orig-116",
@@ -8202,12 +18363,39 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1263",
+    "name": "Yves Saint Laurent Libre Intense",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 640000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/Yves-saint-laurent-libre-intense.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1056",
+    "name": "Yves Saint Laurent Libre Le Parfum",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 650000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/libreleparfum.webp",
+    "compared": false
+  },
+  {
     "id": "orig-787",
     "name": "Yves Saint Laurent Libre L’Eau Nue",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
     "price": 681000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Yves_Saint_Laurent_Libre_L_Eau_Nue.jpg?v=1763525251",
+    "compared": false
+  },
+  {
+    "id": "orig-1083",
+    "name": "Yves Saint Laurent MYSLF EDP X 100 MILILITROS",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/yvessaintlaurentmyslf2.webp",
     "compared": false
   },
   {
@@ -8247,12 +18435,57 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1553",
+    "name": "Yves Saint Laurent Y EDP Intense",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 670000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/yves-saint-laurent-y-edp-intense.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1556",
+    "name": "Yves Saint Laurent Y EDT",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 520000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Y-YSL.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1554",
+    "name": "Yves Saint Laurent Y Eau De Parfum ( edp )",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 559800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Y-edp.webp",
+    "compared": false
+  },
+  {
     "id": "orig-433",
     "name": "Yves Saint Laurent Y Iced Cologne",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
     "price": 537000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Yves_saint_laurent_Y_ICED_cologne.jpg?v=1777338419",
+    "compared": false
+  },
+  {
+    "id": "orig-1555",
+    "name": "Yves Saint Laurent Y Le Parfum 100 mililitros",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 459800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Yves-saint-laurent-y-le-parfum-2.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1082",
+    "name": "Yves saint laurent MYSLF Le parfum",
+    "brand": "Yves Saint Laurent",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 730000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/YSL_MYSLF.webp",
     "compared": false
   },
   {
@@ -8287,18 +18520,18 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Zakat You Are My Fire",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 267000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Generated_Image_November_05_2026_-_6_36PM.jpg?v=1793921802",
-    "compared": false
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/03/Zakat_You_Are_My_Fire.webp",
+    "compared": true
   },
   {
     "id": "orig-797",
     "name": "Zakat Z 25 Parfum (dupe Bond Bleecker)",
     "brand": "Zakat",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 257100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Zakat_Z_25_Parfum_dupe_Bond_Bleecker.jpg?v=1763491445",
-    "compared": false
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/Zakat_Z_25_Parfum_dupe_Bond_Bleecker.webp",
+    "compared": true
   },
   {
     "id": "orig-653",
@@ -8316,6 +18549,42 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 276000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_c587d088-20f0-4877-9531-866ee2f74ec6.jpg?v=1766775953",
+    "compared": false
+  },
+  {
+    "id": "orig-987",
+    "name": "Zakat Z23 Parfum",
+    "brand": "Zakat Z23",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/images.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1006",
+    "name": "Zakat you are my fire pink blush",
+    "brand": "Zakat you",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/pink-blush.png",
+    "compared": false
+  },
+  {
+    "id": "orig-1005",
+    "name": "Zakat you are my fire rouge",
+    "brand": "Zakat you",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/images-5.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-986",
+    "name": "Zakat z12",
+    "brand": "Zakat z12",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 240000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/11/images-1.jpg",
     "compared": false
   },
   {
@@ -8341,9 +18610,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Agatha Ruiz de la Prada Gotas de Color Pink Spritz",
     "brand": "agatha ruiz de la prada",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 204000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/gotasdecolorpinkspritz_2.jpg?v=1779813378",
-    "compared": false
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/gotasdecolorpinkspritz_2.webp",
+    "compared": true
   },
   {
     "id": "orig-492",
@@ -8361,6 +18630,24 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 591000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Giorgio_Armani_Stronger_With_You_Powerfully.jpg?v=1775855423",
+    "compared": false
+  },
+  {
+    "id": "orig-1099",
+    "name": "game of spades Bonus Jo Milano",
+    "brand": "game of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 430000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/1_60bb4b87-ed1f-4d05-8e9f-0c6d4d6e619c.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1097",
+    "name": "game of spades jackpot Jo Milano",
+    "brand": "game of",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 370000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/09/game_of_spades_2a61ecba-af79-48c2-a912-e888313e8e1d-1.webp",
     "compared": false
   },
   {
@@ -8451,7 +18738,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 267000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/ASAD_ELIXIR_NUEVA.jpg?v=1764819669",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-158",
@@ -8494,27 +18781,27 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Berry On Top Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 348000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_7d1e139b-a00d-4e47-9f73-6ee797f7b299.jpg?v=1761260750",
-    "compared": false
+    "price": 300000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.114395-1.avif",
+    "compared": true
   },
   {
     "id": "orig-837",
     "name": "Lattafa Choco Overdose Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 266100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_cb709848-8447-4ad9-91ed-66984bea0925.jpg?v=1761257807",
-    "compared": false
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.114398.avif",
+    "compared": true
   },
   {
     "id": "orig-835",
     "name": "Lattafa Cookie Crave Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 266100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_4ac4e4fb-8eb9-41c8-b900-4a6999d23bcc.jpg?v=1761258875",
-    "compared": false
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.114399.avif",
+    "compared": true
   },
   {
     "id": "orig-392",
@@ -8530,27 +18817,27 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Dynasty",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 284100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Lattafa_Dynasty.jpg?v=1765301956",
-    "compared": false
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/09/Lattafa_Dynasty.webp",
+    "compared": true
   },
   {
     "id": "orig-859",
     "name": "Lattafa Eclaire Banoffi",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 249000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_825233c8-4b5e-4433-aec2-19677676b592.jpg?v=1760189974",
-    "compared": false
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/11/1_825233c8-4b5e-4433-aec2-19677676b592.webp",
+    "compared": true
   },
   {
     "id": "orig-858",
     "name": "Lattafa Eclaire Pistache",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 249000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_d89587cb-c63c-4b54-8fd8-4cf171d29ec5.jpg?v=1760190805",
-    "compared": false
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/11/1_d89587cb-c63c-4b54-8fd8-4cf171d29ec5.webp",
+    "compared": true
   },
   {
     "id": "orig-495",
@@ -8584,9 +18871,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Fire on Ice",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 321000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Lattafa_Fire_on_Ice.jpg?v=1768325846",
-    "compared": false
+    "price": 230000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/10/Lattafa_Fire_on_Ice.webp",
+    "compared": true
   },
   {
     "id": "orig-472",
@@ -8602,9 +18889,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Hayaati",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 231000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_5b611f7a-c10a-4681-9e1e-a22dc85e31e0.jpg?v=1756925164",
-    "compared": false
+    "price": 210000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/375x500.84769.avif",
+    "compared": true
   },
   {
     "id": "orig-375",
@@ -8620,9 +18907,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Khamrah Waha",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 339000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/GeneratedImageJune29_2026-11_03AM.jpg?v=1782748998",
-    "compared": false
+    "price": 309800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/unnamed-file.webp",
+    "compared": true
   },
   {
     "id": "orig-368",
@@ -8656,9 +18943,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Mallow madness Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 348000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_35b7b9fc-c7d9-4aa8-a871-8e71b77f0375.jpg?v=1761258202",
-    "compared": false
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.114396.avif",
+    "compared": true
   },
   {
     "id": "orig-496",
@@ -8674,9 +18961,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Musamam Black Intense",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 348000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Lattafa_Musamam_Black_Intense.jpg?v=1771348971",
-    "compared": false
+    "price": 280000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/07/Lattafa_Musamam_Black_Intense.webp",
+    "compared": true
   },
   {
     "id": "orig-493",
@@ -8692,18 +18979,18 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Nebras Elixir",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 321000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_b3bdec2a-ca5b-4926-b88f-e394c116ea03.jpg?v=1762266942",
-    "compared": false
+    "price": 250000,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/04/1_b3bdec2a-ca5b-4926-b88f-e394c116ea03.webp",
+    "compared": true
   },
   {
     "id": "orig-370",
     "name": "Lattafa New York City of Dreams",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 267000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Lattafa_New_York_City_of_Dreams.jpg?v=1780679853",
-    "compared": false
+    "price": 209800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/06/Lattafa_New_York_City_of_Dreams.webp",
+    "compared": true
   },
   {
     "id": "orig-857",
@@ -8719,9 +19006,9 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Petra",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 266100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_f1581f9a-1d93-4c97-a1e4-d01c4356b05b.jpg?v=1757780418",
-    "compared": false
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/07/descarga-28.jpeg",
+    "compared": true
   },
   {
     "id": "orig-347",
@@ -8748,7 +19035,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 321000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_3f389eed-7ca0-4a3d-a5d7-51b5bf75bfc3.jpg?v=1771384958",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-390",
@@ -8784,25 +19071,25 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 266100,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_e258bbd9-b326-4526-bf59-892137ffe46e.jpg?v=1761259907",
-    "compared": false
+    "compared": true
   },
   {
     "id": "orig-832",
     "name": "Lattafa Whipped Pleasure Give Me Gourmand",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 266100,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/1_a1c88aaa-e062-4cac-93fc-786b24b926b8.jpg?v=1761261291",
-    "compared": false
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/10/375x500.114397.avif",
+    "compared": true
   },
   {
     "id": "orig-770",
     "name": "Lattafa Yara Elixir",
     "brand": "lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 267000,
-    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Lattafa_Yara_Elixir.jpg?v=1764863430",
-    "compared": false
+    "price": 259800,
+    "image": "https://disperfumes.com/wp-content/uploads/2026/01/Lattafa_Yara_Elixir.webp",
+    "compared": true
   },
   {
     "id": "orig-157",
@@ -8829,6 +19116,33 @@ const ORIGINAL_PRODUCTS_DATA = [
     "variant": "100% Original Sellado · Código Batch",
     "price": 267000,
     "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/lattafaraedabsolu_3.jpg?v=1779769279",
+    "compared": false
+  },
+  {
+    "id": "orig-1528",
+    "name": "luna rossa ocean EDP",
+    "brand": "luna rossa",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 550000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Prada_Ocean_Luna_Rossa_4017d820-f6f8-4cf9-8238-3218e849157c.webp",
+    "compared": false
+  },
+  {
+    "id": "orig-1632",
+    "name": "touch",
+    "brand": "touch",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 180000,
+    "image": "https://disperfumes.com/wp-content/uploads/2024/12/touch.jpg",
+    "compared": false
+  },
+  {
+    "id": "orig-1534",
+    "name": "uomo born in roma rockstud noir",
+    "brand": "uomo born",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 750000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/01/Born_In_Roma_Rockstud_e99a92fa-b5ee-42dd-a791-4b9876feb6ca.webp",
     "compared": false
   },
   {
