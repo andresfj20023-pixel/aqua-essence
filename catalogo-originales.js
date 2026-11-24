@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 24/11/2026 12:57 PM
+// Actualizado: 24/11/2026 03:57 PM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -4723,7 +4723,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Clinique Happy for Men",
     "brand": "Clinique Happy",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 210000,
+    "price": 230000,
     "image": "https://disperfumes.com/wp-content/uploads/2024/12/Happy-men-2.webp",
     "compared": false
   },
@@ -16873,7 +16873,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Tommy Hilfiger Tommy For Man",
     "brand": "Tommy Hilfiger",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 180000,
+    "price": 210000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/05/Tommy-hilfiger-hombre-2.webp",
     "compared": false
   },
