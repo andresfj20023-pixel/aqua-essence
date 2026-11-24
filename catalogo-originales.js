@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 24/11/2026 03:49 AM
+// Actualizado: 24/11/2026 06:55 AM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -3499,7 +3499,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Bvlgari Omnia Coral EDT 100ml",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 409800,
+    "price": 450000,
     "image": "https://disperfumes.com/wp-content/uploads/2022/11/img_8619.jpeg",
     "compared": false
   },
@@ -3550,7 +3550,7 @@ const ORIGINAL_PRODUCTS_DATA = [
   },
   {
     "id": "orig-1018",
-    "name": "Bvlgari Pour Homme EDT (CAJA SIN CELOFÁN) , FULL CÓDIGOS INTERNOS Y EXTERNOS",
+    "name": "Bvlgari Pour Homme EDT (CAJA SIN CELOFÁN)",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
     "price": 359800,
@@ -3562,7 +3562,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Bvlgari Pour Homme eau de (PERFUM) 100 mililitros",
     "brand": "Bvlgari",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 630000,
+    "price": 500000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/05/375x500.143.jpg",
     "compared": false
   },
@@ -16702,7 +16702,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Terrae essense",
     "brand": "Terrae essense",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 359800,
+    "price": 450000,
     "image": "https://disperfumes.com/wp-content/uploads/2024/12/Terrae-essense.jpg",
     "compared": false
   },
