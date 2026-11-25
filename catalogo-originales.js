@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 25/11/2026 03:53 PM
+// Actualizado: 25/11/2026 06:40 PM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -4579,16 +4579,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Chanel Chance Eau Fraiche Eau de Parfum",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 759800,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.83980.jpg",
+    "price": 915000,
+    "image": "https://cdn.shopify.com/s/files/1/0847/7553/4899/files/Chanel_Chance_Eau_Fraiche_Eau_de_Parfum.jpg?v=1780677825",
     "compared": true
   },
   {
     "id": "orig-1293",
-    "name": "Chanel Chance Eau Fraîche EDT",
+    "name": "Chanel Chance Eau Fraîche EDT , 100 mililitros",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 659800,
+    "price": 750000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/04/chanelchancefraiche.webp",
     "compared": false
   },
@@ -4612,10 +4612,10 @@ const ORIGINAL_PRODUCTS_DATA = [
   },
   {
     "id": "orig-1402",
-    "name": "Chanel Chance Eau Tendre EDP 150 MILILITROS ( NEW FRAGANCE , ELEGANCE PREMIERE )",
+    "name": "Chanel Chance Eau Tendre EDP 150 MILILITROS EXTRA GRANDE ( NEW FRAGANCE , ELEGANCE PREMIERE )",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 759800,
+    "price": 1059800,
     "image": "https://disperfumes.com/wp-content/uploads/2025/02/Chance-tendre-2.webp",
     "compared": false
   },
@@ -4624,7 +4624,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Chanel Chance Eau Tendre EDT 150 mililitros (extra grande)",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 759800,
+    "price": 959800,
     "image": "https://disperfumes.com/wp-content/uploads/2025/02/Chance-tendre-edt-2-1.webp",
     "compared": false
   },
@@ -4638,15 +4638,6 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
-    "id": "orig-1291",
-    "name": "Chanel Coco Mademoiselle 100 mililitros",
-    "brand": "Chanel",
-    "variant": "100% Original Sellado · Código Batch",
-    "price": 960000,
-    "image": "https://disperfumes.com/wp-content/uploads/2025/04/w800h800fitpad-6.avif",
-    "compared": false
-  },
-  {
     "id": "orig-146",
     "name": "Chanel Coco Mademoiselle Crush Absolu",
     "brand": "Chanel",
@@ -4656,11 +4647,20 @@ const ORIGINAL_PRODUCTS_DATA = [
     "compared": false
   },
   {
+    "id": "orig-1291",
+    "name": "Chanel Coco Mademoiselle EAU DE PERFUM , 100 mililitros",
+    "brand": "Chanel",
+    "variant": "100% Original Sellado · Código Batch",
+    "price": 1030000,
+    "image": "https://disperfumes.com/wp-content/uploads/2025/04/w800h800fitpad-6.avif",
+    "compared": false
+  },
+  {
     "id": "orig-1290",
     "name": "Chanel Coco Mademoiselle Intense",
     "brand": "Chanel",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 759800,
+    "price": 930000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/04/Coco-intense-2.webp",
     "compared": false
   },
@@ -4867,7 +4867,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Creed Aventus",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1650000,
+    "price": 1450000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/04/Creed-aventus-2.webp",
     "compared": false
   },
@@ -4876,7 +4876,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Creed Aventus For Her EDP 75 ml",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1050000,
+    "price": 1260000,
     "image": "https://disperfumes.com/wp-content/uploads/2022/11/CREED-AVENTUS-FOR-HER-EDP-DAMA-2.jpg",
     "compared": false
   },
@@ -4885,7 +4885,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Creed Bois du Portugal",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 930000,
+    "price": 1040000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/04/375x500.3805.jpg",
     "compared": false
   },
@@ -4894,7 +4894,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Creed Green Irish Tweed",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 950000,
+    "price": 1360000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/04/Creed-green-irish-2.webp",
     "compared": false
   },
@@ -4903,7 +4903,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Creed Himalaya",
     "brand": "Creed",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 940000,
+    "price": 1310000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/04/Creed-himalaya-2.webp",
     "compared": false
   },
@@ -5377,10 +5377,10 @@ const ORIGINAL_PRODUCTS_DATA = [
   },
   {
     "id": "orig-1557",
-    "name": "Miss Dior EDP",
+    "name": "Miss Dior EDP Fragancia Tradicional, 100 mililitros",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 690000,
+    "price": 850000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/01/dior_miss_dior.webp",
     "compared": false
   },
@@ -5395,10 +5395,10 @@ const ORIGINAL_PRODUCTS_DATA = [
   },
   {
     "id": "orig-1117",
-    "name": "Miss Dior Parfum",
+    "name": "Miss Dior Parfum Puro New FRAGANCE PREMIERE , 80 mililitros",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 659800,
+    "price": 880000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/08/miss_dior.webp",
     "compared": false
   },
@@ -5407,7 +5407,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Neroli sauvage",
     "brand": "Dior",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 840000,
+    "price": 1310000,
     "image": "https://disperfumes.com/wp-content/uploads/2024/12/neroli-sauvage.jpg",
     "compared": false
   },
@@ -5863,10 +5863,10 @@ const ORIGINAL_PRODUCTS_DATA = [
   },
   {
     "id": "orig-1507",
-    "name": "Dolce &amp; Gabbana Pour Homme Intenso 200 mililitros (extra grande)",
+    "name": "Dolce &amp; Gabbana Pour Homme Intenso 125 ml",
     "brand": "Dolce &amp; Gabbana",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 440000,
+    "price": 330000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/01/Dolce-gabanna-intenso-2.webp",
     "compared": false
   },
@@ -14398,7 +14398,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Original santal",
     "brand": "Original santal",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 1010000,
+    "price": 1160000,
     "image": "https://disperfumes.com/wp-content/uploads/2024/12/original-santal.jpg",
     "compared": false
   },
@@ -17887,10 +17887,10 @@ const ORIGINAL_PRODUCTS_DATA = [
   },
   {
     "id": "orig-1223",
-    "name": "Versace Eros PARFUM (PURO), 100 ML",
+    "name": "Versace Eros PARFUM PURO 100 ML",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 309800,
+    "price": 430000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/05/Versace-eros-parfum.webp",
     "compared": false
   },
@@ -17944,7 +17944,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Versace eros energy",
     "brand": "Versace",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 360000,
+    "price": 359800,
     "image": "https://disperfumes.com/wp-content/uploads/2025/01/Versace_Eros_Energy.webp",
     "compared": false
   },
@@ -18043,7 +18043,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Viking cologne",
     "brand": "Viking cologne",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 850000,
+    "price": 1310000,
     "image": "https://disperfumes.com/wp-content/uploads/2024/12/Viking-cologne.jpg",
     "compared": false
   },
@@ -18367,16 +18367,16 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Yves Saint Laurent Libre Intense",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 640000,
+    "price": 830000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/04/Yves-saint-laurent-libre-intense.webp",
     "compared": false
   },
   {
     "id": "orig-1056",
-    "name": "Yves Saint Laurent Libre Le Parfum",
+    "name": "Yves Saint Laurent Libre LE PARFUM PURO 100 ML",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 650000,
+    "price": 780000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/10/libreleparfum.webp",
     "compared": false
   },
@@ -18394,7 +18394,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Yves Saint Laurent MYSLF EDP X 100 MILILITROS",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 559800,
+    "price": 620000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/09/yvessaintlaurentmyslf2.webp",
     "compared": false
   },
