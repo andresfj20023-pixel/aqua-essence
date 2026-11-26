@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 26/11/2026 12:59 PM
+// Actualizado: 26/11/2026 03:53 PM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -1840,10 +1840,10 @@ const ORIGINAL_PRODUCTS_DATA = [
   },
   {
     "id": "orig-1654",
-    "name": "Club De Nuit Private Key To My Love (sin caja)",
+    "name": "Club De Nuit Private Key To My Love (FULL EXTRACT)",
     "brand": "Armaf",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 270000,
+    "price": 259800,
     "image": "https://disperfumes.com/wp-content/uploads/2024/11/ARMAF-CLUB-DE-NUIT-TO-MY-LOVE.webp",
     "compared": false
   },
@@ -11824,7 +11824,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "MAISON ALHAMBRA FABULO INTENSE",
     "brand": "Maison Alhambra",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 270000,
+    "price": 190000,
     "image": "https://disperfumes.com/wp-content/uploads/2024/01/MAISON-ALHAMBRA-FABULO-INTENSE.jpg",
     "compared": false
   },
