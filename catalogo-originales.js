@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 26/11/2026 03:53 PM
+// Actualizado: 26/11/2026 06:45 PM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -10384,7 +10384,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "LATTAFA AJWAD",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 179800,
+    "price": 230000,
     "image": "https://disperfumes.com/wp-content/uploads/2024/01/LATTAFA-AJWAD.jpg",
     "compared": false
   },
