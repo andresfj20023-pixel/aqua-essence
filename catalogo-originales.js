@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 27/11/2026 03:50 PM
+// Actualizado: 27/11/2026 06:43 PM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -691,7 +691,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Al Haramain Amber Oud Dubai Night 100 ML",
     "brand": "Al Haramain",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 300000,
+    "price": 340000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/01/alharamainamberouddubainight.webp",
     "compared": false
   },
@@ -10942,7 +10942,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Lattafa Khamrah",
     "brand": "Lattafa",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 209800,
+    "price": 230000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/02/Lattafa-khamrah-2.webp",
     "compared": false
   },
@@ -18457,7 +18457,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Yves Saint Laurent Y Eau De Parfum ( edp )",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 559800,
+    "price": 650000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/01/Y-edp.webp",
     "compared": false
   },
@@ -18475,7 +18475,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "Yves Saint Laurent Y Le Parfum 100 mililitros",
     "brand": "Yves Saint Laurent",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 459800,
+    "price": 750000,
     "image": "https://disperfumes.com/wp-content/uploads/2025/01/Yves-saint-laurent-y-le-parfum-2.webp",
     "compared": false
   },
