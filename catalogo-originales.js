@@ -1,5 +1,5 @@
 // Catálogo Oficial de Perfumes Originales Aqua Essence
-// Actualizado: 27/11/2026 06:43 PM
+// Actualizado: 27/11/2026 09:45 PM
 
 const ORIGINAL_PRODUCTS_DATA = [
   {
@@ -16387,7 +16387,7 @@ const ORIGINAL_PRODUCTS_DATA = [
     "name": "STARRY NIGHTS EDP 100ml",
     "brand": "STARRY NIGHTS",
     "variant": "100% Original Sellado · Código Batch",
-    "price": 459800,
+    "price": 460000,
     "image": "https://disperfumes.com/wp-content/uploads/2023/04/starry-nights.jpg",
     "compared": false
   },
